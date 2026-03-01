@@ -1,0 +1,152 @@
+:root {
+    --bg-color: #121212;
+    --surface-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --primary-color: #EF6282; /* Pollinations Pink */
+    --success-color: #2ecc71;
+    --border-color: #333;
+    --radius: 12px;
+}
+
+body.theme-dark { --bg-color: #121212; --surface-color: #1e1e1e; --text-color: #e0e0e0; --border-color: #333; }
+body.theme-mid { --bg-color: #333333; --surface-color: #404040; --text-color: #ffffff; --border-color: #555; }
+body.theme-light { --bg-color: #F5F5F5; --surface-color: #FFFFFF; --text-color: #121212; --border-color: #ccc; }
+
+body {
+    width: 380px; margin: 0; 
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--bg-color); color: var(--text-color);
+    transition: background-color 0.3s;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+.header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 15px; background-color: var(--surface-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.header h2 { margin: 0; font-size: 16px; font-weight: 600; }
+.header-icons button { background: none; border: none; font-size: 18px; cursor: pointer; padding: 0 5px; }
+
+/* PANELS (Settings/Help) */
+.panel { padding: 20px; height: 100vh; box-sizing: border-box; }
+
+/* TYPOGRAPHY FIXES */
+.panel h3 { 
+    margin-top: 0; 
+    margin-bottom: 25px; 
+    color: var(--primary-color); 
+    font-size: 22px; /* Larger Heading */
+}
+.panel label { 
+    font-size: 15px; /* Larger Label */
+    font-weight: 700; 
+    margin-bottom: 8px; 
+    display: block; 
+    color: var(--text-color);
+    margin-top: 20px; /* Spacing between sections */
+}
+.panel label:first-of-type { margin-top: 0; }
+
+/* Help Content specific */
+.help-content h4 { margin-bottom: 5px; font-size: 15px; color: var(--text-color); margin-top: 15px; }
+.help-content p { font-size: 13px; color: #aaa; margin-top: 0; line-height: 1.5; }
+.help-content a { color: var(--primary-color); }
+
+/* MAIN WORKSPACE */
+#workspace { padding: 15px; }
+
+/* TABS */
+.tabs { display: flex; gap: 8px; margin-bottom: 15px; }
+.tab {
+    flex: 1; padding: 10px; background-color: var(--surface-color); color: var(--text-color);
+    border-radius: var(--radius); font-weight: 600; border: 1px solid var(--border-color); cursor: pointer;
+}
+.tab.active { background-color: var(--primary-color); color: white; border-color: var(--primary-color); }
+
+/* UPLOAD SECTION */
+.upload-label {
+    display: block; padding: 15px; border: 1px dashed var(--border-color);
+    text-align: center; border-radius: var(--radius); cursor: pointer;
+    font-size: 13px; margin-bottom: 15px; color: #888; transition: 0.2s;
+}
+.upload-label:hover { border-color: var(--primary-color); color: var(--text-color); background: var(--surface-color); }
+
+#upload-preview-container { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.thumb { width: 48px; height: 48px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border-color); }
+
+/* INPUTS */
+textarea {
+    width: 100%; height: 90px; background-color: var(--surface-color); color: var(--text-color);
+    border: 1px solid var(--border-color); border-radius: var(--radius); padding: 12px;
+    box-sizing: border-box; resize: none; margin-bottom: 15px; font-family: inherit; font-size: 14px;
+}
+input[type="text"], input[type="password"], input[type="number"], select {
+    width: 100%; padding: 10px; background-color: var(--surface-color); color: var(--text-color);
+    border: 1px solid var(--border-color); border-radius: var(--radius); box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* CONTROLS GRID */
+.controls-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+
+/* BUTTONS */
+.primary-btn {
+    width: 100%; padding: 12px; background-color: var(--primary-color); color: white;
+    font-weight: bold; border: none; border-radius: var(--radius); cursor: pointer;
+    font-size: 15px; transition: opacity 0.2s;
+}
+.primary-btn:hover { opacity: 0.9; }
+
+.secondary-btn {
+    width: 100%; padding: 12px; background-color: var(--surface-color); color: var(--text-color);
+    border: 1px solid var(--border-color); border-radius: var(--radius); cursor: pointer;
+    font-size: 14px; transition: background 0.2s;
+}
+.secondary-btn:hover { background-color: var(--border-color); }
+
+.panel-actions {
+    margin-top: 30px; /* FIXED OVERLAP HERE */
+    display: flex;
+    gap: 10px;
+}
+
+/* OUTPUT */
+#output-container { margin-top: 20px; text-align: center; }
+#image-output, #video-output { max-width: 100%; border-radius: var(--radius); border: 1px solid var(--border-color); box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+#text-output { text-align: left; background: var(--surface-color); padding: 15px; border-radius: var(--radius); font-size: 14px; white-space: pre-wrap; line-height: 1.5; }
+
+/* CONTEXT PREVIEW */
+#context-preview { display: flex; align-items: center; gap: 10px; background: var(--surface-color); padding: 8px; border-radius: var(--radius); margin-bottom: 15px; }
+#context-image-preview { height: 40px; border-radius: 4px; }
+.badge { font-size: 11px; background: var(--primary-color); color: white; padding: 4px 8px; border-radius: 12px; font-weight: bold;}
+#clear-context { background: none; border: none; color: #ff4444; font-weight: bold; cursor: pointer; font-size: 16px; padding: 0 5px;}
+
+/* ACCOUNT BOX */
+.account-box { 
+    margin-top: 20px; padding: 15px; 
+    background-color: var(--bg-color); 
+    border: 1px solid var(--border-color); 
+    border-radius: var(--radius); 
+    text-align: center; 
+}
+#check-balance-btn { 
+    width: 100%; padding: 10px; 
+    background-color: var(--surface-color); color: var(--text-color); 
+    border: 1px solid var(--border-color); border-radius: var(--radius); 
+    cursor: pointer; font-weight: 600;
+}
+#check-balance-btn:hover { border-color: var(--primary-color); }
+
+/* POLLEN BALANCE FIX */
+#balance-display {
+    margin-top: 15px;
+    font-size: 24px; /* MUCH BIGGER */
+    font-weight: 800; /* EXTRA BOLD */
+    color: var(--primary-color);
+    min-height: 32px;
+}
+
+.manage-link { display: block; margin-top: 15px; color: var(--primary-color); font-size: 12px; text-decoration: none; opacity: 0.8; }
+.manage-link:hover { opacity: 1; text-decoration: underline; }

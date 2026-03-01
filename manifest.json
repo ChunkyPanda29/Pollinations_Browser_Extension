@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Pollen Bridge for Pollinations.ai",
+  "version": "1.0",
+  "description": "Multimodal Generative Workspace. Bring Your Own Pollen (API Key).",
+  "permissions":[
+    "storage",
+    "contextMenus",
+    "declarativeNetRequest",
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions":[
+    "*://*.pollinations.ai/*",
+    "<all_urls>"
+  ],
+  "declarative_net_request": {
+    "rule_resources":[{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Open Pollen Bridge"
+  },
+  "background": {
+    "service_worker": "scripts/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}

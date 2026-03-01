@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title>Pollinations Extension</title>
+</head>
+<body class="theme-dark">
+    <!-- HEADER -->
+    <div class="header">
+        <h2>Pollinations Extension</h2>
+        <div class="header-icons">
+            <button id="help-btn" title="Quick Guide">❔</button>
+            <button id="settings-btn" title="Settings">⚙️</button>
+        </div>
+    </div>
+
+    <!-- MAIN WORKSPACE -->
+    <div id="workspace">
+        <!-- TABS -->
+        <div class="tabs">
+            <button class="tab active" data-mode="image">Image</button>
+            <button class="tab" data-mode="video">Video</button>
+            <button class="tab" data-mode="text">Text</button>
+        </div>
+
+        <!-- CONTEXT PREVIEW -->
+        <div id="context-preview" style="display: none;">
+            <span class="badge">Context from Web</span>
+            <img id="context-image-preview">
+            <button id="clear-context" title="Remove">×</button>
+        </div>
+
+        <!-- REFERENCE UPLOAD -->
+        <div id="upload-section">
+            <label class="upload-label" for="ref-image-upload">
+                <span>📁 Upload Reference Images (Max 4)</span>
+            </label>
+            <input type="file" id="ref-image-upload" multiple accept="image/*" style="display: none;">
+            <div id="upload-preview-container"></div>
+        </div>
+
+        <!-- PROMPT -->
+        <textarea id="prompt-input" placeholder="Enter your prompt..."></textarea>
+        
+        <!-- GLOBAL MODEL SELECT (Visible for all modes) -->
+        <select id="model-select" style="margin-bottom: 10px;">
+            <option>Syncing...</option>
+        </select>
+        
+        <!-- IMAGE/VIDEO SPECIFIC CONTROLS (Hidden for Text) -->
+        <div class="controls-grid" id="image-controls">
+            <select id="aspect-select">
+                <option value="1024x1024">1:1 Square</option>
+                <option value="1920x1080">16:9 Wide</option>
+                <option value="1080x1920">9:16 Vertical</option>
+                <option value="custom">Custom Size</option>
+            </select>
+
+            <div id="custom-dims" style="display: none; grid-column: span 2; gap: 5px; display: flex;">
+                <input type="number" id="width-input" placeholder="W" value="1024" min="64" max="2048">
+                <span style="align-self: center;">x</span>
+                <input type="number" id="height-input" placeholder="H" value="1024" min="64" max="2048">
+            </div>
+
+            <input type="number" id="seed-input" placeholder="Seed (Empty = Random)" style="grid-column: span 2;">
+        </div>
+
+        <button id="generate-btn" class="primary-btn">Generate ✨</button>
+
+        <div id="output-container">
+            <div id="loading" style="display: none;">Generating...</div>
+            <img id="image-output" style="display: none;" />
+            <video id="video-output" controls autoplay loop style="display: none;"></video>
+            <div id="text-output" style="display: none;"></div>
+            <button id="download-btn" class="primary-btn" style="display: none; margin-top: 10px; background-color: #2ecc71;">Download ⬇️</button>
+        </div>
+    </div>
+
+    <!-- SETTINGS PANEL -->
+    <div id="settings-panel" class="panel" style="display: none;">
+        <h3>Settings</h3>
+        
+        <label>API Key (BYOP)</label>
+        <input type="password" id="api-key-input" placeholder="Enter API Key...">
+        
+        <div class="account-box">
+            <button id="check-balance-btn">Check My Pollen Balance 🌸</button>
+            <div id="balance-display"></div>
+            <a href="https://enter.pollinations.ai" target="_blank" class="manage-link">
+                Go to enter.pollinations.ai to manage your API key and account ↗
+            </a>
+        </div>
+        
+        <label>Theme</label>
+        <select id="theme-select">
+            <option value="theme-dark">Dark</option>
+            <option value="theme-mid">Mid</option>
+            <option value="theme-light">Light</option>
+        </select>
+
+        <div class="panel-actions">
+            <button id="save-settings-btn" class="primary-btn">Save</button>
+            <button id="back-settings-btn" class="secondary-btn">Back</button>
+        </div>
+        <p id="save-status"></p>
+    </div>
+
+    <!-- HELP PANEL -->
+    <div id="help-panel" class="panel" style="display: none;">
+        <h3>Quick Guide 🎓</h3>
+        <div class="help-content">
+            <h4>1. Setup & API Keys</h4>
+            <p>Get your key at <a href="https://enter.pollinations.ai" target="_blank">enter.pollinations.ai</a>. Ensure you have credits (Pollen). 💎 Models require paid pollen.</p>
+            
+            <h4>2. How to Use</h4>
+            <p>1. <strong>Select Mode:</strong> Image, Video, or Text.</p>
+            <p>2. <strong>Input:</strong> Type a prompt or upload reference images.</p>
+            <p>3. <strong>Context:</strong> Highlight text or right-click images on any website and select "Send to Pollinations".</p>
+            <p>4. <strong>Generate & Download:</strong> Click Generate, wait for the result, then click Download to save.</p>
+            
+            <h4>3. Advanced Tips</h4>
+            <p>• Use "Custom Size" for specific aspect ratios.</p>
+            <p>• Use a specific Seed number to reproduce results.</p>
+            <p>• You can upload up to 4 reference images.</p>
+        </div>
+        <div class="panel-actions">
+            <button id="back-help-btn" class="secondary-btn">Close Guide</button>
+        </div>
+    </div>
+
+    <script type="module" src="popup.js"></script>
+</body>
+</html>
