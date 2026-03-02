@@ -10,8 +10,7 @@
 ---
 
 ## 🎨 Themes & Interface
-The extension features a clean, rounded UI with three distinct themes to match your browser setup.
-
+The extension features a clean, rounded UI with three distinct themes to match your browser setup. Theme can be changed in **Settings (⚙️)**.
 | **Dark Mode** | **Mid Mode** | **Light Mode** |
 |:---:|:---:|:---:|
 | <img src="assets/dark.png" width="200"> | <img src="assets/mid.png" width="200"> | <img src="assets/light.png" width="200"> |
@@ -20,12 +19,12 @@ The extension features a clean, rounded UI with three distinct themes to match y
 
 ## ✨ Features
 - **Zero-VRAM:** Runs entirely on Pollinations.ai infrastructure.
-- **BYOP (Bring Your Own Pollen):** Enter your own API Key. Stored locally in your browser (never transmitted to third parties).
+- **BYOP (Bring Your Own Pollen):** Enter your own API Key or login with Pollinations.ai. Stored locally in your browser (never transmitted to third parties).
 - **Multimodal Generation:**
   - 🎨 **Image:** Flux & Turbo models with custom aspect ratios.
   - 🎥 **Video:** Text-to-Video & Image-to-Video (Wan Model).
   - 💬 **Text:** LLM Chat for quick assistance.
-- **Context Aware:** Right-click any image on the web to send it to the generator as a reference.
+- **Context Aware:** Right-click any image on the web or highlight text and right click to send it to the generator as a reference.
 - **Local Uploads:** Upload up to 4 local reference images for I2I generation.
 - **Direct Download:** Save generations as clean `.jpg`, `.mp4`, or `.txt` files.
 
@@ -43,7 +42,7 @@ The extension features a clean, rounded UI with three distinct themes to match y
 
 ## ⚙️ Configuration
 1. Click the **Settings (⚙️)** icon in the extension.
-2. Enter your **Pollinations API Key** (Get one at [enter.pollinations.ai](https://enter.pollinations.ai)).
+2. Choose to **"Connect with Pollinations"** to authorise the extension directly with Pollinations AI, or enter your **Pollinations API Key** (Get one at [enter.pollinations.ai](https://enter.pollinations.ai)).
 3. (Optional) Check your Pollen Balance directly inside the extension.
 
 ## 🔒 Privacy
