@@ -19,9 +19,15 @@ Go to **Settings (⚙️)** to mix and match:
 *   **Backgrounds:** Dark, Mid-Gray, Light.
 *   **Accents:** 🌸 Pollinations Pink or 🔵 Deep Blue.
 
-| **Dark Mode (Pink)** | **Mid Mode (Pink)** | **Light Mode (Pink)** |
+### 🌸 Pink Accent
+| **Dark Mode** | **Mid Mode** | **Light Mode** |
 |:---:|:---:|:---:|
 | <img src="assets/dark.png" width="200"> | <img src="assets/mid.png" width="200"> | <img src="assets/light.png" width="200"> |
+
+### 🔵 Blue Accent
+| **Dark Mode** | **Mid Mode** | **Light Mode** |
+|:---:|:---:|:---:|
+| <img src="assets/darkb.png" width="200"> | <img src="assets/midb.png" width="200"> | <img src="assets/lightb.png" width="200"> |
 
 ---
 
