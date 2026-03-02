@@ -44,7 +44,6 @@ async function restoreGenerationState() {
     }
 
     // Restore UI based on saved type
-    const outputContainer = document.getElementById('output-container');
     const downloadBtn = document.getElementById('download-btn');
     const promptInput = document.getElementById('prompt-input');
 
@@ -84,7 +83,7 @@ async function restoreGenerationState() {
     }
 
     // Show Download Button
-    downloadBtn.style.display = 'block';
+    if (downloadBtn) downloadBtn.style.display = 'block';
 }
 
 // --- MODEL CACHE LOGIC ---
@@ -117,41 +116,65 @@ function updateModelDropdown(mode) {
     });
 }
 
-// --- HELPERS ---
+// --- HELPER: SAVE KEY & UI UPDATE ---
 async function savePollinationsKey(token) {
     await chrome.storage.local.set({ 'pollinations_api_key': token });
     api.apiKey = token;
     document.getElementById('api-key-input').value = token;
+    
     const status = document.getElementById('save-status');
     status.innerText = "Connected Successfully! 🌸";
     status.style.color = "var(--success-color)";
-    setTimeout(() => { document.getElementById('check-balance-btn').click(); }, 500);
+    
+    // Refresh balance automatically
+    setTimeout(() => { 
+        const balBtn = document.getElementById('check-balance-btn');
+        if(balBtn) balBtn.click(); 
+    }, 500);
 }
 
+// ==========================================
+// MAIN INITIALIZATION
+// ==========================================
 document.addEventListener('DOMContentLoaded', async () => {
-    // 1. INIT
-    const data = await chrome.storage.local.get(['pollinations_api_key', 'pollen_theme']);
+    
+    // 1. LOAD SETTINGS (Key, Theme, Color)
+    const data = await chrome.storage.local.get(['pollinations_api_key', 'pollen_theme', 'pollen_color']);
+    
+    // API Key
     if (data.pollinations_api_key) {
         api.apiKey = data.pollinations_api_key;
         document.getElementById('api-key-input').value = data.pollinations_api_key;
     }
-    if (data.pollen_theme) {
-        document.body.className = data.pollen_theme;
-        document.getElementById('theme-select').value = data.pollen_theme;
-    }
 
+    // Theme & Color
+    const savedTheme = data.pollen_theme || 'theme-dark';
+    const savedColor = data.pollen_color || 'color-pink';
+    
+    // Apply both classes
+    document.body.className = `${savedTheme} ${savedColor}`;
+    
+    // Set Dropdowns
+    const themeSelect = document.getElementById('theme-select');
+    if (themeSelect) themeSelect.value = savedTheme;
+    
+    const colorSelect = document.getElementById('color-select');
+    if (colorSelect) colorSelect.value = savedColor;
+
+    // 2. FETCH MODELS
     globalModels = await fetchModelsWithCache(api);
     updateModelDropdown('image');
 
-    // 2. RESTORE PREVIOUS STATE (If available and fresh)
+    // 3. RESTORE PREVIOUS STATE (If available and fresh)
     await restoreGenerationState();
 
-    // 3. CHECK CONTEXT (From Right Click) - Overrides restored state if present
+    // 4. CHECK CONTEXT (From Right Click) - Overrides restored state if present
     const contextData = await chrome.storage.local.get(['pending_text', 'pending_image']);
     if (contextData.pending_text) {
         document.getElementById('prompt-input').value = `Explain this text:\n\n"${contextData.pending_text}"`;
         document.querySelector('[data-mode="text"]').click();
         chrome.storage.local.remove('pending_text');
+        
         // Hide previous output if we are starting a new context flow
         document.getElementById('image-output').style.display = 'none';
         document.getElementById('video-output').style.display = 'none';
@@ -165,7 +188,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         chrome.storage.local.remove('pending_image');
     }
 
-    // 4. AUTH FLOW
+    // ==========================================
+    // EVENT LISTENERS
+    // ==========================================
+
+    // -- AUTH FLOW (Official Connect Button) --
     const connectBtn = document.getElementById('connect-pollinations-btn');
     if (connectBtn) {
         connectBtn.onclick = () => {
@@ -177,7 +204,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             authUrl.searchParams.append("expiry", "30");
 
             chrome.identity.launchWebAuthFlow({
-                url: authUrl.toString(), interactive: true
+                url: authUrl.toString(),
+                interactive: true
             }, (responseUrl) => {
                 if (chrome.runtime.lastError || !responseUrl) {
                     console.error("Auth failed:", chrome.runtime.lastError);
@@ -193,28 +221,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
     }
 
-    // -- Navigation --
-    document.getElementById('settings-btn').onclick = () => {
-        document.getElementById('workspace').style.display = 'none';
-        document.querySelector('.header-icons').style.display = 'none';
-        document.getElementById('settings-panel').style.display = 'block';
-    };
-    document.getElementById('back-settings-btn').onclick = () => {
-        document.getElementById('settings-panel').style.display = 'none';
-        document.querySelector('.header-icons').style.display = 'block';
-        document.getElementById('workspace').style.display = 'block';
+    // -- Navigation (Settings / Help) --
+    const togglePanel = (panelId, show) => {
+        const workspace = document.getElementById('workspace');
+        const headerIcons = document.querySelector('.header-icons');
+        const panel = document.getElementById(panelId);
+        
+        if(show) {
+            workspace.style.display = 'none';
+            headerIcons.style.display = 'none';
+            panel.style.display = 'block';
+        } else {
+            panel.style.display = 'none';
+            headerIcons.style.display = 'block';
+            workspace.style.display = 'block';
+        }
     };
 
-    document.getElementById('help-btn').onclick = () => {
-        document.getElementById('workspace').style.display = 'none';
-        document.querySelector('.header-icons').style.display = 'none';
-        document.getElementById('help-panel').style.display = 'block';
-    };
-    document.getElementById('back-help-btn').onclick = () => {
-        document.getElementById('help-panel').style.display = 'none';
-        document.querySelector('.header-icons').style.display = 'block';
-        document.getElementById('workspace').style.display = 'block';
-    };
+    document.getElementById('settings-btn').onclick = () => togglePanel('settings-panel', true);
+    document.getElementById('back-settings-btn').onclick = () => togglePanel('settings-panel', false);
+    
+    document.getElementById('help-btn').onclick = () => togglePanel('help-panel', true);
+    document.getElementById('back-help-btn').onclick = () => togglePanel('help-panel', false);
 
     // -- File Upload --
     document.getElementById('ref-image-upload').addEventListener('change', (e) => {
@@ -261,20 +289,35 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 
+    // -- Clear Context --
     document.getElementById('clear-context').onclick = () => {
         attachedContextUrl = null;
         document.getElementById('context-preview').style.display = 'none';
     };
 
+    // -- SAVE SETTINGS (Key + Theme + Color) --
     document.getElementById('save-settings-btn').onclick = async () => {
         const key = document.getElementById('api-key-input').value.trim();
         const theme = document.getElementById('theme-select').value;
-        await chrome.storage.local.set({ 'pollinations_api_key': key, 'pollen_theme': theme });
+        const color = document.getElementById('color-select').value; // Get Accent Color
+
+        await chrome.storage.local.set({ 
+            'pollinations_api_key': key, 
+            'pollen_theme': theme,
+            'pollen_color': color
+        });
+
         api.apiKey = key;
-        document.body.className = theme;
-        document.getElementById('save-status').innerText = "Saved!";
+        
+        // Apply both classes immediately
+        document.body.className = `${theme} ${color}`;
+
+        const saveBtn = document.getElementById('save-settings-btn');
+        saveBtn.innerText = "Saved!";
+        setTimeout(() => { saveBtn.innerText = "Save"; }, 1500);
     };
 
+    // -- Check Balance --
     document.getElementById('check-balance-btn').onclick = async () => {
         const display = document.getElementById('balance-display');
         const key = document.getElementById('api-key-input').value.trim();
@@ -287,6 +330,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         } catch(e) { display.innerText = "Error"; }
     };
 
+    // -- Download --
     document.getElementById('download-btn').onclick = () => {
         if (!currentDownloadUrl) return;
         let ext = currentMode === 'video' ? 'mp4' : (currentMode === 'text' ? 'txt' : 'jpg');
@@ -303,7 +347,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const prompt = document.getElementById('prompt-input').value.trim();
         if (!prompt) return;
 
-        // Clear previous state visuals
+        // Reset UI Visuals
         document.getElementById('image-output').style.display = 'none';
         document.getElementById('video-output').style.display = 'none';
         document.getElementById('text-output').style.display = 'none';
@@ -315,6 +359,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const seed = seedInput ? parseInt(seedInput) : -1;
 
         try {
+            // Determine Dimensions
             let width = 1024, height = 1024;
             const aspectVal = document.getElementById('aspect-select').value;
             if (aspectVal === 'custom') {
@@ -324,11 +369,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 [width, height] = aspectVal.split('x');
             }
 
+            // Determine Reference Image
             let finalRefImage = attachedContextUrl;
             if (uploadedFiles.length > 0) {
                 finalRefImage = await api.uploadFile(uploadedFiles[0]);
             }
 
+            // --- EXECUTE GENERATION ---
             if (currentMode === 'image') {
                 const blob = await api.generateImage(prompt, { width, height, model, seed, imageUrl: finalRefImage });
                 currentDownloadUrl = URL.createObjectURL(blob);
@@ -336,7 +383,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('image-output').src = currentDownloadUrl;
                 document.getElementById('image-output').style.display = 'block';
 
-                // SAVE STATE (Convert Blob to Base64 first)
+                // Save State (Base64)
                 const base64 = await blobToBase64(blob);
                 await saveGenerationState('image', base64, prompt);
             } 
@@ -347,7 +394,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('video-output').src = url;
                 document.getElementById('video-output').style.display = 'block';
 
-                // SAVE STATE (URL is string)
+                // Save State (URL)
                 await saveGenerationState('video', url, prompt);
             }
             else if (currentMode === 'text') {
@@ -357,7 +404,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('text-output').style.display = 'block';
                 currentDownloadUrl = URL.createObjectURL(new Blob([text], {type:'text/plain'}));
 
-                // SAVE STATE (Text is string)
+                // Save State (Text)
                 await saveGenerationState('text', text, prompt);
             }
             

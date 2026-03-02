@@ -1,13 +1,18 @@
 :root {
+    /* Default fallback */
+    --primary-color: #EF6282; 
     --bg-color: #121212;
     --surface-color: #1e1e1e;
     --text-color: #e0e0e0;
-    --primary-color: #EF6282; /* Pollinations Pink */
-    --success-color: #2ecc71;
     --border-color: #333;
     --radius: 12px;
 }
 
+/* ACCENT COLORS */
+body.color-pink { --primary-color: #EF6282; }
+body.color-blue { --primary-color: #5095BA; } /* The new Blue */
+
+/* BACKGROUND THEMES */
 body.theme-dark { --bg-color: #121212; --surface-color: #1e1e1e; --text-color: #e0e0e0; --border-color: #333; }
 body.theme-mid { --bg-color: #333333; --surface-color: #404040; --text-color: #ffffff; --border-color: #555; }
 body.theme-light { --bg-color: #F5F5F5; --surface-color: #FFFFFF; --text-color: #121212; --border-color: #ccc; }

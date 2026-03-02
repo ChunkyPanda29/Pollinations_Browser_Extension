@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Pollinations Extension",
+  "version": "1.0.4",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pollen-bridge@yourdomain.com", 
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "declarativeNetRequest",
+    "activeTab",
+    "downloads",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://*.pollinations.ai/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"], 
+    "type": "module" 
+  },
+  "icons": {
+    "128": "assets/icon128.png"
+  }
+}

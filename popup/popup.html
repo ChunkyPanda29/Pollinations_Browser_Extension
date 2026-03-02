@@ -100,12 +100,19 @@
             </a>
         </div>
         
-        <label>Theme</label>
-        <select id="theme-select">
-            <option value="theme-dark">Dark</option>
-            <option value="theme-mid">Mid</option>
-            <option value="theme-light">Light</option>
-        </select>
+        <label>Interface Theme</label>
+		<div style="display: flex; gap: 10px;">
+			<select id="theme-select" style="flex: 1;">
+				<option value="theme-dark">Dark Mode</option>
+				<option value="theme-mid">Mid Gray</option>
+				<option value="theme-light">Light Mode</option>
+			</select>
+    
+			<select id="color-select" style="flex: 1;">
+				<option value="color-pink">🌸 Pink</option>
+				<option value="color-blue">🔹 Blue</option>
+			</select>
+		</div>
 
         <div class="panel-actions">
             <button id="save-settings-btn" class="primary-btn">Save</button>

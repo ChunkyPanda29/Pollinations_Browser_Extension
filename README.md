@@ -1,17 +1,25 @@
-# 🌸 Pollinations Bridge (Chrome Extension)
+# 🌸 Pollinations Bridge (Browser Extension)
 
 > **A unified "Bring Your Own Pollen" (BYOP) workspace for Pollinations.ai.**  
 > Generate Image, Video, and Text directly from your browser sidebar using your own API Key.
 
+<!-- Badges -->
+[![Chrome](https://img.shields.io/badge/Chrome-Available-blue?logo=google-chrome)](https://chrome.google.com/webstore/detail/YOUR_ID_HERE)
+[![Edge](https://img.shields.io/badge/Edge-Available-0078D7?logo=microsoft-edge)](https://microsoftedge.microsoft.com/addons/detail/YOUR_ID_HERE)
+[![Firefox](https://img.shields.io/badge/Firefox-Coming_Soon-ff7139?logo=firefox)](https://addons.mozilla.org/)
 [![Pollinations.ai](https://img.shields.io/badge/API-Pollinations.ai-pink)](https://pollinations.ai/)
 [![Pollinations GitHub](https://img.shields.io/badge/Source-Pollinations_Repo-black)](https://github.com/pollinations/pollinations)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🎨 Themes & Interface
-The extension features a clean, rounded UI with three distinct themes to match your browser setup. Theme can be changed in **Settings (⚙️)**.
-| **Dark Mode** | **Mid Mode** | **Light Mode** |
+## 🎨 Themes & Customization
+The extension features a clean, rounded UI with highly customizable aesthetics.  
+Go to **Settings (⚙️)** to mix and match:
+*   **Backgrounds:** Dark, Mid-Gray, Light.
+*   **Accents:** 🌸 Pollinations Pink or 🔵 Deep Blue.
+
+| **Dark Mode (Pink)** | **Mid Mode (Pink)** | **Light Mode (Pink)** |
 |:---:|:---:|:---:|
 | <img src="assets/dark.png" width="200"> | <img src="assets/mid.png" width="200"> | <img src="assets/light.png" width="200"> |
 
@@ -19,34 +27,51 @@ The extension features a clean, rounded UI with three distinct themes to match y
 
 ## ✨ Features
 - **Zero-VRAM:** Runs entirely on Pollinations.ai infrastructure.
-- **BYOP (Bring Your Own Pollen):** Enter your own API Key or login with Pollinations.ai. Stored locally in your browser (never transmitted to third parties).
+- **BYOP (Bring Your Own Pollen):** 
+  - **Option A:** One-click login with Pollinations.ai (OAuth).
+  - **Option B:** Manually paste your API Key.
+  - *Keys are stored locally in your browser and never transmitted to us.*
 - **Multimodal Generation:**
-  - 🎨 **Image:** Flux & Turbo models with custom aspect ratios.
-  - 🎥 **Video:** Text-to-Video & Image-to-Video (Wan Model).
+  - 🎨 **Image:** Flux & Turbo models with custom aspect ratios & seeds.
+  - 🎥 **Video:** Text-to-Video & Image-to-Video.
   - 💬 **Text:** LLM Chat for quick assistance.
-- **Context Aware:** Right-click any image on the web or highlight text and right click to send it to the generator as a reference.
+- **Context Aware:** 
+  - Right-click any image on the web to send it to the generator as a reference (I2I).
+  - Highlight text and right-click to send it to the LLM.
 - **Local Uploads:** Upload up to 4 local reference images for I2I generation.
 - **Direct Download:** Save generations as clean `.jpg`, `.mp4`, or `.txt` files.
 
+---
+
 ## 📥 Installation
 
-### Option 1: Chrome Web Store
-*(Link coming soon once reviewed)*
+| Browser | Status | Store Link |
+| :--- | :--- | :--- |
+| **Google Chrome** | ✅ Review Pending | [Chrome Web Store](LINK_HERE) |
+| **Microsoft Edge** | ✅ Review Pending | [Edge Add-ons](LINK_HERE) |
+| **Brave / Vivaldi** | ✅ Compatible | Use Chrome Store Link |
+| **Firefox** | 🚧 Coming Soon | *Check back shortly* |
 
-### Option 2: Load Unpacked (Developer Mode)
+### Developer Installation (Load Unpacked)
 1. Clone or download this repository.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Toggle **Developer mode** (top right).
+2. Open your browser's extension manager (`chrome://extensions/` or `edge://extensions/`).
+3. Toggle **Developer mode** (usually top right).
 4. Click **Load unpacked**.
 5. Select the folder containing `manifest.json`.
 
+---
+
 ## ⚙️ Configuration
 1. Click the **Settings (⚙️)** icon in the extension.
-2. Choose to **"Connect with Pollinations"** to authorise the extension directly with Pollinations AI, or enter your **Pollinations API Key** (Get one at [enter.pollinations.ai](https://enter.pollinations.ai)).
-3. (Optional) Check your Pollen Balance directly inside the extension.
+2. Click **"Connect with Pollinations"** to authorize the extension automatically.
+3. *Alternatively*, enter your **Pollinations API Key** manually (Get one at [enter.pollinations.ai](https://enter.pollinations.ai)).
+4. (Optional) Check your Pollen Balance directly inside the extension.
 
-## 🔒 Privacy
-This extension connects directly to `gen.pollinations.ai`. No user data, prompts, or API keys are sent to any intermediate servers. Keys are stored in `chrome.storage.local`.
+## 🔒 Privacy & Security
+This extension connects **directly** to `gen.pollinations.ai`. 
+*   No intermediate servers.
+*   No tracking analytics.
+*   API Keys are stored in `chrome.storage.local`.
 
 ---
 *Built for the Pollinations.ai Community.*
