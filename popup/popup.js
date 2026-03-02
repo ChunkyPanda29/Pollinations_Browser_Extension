@@ -11,7 +11,6 @@ let currentDownloadUrl = null;
 async function fetchModelsWithCache(apiInstance) {
     const data = await chrome.storage.local.get(['global_models', 'last_model_fetch']);
     const now = new Date();
-    // Logic: Reset cache if it's after Monday 9am UTC
     const dayOfWeek = now.getUTCDay();
     const hours = now.getUTCHours();
     let daysSinceMonday = (dayOfWeek + 6) % 7;
@@ -36,6 +35,23 @@ function updateModelDropdown(mode) {
         opt.innerText = model.charAt(0).toUpperCase() + model.slice(1);
         select.appendChild(opt);
     });
+}
+
+// Helper to handle saving the key and updating UI
+async function savePollinationsKey(token) {
+    await chrome.storage.local.set({ 'pollinations_api_key': token });
+    api.apiKey = token;
+    document.getElementById('api-key-input').value = token;
+    
+    const status = document.getElementById('save-status');
+    status.innerText = "Connected Successfully! 🌸";
+    status.style.color = "var(--success-color)";
+    
+    // Automatically refresh balance display
+    setTimeout(() => {
+        const balanceBtn = document.getElementById('check-balance-btn');
+        if (balanceBtn) balanceBtn.click();
+    }, 500);
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -67,8 +83,45 @@ document.addEventListener('DOMContentLoaded', async () => {
         chrome.storage.local.remove('pending_image');
     }
 
-    // 3. EVENT LISTENERS
+    // 3. OFFICIAL POLLINATIONS AUTH FLOW (BYOP)
+    const connectBtn = document.getElementById('connect-pollinations-btn'); 
     
+    if (connectBtn) {
+        connectBtn.onclick = () => {
+            // This AUTOMATICALLY grabs your ID (bllpfp...) and creates the URL
+            const redirectUrl = chrome.identity.getRedirectURL(); 
+            
+            const authUrl = new URL("https://enter.pollinations.ai/authorize");
+            authUrl.searchParams.append("redirect_url", redirectUrl);
+            authUrl.searchParams.append("permissions", "profile,balance,usage");
+            authUrl.searchParams.append("models", "flux,openai,wan");
+            authUrl.searchParams.append("expiry", "30"); 
+
+            chrome.identity.launchWebAuthFlow({
+                url: authUrl.toString(),
+                interactive: true
+            }, (responseUrl) => {
+                if (chrome.runtime.lastError || !responseUrl) {
+                    console.error("Auth failed:", chrome.runtime.lastError);
+                    return;
+                }
+
+                // Pollinations returns: https://<EXT_ID>.chromiumapp.org/#api_key=sk_...
+                try {
+                    const urlWithHash = new URL(responseUrl);
+                    const hashParams = new URLSearchParams(urlWithHash.hash.slice(1));
+                    const apiKey = hashParams.get('api_key');
+
+                    if (apiKey) {
+                        savePollinationsKey(apiKey);
+                    }
+                } catch (err) {
+                    console.error("Error parsing response URL:", err);
+                }
+            });
+        };
+    }
+
     // -- Navigation --
     document.getElementById('settings-btn').onclick = () => {
         document.getElementById('workspace').style.display = 'none';
@@ -94,13 +147,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // -- File Upload (Max 4) --
     document.getElementById('ref-image-upload').addEventListener('change', (e) => {
-        const files = Array.from(e.target.files).slice(0, 4); // Limit to 4
+        const files = Array.from(e.target.files).slice(0, 4);
         const container = document.getElementById('upload-preview-container');
         container.innerHTML = '';
-        uploadedFiles = []; // Reset
+        uploadedFiles = [];
 
         files.forEach(file => {
-            uploadedFiles.push(file); // Store file object
+            uploadedFiles.push(file);
             const reader = new FileReader();
             reader.onload = (evt) => {
                 const img = document.createElement('img');
@@ -126,7 +179,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             currentMode = e.target.dataset.mode;
             updateModelDropdown(currentMode);
             
-            // Hide/Show controls based on mode
             const imgControls = document.getElementById('image-controls');
             const uploadSection = document.getElementById('upload-section');
             
@@ -146,7 +198,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('context-preview').style.display = 'none';
     };
 
-    // -- Save Settings --
+    // -- Save Manual Settings --
     document.getElementById('save-settings-btn').onclick = async () => {
         const key = document.getElementById('api-key-input').value.trim();
         const theme = document.getElementById('theme-select').value;
@@ -188,7 +240,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const prompt = document.getElementById('prompt-input').value.trim();
         if (!prompt) return;
 
-        // Reset UI
         document.getElementById('image-output').style.display = 'none';
         document.getElementById('video-output').style.display = 'none';
         document.getElementById('text-output').style.display = 'none';
@@ -200,7 +251,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const seed = seedInput ? parseInt(seedInput) : -1;
 
         try {
-            // Determine Width/Height
             let width = 1024, height = 1024;
             const aspectVal = document.getElementById('aspect-select').value;
             if (aspectVal === 'custom') {
@@ -210,12 +260,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 [width, height] = aspectVal.split('x');
             }
 
-            // Determine Reference Image (Web Context OR Local Upload)
             let finalRefImage = attachedContextUrl;
-            
-            // If user uploaded local files, upload the first one to Media server
             if (uploadedFiles.length > 0) {
-                // Upload the first file (Pollinations usually takes one primary ref image)
                 finalRefImage = await api.uploadFile(uploadedFiles[0]);
             }
 

@@ -80,10 +80,18 @@
     <!-- SETTINGS PANEL -->
     <div id="settings-panel" class="panel" style="display: none;">
         <h3>Settings</h3>
-        
-        <label>API Key (BYOP)</label>
-        <input type="password" id="api-key-input" placeholder="Enter API Key...">
-        
+
+		<label>Connection Method</label>
+		<div class="account-box" style="border-color: var(--primary-color);">
+			<p style="font-size: 11px; margin-bottom: 10px; opacity: 0.8;">Click below to sign in and automatically link your Pollen account.</p>
+			<button id="connect-pollinations-btn" class="primary-btn">Connect with Pollinations 🌸</button>
+		</div>
+
+		<div style="text-align: center; margin: 15px 0; font-size: 11px; opacity: 0.5;">— OR MANUAL KEY —</div>
+
+		<label>Manual API Key (BYOP)</label>
+		<input type="password" id="api-key-input" placeholder="Paste sk_... key here">
+                
         <div class="account-box">
             <button id="check-balance-btn">Check My Pollen Balance 🌸</button>
             <div id="balance-display"></div>
