@@ -1,15 +1,20 @@
 # 🌸 Pollinations Bridge (Browser Extension)
 
+[![Built with Pollinations](https://img.shields.io/badge/Built%20with-Pollinations-8a2be2?style=for-the-badge&logo=data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20124%20124%22%3E%3Ccircle%20cx%3D%2262%22%20cy%3D%2262%22%20r%3D%2262%22%20fill%3D%22%23ffffff%22/%3E%3C/svg%3E&logoColor=white&labelColor=6a0dad)](https://pollinations.ai/)
+
 > **A unified "Bring Your Own Pollen" (BYOP) workspace for Pollinations.ai.**  
 > Generate Image, Video, and Text directly from your browser sidebar using your own API Key.
 
 <!-- Badges -->
-[![Chrome](https://img.shields.io/badge/Chrome-Available-blue?logo=google-chrome)](https://chrome.google.com/webstore/detail/YOUR_ID_HERE)
-[![Edge](https://img.shields.io/badge/Edge-Available-0078D7?logo=microsoft-edge)](https://microsoftedge.microsoft.com/addons/detail/YOUR_ID_HERE)
-[![Firefox](https://img.shields.io/badge/Firefox-Coming_Soon-ff7139?logo=firefox)](https://addons.mozilla.org/)
-[![Pollinations.ai](https://img.shields.io/badge/API-Pollinations.ai-pink)](https://pollinations.ai/)
+[![Chrome](https://img.shields.io/badge/Chrome-Pending_Review-orange?logo=google-chrome)](https://chrome.google.com/webstore/detail/bllpfpbfokmiadkpkkaichhbaplcphdb)
+[![Edge](https://img.shields.io/badge/Edge-Pending_Review-orange?logo=microsoft-edge)](https://microsoftedge.microsoft.com/addons/detail/0RDCKG3RGJZ9)
+[![Firefox](https://img.shields.io/badge/Firefox-Pending_Review-orange?logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/pollinations-extension/)
 [![Pollinations GitHub](https://img.shields.io/badge/Source-Pollinations_Repo-black)](https://github.com/pollinations/pollinations)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+
+<br>
+<img src="assets/banner.png" width="100%" alt="Pollinations Bridge Banner">
+<br>
 
 ---
 
@@ -53,10 +58,10 @@ Go to **Settings (⚙️)** to mix and match:
 
 | Browser | Status | Store Link |
 | :--- | :--- | :--- |
-| **Google Chrome** | ✅ Review Pending | [Chrome Web Store](LINK_HERE) |
-| **Microsoft Edge** | ✅ Review Pending | [Edge Add-ons](LINK_HERE) |
+| **Google Chrome** | ⏳ Pending Review | [Chrome Web Store](https://chrome.google.com/webstore/detail/bllpfpbfokmiadkpkkaichhbaplcphdb) |
+| **Microsoft Edge** | ⏳ Pending Review | [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/0RDCKG3RGJZ9) |
+| **Mozilla Firefox**| ⏳ Pending Review | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/pollinations-extension/) |
 | **Brave / Vivaldi** | ✅ Compatible | Use Chrome Store Link |
-| **Firefox** | 🚧 Coming Soon | *Check back shortly* |
 
 ### Developer Installation (Load Unpacked)
 1. Clone or download this repository.
@@ -77,7 +82,15 @@ Go to **Settings (⚙️)** to mix and match:
 This extension connects **directly** to `gen.pollinations.ai`. 
 *   No intermediate servers.
 *   No tracking analytics.
-*   API Keys are stored in `chrome.storage.local`.
+*   API Keys are stored strictly in `chrome.storage.local`.
 
 ---
-*Built for the Pollinations.ai Community.*
+
+## 🌸 Powered By Pollinations.ai
+This extension is proudly built on top of the [Pollinations.ai](https://pollinations.ai/) infrastructure, utilizing their official BYOP (Bring Your Own Pollen) integration.
+
+<a href="https://pollinations.ai/">
+  <img src="https://raw.githubusercontent.com/pollinations/pollinations/main/assets/logo-text.svg" height="40" alt="Pollinations.ai Logo">
+</a>
+
+*Pollinations offers free, open-source AI generation for images, video, and text. Support their mission by joining their [Discord](https://discord.gg/pollinations) or contributing to their [GitHub](https://github.com/pollinations/pollinations).*
