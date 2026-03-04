@@ -59,7 +59,7 @@ Go to **Settings (⚙️)** to mix and match:
 | Browser | Status | Store Link |
 | :--- | :--- | :--- |
 | **Google Chrome** | ⏳ Pending Review | [Chrome Web Store](https://chrome.google.com/webstore/detail/bllpfpbfokmiadkpkkaichhbaplcphdb) |
-| **Microsoft Edge** | ⏳ Pending Review | [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/0RDCKG3RGJZ9) |
+| **Microsoft Edge** |✅ Live | [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/pollinations-extension/fnmeohfigaocdhjkogimjgeadjnbjmjg) |
 | **Mozilla Firefox**| ⏳ Pending Review | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/pollinations-extension/) |
 | **Brave / Vivaldi** | ✅ Compatible | Use Chrome Store Link |
 
