@@ -1,0 +1,196 @@
+{
+    "image": [
+        {
+            "name": "flux",
+            "label": "flux (T2I)"
+        },
+        {
+            "name": "flux-2-dev",
+            "label": "flux-2-dev (T2I/I2I)"
+        },
+        {
+            "name": "gptimage",
+            "label": "gptimage (T2I/I2I)"
+        },
+        {
+            "name": "gptimage-large",
+            "label": "gptimage-large \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "grok-imagine",
+            "label": "grok-imagine (T2I)"
+        },
+        {
+            "name": "imagen-4",
+            "label": "imagen-4 (T2I)"
+        },
+        {
+            "name": "klein",
+            "label": "klein (T2I/I2I)"
+        },
+        {
+            "name": "klein-large",
+            "label": "klein-large (T2I/I2I)"
+        },
+        {
+            "name": "kontext",
+            "label": "kontext \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "nanobanana",
+            "label": "nanobanana \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "nanobanana-2",
+            "label": "nanobanana-2 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "nanobanana-pro",
+            "label": "nanobanana-pro \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "seedream5",
+            "label": "seedream5 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "zimage",
+            "label": "zimage (T2I)"
+        }
+    ],
+    "video": [
+        {
+            "name": "grok-video",
+            "label": "grok-video (T2V/I2V)"
+        },
+        {
+            "name": "ltx-2",
+            "label": "ltx-2 \ud83d\udc8e (T2V)"
+        },
+        {
+            "name": "seedance",
+            "label": "seedance \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "seedance-pro",
+            "label": "seedance-pro \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "veo",
+            "label": "veo \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "wan",
+            "label": "wan \ud83d\udc8e (T2V/I2V)"
+        }
+    ],
+    "text": [
+        {
+            "name": "claude",
+            "label": "claude \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "claude-fast",
+            "label": "claude-fast (LLM)"
+        },
+        {
+            "name": "claude-large",
+            "label": "claude-large \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "deepseek",
+            "label": "deepseek (LLM)"
+        },
+        {
+            "name": "gemini",
+            "label": "gemini \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "gemini-fast",
+            "label": "gemini-fast (LLM)"
+        },
+        {
+            "name": "gemini-large",
+            "label": "gemini-large \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "gemini-search",
+            "label": "gemini-search (LLM)"
+        },
+        {
+            "name": "glm",
+            "label": "glm (LLM)"
+        },
+        {
+            "name": "grok",
+            "label": "grok \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "kimi",
+            "label": "kimi (LLM)"
+        },
+        {
+            "name": "midijourney",
+            "label": "midijourney (LLM)"
+        },
+        {
+            "name": "minimax",
+            "label": "minimax (LLM)"
+        },
+        {
+            "name": "mistral",
+            "label": "mistral (LLM)"
+        },
+        {
+            "name": "nomnom",
+            "label": "nomnom (LLM)"
+        },
+        {
+            "name": "nova-fast",
+            "label": "nova-fast (LLM)"
+        },
+        {
+            "name": "openai",
+            "label": "openai (LLM)"
+        },
+        {
+            "name": "openai-audio",
+            "label": "openai-audio (LLM)"
+        },
+        {
+            "name": "openai-fast",
+            "label": "openai-fast (LLM)"
+        },
+        {
+            "name": "openai-large",
+            "label": "openai-large \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "perplexity-fast",
+            "label": "perplexity-fast (LLM)"
+        },
+        {
+            "name": "perplexity-reasoning",
+            "label": "perplexity-reasoning (LLM)"
+        },
+        {
+            "name": "polly",
+            "label": "polly (LLM)"
+        },
+        {
+            "name": "qwen-character",
+            "label": "qwen-character (LLM)"
+        },
+        {
+            "name": "qwen-coder",
+            "label": "qwen-coder (LLM)"
+        },
+        {
+            "name": "qwen-safety",
+            "label": "qwen-safety (LLM)"
+        },
+        {
+            "name": "step-3.5-flash",
+            "label": "step-3.5-flash (LLM)"
+        }
+    ]
+}
