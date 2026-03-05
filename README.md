@@ -6,8 +6,8 @@
 > Generate Image, Video, and Text directly from your browser sidebar using your own API Key.
 
 <!-- Badges -->
-[![Chrome](https://img.shields.io/badge/Chrome-Pending_Review-orange?logo=google-chrome)](https://chrome.google.com/webstore/detail/bllpfpbfokmiadkpkkaichhbaplcphdb)
-[![Edge](https://img.shields.io/badge/Edge-Pending_Review-orange?logo=microsoft-edge)](https://microsoftedge.microsoft.com/addons/detail/0RDCKG3RGJZ9)
+[![Chrome](https://img.shields.io/badge/Chrome-Live-green?logo=google-chrome)](https://chrome.google.com/webstore/detail/bllpfpbfokmiadkpkkaichhbaplcphdb)
+[![Edge](https://img.shields.io/badge/Edge-Live-green?logo=microsoft-edge)](https://microsoftedge.microsoft.com/addons/detail/0RDCKG3RGJZ9)
 [![Firefox](https://img.shields.io/badge/Firefox-Pending_Review-orange?logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/pollinations-extension/)
 [![Pollinations GitHub](https://img.shields.io/badge/Source-Pollinations_Repo-black)](https://github.com/pollinations/pollinations)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
