@@ -7,6 +7,9 @@ let uploadedFiles = []; // From Local
 let globalModels = { image: [], text: [], video: [] };
 let currentDownloadUrl = null;
 
+// URL for Daily Model Updates
+const GITHUB_MODELS_URL = "https://raw.githubusercontent.com/ChunkyPanda29/Pollinations_Browser_Extension/main/models.json";
+
 // --- HELPER: CONVERT BLOB TO BASE64 (For Storage) ---
 function blobToBase64(blob) {
     return new Promise((resolve, reject) => {
@@ -58,7 +61,8 @@ async function restoreGenerationState() {
         currentDownloadUrl = state.content;
         
         // Switch tab to image
-        document.querySelector('[data-mode="image"]').click();
+        const tab = document.querySelector('[data-mode="image"]');
+        if (tab) tab.click();
     } 
     else if (state.type === 'video') {
         const vidOut = document.getElementById('video-output');
@@ -67,7 +71,8 @@ async function restoreGenerationState() {
         currentDownloadUrl = state.content;
         
         // Switch tab to video
-        document.querySelector('[data-mode="video"]').click();
+        const tab = document.querySelector('[data-mode="video"]');
+        if (tab) tab.click();
     } 
     else if (state.type === 'text') {
         const txtOut = document.getElementById('text-output');
@@ -79,39 +84,55 @@ async function restoreGenerationState() {
         currentDownloadUrl = URL.createObjectURL(blob);
         
         // Switch tab to text
-        document.querySelector('[data-mode="text"]').click();
+        const tab = document.querySelector('[data-mode="text"]');
+        if (tab) tab.click();
     }
 
     // Show Download Button
     if (downloadBtn) downloadBtn.style.display = 'block';
 }
 
-// --- MODEL CACHE LOGIC ---
+// --- MODEL CACHE LOGIC (UPDATED: DAILY GITHUB FETCH) ---
 async function fetchModelsWithCache(apiInstance) {
     const data = await chrome.storage.local.get(['global_models', 'last_model_fetch']);
-    const now = new Date();
-    const dayOfWeek = now.getUTCDay();
-    const hours = now.getUTCHours();
-    let daysSinceMonday = (dayOfWeek + 6) % 7;
-    if (dayOfWeek === 1 && hours < 9) daysSinceMonday = 7;
-    const lastMonday9AM = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - daysSinceMonday, 9, 0, 0, 0)).getTime();
+    const now = Date.now();
+    const ONE_DAY = 24 * 60 * 60 * 1000;
 
-    if (data.global_models && data.last_model_fetch && data.last_model_fetch > lastMonday9AM) {
+    // Use cache if it's fresher than 24 hours
+    if (data.global_models && data.last_model_fetch && (now - data.last_model_fetch < ONE_DAY)) {
         return data.global_models;
     }
-    const freshModels = await apiInstance.fetchModels();
-    await chrome.storage.local.set({ 'global_models': freshModels, 'last_model_fetch': Date.now() });
-    return freshModels;
+
+    try {
+        console.log("Fetching fresh models from GitHub...");
+        const response = await fetch(GITHUB_MODELS_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error("Network response was not ok");
+        const freshModels = await response.json();
+        
+        await chrome.storage.local.set({ 
+            'global_models': freshModels, 
+            'last_model_fetch': now 
+        });
+        return freshModels;
+    } catch (e) {
+        console.error("Model fetch failed, using fallback/cache:", e);
+        // Fallback to existing cache or empty defaults so UI doesn't crash
+        return data.global_models || { image: [], text: [], video: [] };
+    }
 }
 
 function updateModelDropdown(mode) {
     const select = document.getElementById('model-select');
+    if (!select) return;
     select.innerHTML = '';
+    
+    // globalModels[mode] is now: [{ "name": "flux", "label": "flux (T2I)" }, ...]
     const models = globalModels[mode] || [];
-    models.forEach(model => {
+    
+    models.forEach(modelObj => {
         const opt = document.createElement('option');
-        opt.value = model;
-        opt.innerText = model.charAt(0).toUpperCase() + model.slice(1);
+        opt.value = modelObj.name; // Use for API
+        opt.innerText = modelObj.label; // Use for UI Display (Shows T2I/I2I etc)
         select.appendChild(opt);
     });
 }
@@ -161,9 +182,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const colorSelect = document.getElementById('color-select');
     if (colorSelect) colorSelect.value = savedColor;
 
-    // 2. FETCH MODELS
+    // 2. FETCH MODELS (Daily Sync)
     globalModels = await fetchModelsWithCache(api);
-    updateModelDropdown('image');
+    updateModelDropdown('image'); // Default view
 
     // 3. RESTORE PREVIOUS STATE (If available and fresh)
     await restoreGenerationState();
@@ -172,10 +193,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const contextData = await chrome.storage.local.get(['pending_text', 'pending_image']);
     if (contextData.pending_text) {
         document.getElementById('prompt-input').value = `Explain this text:\n\n"${contextData.pending_text}"`;
-        document.querySelector('[data-mode="text"]').click();
+        const textTab = document.querySelector('[data-mode="text"]');
+        if(textTab) textTab.click();
         chrome.storage.local.remove('pending_text');
         
-        // Hide previous output if we are starting a new context flow
+        // Hide previous output visuals
         document.getElementById('image-output').style.display = 'none';
         document.getElementById('video-output').style.display = 'none';
         document.getElementById('text-output').style.display = 'none';
@@ -229,11 +251,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         if(show) {
             workspace.style.display = 'none';
-            headerIcons.style.display = 'none';
+            if(headerIcons) headerIcons.style.display = 'none';
             panel.style.display = 'block';
         } else {
             panel.style.display = 'none';
-            headerIcons.style.display = 'block';
+            if(headerIcons) headerIcons.style.display = 'block';
             workspace.style.display = 'block';
         }
     };
@@ -299,7 +321,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('save-settings-btn').onclick = async () => {
         const key = document.getElementById('api-key-input').value.trim();
         const theme = document.getElementById('theme-select').value;
-        const color = document.getElementById('color-select').value; // Get Accent Color
+        const color = document.getElementById('color-select').value;
 
         await chrome.storage.local.set({ 
             'pollinations_api_key': key, 
@@ -308,8 +330,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         api.apiKey = key;
-        
-        // Apply both classes immediately
         document.body.className = `${theme} ${color}`;
 
         const saveBtn = document.getElementById('save-settings-btn');
@@ -383,7 +403,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('image-output').src = currentDownloadUrl;
                 document.getElementById('image-output').style.display = 'block';
 
-                // Save State (Base64)
                 const base64 = await blobToBase64(blob);
                 await saveGenerationState('image', base64, prompt);
             } 
@@ -394,7 +413,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('video-output').src = url;
                 document.getElementById('video-output').style.display = 'block';
 
-                // Save State (URL)
                 await saveGenerationState('video', url, prompt);
             }
             else if (currentMode === 'text') {
@@ -404,7 +422,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 document.getElementById('text-output').style.display = 'block';
                 currentDownloadUrl = URL.createObjectURL(new Blob([text], {type:'text/plain'}));
 
-                // Save State (Text)
                 await saveGenerationState('text', text, prompt);
             }
             
