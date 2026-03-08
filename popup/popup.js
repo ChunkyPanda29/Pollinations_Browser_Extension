@@ -164,24 +164,27 @@ function updateModelDropdown(mode) {
     if (!select) return;
     select.innerHTML = '';
     
-    const models = globalModels[mode] ||[];
+    // Safety check: Ensure globalModels exists and has the mode key
+    const models = (globalModels && globalModels[mode]) ? globalModels[mode] : [];
+    
+    if (models.length === 0) {
+        const opt = document.createElement('option');
+        opt.innerText = "No models available";
+        select.appendChild(opt);
+        return;
+    }
+
     models.forEach(modelObj => {
         const opt = document.createElement('option');
         opt.value = modelObj.name;
         opt.innerText = modelObj.label;
         
-        // Store voices array directly inside the HTML option element
+        // Audio models often have voices
         if (modelObj.voices) {
             opt.dataset.voices = JSON.stringify(modelObj.voices);
         }
-        
         select.appendChild(opt);
     });
-
-    // Manually trigger change event to initialize voice dropdown if in audio mode
-    if (mode === 'audio') {
-        select.dispatchEvent(new Event('change'));
-    }
 }
 
 // ==========================================
