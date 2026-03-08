@@ -5,11 +5,16 @@
     <link rel="stylesheet" href="popup.css">
     <title>Pollinations Extension</title>
 </head>
-<body class="theme-dark">
+<body class="theme-dark color-pink">
     <!-- HEADER -->
     <div class="header">
         <h2>Pollinations Extension</h2>
         <div class="header-icons">
+            <button id="history-btn" title="Generation History">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                    <path d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"/>
+                </svg>
+            </button>
             <button id="help-btn" title="Quick Guide">❔</button>
             <button id="settings-btn" title="Settings">⚙️</button>
         </div>
@@ -21,12 +26,13 @@
         <div class="tabs">
             <button class="tab active" data-mode="image">Image</button>
             <button class="tab" data-mode="video">Video</button>
+            <button class="tab" data-mode="audio">Audio</button>
             <button class="tab" data-mode="text">Text</button>
         </div>
 
         <!-- CONTEXT PREVIEW -->
         <div id="context-preview" style="display: none;">
-            <span class="badge">Context from Web</span>
+            <span class="badge">Context Attached</span>
             <img id="context-image-preview">
             <button id="clear-context" title="Remove">×</button>
         </div>
@@ -43,101 +49,158 @@
         <!-- PROMPT -->
         <textarea id="prompt-input" placeholder="Enter your prompt..."></textarea>
         
-        <!-- GLOBAL MODEL SELECT (Visible for all modes) -->
-        <select id="model-select" style="margin-bottom: 10px;">
-            <option>Syncing...</option>
-        </select>
-        
-        <!-- IMAGE/VIDEO SPECIFIC CONTROLS (Hidden for Text) -->
-        <div class="controls-grid" id="image-controls">
-            <select id="aspect-select">
-                <option value="1024x1024">1:1 Square</option>
-                <option value="1920x1080">16:9 Wide</option>
-                <option value="1080x1920">9:16 Vertical</option>
-                <option value="custom">Custom Size</option>
-            </select>
-
-            <div id="custom-dims" style="display: none; grid-column: span 2; gap: 5px; display: flex;">
-                <input type="number" id="width-input" placeholder="W" value="1024" min="64" max="2048">
-                <span style="align-self: center;">x</span>
-                <input type="number" id="height-input" placeholder="H" value="1024" min="64" max="2048">
+        <!-- CONTROLS CONTAINER -->
+        <div class="controls-container">
+            <select id="model-select" style="margin-bottom: 10px;"><option>Syncing models...</option></select>
+            
+            <!-- Dimensions Group (Image & Video) -->
+            <div id="dimensions-group" class="control-group">
+                <div class="flex-row">
+                    <select id="aspect-select" style="flex: 2;">
+                        <option value="1024x1024">1:1 Square</option>
+                        <option value="1920x1080">16:9 Wide</option>
+                        <option value="1080x1920">9:16 Vertical</option>
+                        <option value="custom">Custom Size</option>
+                    </select>
+                    <select id="scale-select" style="flex: 1;" title="Quality Multiplier">
+                        <option value="1">1x Size</option>
+                        <option value="2">2x Quality</option>
+                        <option value="3">3x HD</option>
+                        <option value="4">4x 4K</option>
+                    </select>
+                </div>
+                <div id="custom-dims" style="display: none; gap: 5px; margin-top: 10px;">
+                    <input type="number" id="width-input" placeholder="W" value="1024" min="64">
+                    <span style="align-self: center;">x</span>
+                    <input type="number" id="height-input" placeholder="H" value="1024" min="64">
+                </div>
             </div>
 
-            <input type="number" id="seed-input" placeholder="Seed (Empty = Random)" style="grid-column: span 2;">
+            <!-- Time Group (Video & Audio) -->
+            <div id="time-group" class="control-group" style="display: none; margin-top: 10px;">
+                <input type="number" id="duration-input" placeholder="Duration (seconds) - Optional">
+            </div>
+
+            <!-- Audio Specific -->
+            <div id="audio-controls-group" class="control-group" style="display: none; margin-top: 10px;">
+                <select id="voice-select">
+                    <option value="alloy">Voice: Alloy (Default)</option>
+                    <option value="echo">Voice: Echo</option>
+                    <option value="fable">Voice: Fable</option>
+                    <option value="onyx">Voice: Onyx</option>
+                    <option value="nova">Voice: Nova</option>
+                    <option value="shimmer">Voice: Shimmer</option>
+                </select>
+            </div>
+
+            <!-- Global Parms (Image/Video) -->
+            <div id="global-params-group" class="control-group" style="margin-top: 10px;">
+                <input type="number" id="seed-input" placeholder="Seed (Empty = Random)">
+            </div>
         </div>
 
-        <button id="generate-btn" class="primary-btn">Generate ✨</button>
+        <button id="generate-btn" class="primary-btn" style="margin-top: 10px;">Generate ✨</button>
 
+        <!-- OUTPUT AREA -->
         <div id="output-container">
             <div id="loading" style="display: none;">Generating...</div>
             <img id="image-output" style="display: none;" />
             <video id="video-output" controls autoplay loop style="display: none;"></video>
+            <audio id="audio-output" controls style="display: none; margin-top: 10px; width: 100%;"></audio>
             <div id="text-output" style="display: none;"></div>
-            <button id="download-btn" class="primary-btn" style="display: none; margin-top: 10px; background-color: #2ecc71;">Download ⬇️</button>
+            
+            <button id="download-btn" class="primary-btn" style="display: none; margin-top: 10px; background-color: var(--success-color);">Download ⬇️</button>
         </div>
     </div>
 
     <!-- SETTINGS PANEL -->
     <div id="settings-panel" class="panel" style="display: none;">
         <h3>Settings</h3>
-
-		<label>Connection Method</label>
-		<div class="account-box" style="border-color: var(--primary-color);">
-			<p style="font-size: 11px; margin-bottom: 10px; opacity: 0.8;">Click below to sign in and automatically link your Pollen account.</p>
-			<button id="connect-pollinations-btn" class="primary-btn">Connect with Pollinations 🌸</button>
-		</div>
-
-		<div style="text-align: center; margin: 15px 0; font-size: 11px; opacity: 0.5;">— OR MANUAL KEY —</div>
-
-		<label>Manual API Key (BYOP)</label>
-		<input type="password" id="api-key-input" placeholder="Paste sk_... key here">
-                
-        <div class="account-box">
-            <button id="check-balance-btn">Check My Pollen Balance 🌸</button>
-            <div id="balance-display"></div>
-            <a href="https://enter.pollinations.ai" target="_blank" class="manage-link">
-                Go to enter.pollinations.ai to manage your API key and account ↗
-            </a>
+        
+        <label>Connection Method</label>
+        <div class="account-box" style="border-color: var(--primary-color);">
+            <p style="font-size: 11px; margin-bottom: 10px; opacity: 0.8;">Sign in to automatically link your Pollen account.</p>
+            <button id="connect-pollinations-btn" class="primary-btn">Connect with Pollinations 🌸</button>
         </div>
+
+        <div style="text-align: center; margin: 15px 0; font-size: 11px; opacity: 0.5;">— OR MANUAL KEY —</div>
+
+        <input type="password" id="api-key-input" placeholder="Paste sk_... key here">
+        
+        <div class="account-box">
+            <button id="check-balance-btn">Check Pollen Balance</button>
+            <div id="balance-display"></div>
+            <a href="https://enter.pollinations.ai" target="_blank" class="manage-link">Manage account ↗</a>
+        </div>
+
+        <label>Content Safety Filter</label>
+        <select id="safety-select">
+            <option value="true">Enabled (Safe Mode)</option>
+            <option value="false">Disabled (Raw Mode)</option>
+        </select>
+
+        <label>History Retention (Auto-Delete)</label>
+        <select id="retention-select">
+            <option value="12">12 Hours</option>
+            <option value="24" selected>24 Hours</option>
+            <option value="48">48 Hours</option>
+            <option value="168">7 Days</option>
+            <option value="0">Keep Forever</option>
+        </select>
         
         <label>Interface Theme</label>
-		<div style="display: flex; gap: 10px;">
-			<select id="theme-select" style="flex: 1;">
-				<option value="theme-dark">Dark Mode</option>
-				<option value="theme-mid">Mid Gray</option>
-				<option value="theme-light">Light Mode</option>
-			</select>
-    
-			<select id="color-select" style="flex: 1;">
-				<option value="color-pink">🌸 Pink</option>
-				<option value="color-blue">🔹 Blue</option>
-			</select>
-		</div>
+        <div class="flex-row">
+            <select id="theme-select" style="flex: 1;">
+                <option value="theme-dark">🖤Dark</option>
+                <option value="theme-mid">🩶Mid</option>
+                <option value="theme-light">🤍Light</option>
+            </select>
+            <select id="color-select" style="flex: 1;">
+                <option value="color-pink">🌸 Pink</option>
+                <option value="color-blue">🔵 Blue</option>
+                <option value="color-purple">🟣 Purple</option>
+            </select>
+        </div>
 
         <div class="panel-actions">
-            <button id="save-settings-btn" class="primary-btn">Save</button>
+            <button id="save-settings-btn" class="primary-btn">Save Settings</button>
             <button id="back-settings-btn" class="secondary-btn">Back</button>
         </div>
-        <p id="save-status"></p>
+        <p id="save-status" style="text-align: center; font-weight: bold;"></p>
+    </div>
+
+    <!-- HISTORY PANEL -->
+    <div id="history-panel" class="panel" style="display: none;">
+        <div class="flex-row" style="margin-bottom: 15px;">
+            <h3 style="margin: 0;">Generation History</h3>
+            <button id="clear-history-btn" style="background: none; border: none; color: #ff4444; cursor: pointer; font-size: 12px; font-weight: bold;">Scrub All 🗑️</button>
+        </div>
+        <p style="font-size: 11px; color: #aaa; margin-top: -10px; margin-bottom: 15px;">Click an item to restore it. Expired items are scrubbed from the server automatically.</p>
+        
+        <div id="history-grid" class="history-grid">
+            <!-- Dynamically populated by popup.js -->
+        </div>
+
+        <div class="panel-actions">
+            <button id="back-history-btn" class="secondary-btn">Back to Workspace</button>
+        </div>
     </div>
 
     <!-- HELP PANEL -->
     <div id="help-panel" class="panel" style="display: none;">
-        <h3>Quick Guide 🎓</h3>
+        <h3>Quick Guide 📖</h3>
         <div class="help-content">
-            <h4>1. Setup & API Keys</h4>
-            <p>Get your key at <a href="https://enter.pollinations.ai" target="_blank">enter.pollinations.ai</a>. Ensure you have credits (Pollen). 💎 Models require paid pollen.</p>
+            <h4>1. Context & Right-Click</h4>
+            <p>Highlight text or right-click any image on a website and select <b>"Send to Pollinations"</b> to instantly use it as context for your next generation.</p>
             
-            <h4>2. How to Use</h4>
-            <p>1. <strong>Select Mode:</strong> Image, Video, or Text.</p>
-            <p>2. <strong>Input:</strong> Type a prompt or upload reference images.</p>
-            <p>3. <strong>Context:</strong> Highlight text or right-click images on any website and select "Send to Pollinations".</p>
-            <p>4. <strong>Generate & Download:</strong> Click Generate, wait for the result, then click Download to save.</p>
+            <h4>2. Media Hashes (I2I / I2V)</h4>
+            <p>Generations are stored securely returning a unique "hash". You can copy a hash from your History and paste it into a prompt to reuse that exact image as a reference!</p>
             
-            <h4>3. Advanced Tips</h4>
-            <p>• Use "Custom Size" for specific aspect ratios.</p>
-            <p>• Use a specific Seed number to reproduce results.</p>
-            <p>• You can upload up to 4 reference images.</p>
+            <h4>3. History Retention</h4>
+            <p>Generations are saved locally. Go to <b>Settings (⚙️)</b> to change how long history is kept. Expired items are securely scrubbed from the Pollinations media server.</p>
+
+            <h4>4. Pro Tips</h4>
+            <p>• 💎 Models require paid pollen.<br>• Use the <b>Scale</b> dropdown to generate up to 4K images effortlessly.</p>
         </div>
         <div class="panel-actions">
             <button id="back-help-btn" class="secondary-btn">Close Guide</button>

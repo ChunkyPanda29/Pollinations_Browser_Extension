@@ -18,11 +18,19 @@
 
 ---
 
+
+## ✨ v1.0.6 Quad-Modal Update
+- 🔊 **Audio Integration:** Full support for ElevenLabs TTS, Voices, and Music Generation models.
+- 🕰️ **History Engine:** Visual grid of your past generations. Items are securely auto-deleted from the server based on your retention settings (12h, 24h, 7 Days).
+- 🔍 **4K Quality Scaling:** Easily scale preset Aspect Ratios up to 4x native resolution with a single click.
+- ⚙️ **Media Hashes:** Secure I2I/I2V using Pollinations SHA-256 hashes instead of heavy local blobs.
+- 🟣 **Pollinations Purple:** Added the official `#6a0dad` accent color theme.
+
 ## 🎨 Themes & Customization
 The extension features a clean, rounded UI with highly customizable aesthetics.  
 Go to **Settings (⚙️)** to mix and match:
 *   **Backgrounds:** Dark, Mid-Gray, Light.
-*   **Accents:** 🌸 Pollinations Pink or 🔵 Deep Blue.
+*   **Accents:** 🌸 Pollinations Pink, 🔵 Deep Blue or 🟣 Pollinations Purple
 
 ### 🌸 Pink Accent
 | **Dark Mode** | **Mid Mode** | **Light Mode** |

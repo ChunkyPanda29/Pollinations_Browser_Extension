@@ -192,5 +192,68 @@
             "name": "step-3.5-flash",
             "label": "step-3.5-flash (LLM)"
         }
+    ],
+    "audio": [
+        {
+            "name": "elevenlabs",
+            "label": "elevenlabs (Audio)",
+            "voices": [
+                "alloy",
+                "echo",
+                "fable",
+                "onyx",
+                "nova",
+                "shimmer",
+                "ash",
+                "ballad",
+                "coral",
+                "sage",
+                "verse",
+                "rachel",
+                "domi",
+                "bella",
+                "elli",
+                "charlotte",
+                "dorothy",
+                "sarah",
+                "emily",
+                "lily",
+                "matilda",
+                "adam",
+                "antoni",
+                "arnold",
+                "josh",
+                "sam",
+                "daniel",
+                "charlie",
+                "james",
+                "fin",
+                "callum",
+                "liam",
+                "george",
+                "brian",
+                "bill"
+            ]
+        },
+        {
+            "name": "elevenmusic",
+            "label": "elevenmusic (Audio)",
+            "voices": []
+        },
+        {
+            "name": "scribe",
+            "label": "scribe (Audio)",
+            "voices": []
+        },
+        {
+            "name": "suno",
+            "label": "suno (Audio)",
+            "voices": []
+        },
+        {
+            "name": "whisper",
+            "label": "whisper (Audio)",
+            "voices": []
+        }
     ]
 }
