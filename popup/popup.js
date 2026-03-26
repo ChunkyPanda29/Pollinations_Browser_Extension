@@ -279,7 +279,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     // -- Device Code Flow (Alternative for restricted environments) --
-    document.getElementById('device-code-btn')?.onclick = async () => {
+    const deviceCodeBtn = document.getElementById('device-code-btn');
+    if (deviceCodeBtn) deviceCodeBtn.onclick = async () => {
         const statusEl = document.getElementById('save-status');
         
         await byopAuth.deviceCodeFlow({
