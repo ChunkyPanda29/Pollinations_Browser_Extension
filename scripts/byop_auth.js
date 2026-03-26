@@ -4,8 +4,8 @@
 
 const BYOP_BASE_URL = "https://enter.pollinations.ai";
 
-// Default app key for attribution - users can create their own at enter.pollinations.ai
-const DEFAULT_APP_KEY = "pk_pollen_bridge_chunkypanda29";
+// Default app key for attribution - create your own at enter.pollinations.ai
+const DEFAULT_APP_KEY = "pk_B4Rhuy9th5cVP3DE";  // pollen_bridge app key
 
 /**
  * BYOP Authentication helper for browser extensions
