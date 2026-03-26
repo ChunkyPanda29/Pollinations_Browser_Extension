@@ -1,7 +1,12 @@
 import { PollinationsAPI } from '../scripts/pollinations_api.js';
+import { BYOPAuth } from '../scripts/byop_auth.js';
 
 let currentMode = 'image';
 let api = new PollinationsAPI();
+let byopAuth = new BYOPAuth();
+
+// BYOP User info cache
+let byopUserInfo = null;
 let attachedContextUrl = null; 
 let uploadedFiles =[]; 
 let globalModels = { image: [], text: [], video: [], audio:[] };
@@ -230,29 +235,77 @@ document.addEventListener('DOMContentLoaded', async () => {
         chrome.storage.local.remove('pending_image');
     }
 
-    // -- BYOP Auth Flow --
+    // -- BYOP Auth Flow (using official BYOP module) --
     document.getElementById('connect-pollinations-btn').onclick = () => {
         const redirectUrl = chrome.identity.getRedirectURL();
-        const authUrl = new URL("https://enter.pollinations.ai/authorize");
-        authUrl.searchParams.append("redirect_url", redirectUrl);
-        authUrl.searchParams.append("permissions", "profile,balance,usage");
-        authUrl.searchParams.append("models", "flux,openai,wan");
-        authUrl.searchParams.append("expiry", "30");
-        authUrl.searchParams.append("referral", "pollen-bridge-extension"); 
+        
+        // Use BYOP auth to build proper URL with app key attribution
+        const authUrl = byopAuth.buildAuthUrl(redirectUrl, {
+            permissions: "profile,balance,usage",
+            models: "flux,openai,wan",
+            expiry: 30
+        });
 
-        chrome.identity.launchWebAuthFlow({ url: authUrl.toString(), interactive: true }, async (responseUrl) => {
+        chrome.identity.launchWebAuthFlow({ url: authUrl, interactive: true }, async (responseUrl) => {
             if (chrome.runtime.lastError || !responseUrl) return;
+            
             try {
-                const urlWithHash = new URL(responseUrl);
-                const apiKey = new URLSearchParams(urlWithHash.hash.slice(1)).get('api_key');
+                // Use BYOP auth to parse the API key from redirect
+                const apiKey = byopAuth.parseApiKeyFromRedirect(responseUrl);
+                
                 if (apiKey) {
                     await chrome.storage.local.set({ 'pollinations_api_key': apiKey });
                     api.apiKey = apiKey;
                     document.getElementById('api-key-input').value = apiKey;
-                    document.getElementById('save-status').innerText = "Connected Successfully! 🌸";
-                    document.getElementById('check-balance-btn').click();
+                    
+                    // Get user info using BYOP auth
+                    byopUserInfo = await byopAuth.getUserInfo(apiKey);
+                    if (byopUserInfo) {
+                        const name = byopUserInfo.name || byopUserInfo.preferred_username || 'User';
+                        const balance = byopUserInfo.balance !== undefined ? `${byopUserInfo.balance} 🌸` : '';
+                        document.getElementById('save-status').innerText = `Welcome, ${name}! ${balance}`;
+                    } else {
+                        document.getElementById('save-status').innerText = "Connected Successfully! 🌸";
+                    }
+                    
+                    // Refresh balance display
+                    setTimeout(() => document.getElementById('check-balance-btn').click(), 500);
                 }
-            } catch (err) { console.error("Auth parsing error:", err); }
+            } catch (err) { 
+                console.error("BYOP Auth error:", err);
+                document.getElementById('save-status').innerText = "Connection failed";
+            }
+        });
+    };
+
+    // -- Device Code Flow (Alternative for restricted environments) --
+    document.getElementById('device-code-btn')?.onclick = async () => {
+        const statusEl = document.getElementById('save-status');
+        
+        await byopAuth.deviceCodeFlow({
+            onCode: ({ userCode, verificationUri }) => {
+                statusEl.innerHTML = `
+                    <div style="text-align: center;">
+                        <div style="font-size: 24px; font-weight: bold; letter-spacing: 2px; margin: 10px 0;">${userCode}</div>
+                        <div style="font-size: 11px;">Go to: ${verificationUri}</div>
+                        <div style="font-size: 11px; margin-top: 5px; opacity: 0.7;">Waiting for authorization...</div>
+                    </div>
+                `;
+            },
+            onSuccess: async ({ apiKey, userInfo }) => {
+                await chrome.storage.local.set({ 'pollinations_api_key': apiKey });
+                api.apiKey = apiKey;
+                document.getElementById('api-key-input').value = apiKey;
+                
+                byopUserInfo = userInfo;
+                const name = userInfo?.name || userInfo?.preferred_username || 'User';
+                statusEl.innerText = `Welcome, ${name}! 🌸`;
+                
+                setTimeout(() => document.getElementById('check-balance-btn').click(), 500);
+            },
+            onError: (error) => {
+                statusEl.innerText = `Error: ${error}`;
+            }
         });
     };
 
@@ -409,8 +462,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         if(!api.apiKey) { display.innerText = "No Key"; return; }
         display.innerText = "Checking...";
         try {
-            const bal = await api.getBalance();
-            display.innerText = `${bal} Pollen 🌸`;
+            // Try BYOP user info first (faster, no API call)
+            if (!byopUserInfo) {
+                byopUserInfo = await byopAuth.getUserInfo(api.apiKey);
+            }
+            if (byopUserInfo && byopUserInfo.balance !== undefined) {
+                display.innerText = `${byopUserInfo.balance} Pollen 🌸`;
+            } else {
+                // Fallback to legacy balance check
+                const bal = await api.getBalance();
+                display.innerText = `${bal} Pollen 🌸`;
+            }
         } catch(e) { display.innerText = e.message; }
     };
 

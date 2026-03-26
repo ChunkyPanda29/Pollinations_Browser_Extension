@@ -47,9 +47,11 @@ Go to **Settings (⚙️)** to mix and match:
 ## ✨ Features
 - **Zero-VRAM:** Runs entirely on Pollinations.ai infrastructure.
 - **BYOP (Bring Your Own Pollen):** 
-  - **Option A:** One-click login with Pollinations.ai (OAuth).
-  - **Option B:** Manually paste your API Key.
+  - **Option A:** One-click login with Pollinations.ai (OAuth) - uses official BYOP auth flow.
+  - **Option B:** Device Code flow - for restricted environments, no browser redirect needed.
+  - **Option C:** Manually paste your API Key.
   - *Keys are stored locally in your browser and never transmitted to us.*
+  - *Implements the official [Pollinations BYOP specification](https://github.com/pollinations/pollinations/blob/main/BRING_YOUR_OWN_POLLEN.md)*
 - **Multimodal Generation:**
   - 🎨 **Image:** Flux & Turbo models with custom aspect ratios & seeds.
   - 🎥 **Video:** Text-to-Video & Image-to-Video.
@@ -82,9 +84,12 @@ Go to **Settings (⚙️)** to mix and match:
 
 ## ⚙️ Configuration
 1. Click the **Settings (⚙️)** icon in the extension.
-2. Click **"Connect with Pollinations"** to authorize the extension automatically.
-3. *Alternatively*, enter your **Pollinations API Key** manually (Get one at [enter.pollinations.ai](https://enter.pollinations.ai)).
-4. (Optional) Check your Pollen Balance directly inside the extension.
+2. **Choose your auth method:**
+   - **"Connect with Pollinations"** - OAuth redirect flow (easiest)
+   - **"Use Device Code (CLI Mode)"** - For restricted environments, copy a code to enter on another device
+   - **Manual Key** - Paste your `sk_...` key directly
+3. Get your key at [enter.pollinations.ai](https://enter.pollinations.ai) if needed.
+4. (Optional) Check your Pollen Balance - now displays your username too!
 
 ## 🔒 Privacy & Security
 This extension connects **directly** to `gen.pollinations.ai`. 
