@@ -480,7 +480,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('download-btn').onclick = () => {
         if (!currentDownloadUrl) return;
         let ext = currentMode === 'video' ? 'mp4' : (currentMode === 'audio' ? 'mp3' : (currentMode === 'text' ? 'txt' : 'jpg'));
-        chrome.downloads.download({ url: currentDownloadUrl, filename: `pollinations_${Date.now()}.${ext}`, saveAs: false });
+        chrome.downloads.download({ url: currentDownloadUrl, filename: `pollinations/${Date.now()}.${ext}`, saveAs: false });
     };
 
     // ==========================================
