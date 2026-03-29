@@ -72,13 +72,42 @@ function renderHistoryGrid() {
         card.title = item.prompt;
 
         if (item.type === 'image') {
-            card.innerHTML = `<img src="${item.url}" class="history-thumb"><div class="history-type">IMG</div>`;
+            const img = document.createElement('img');
+            img.src = item.url;
+            img.className = 'history-thumb';
+            const typeLabel = document.createElement('div');
+            typeLabel.className = 'history-type';
+            typeLabel.textContent = 'IMG';
+            card.appendChild(img);
+            card.appendChild(typeLabel);
         } else if (item.type === 'video') {
-            card.innerHTML = `<video src="${item.url}" class="history-thumb" muted></video><div class="history-type">VID</div>`;
+            const vid = document.createElement('video');
+            vid.src = item.url;
+            vid.className = 'history-thumb';
+            vid.muted = true;
+            const typeLabel = document.createElement('div');
+            typeLabel.className = 'history-type';
+            typeLabel.textContent = 'VID';
+            card.appendChild(vid);
+            card.appendChild(typeLabel);
         } else if (item.type === 'audio') {
-            card.innerHTML = `<div class="history-text-thumb">🎵</div><div class="history-type">AUD</div>`;
+            const audioThumb = document.createElement('div');
+            audioThumb.className = 'history-text-thumb';
+            audioThumb.textContent = '🎵';
+            const typeLabel = document.createElement('div');
+            typeLabel.className = 'history-type';
+            typeLabel.textContent = 'AUD';
+            card.appendChild(audioThumb);
+            card.appendChild(typeLabel);
         } else if (item.type === 'text') {
-            card.innerHTML = `<div class="history-text-thumb">💬</div><div class="history-type">TXT</div>`;
+            const textThumb = document.createElement('div');
+            textThumb.className = 'history-text-thumb';
+            textThumb.textContent = '💬';
+            const typeLabel = document.createElement('div');
+            typeLabel.className = 'history-type';
+            typeLabel.textContent = 'TXT';
+            card.appendChild(textThumb);
+            card.appendChild(typeLabel);
         }
 
         const meta = document.createElement('div');
@@ -288,13 +317,27 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         await byopAuth.deviceCodeFlow({
             onCode: ({ userCode, verificationUri }) => {
-                statusEl.innerHTML = `
-                    <div style="text-align: center;">
-                        <div style="font-size: 24px; font-weight: bold; letter-spacing: 2px; margin: 10px 0;">${userCode}</div>
-                        <div style="font-size: 11px;">Go to: ${verificationUri}</div>
-                        <div style="font-size: 11px; margin-top: 5px; opacity: 0.7;">Waiting for authorization...</div>
-                    </div>
-                `;
+                statusEl.innerHTML = '';
+                const container = document.createElement('div');
+                container.style.textAlign = 'center';
+                const codeDiv = document.createElement('div');
+                codeDiv.style.fontSize = '24px';
+                codeDiv.style.fontWeight = 'bold';
+                codeDiv.style.letterSpacing = '2px';
+                codeDiv.style.margin = '10px 0';
+                codeDiv.textContent = userCode;
+                const uriDiv = document.createElement('div');
+                uriDiv.style.fontSize = '11px';
+                uriDiv.textContent = 'Go to: ' + verificationUri;
+                const waitDiv = document.createElement('div');
+                waitDiv.style.fontSize = '11px';
+                waitDiv.style.marginTop = '5px';
+                waitDiv.style.opacity = '0.7';
+                waitDiv.textContent = 'Waiting for authorization...';
+                container.appendChild(codeDiv);
+                container.appendChild(uriDiv);
+                container.appendChild(waitDiv);
+                statusEl.appendChild(container);
             },
             onSuccess: async ({ apiKey, userInfo }) => {
                 await chrome.storage.local.set({ 'pollinations_api_key': apiKey });
