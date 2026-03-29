@@ -7,23 +7,13 @@ let byopAuth = new BYOPAuth();
 
 // BYOP User info cache
 let byopUserInfo = null;
-let attachedContextUrl = null; 
-let uploadedFiles =[]; 
+let attachedContextUrl = null;
+let uploadedFiles =[];
 let globalModels = { image: [], text: [], video: [], audio:[] };
 let currentDownloadUrl = null;
 let currentHistory =[];
 
 const GITHUB_MODELS_URL = "https://raw.githubusercontent.com/ChunkyPanda29/Pollinations_Browser_Extension/main/models.json";
-
-// --- HELPER: CONVERT BLOB TO BASE64 (For Storage) ---
-function blobToBase64(blob) {
-    return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onloadend = () => resolve(reader.result);
-        reader.onerror = reject;
-        reader.readAsDataURL(blob);
-    });
-}
 
 // ==========================================
 // HISTORY & GARBAGE COLLECTION ENGINE
@@ -34,15 +24,16 @@ async function loadHistoryAndGarbageCollect() {
     const data = await chrome.storage.local.get([HISTORY_KEY, 'pollen_retention']);
     currentHistory = data[HISTORY_KEY] ||[];
     const retentionHours = data.pollen_retention !== undefined ? parseInt(data.pollen_retention) : 24;
-    
+
     if (retentionHours > 0) {
         const now = Date.now();
         const maxAgeMs = retentionHours * 60 * 60 * 1000;
-        
+
         const validHistory =[];
         for (const item of currentHistory) {
             if (now - item.timestamp > maxAgeMs) {
-                if (item.hash) await api.deleteMedia(item.hash);
+                // Only delete input reference images from media server (not output content)
+                if (item.inputHash) await api.deleteMedia(item.inputHash);
             } else {
                 validHistory.push(item);
             }
@@ -55,14 +46,15 @@ async function loadHistoryAndGarbageCollect() {
 
 async function saveToHistory(itemData) {
     const newItem = { id: Date.now(), timestamp: Date.now(), ...itemData };
-    currentHistory.unshift(newItem); 
+    currentHistory.unshift(newItem);
     await chrome.storage.local.set({ [HISTORY_KEY]: currentHistory });
     renderHistoryGrid();
 }
 
 async function clearAllHistory() {
     for (const item of currentHistory) {
-        if (item.hash) await api.deleteMedia(item.hash);
+        // Only delete input reference images from media server
+        if (item.inputHash) await api.deleteMedia(item.inputHash);
     }
     currentHistory = [];
     await chrome.storage.local.set({ [HISTORY_KEY]: currentHistory });
@@ -101,7 +93,7 @@ function renderHistoryGrid() {
 
 function restoreHistoryItem(item) {
     document.getElementById('prompt-input').value = item.prompt;
-    
+
     const tab = document.querySelector(`[data-mode="${item.type}"]`);
     if (tab) tab.click();
 
@@ -135,10 +127,11 @@ function restoreHistoryItem(item) {
 
     document.getElementById('download-btn').style.display = 'block';
     
-    if (item.hash) {
-        attachedContextUrl = item.hash;
+    // Restore input reference image if used
+    if (item.inputHash) {
+        attachedContextUrl = item.inputHash;
         document.getElementById('context-preview').style.display = 'flex';
-        document.getElementById('context-image-preview').src = item.url; 
+        document.getElementById('context-image-preview').src = `https://media.pollinations.ai/${item.inputHash}`;
     }
 
     document.getElementById('back-history-btn').click();
@@ -168,10 +161,10 @@ function updateModelDropdown(mode) {
     const select = document.getElementById('model-select');
     if (!select) return;
     select.innerHTML = '';
-    
+
     // Safety check: Ensure globalModels exists and has the mode key
     const models = (globalModels && globalModels[mode]) ? globalModels[mode] : [];
-    
+
     if (models.length === 0) {
         const opt = document.createElement('option');
         opt.innerText = "No models available";
@@ -183,7 +176,7 @@ function updateModelDropdown(mode) {
         const opt = document.createElement('option');
         opt.value = modelObj.name;
         opt.innerText = modelObj.label;
-        
+
         // Audio models often have voices
         if (modelObj.voices) {
             opt.dataset.voices = JSON.stringify(modelObj.voices);
@@ -196,12 +189,12 @@ function updateModelDropdown(mode) {
 // MAIN INITIALIZATION & LISTENERS
 // ==========================================
 document.addEventListener('DOMContentLoaded', async () => {
-    
+
     // 1. LOAD SETTINGS
     const data = await chrome.storage.local.get([
         'pollinations_api_key', 'pollen_theme', 'pollen_color', 'pollen_safe', 'pollen_retention'
     ]);
-    
+
     if (data.pollinations_api_key) {
         api.apiKey = data.pollinations_api_key;
         document.getElementById('api-key-input').value = data.pollinations_api_key;
@@ -212,7 +205,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.body.className = `${savedTheme} ${savedColor}`;
     document.getElementById('theme-select').value = savedTheme;
     document.getElementById('color-select').value = savedColor;
-    
+
     document.getElementById('safety-select').value = data.pollen_safe !== undefined ? data.pollen_safe : 'true';
     document.getElementById('retention-select').value = data.pollen_retention !== undefined ? data.pollen_retention : '24';
 
@@ -238,7 +231,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // -- BYOP Auth Flow (using official BYOP module) --
     document.getElementById('connect-pollinations-btn').onclick = () => {
         const redirectUrl = chrome.identity.getRedirectURL();
-        
+
         // Use BYOP auth to build proper URL with app key attribution
         const authUrl = byopAuth.buildAuthUrl(redirectUrl, {
             permissions: "profile,balance,usage",
@@ -248,16 +241,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         chrome.identity.launchWebAuthFlow({ url: authUrl, interactive: true }, async (responseUrl) => {
             if (chrome.runtime.lastError || !responseUrl) return;
-            
+
             try {
                 // Use BYOP auth to parse the API key from redirect
                 const apiKey = byopAuth.parseApiKeyFromRedirect(responseUrl);
-                
+
                 if (apiKey) {
                     await chrome.storage.local.set({ 'pollinations_api_key': apiKey });
                     api.apiKey = apiKey;
                     document.getElementById('api-key-input').value = apiKey;
-                    
+
                     // Get user info using BYOP auth
                     byopUserInfo = await byopAuth.getUserInfo(apiKey);
                     if (byopUserInfo) {
@@ -267,11 +260,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     } else {
                         document.getElementById('save-status').innerText = "Connected Successfully! 🌸";
                     }
-                    
+
                     // Refresh balance display
                     setTimeout(() => document.getElementById('check-balance-btn').click(), 500);
                 }
-            } catch (err) { 
+            } catch (err) {
                 console.error("BYOP Auth error:", err);
                 document.getElementById('save-status').innerText = "Connection failed";
             }
@@ -282,7 +275,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const deviceCodeBtn = document.getElementById('device-code-btn');
     if (deviceCodeBtn) deviceCodeBtn.onclick = async () => {
         const statusEl = document.getElementById('save-status');
-        
+
         await byopAuth.deviceCodeFlow({
             onCode: ({ userCode, verificationUri }) => {
                 statusEl.innerHTML = `
@@ -297,11 +290,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                 await chrome.storage.local.set({ 'pollinations_api_key': apiKey });
                 api.apiKey = apiKey;
                 document.getElementById('api-key-input').value = apiKey;
-                
+
                 byopUserInfo = userInfo;
                 const name = userInfo?.name || userInfo?.preferred_username || 'User';
                 statusEl.innerText = `Welcome, ${name}! 🌸`;
-                
+
                 setTimeout(() => document.getElementById('check-balance-btn').click(), 500);
             },
             onError: (error) => {
@@ -315,7 +308,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const workspace = document.getElementById('workspace');
         const headerIcons = document.querySelector('.header-icons');
         const panel = document.getElementById(panelId);
-        
+
         if(show) {
             if(workspace) workspace.style.display = 'none';
             if(headerIcons) headerIcons.style.display = 'none';
@@ -338,10 +331,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     // -- DYNAMIC AUDIO VOICES LOGIC --
     document.getElementById('model-select').addEventListener('change', (e) => {
         if (currentMode !== 'audio') return;
-        
+
         const selectedOption = e.target.options[e.target.selectedIndex];
         const voiceSelect = document.getElementById('voice-select');
-        
+
         if (!voiceSelect) return;
 
         if (selectedOption && selectedOption.dataset.voices) {
@@ -360,7 +353,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             } catch(err) { console.error("Error parsing voices", err); }
         }
-        
+
         // Hide dropdown if model has no voices (e.g. music models)
         voiceSelect.style.display = 'none';
     });
@@ -372,7 +365,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             e.target.classList.add('active');
             currentMode = e.target.dataset.mode;
             updateModelDropdown(currentMode);
-            
+
             const dimGroup = document.getElementById('dimensions-group');
             const timeGroup = document.getElementById('time-group');
             const audioGroup = document.getElementById('audio-controls-group');
@@ -442,8 +435,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const safe = document.getElementById('safety-select').value;
         const retention = document.getElementById('retention-select').value;
 
-        await chrome.storage.local.set({ 
-            'pollinations_api_key': key, 
+        await chrome.storage.local.set({
+            'pollinations_api_key': key,
             'pollen_theme': theme, 'pollen_color': color,
             'pollen_safe': safe, 'pollen_retention': retention
         });
@@ -454,7 +447,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const btn = document.getElementById('save-settings-btn');
         btn.innerText = "Saved!";
         setTimeout(() => { btn.innerText = "Save Settings"; }, 1500);
-        
+
         await loadHistoryAndGarbageCollect();
     };
 
@@ -495,7 +488,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const el = document.getElementById(id);
             if (el) el.style.display = 'none';
         });
-        
+
         const loader = document.getElementById('loading');
         if (loader) loader.style.display = 'block';
 
@@ -521,44 +514,47 @@ document.addEventListener('DOMContentLoaded', async () => {
             let finalRefImage = attachedContextUrl;
             if (uploadedFiles.length > 0) {
                 const uploadData = await api.uploadFile(uploadedFiles[0]);
-                finalRefImage = uploadData.hash; 
+                finalRefImage = uploadData.hash;
             }
 
             // --- EXECUTE GENERATION ---
             if (currentMode === 'image') {
                 const res = await api.generateImage(prompt, { width, height, model, seed, imageUrl: finalRefImage });
                 currentDownloadUrl = URL.createObjectURL(res.blob);
-                
+
                 const img = document.getElementById('image-output');
                 if (img) {
                     img.src = currentDownloadUrl;
                     img.style.display = 'block';
                 }
 
-                const base64 = await blobToBase64(res.blob);
-                await saveToHistory({ type: 'image', prompt, url: currentDownloadUrl, hash: res.hash, content: base64 });
-            } 
+                // Store input hash (if used I2I), but no base64 for output
+                const inputHash = finalRefImage && finalRefImage.length === 64 ? finalRefImage : null;
+                await saveToHistory({ type: 'image', prompt, url: currentDownloadUrl, inputHash: inputHash, content: null });
+            }
             else if (currentMode === 'video') {
                 const duration = document.getElementById('duration-input').value;
                 const res = await api.generateVideo(prompt, { width, height, model, seed, duration, imageUrl: finalRefImage });
                 currentDownloadUrl = res.url;
-                
+
                 const vid = document.getElementById('video-output');
                 if (vid) {
                     vid.src = res.url;
                     vid.style.display = 'block';
                 }
 
-                await saveToHistory({ type: 'video', prompt, url: res.url, hash: res.hash, content: null });
+                // Store input hash (if used I2V), but no output hash
+                const inputHash = finalRefImage && finalRefImage.length === 64 ? finalRefImage : null;
+                await saveToHistory({ type: 'video', prompt, url: res.url, inputHash: inputHash, content: null });
             }
             else if (currentMode === 'audio') {
                 const voiceSelect = document.getElementById('voice-select');
                 const voice = (voiceSelect && voiceSelect.style.display !== 'none') ? voiceSelect.value : 'alloy';
                 const duration = document.getElementById('duration-input').value;
-                
+
                 const res = await api.generateAudio(prompt, { model, voice, duration });
                 currentDownloadUrl = res.url;
-                
+
                 const aud = document.getElementById('audio-output');
                 if (aud) {
                     aud.src = res.url;
@@ -570,17 +566,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             else if (currentMode === 'text') {
                 const res = await api.generateText(prompt, { model });
-                
+
                 const txt = document.getElementById('text-output');
                 if (txt) {
                     txt.innerText = res.text;
                     txt.style.display = 'block';
                 }
-                
+
                 currentDownloadUrl = URL.createObjectURL(new Blob([res.text], {type:'text/plain'}));
                 await saveToHistory({ type: 'text', prompt, url: null, hash: null, content: res.text });
             }
-            
+
             const dlBtn = document.getElementById('download-btn');
             if (dlBtn) dlBtn.style.display = 'block';
 
