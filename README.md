@@ -19,7 +19,7 @@
 ---
 
 
-## ✨ v1.0.7 History & Storage Update
+## ✨ v1.0.8 History & Storage Update
 - 📁 **Auto-Save to Downloads:** Generated content automatically saves to `Downloads/pollinations/` folder — no more lost files!
 - 🕰️ **Flexible Retention:** Choose history retention (12h, 24h, 48h, 7 Days, or Keep Forever).
 - 🔗 **InputHash for I2I/I2V:** Secure reference image storage using SHA-256 hashes — no base64 bloat.
