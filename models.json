@@ -5,10 +5,6 @@
             "label": "flux (T2I)"
         },
         {
-            "name": "flux-2-dev",
-            "label": "flux-2-dev (T2I/I2I)"
-        },
-        {
             "name": "gptimage",
             "label": "gptimage (T2I/I2I)"
         },
@@ -21,16 +17,12 @@
             "label": "grok-imagine (T2I)"
         },
         {
-            "name": "imagen-4",
-            "label": "imagen-4 (T2I)"
+            "name": "grok-imagine-pro",
+            "label": "grok-imagine-pro \ud83d\udc8e (T2I)"
         },
         {
             "name": "klein",
             "label": "klein (T2I/I2I)"
-        },
-        {
-            "name": "klein-large",
-            "label": "klein-large (T2I/I2I)"
         },
         {
             "name": "kontext",
@@ -49,6 +41,22 @@
             "label": "nanobanana-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "nova-canvas",
+            "label": "nova-canvas \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "p-image",
+            "label": "p-image \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "p-image-edit",
+            "label": "p-image-edit \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "qwen-image",
+            "label": "qwen-image (T2I/I2I)"
+        },
+        {
             "name": "seedream5",
             "label": "seedream5 \ud83d\udc8e (T2I/I2I)"
         },
@@ -59,12 +67,20 @@
     ],
     "video": [
         {
-            "name": "grok-video",
-            "label": "grok-video (T2V/I2V)"
+            "name": "grok-video-pro",
+            "label": "grok-video-pro \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "ltx-2",
-            "label": "ltx-2 \ud83d\udc8e (T2V)"
+            "label": "ltx-2 (T2V)"
+        },
+        {
+            "name": "nova-reel",
+            "label": "nova-reel (T2V/I2V)"
+        },
+        {
+            "name": "p-video",
+            "label": "p-video \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "seedance",
@@ -81,6 +97,10 @@
         {
             "name": "wan",
             "label": "wan \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "wan-fast",
+            "label": "wan-fast (T2V/I2V)"
         }
     ],
     "text": [
@@ -125,12 +145,20 @@
             "label": "grok \ud83d\udc8e (LLM)"
         },
         {
+            "name": "grok-reasoning",
+            "label": "grok-reasoning \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "kimi",
             "label": "kimi (LLM)"
         },
         {
             "name": "midijourney",
             "label": "midijourney (LLM)"
+        },
+        {
+            "name": "midijourney-large",
+            "label": "midijourney-large \ud83d\udc8e (LLM)"
         },
         {
             "name": "minimax",
@@ -141,8 +169,8 @@
             "label": "mistral (LLM)"
         },
         {
-            "name": "nomnom",
-            "label": "nomnom (LLM)"
+            "name": "nova",
+            "label": "nova \ud83d\udc8e (LLM)"
         },
         {
             "name": "nova-fast",
@@ -177,20 +205,24 @@
             "label": "polly (LLM)"
         },
         {
-            "name": "qwen-character",
-            "label": "qwen-character (LLM)"
-        },
-        {
             "name": "qwen-coder",
             "label": "qwen-coder (LLM)"
+        },
+        {
+            "name": "qwen-coder-large",
+            "label": "qwen-coder-large \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "qwen-large",
+            "label": "qwen-large (LLM)"
         },
         {
             "name": "qwen-safety",
             "label": "qwen-safety (LLM)"
         },
         {
-            "name": "step-3.5-flash",
-            "label": "step-3.5-flash (LLM)"
+            "name": "qwen-vision",
+            "label": "qwen-vision (LLM)"
         }
     ],
     "audio": [
@@ -243,11 +275,6 @@
         {
             "name": "scribe",
             "label": "scribe (Audio)",
-            "voices": []
-        },
-        {
-            "name": "suno",
-            "label": "suno (Audio)",
             "voices": []
         },
         {
