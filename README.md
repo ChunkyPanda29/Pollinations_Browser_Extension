@@ -19,12 +19,12 @@
 ---
 
 
-## ✨ v1.0.6 Quad-Modal Update
-- 🔊 **Audio Integration:** Full support for ElevenLabs TTS, Voices, and Music Generation models.
-- 🕰️ **History Engine:** Visual grid of your past generations. Items are securely auto-deleted from the server based on your retention settings (12h, 24h, 7 Days).
-- 🔍 **4K Quality Scaling:** Easily scale preset Aspect Ratios up to 4x native resolution with a single click.
-- ⚙️ **Media Hashes:** Secure I2I/I2V using Pollinations SHA-256 hashes instead of heavy local blobs.
-- 🟣 **Pollinations Purple:** Added the official `#6a0dad` accent color theme.
+## ✨ v1.0.7 History & Storage Update
+- 📁 **Auto-Save to Downloads:** Generated content automatically saves to `Downloads/pollinations/` folder — no more lost files!
+- 🕰️ **Flexible Retention:** Choose history retention (12h, 24h, 48h, 7 Days, or Keep Forever).
+- 🔗 **InputHash for I2I/I2V:** Secure reference image storage using SHA-256 hashes — no base64 bloat.
+- 📥 **Smart Storage:** History stores only URLs and metadata, keeping extension light and fast.
+- 🟣 **Pollinations Purple:** Official `#6a0dad` accent color theme.
 
 ## 🎨 Themes & Customization
 The extension features a clean, rounded UI with highly customizable aesthetics.  
@@ -60,7 +60,7 @@ Go to **Settings (⚙️)** to mix and match:
   - Right-click any image on the web to send it to the generator as a reference (I2I).
   - Highlight text and right-click to send it to the LLM.
 - **Local Uploads:** Upload up to 4 local reference images for I2I generation.
-- **Direct Download:** Save generations as clean `.jpg`, `.mp4`, or `.txt` files.
+- **Auto-Save:** Generated content automatically saved to `Downloads/pollinations/` — images, video, audio, and text files.
 
 ---
 
