@@ -2,13 +2,18 @@
   "manifest_version": 3,
   "name": "Pollinations Extension",
   "version": "1.0.7",
+  "description": "A unified multimodal AI workspace for Pollinations.ai.",
+  "developer": {
+    "name": "ChunkyPanda29",
+    "url": "https://github.com/ChunkyPanda29/Pollinations_Chrome_Extension"
+  },
   "permissions": [
     "storage",
     "contextMenus",
     "declarativeNetRequest",
     "activeTab",
     "downloads",
-    "identity" 
+    "identity"
   ],
   "host_permissions": [
     "https://*.pollinations.ai/*"
