@@ -171,6 +171,18 @@ input[type="text"], input[type="password"], input[type="number"], select {
     font-size: 11px;
     color: #aaa;
     margin-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.history-file {
+    font-size: 10px;
+    color: #888;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
     width: 100%;
     white-space: nowrap;
     overflow: hidden;

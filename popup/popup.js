@@ -84,6 +84,16 @@ function renderHistoryGrid() {
         const meta = document.createElement('div');
         meta.className = 'history-meta';
         meta.innerText = item.prompt;
+        
+        // Show saved filename if available
+        if (item.filename) {
+            const fileInfo = document.createElement('div');
+            fileInfo.className = 'history-file';
+            fileInfo.innerText = `📁 ${item.filename}`;
+            fileInfo.title = 'Saved to Downloads folder';
+            card.appendChild(fileInfo);
+        }
+        
         card.appendChild(meta);
 
         card.onclick = () => restoreHistoryItem(item);
@@ -126,7 +136,7 @@ function restoreHistoryItem(item) {
     }
 
     document.getElementById('download-btn').style.display = 'block';
-    
+
     // Restore input reference image if used
     if (item.inputHash) {
         attachedContextUrl = item.inputHash;
@@ -518,43 +528,58 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             // --- EXECUTE GENERATION ---
+            const timestamp = Date.now();
+            
             if (currentMode === 'image') {
                 const res = await api.generateImage(prompt, { width, height, model, seed, imageUrl: finalRefImage });
                 currentDownloadUrl = URL.createObjectURL(res.blob);
-
+                
                 const img = document.getElementById('image-output');
                 if (img) {
                     img.src = currentDownloadUrl;
                     img.style.display = 'block';
                 }
 
+                // Auto-download to Downloads/pollinations/
+                const imgDataUrl = await new Promise(resolve => {
+                    const reader = new FileReader();
+                    reader.onloadend = () => resolve(reader.result);
+                    reader.readAsDataURL(res.blob);
+                });
+                const filename = `pollinations/image_${timestamp}.jpg`;
+                chrome.downloads.download({ url: imgDataUrl, filename: filename, saveAs: false });
+
                 // Store input hash (if used I2I), but no base64 for output
                 const inputHash = finalRefImage && finalRefImage.length === 64 ? finalRefImage : null;
-                await saveToHistory({ type: 'image', prompt, url: currentDownloadUrl, inputHash: inputHash, content: null });
-            }
+                await saveToHistory({ type: 'image', prompt, url: currentDownloadUrl, filename: filename, inputHash: inputHash, content: null });
+            } 
             else if (currentMode === 'video') {
                 const duration = document.getElementById('duration-input').value;
                 const res = await api.generateVideo(prompt, { width, height, model, seed, duration, imageUrl: finalRefImage });
                 currentDownloadUrl = res.url;
-
+                
                 const vid = document.getElementById('video-output');
                 if (vid) {
                     vid.src = res.url;
                     vid.style.display = 'block';
                 }
 
+                // Auto-download video to Downloads/pollinations/
+                const filename = `pollinations/video_${timestamp}.mp4`;
+                chrome.downloads.download({ url: res.url, filename: filename, saveAs: false });
+
                 // Store input hash (if used I2V), but no output hash
                 const inputHash = finalRefImage && finalRefImage.length === 64 ? finalRefImage : null;
-                await saveToHistory({ type: 'video', prompt, url: res.url, inputHash: inputHash, content: null });
+                await saveToHistory({ type: 'video', prompt, url: res.url, filename: filename, inputHash: inputHash, content: null });
             }
             else if (currentMode === 'audio') {
                 const voiceSelect = document.getElementById('voice-select');
                 const voice = (voiceSelect && voiceSelect.style.display !== 'none') ? voiceSelect.value : 'alloy';
                 const duration = document.getElementById('duration-input').value;
-
+                
                 const res = await api.generateAudio(prompt, { model, voice, duration });
                 currentDownloadUrl = res.url;
-
+                
                 const aud = document.getElementById('audio-output');
                 if (aud) {
                     aud.src = res.url;
@@ -562,19 +587,34 @@ document.addEventListener('DOMContentLoaded', async () => {
                     aud.play();
                 }
 
-                await saveToHistory({ type: 'audio', prompt, url: res.url, hash: null, content: null });
+                // Auto-download audio to Downloads/pollinations/
+                const filename = `pollinations/audio_${timestamp}.mp3`;
+                chrome.downloads.download({ url: res.url, filename: filename, saveAs: false });
+
+                await saveToHistory({ type: 'audio', prompt, url: res.url, filename: filename, content: null });
             }
             else if (currentMode === 'text') {
                 const res = await api.generateText(prompt, { model });
-
+                
                 const txt = document.getElementById('text-output');
                 if (txt) {
                     txt.innerText = res.text;
                     txt.style.display = 'block';
                 }
-
+                
                 currentDownloadUrl = URL.createObjectURL(new Blob([res.text], {type:'text/plain'}));
-                await saveToHistory({ type: 'text', prompt, url: null, hash: null, content: res.text });
+                
+                // Auto-download text to Downloads/pollinations/
+                const textBlob = new Blob([res.text], { type: 'text/plain' });
+                const textDataUrl = await new Promise(resolve => {
+                    const reader = new FileReader();
+                    reader.onloadend = () => resolve(reader.result);
+                    reader.readAsDataURL(textBlob);
+                });
+                const filename = `pollinations/text_${timestamp}.txt`;
+                chrome.downloads.download({ url: textDataUrl, filename: filename, saveAs: false });
+
+                await saveToHistory({ type: 'text', prompt, url: currentDownloadUrl, filename: filename, content: res.text });
             }
 
             const dlBtn = document.getElementById('download-btn');
