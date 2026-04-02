@@ -14,7 +14,7 @@
         },
         {
             "name": "grok-imagine",
-            "label": "grok-imagine (T2I)"
+            "label": "grok-imagine \ud83d\udc8e (T2I)"
         },
         {
             "name": "grok-imagine-pro",
@@ -100,7 +100,7 @@
         },
         {
             "name": "wan-fast",
-            "label": "wan-fast (T2V/I2V)"
+            "label": "wan-fast \ud83d\udc8e (T2V/I2V)"
         }
     ],
     "text": [
@@ -269,7 +269,7 @@
         },
         {
             "name": "elevenmusic",
-            "label": "elevenmusic (Audio)",
+            "label": "elevenmusic \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
