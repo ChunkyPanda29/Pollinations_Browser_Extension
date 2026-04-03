@@ -61,6 +61,14 @@
             "label": "seedream5 \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "wan-image",
+            "label": "wan-image (T2I/I2I)"
+        },
+        {
+            "name": "wan-image-pro",
+            "label": "wan-image-pro \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "zimage",
             "label": "zimage (T2I)"
         }
@@ -185,6 +193,10 @@
             "label": "openai-audio (LLM)"
         },
         {
+            "name": "openai-audio-large",
+            "label": "openai-audio-large \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "openai-fast",
             "label": "openai-fast (LLM)"
         },
@@ -226,6 +238,11 @@
         }
     ],
     "audio": [
+        {
+            "name": "acestep",
+            "label": "acestep (Audio)",
+            "voices": []
+        },
         {
             "name": "elevenlabs",
             "label": "elevenlabs (Audio)",
