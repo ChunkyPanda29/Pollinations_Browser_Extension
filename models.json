@@ -137,6 +137,10 @@
             "label": "gemini-fast (LLM)"
         },
         {
+            "name": "gemini-flash-lite-3.1",
+            "label": "gemini-flash-lite-3.1 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "gemini-large",
             "label": "gemini-large \ud83d\udc8e (LLM)"
         },
