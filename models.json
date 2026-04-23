@@ -5,6 +5,10 @@
             "label": "flux (T2I)"
         },
         {
+            "name": "gpt-image-2",
+            "label": "gpt-image-2 (T2I/I2I)"
+        },
+        {
             "name": "gptimage",
             "label": "gptimage (T2I/I2I)"
         },
@@ -125,6 +129,10 @@
             "label": "claude-large \ud83d\udc8e (LLM)"
         },
         {
+            "name": "claude-opus-4.7",
+            "label": "claude-opus-4.7 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "deepseek",
             "label": "deepseek (LLM)"
         },
@@ -163,6 +171,10 @@
         {
             "name": "kimi",
             "label": "kimi (LLM)"
+        },
+        {
+            "name": "kimi-k2.6",
+            "label": "kimi-k2.6 (LLM)"
         },
         {
             "name": "midijourney",
@@ -295,6 +307,16 @@
         {
             "name": "elevenmusic",
             "label": "elevenmusic \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "qwen-tts",
+            "label": "qwen-tts (Audio)",
+            "voices": []
+        },
+        {
+            "name": "qwen-tts-instruct",
+            "label": "qwen-tts-instruct \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
