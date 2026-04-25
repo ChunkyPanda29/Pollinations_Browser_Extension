@@ -134,7 +134,11 @@
         },
         {
             "name": "deepseek",
-            "label": "deepseek (LLM)"
+            "label": "deepseek \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "deepseek-pro",
+            "label": "deepseek-pro \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemini",
