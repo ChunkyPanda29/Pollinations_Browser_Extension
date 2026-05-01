@@ -181,6 +181,10 @@
             "label": "kimi-k2.6 (LLM)"
         },
         {
+            "name": "llama",
+            "label": "llama (LLM)"
+        },
+        {
             "name": "midijourney",
             "label": "midijourney (LLM)"
         },
