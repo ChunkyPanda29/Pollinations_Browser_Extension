@@ -6,7 +6,7 @@
         },
         {
             "name": "gpt-image-2",
-            "label": "gpt-image-2 (T2I/I2I)"
+            "label": "gpt-image-2 \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "gptimage",
@@ -273,7 +273,7 @@
         },
         {
             "name": "elevenlabs",
-            "label": "elevenlabs (Audio)",
+            "label": "elevenlabs \ud83d\udc8e (Audio)",
             "voices": [
                 "alloy",
                 "echo",
