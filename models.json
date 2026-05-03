@@ -18,11 +18,11 @@
         },
         {
             "name": "grok-imagine",
-            "label": "grok-imagine \ud83d\udc8e (T2I)"
+            "label": "grok-imagine \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "grok-imagine-pro",
-            "label": "grok-imagine-pro \ud83d\udc8e (T2I)"
+            "label": "grok-imagine-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "klein",
@@ -163,6 +163,10 @@
         {
             "name": "glm",
             "label": "glm (LLM)"
+        },
+        {
+            "name": "gpt-5.5",
+            "label": "gpt-5.5 \ud83d\udc8e (LLM)"
         },
         {
             "name": "grok",
@@ -330,6 +334,16 @@
         {
             "name": "scribe",
             "label": "scribe (Audio)",
+            "voices": []
+        },
+        {
+            "name": "universal-2",
+            "label": "universal-2 (Audio)",
+            "voices": []
+        },
+        {
+            "name": "universal-3-pro",
+            "label": "universal-3-pro \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
