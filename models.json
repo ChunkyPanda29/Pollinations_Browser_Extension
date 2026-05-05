@@ -189,6 +189,14 @@
             "label": "llama (LLM)"
         },
         {
+            "name": "llama-maverick",
+            "label": "llama-maverick \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "llama-scout",
+            "label": "llama-scout (LLM)"
+        },
+        {
             "name": "midijourney",
             "label": "midijourney (LLM)"
         },
