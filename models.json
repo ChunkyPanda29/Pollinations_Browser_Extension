@@ -165,6 +165,10 @@
             "label": "gemini-search (LLM)"
         },
         {
+            "name": "gemma",
+            "label": "gemma \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "glm",
             "label": "glm (LLM)"
         },
