@@ -61,6 +61,14 @@
             "label": "qwen-image (T2I/I2I)"
         },
         {
+            "name": "seedream",
+            "label": "seedream \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "seedream-pro",
+            "label": "seedream-pro \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "seedream5",
             "label": "seedream5 \ud83d\udc8e (T2I/I2I)"
         },
@@ -84,7 +92,7 @@
         },
         {
             "name": "ltx-2",
-            "label": "ltx-2 (T2V)"
+            "label": "ltx-2 (T2V/I2V)"
         },
         {
             "name": "nova-reel",
@@ -138,7 +146,7 @@
         },
         {
             "name": "deepseek",
-            "label": "deepseek \ud83d\udc8e (LLM)"
+            "label": "deepseek (LLM)"
         },
         {
             "name": "deepseek-pro",
@@ -171,6 +179,10 @@
         {
             "name": "glm",
             "label": "glm (LLM)"
+        },
+        {
+            "name": "gpt-5.4-mini",
+            "label": "gpt-5.4-mini (LLM)"
         },
         {
             "name": "gpt-5.5",
@@ -219,6 +231,10 @@
         {
             "name": "mistral",
             "label": "mistral (LLM)"
+        },
+        {
+            "name": "mistral-4",
+            "label": "mistral-4 (LLM)"
         },
         {
             "name": "mistral-large",
@@ -283,6 +299,10 @@
         {
             "name": "qwen-vision",
             "label": "qwen-vision (LLM)"
+        },
+        {
+            "name": "qwen-vision-pro",
+            "label": "qwen-vision-pro (LLM)"
         }
     ],
     "audio": [
