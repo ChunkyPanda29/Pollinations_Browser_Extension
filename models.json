@@ -153,8 +153,12 @@
             "label": "gemini \ud83d\udc8e (LLM)"
         },
         {
+            "name": "gemini-3.5-flash",
+            "label": "gemini-3.5-flash \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "gemini-fast",
-            "label": "gemini-fast (LLM)"
+            "label": "gemini-fast \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemini-flash-lite-3.1",
@@ -166,7 +170,7 @@
         },
         {
             "name": "gemini-search",
-            "label": "gemini-search (LLM)"
+            "label": "gemini-search \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemma",
@@ -406,7 +410,7 @@
         },
         {
             "name": "scribe",
-            "label": "scribe (Audio)",
+            "label": "scribe \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
