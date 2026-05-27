@@ -46,7 +46,7 @@
         },
         {
             "name": "nova-canvas",
-            "label": "nova-canvas \ud83d\udc8e (T2I/I2I)"
+            "label": "nova-canvas (T2I/I2I)"
         },
         {
             "name": "p-image",
@@ -121,6 +121,10 @@
         {
             "name": "wan-fast",
             "label": "wan-fast \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "wan-pro",
+            "label": "wan-pro \ud83d\udc8e (T2V/I2V)"
         }
     ],
     "text": [
@@ -146,7 +150,7 @@
         },
         {
             "name": "deepseek-pro",
-            "label": "deepseek-pro \ud83d\udc8e (LLM)"
+            "label": "deepseek-pro (LLM)"
         },
         {
             "name": "gemini",
@@ -173,8 +177,16 @@
             "label": "gemini-search \ud83d\udc8e (LLM)"
         },
         {
+            "name": "gemini-search-fast",
+            "label": "gemini-search-fast \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "gemini-search-large",
+            "label": "gemini-search-large \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "gemma",
-            "label": "gemma \ud83d\udc8e (LLM)"
+            "label": "gemma (LLM)"
         },
         {
             "name": "glm",
@@ -186,15 +198,19 @@
         },
         {
             "name": "gpt-5.5",
-            "label": "gpt-5.5 \ud83d\udc8e (LLM)"
+            "label": "gpt-5.5 (LLM)"
         },
         {
             "name": "grok",
             "label": "grok (LLM)"
         },
         {
+            "name": "grok-4.3",
+            "label": "grok-4.3 (LLM)"
+        },
+        {
             "name": "grok-large",
-            "label": "grok-large \ud83d\udc8e (LLM)"
+            "label": "grok-large (LLM)"
         },
         {
             "name": "kimi",
@@ -222,7 +238,7 @@
         },
         {
             "name": "midijourney-large",
-            "label": "midijourney-large \ud83d\udc8e (LLM)"
+            "label": "midijourney-large (LLM)"
         },
         {
             "name": "minimax",
@@ -420,7 +436,7 @@
         },
         {
             "name": "universal-3-pro",
-            "label": "universal-3-pro \ud83d\udc8e (Audio)",
+            "label": "universal-3-pro (Audio)",
             "voices": []
         },
         {
