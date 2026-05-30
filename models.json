@@ -145,6 +145,10 @@
             "label": "claude-opus-4.7 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "claude-opus-4.8",
+            "label": "claude-opus-4.8 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "deepseek",
             "label": "deepseek (LLM)"
         },
@@ -285,6 +289,14 @@
             "label": "openai-large (LLM)"
         },
         {
+            "name": "perplexity",
+            "label": "perplexity (LLM)"
+        },
+        {
+            "name": "perplexity-deep",
+            "label": "perplexity-deep (LLM)"
+        },
+        {
             "name": "perplexity-fast",
             "label": "perplexity-fast (LLM)"
         },
@@ -319,6 +331,14 @@
         {
             "name": "qwen-vision-pro",
             "label": "qwen-vision-pro (LLM)"
+        },
+        {
+            "name": "step-3.5-flash",
+            "label": "step-3.5-flash (LLM)"
+        },
+        {
+            "name": "step-flash",
+            "label": "step-flash (LLM)"
         }
     ],
     "audio": [
