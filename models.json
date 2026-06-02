@@ -249,6 +249,10 @@
             "label": "minimax (LLM)"
         },
         {
+            "name": "minimax-m3",
+            "label": "minimax-m3 (LLM)"
+        },
+        {
             "name": "mistral",
             "label": "mistral (LLM)"
         },
