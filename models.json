@@ -58,7 +58,7 @@
         },
         {
             "name": "qwen-image",
-            "label": "qwen-image (T2I/I2I)"
+            "label": "qwen-image \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "seedream",
@@ -74,7 +74,7 @@
         },
         {
             "name": "wan-image",
-            "label": "wan-image (T2I/I2I)"
+            "label": "wan-image \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "wan-image-pro",
@@ -134,7 +134,7 @@
         },
         {
             "name": "claude-fast",
-            "label": "claude-fast (LLM)"
+            "label": "claude-fast \ud83d\udc8e (LLM)"
         },
         {
             "name": "claude-large",
@@ -318,7 +318,7 @@
         },
         {
             "name": "qwen-coder-large",
-            "label": "qwen-coder-large (LLM)"
+            "label": "qwen-coder-large \ud83d\udc8e (LLM)"
         },
         {
             "name": "qwen-large",
@@ -440,7 +440,7 @@
         },
         {
             "name": "qwen-tts",
-            "label": "qwen-tts (Audio)",
+            "label": "qwen-tts \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
