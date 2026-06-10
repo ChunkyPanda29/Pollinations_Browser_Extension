@@ -99,8 +99,12 @@
             "label": "nova-reel (T2V/I2V)"
         },
         {
-            "name": "p-video",
-            "label": "p-video \ud83d\udc8e (T2V/I2V)"
+            "name": "p-video-1080p",
+            "label": "p-video-1080p \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "p-video-720p",
+            "label": "p-video-720p \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "seedance-2.0",
