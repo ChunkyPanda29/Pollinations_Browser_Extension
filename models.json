@@ -137,6 +137,10 @@
             "label": "claude \ud83d\udc8e (LLM)"
         },
         {
+            "name": "claude-fable-5",
+            "label": "claude-fable-5 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "claude-fast",
             "label": "claude-fast \ud83d\udc8e (LLM)"
         },
