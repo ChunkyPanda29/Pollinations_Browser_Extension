@@ -25,6 +25,18 @@
             "label": "grok-imagine-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "ideogram-v4-balanced",
+            "label": "ideogram-v4-balanced \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "ideogram-v4-quality",
+            "label": "ideogram-v4-quality \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "ideogram-v4-turbo",
+            "label": "ideogram-v4-turbo \ud83d\udc8e (T2I)"
+        },
+        {
             "name": "klein",
             "label": "klein (T2I/I2I)"
         },
