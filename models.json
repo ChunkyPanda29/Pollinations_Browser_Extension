@@ -161,12 +161,12 @@
             "label": "claude-large \ud83d\udc8e (LLM)"
         },
         {
-            "name": "claude-opus-4.7",
-            "label": "claude-opus-4.7 \ud83d\udc8e (LLM)"
+            "name": "claude-opus-4.6",
+            "label": "claude-opus-4.6 \ud83d\udc8e (LLM)"
         },
         {
-            "name": "claude-opus-4.8",
-            "label": "claude-opus-4.8 \ud83d\udc8e (LLM)"
+            "name": "claude-opus-4.7",
+            "label": "claude-opus-4.7 \ud83d\udc8e (LLM)"
         },
         {
             "name": "deepseek",
@@ -181,8 +181,8 @@
             "label": "gemini \ud83d\udc8e (LLM)"
         },
         {
-            "name": "gemini-3.5-flash",
-            "label": "gemini-3.5-flash \ud83d\udc8e (LLM)"
+            "name": "gemini-3-flash",
+            "label": "gemini-3-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemini-fast",
@@ -217,20 +217,20 @@
             "label": "glm (LLM)"
         },
         {
-            "name": "gpt-5.4-mini",
-            "label": "gpt-5.4-mini (LLM)"
+            "name": "gpt-5.4",
+            "label": "gpt-5.4 (LLM)"
         },
         {
-            "name": "gpt-5.5",
-            "label": "gpt-5.5 (LLM)"
+            "name": "gpt-5.4-mini",
+            "label": "gpt-5.4-mini (LLM)"
         },
         {
             "name": "grok",
             "label": "grok (LLM)"
         },
         {
-            "name": "grok-4.3",
-            "label": "grok-4.3 (LLM)"
+            "name": "grok-4-20-reasoning",
+            "label": "grok-4-20-reasoning (LLM)"
         },
         {
             "name": "grok-large",
@@ -241,12 +241,8 @@
             "label": "kimi (LLM)"
         },
         {
-            "name": "kimi-k2.6",
-            "label": "kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "kimi-k2.7-code",
-            "label": "kimi-k2.7-code (LLM)"
+            "name": "kimi-code",
+            "label": "kimi-code (LLM)"
         },
         {
             "name": "llama",
@@ -273,20 +269,20 @@
             "label": "minimax (LLM)"
         },
         {
-            "name": "minimax-m3",
-            "label": "minimax-m3 (LLM)"
+            "name": "minimax-m2.7",
+            "label": "minimax-m2.7 (LLM)"
         },
         {
             "name": "mistral",
             "label": "mistral (LLM)"
         },
         {
-            "name": "mistral-4",
-            "label": "mistral-4 (LLM)"
-        },
-        {
             "name": "mistral-large",
             "label": "mistral-large (LLM)"
+        },
+        {
+            "name": "mistral-small-3.2",
+            "label": "mistral-small-3.2 (LLM)"
         },
         {
             "name": "nova",
