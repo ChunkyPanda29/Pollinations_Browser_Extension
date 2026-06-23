@@ -372,6 +372,52 @@
             "voices": []
         },
         {
+            "name": "eleven-multilingual-v2",
+            "label": "eleven-multilingual-v2 \ud83d\udc8e (Audio)",
+            "voices": [
+                "alloy",
+                "echo",
+                "fable",
+                "onyx",
+                "nova",
+                "shimmer",
+                "ash",
+                "ballad",
+                "coral",
+                "sage",
+                "verse",
+                "rachel",
+                "domi",
+                "bella",
+                "elli",
+                "charlotte",
+                "dorothy",
+                "sarah",
+                "emily",
+                "lily",
+                "matilda",
+                "adam",
+                "antoni",
+                "arnold",
+                "josh",
+                "sam",
+                "daniel",
+                "charlie",
+                "james",
+                "fin",
+                "callum",
+                "liam",
+                "george",
+                "brian",
+                "bill"
+            ]
+        },
+        {
+            "name": "eleven-sfx",
+            "label": "eleven-sfx \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
             "name": "elevenflash",
             "label": "elevenflash \ud83d\udc8e (Audio)",
             "voices": [
@@ -471,6 +517,11 @@
         {
             "name": "scribe",
             "label": "scribe \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "stable-audio-2.5",
+            "label": "stable-audio-2.5 \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
