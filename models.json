@@ -257,6 +257,10 @@
             "label": "llama-scout (LLM)"
         },
         {
+            "name": "mercury",
+            "label": "mercury \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "midijourney",
             "label": "midijourney (LLM)"
         },
@@ -520,8 +524,13 @@
             "voices": []
         },
         {
-            "name": "stable-audio-2.5",
-            "label": "stable-audio-2.5 \ud83d\udc8e (Audio)",
+            "name": "stable-audio-3-large",
+            "label": "stable-audio-3-large \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "stable-audio-3-medium",
+            "label": "stable-audio-3-medium \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
