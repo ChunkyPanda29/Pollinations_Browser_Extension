@@ -149,6 +149,14 @@
     ],
     "text": [
         {
+            "name": "CloudCompile/gemma-4-e2b",
+            "label": "CloudCompile/gemma-4-e2b (LLM)"
+        },
+        {
+            "name": "Spit-fires/LFM2.5-230M",
+            "label": "Spit-fires/LFM2.5-230M (LLM)"
+        },
+        {
             "name": "claude",
             "label": "claude \ud83d\udc8e (LLM)"
         },
@@ -361,12 +369,64 @@
             "label": "qwen-vision-pro (LLM)"
         },
         {
+            "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
+            "label": "sharktide/inferenceport.ai-gpt-5-chat-latest (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport.ai-gpt-oss-20b",
+            "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
+        },
+        {
+            "name": "smplstuff/qwen3-0.6b",
+            "label": "smplstuff/qwen3-0.6b (LLM)"
+        },
+        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash (LLM)"
         },
         {
             "name": "step-flash",
             "label": "step-flash (LLM)"
+        },
+        {
+            "name": "tomdacatto/ezra",
+            "label": "tomdacatto/ezra (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-deepseek-v3.2",
+            "label": "voodoohop/airforce-deepseek-v3.2 (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-doubao-pro",
+            "label": "voodoohop/airforce-doubao-pro (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-glm-5.2",
+            "label": "voodoohop/airforce-glm-5.2 (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-grok-4-fast",
+            "label": "voodoohop/airforce-grok-4-fast (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-mimo",
+            "label": "voodoohop/airforce-mimo (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-mimo-pro",
+            "label": "voodoohop/airforce-mimo-pro (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-minimax-m2.7",
+            "label": "voodoohop/airforce-minimax-m2.7 (LLM)"
+        },
+        {
+            "name": "voodoohop/airforce-qwen3-max",
+            "label": "voodoohop/airforce-qwen3-max (LLM)"
+        },
+        {
+            "name": "voodoohop/anyvm-deepseek-chat",
+            "label": "voodoohop/anyvm-deepseek-chat (LLM)"
         }
     ],
     "audio": [
