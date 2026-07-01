@@ -53,6 +53,10 @@
             "label": "nanobanana-2 \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "nanobanana-2-lite",
+            "label": "nanobanana-2-lite \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "nanobanana-pro",
             "label": "nanobanana-pro \ud83d\udc8e (T2I/I2I)"
         },
@@ -153,8 +157,96 @@
             "label": "CloudCompile/gemma-4-e2b (LLM)"
         },
         {
+            "name": "MarcosFRG/cosmosrp-2.1",
+            "label": "MarcosFRG/cosmosrp-2.1 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v3.2",
+            "label": "MarcosFRG/deepseek-v3.2 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-flash",
+            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-pro",
+            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemini-2.5-flash-lite",
+            "label": "MarcosFRG/gemini-2.5-flash-lite (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemini-3-flash-preview",
+            "label": "MarcosFRG/gemini-3-flash-preview (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemma-3-27b",
+            "label": "MarcosFRG/gemma-3-27b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemma-4-31b",
+            "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gpt-5-nano",
+            "label": "MarcosFRG/gpt-5-nano (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gpt-5.4-nano",
+            "label": "MarcosFRG/gpt-5.4-nano (LLM)"
+        },
+        {
+            "name": "MarcosFRG/grok-4.20-non-reasoning",
+            "label": "MarcosFRG/grok-4.20-non-reasoning (LLM)"
+        },
+        {
+            "name": "MarcosFRG/grok-4.20-reasoning",
+            "label": "MarcosFRG/grok-4.20-reasoning (LLM)"
+        },
+        {
+            "name": "MarcosFRG/grok-4.3",
+            "label": "MarcosFRG/grok-4.3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/kimi-k2.6",
+            "label": "MarcosFRG/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/llama-4-scout",
+            "label": "MarcosFRG/llama-4-scout (LLM)"
+        },
+        {
+            "name": "MarcosFRG/mimo-v2.5",
+            "label": "MarcosFRG/mimo-v2.5 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/minimax-m3",
+            "label": "MarcosFRG/minimax-m3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/mistral-large-3",
+            "label": "MarcosFRG/mistral-large-3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/qwen3-coder-30b-a3b",
+            "label": "MarcosFRG/qwen3-coder-30b-a3b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/step-3.5-flash",
+            "label": "MarcosFRG/step-3.5-flash (LLM)"
+        },
+        {
+            "name": "MarcosFRG/step-3.7-flash",
+            "label": "MarcosFRG/step-3.7-flash (LLM)"
+        },
+        {
             "name": "Spit-fires/LFM2.5-230M",
             "label": "Spit-fires/LFM2.5-230M (LLM)"
+        },
+        {
+            "name": "Spit-fires/Supra-1.5-50M-instruct",
+            "label": "Spit-fires/Supra-1.5-50M-instruct (LLM)"
         },
         {
             "name": "claude",
@@ -175,6 +267,10 @@
         {
             "name": "claude-opus-4.7",
             "label": "claude-opus-4.7 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "claude-sonnet-5",
+            "label": "claude-sonnet-5 \ud83d\udc8e (LLM)"
         },
         {
             "name": "deepseek",
@@ -369,12 +465,28 @@
             "label": "qwen-vision-pro (LLM)"
         },
         {
+            "name": "sharktide/inferenceport-ai-command-r-plus",
+            "label": "sharktide/inferenceport-ai-command-r-plus (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-kimi-k2.6",
+            "label": "sharktide/inferenceport-ai-kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-mimo-v2.5",
+            "label": "sharktide/inferenceport-ai-mimo-v2.5 (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
             "label": "sharktide/inferenceport.ai-gpt-5-chat-latest (LLM)"
         },
         {
             "name": "sharktide/inferenceport.ai-gpt-oss-20b",
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
+        },
+        {
+            "name": "skullcrushercmd/gemini-3.1-pro-preview",
+            "label": "skullcrushercmd/gemini-3.1-pro-preview (LLM)"
         },
         {
             "name": "smplstuff/qwen3-0.6b",
@@ -393,32 +505,12 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "voodoohop/airforce-deepseek-v3.2",
-            "label": "voodoohop/airforce-deepseek-v3.2 (LLM)"
-        },
-        {
             "name": "voodoohop/airforce-doubao-pro",
             "label": "voodoohop/airforce-doubao-pro (LLM)"
         },
         {
-            "name": "voodoohop/airforce-glm-5.2",
-            "label": "voodoohop/airforce-glm-5.2 (LLM)"
-        },
-        {
             "name": "voodoohop/airforce-grok-4-fast",
             "label": "voodoohop/airforce-grok-4-fast (LLM)"
-        },
-        {
-            "name": "voodoohop/airforce-mimo",
-            "label": "voodoohop/airforce-mimo (LLM)"
-        },
-        {
-            "name": "voodoohop/airforce-mimo-pro",
-            "label": "voodoohop/airforce-mimo-pro (LLM)"
-        },
-        {
-            "name": "voodoohop/airforce-minimax-m2.7",
-            "label": "voodoohop/airforce-minimax-m2.7 (LLM)"
         },
         {
             "name": "voodoohop/airforce-qwen3-max",
