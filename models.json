@@ -161,84 +161,24 @@
             "label": "MarcosFRG/cosmosrp-2.1 (LLM)"
         },
         {
-            "name": "MarcosFRG/deepseek-v3.2",
-            "label": "MarcosFRG/deepseek-v3.2 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/deepseek-v4-flash",
-            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
-        },
-        {
-            "name": "MarcosFRG/deepseek-v4-pro",
-            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
-        },
-        {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
             "label": "MarcosFRG/gemini-2.5-flash-lite (LLM)"
         },
         {
-            "name": "MarcosFRG/gemini-3-flash-preview",
-            "label": "MarcosFRG/gemini-3-flash-preview (LLM)"
+            "name": "Minor-fun/LongCat-2.0",
+            "label": "Minor-fun/LongCat-2.0 (LLM)"
         },
         {
-            "name": "MarcosFRG/gemma-3-27b",
-            "label": "MarcosFRG/gemma-3-27b (LLM)"
+            "name": "Minor-fun/deepseek-v3.2",
+            "label": "Minor-fun/deepseek-v3.2 (LLM)"
         },
         {
-            "name": "MarcosFRG/gemma-4-31b",
-            "label": "MarcosFRG/gemma-4-31b (LLM)"
+            "name": "Minor-fun/deepseek-v4-flash",
+            "label": "Minor-fun/deepseek-v4-flash (LLM)"
         },
         {
-            "name": "MarcosFRG/gpt-5-nano",
-            "label": "MarcosFRG/gpt-5-nano (LLM)"
-        },
-        {
-            "name": "MarcosFRG/gpt-5.4-nano",
-            "label": "MarcosFRG/gpt-5.4-nano (LLM)"
-        },
-        {
-            "name": "MarcosFRG/grok-4.20-non-reasoning",
-            "label": "MarcosFRG/grok-4.20-non-reasoning (LLM)"
-        },
-        {
-            "name": "MarcosFRG/grok-4.20-reasoning",
-            "label": "MarcosFRG/grok-4.20-reasoning (LLM)"
-        },
-        {
-            "name": "MarcosFRG/grok-4.3",
-            "label": "MarcosFRG/grok-4.3 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/kimi-k2.6",
-            "label": "MarcosFRG/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/llama-4-scout",
-            "label": "MarcosFRG/llama-4-scout (LLM)"
-        },
-        {
-            "name": "MarcosFRG/mimo-v2.5",
-            "label": "MarcosFRG/mimo-v2.5 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/minimax-m3",
-            "label": "MarcosFRG/minimax-m3 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/mistral-large-3",
-            "label": "MarcosFRG/mistral-large-3 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/qwen3-coder-30b-a3b",
-            "label": "MarcosFRG/qwen3-coder-30b-a3b (LLM)"
-        },
-        {
-            "name": "MarcosFRG/step-3.5-flash",
-            "label": "MarcosFRG/step-3.5-flash (LLM)"
-        },
-        {
-            "name": "MarcosFRG/step-3.7-flash",
-            "label": "MarcosFRG/step-3.7-flash (LLM)"
+            "name": "Minor-fun/gemma-4-31B-it",
+            "label": "Minor-fun/gemma-4-31B-it (LLM)"
         },
         {
             "name": "Spit-fires/LFM2.5-230M",
@@ -247,6 +187,18 @@
         {
             "name": "Spit-fires/Supra-1.5-50M-instruct",
             "label": "Spit-fires/Supra-1.5-50M-instruct (LLM)"
+        },
+        {
+            "name": "Spit-fires/diffusiongemma-26b-a4b-it",
+            "label": "Spit-fires/diffusiongemma-26b-a4b-it (LLM)"
+        },
+        {
+            "name": "Spit-fires/gpt-oss-20b-free",
+            "label": "Spit-fires/gpt-oss-20b-free (LLM)"
+        },
+        {
+            "name": "Spit-fires/step-3.5-flash-free",
+            "label": "Spit-fires/step-3.5-flash-free (LLM)"
         },
         {
             "name": "claude",
@@ -373,6 +325,10 @@
             "label": "midijourney-large (LLM)"
         },
         {
+            "name": "mikl-shortcuts/command-a-plus",
+            "label": "mikl-shortcuts/command-a-plus (LLM)"
+        },
+        {
             "name": "minimax",
             "label": "minimax (LLM)"
         },
@@ -391,6 +347,14 @@
         {
             "name": "mistral-small-3.2",
             "label": "mistral-small-3.2 (LLM)"
+        },
+        {
+            "name": "morriszdweck/nova-cheap",
+            "label": "morriszdweck/nova-cheap (LLM)"
+        },
+        {
+            "name": "morriszdweck/qwen-3.7-plus-cheap",
+            "label": "morriszdweck/qwen-3.7-plus-cheap (LLM)"
         },
         {
             "name": "nova",
@@ -469,8 +433,8 @@
             "label": "sharktide/inferenceport-ai-command-r-plus (LLM)"
         },
         {
-            "name": "sharktide/inferenceport-ai-kimi-k2.6",
-            "label": "sharktide/inferenceport-ai-kimi-k2.6 (LLM)"
+            "name": "sharktide/inferenceport-ai-gpt-4.1",
+            "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-mimo-v2.5",
@@ -485,12 +449,60 @@
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
         },
         {
-            "name": "skullcrushercmd/gemini-3.1-pro-preview",
-            "label": "skullcrushercmd/gemini-3.1-pro-preview (LLM)"
+            "name": "sixfingerdev/claude-fable-5",
+            "label": "sixfingerdev/claude-fable-5 (LLM)"
         },
         {
-            "name": "smplstuff/qwen3-0.6b",
-            "label": "smplstuff/qwen3-0.6b (LLM)"
+            "name": "sixfingerdev/claude-haiku-4-5",
+            "label": "sixfingerdev/claude-haiku-4-5 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-opus-4-1",
+            "label": "sixfingerdev/claude-opus-4-1 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-opus-4-5",
+            "label": "sixfingerdev/claude-opus-4-5 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-opus-4-7",
+            "label": "sixfingerdev/claude-opus-4-7 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-opus-4-7-fast",
+            "label": "sixfingerdev/claude-opus-4-7-fast (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-opus-4-8",
+            "label": "sixfingerdev/claude-opus-4-8 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-opus-4-8-fast",
+            "label": "sixfingerdev/claude-opus-4-8-fast (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-sonnet-4-5",
+            "label": "sixfingerdev/claude-sonnet-4-5 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/claude-sonnet-4-6",
+            "label": "sixfingerdev/claude-sonnet-4-6 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/deepseek-v4-flash",
+            "label": "sixfingerdev/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "sixfingerdev/glm-5",
+            "label": "sixfingerdev/glm-5 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/gpt-5.4",
+            "label": "sixfingerdev/gpt-5.4 (LLM)"
+        },
+        {
+            "name": "sixfingerdev/kimi-k2.7-code",
+            "label": "sixfingerdev/kimi-k2.7-code (LLM)"
         },
         {
             "name": "step-3.5-flash",
