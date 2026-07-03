@@ -153,6 +153,10 @@
     ],
     "text": [
         {
+            "name": "Bakhshi7889/gemma-4-31b-it",
+            "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
+        },
+        {
             "name": "CloudCompile/gemma-4-e2b",
             "label": "CloudCompile/gemma-4-e2b (LLM)"
         },
@@ -161,8 +165,36 @@
             "label": "MarcosFRG/cosmosrp-2.1 (LLM)"
         },
         {
+            "name": "MarcosFRG/deepseek-v3.2",
+            "label": "MarcosFRG/deepseek-v3.2 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-flash",
+            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-pro",
+            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
+        },
+        {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
             "label": "MarcosFRG/gemini-2.5-flash-lite (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemini-3-flash-preview",
+            "label": "MarcosFRG/gemini-3-flash-preview (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemma-3-27b",
+            "label": "MarcosFRG/gemma-3-27b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemma-4-31b",
+            "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/glm-4.6v-flash",
+            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "Minor-fun/LongCat-2.0",
@@ -185,8 +217,12 @@
             "label": "Spit-fires/LFM2.5-230M (LLM)"
         },
         {
-            "name": "Spit-fires/Supra-1.5-50M-instruct",
-            "label": "Spit-fires/Supra-1.5-50M-instruct (LLM)"
+            "name": "Spit-fires/bonsai-image-1024x1024-4",
+            "label": "Spit-fires/bonsai-image-1024x1024-4 (LLM)"
+        },
+        {
+            "name": "Spit-fires/bonsai-image-512x512-4",
+            "label": "Spit-fires/bonsai-image-512x512-4 (LLM)"
         },
         {
             "name": "Spit-fires/diffusiongemma-26b-a4b-it",
@@ -349,8 +385,8 @@
             "label": "mistral-small-3.2 (LLM)"
         },
         {
-            "name": "morriszdweck/nova-cheap",
-            "label": "morriszdweck/nova-cheap (LLM)"
+            "name": "morriszdweck/kimi-k2.6-cheap",
+            "label": "morriszdweck/kimi-k2.6-cheap (LLM)"
         },
         {
             "name": "morriszdweck/qwen-3.7-plus-cheap",
@@ -505,6 +541,10 @@
             "label": "sixfingerdev/kimi-k2.7-code (LLM)"
         },
         {
+            "name": "smplstuff/falcon-h1-tiny",
+            "label": "smplstuff/falcon-h1-tiny (LLM)"
+        },
+        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash (LLM)"
         },
@@ -515,6 +555,18 @@
         {
             "name": "tomdacatto/ezra",
             "label": "tomdacatto/ezra (LLM)"
+        },
+        {
+            "name": "vendouple/deepseek-v4-flash",
+            "label": "vendouple/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "vendouple/gpt-5.5",
+            "label": "vendouple/gpt-5.5 (LLM)"
+        },
+        {
+            "name": "vendouple/kimi-k2.6",
+            "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
