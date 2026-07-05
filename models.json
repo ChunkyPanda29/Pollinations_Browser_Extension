@@ -197,10 +197,6 @@
             "label": "MarcosFRG/gemini-3-flash-preview (LLM)"
         },
         {
-            "name": "MarcosFRG/gemma-3-27b",
-            "label": "MarcosFRG/gemma-3-27b (LLM)"
-        },
-        {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
         },
@@ -381,8 +377,8 @@
             "label": "midijourney-large (LLM)"
         },
         {
-            "name": "mikl-shortcuts/command-a-plus",
-            "label": "mikl-shortcuts/command-a-plus (LLM)"
+            "name": "mikl-shortcuts/ministral-3",
+            "label": "mikl-shortcuts/ministral-3 (LLM)"
         },
         {
             "name": "minimax",
@@ -525,10 +521,6 @@
             "label": "sixfingerdev/claude-opus-4-7-fast (LLM)"
         },
         {
-            "name": "sixfingerdev/claude-opus-4-8",
-            "label": "sixfingerdev/claude-opus-4-8 (LLM)"
-        },
-        {
             "name": "sixfingerdev/claude-sonnet-4-5",
             "label": "sixfingerdev/claude-sonnet-4-5 (LLM)"
         },
@@ -537,8 +529,20 @@
             "label": "sixfingerdev/claude-sonnet-4-6 (LLM)"
         },
         {
+            "name": "sixfingerdev/claude-sonnet-5",
+            "label": "sixfingerdev/claude-sonnet-5 (LLM)"
+        },
+        {
             "name": "sixfingerdev/deepseek-v4-flash",
             "label": "sixfingerdev/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "sixfingerdev/gemini-3.1-pro-preview",
+            "label": "sixfingerdev/gemini-3.1-pro-preview (LLM)"
+        },
+        {
+            "name": "sixfingerdev/gemini-3.5-flash",
+            "label": "sixfingerdev/gemini-3.5-flash (LLM)"
         },
         {
             "name": "sixfingerdev/glm-5",
@@ -571,10 +575,6 @@
         {
             "name": "vendouple/deepseek-v3.2",
             "label": "vendouple/deepseek-v3.2 (LLM)"
-        },
-        {
-            "name": "vendouple/deepseek-v4-flash",
-            "label": "vendouple/deepseek-v4-flash (LLM)"
         },
         {
             "name": "vendouple/gemma-4-31b",
