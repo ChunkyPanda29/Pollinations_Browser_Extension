@@ -197,8 +197,16 @@
             "label": "MarcosFRG/gemini-3-flash-preview (LLM)"
         },
         {
+            "name": "MarcosFRG/gemma-3-27b",
+            "label": "MarcosFRG/gemma-3-27b (LLM)"
+        },
+        {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/mimo-v2.5",
+            "label": "MarcosFRG/mimo-v2.5 (LLM)"
         },
         {
             "name": "MarcosFRG/minimax-m2.7",
@@ -579,10 +587,6 @@
         {
             "name": "vendouple/gemma-4-31b",
             "label": "vendouple/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "vendouple/gpt-oss-120b",
-            "label": "vendouple/gpt-oss-120b (LLM)"
         },
         {
             "name": "vendouple/kimi-k2.6",
