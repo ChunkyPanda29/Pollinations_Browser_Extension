@@ -253,6 +253,18 @@
             "label": "Spit-fires/gpt-oss-20b-free (LLM)"
         },
         {
+            "name": "Spit-fires/ministral-3b-2512",
+            "label": "Spit-fires/ministral-3b-2512 (LLM)"
+        },
+        {
+            "name": "Spit-fires/ministral-8b-2512",
+            "label": "Spit-fires/ministral-8b-2512 (LLM)"
+        },
+        {
+            "name": "Spit-fires/mistral-small-2506",
+            "label": "Spit-fires/mistral-small-2506 (LLM)"
+        },
+        {
             "name": "Spit-fires/step-3.5-flash-free",
             "label": "Spit-fires/step-3.5-flash-free (LLM)"
         },
