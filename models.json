@@ -237,10 +237,6 @@
             "label": "Spit-fires/LFM2.5-230M (LLM)"
         },
         {
-            "name": "Spit-fires/bonsai-image-1024x1024-4",
-            "label": "Spit-fires/bonsai-image-1024x1024-4 (LLM)"
-        },
-        {
             "name": "Spit-fires/bonsai-image-512x512-4",
             "label": "Spit-fires/bonsai-image-512x512-4 (LLM)"
         },
@@ -255,10 +251,6 @@
         {
             "name": "Spit-fires/ministral-3b-2512",
             "label": "Spit-fires/ministral-3b-2512 (LLM)"
-        },
-        {
-            "name": "Spit-fires/ministral-8b-2512",
-            "label": "Spit-fires/ministral-8b-2512 (LLM)"
         },
         {
             "name": "Spit-fires/mistral-small-2506",
@@ -599,6 +591,10 @@
         {
             "name": "vendouple/gemma-4-31b",
             "label": "vendouple/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "vendouple/gpt-5.5",
+            "label": "vendouple/gpt-5.5 (LLM)"
         },
         {
             "name": "vendouple/kimi-k2.6",
