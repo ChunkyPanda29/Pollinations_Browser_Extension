@@ -197,6 +197,14 @@
             "label": "MarcosFRG/gemini-3-flash-preview (LLM)"
         },
         {
+            "name": "MarcosFRG/gemini-3.1-flash-lite",
+            "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemini-3.1-pro-preview",
+            "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
+        },
+        {
             "name": "MarcosFRG/gemma-3-27b",
             "label": "MarcosFRG/gemma-3-27b (LLM)"
         },
@@ -215,6 +223,10 @@
         {
             "name": "MarcosFRG/minimax-m3",
             "label": "MarcosFRG/minimax-m3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/step-3.5-flash",
+            "label": "MarcosFRG/step-3.5-flash (LLM)"
         },
         {
             "name": "Minor-fun/LongCat-2.0",
