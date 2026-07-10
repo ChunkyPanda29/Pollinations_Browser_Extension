@@ -89,6 +89,10 @@
             "label": "seedream5 \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "seedream5-pro",
+            "label": "seedream5-pro \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "wan-image",
             "label": "wan-image \ud83d\udc8e (T2I/I2I)"
         },
@@ -173,6 +177,10 @@
             "label": "Catniti/nemotron-3-ultra-550b-a55b (LLM)"
         },
         {
+            "name": "Circuit-Overtime/lixsearch",
+            "label": "Circuit-Overtime/lixsearch (LLM)"
+        },
+        {
             "name": "CloudCompile/gemma-4-e2b",
             "label": "CloudCompile/gemma-4-e2b (LLM)"
         },
@@ -211,6 +219,10 @@
         {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/glm-4.6v-flash",
+            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "MarcosFRG/mimo-v2.5",
@@ -355,6 +367,18 @@
         {
             "name": "gpt-5.4-mini",
             "label": "gpt-5.4-mini (LLM)"
+        },
+        {
+            "name": "gpt-5.6-luna",
+            "label": "gpt-5.6-luna (LLM)"
+        },
+        {
+            "name": "gpt-5.6-sol",
+            "label": "gpt-5.6-sol (LLM)"
+        },
+        {
+            "name": "gpt-5.6-terra",
+            "label": "gpt-5.6-terra (LLM)"
         },
         {
             "name": "grok",
@@ -605,8 +629,8 @@
             "label": "vendouple/gemma-4-31b (LLM)"
         },
         {
-            "name": "vendouple/gpt-5.5",
-            "label": "vendouple/gpt-5.5 (LLM)"
+            "name": "vendouple/gpt-5.6-sol",
+            "label": "vendouple/gpt-5.6-sol (LLM)"
         },
         {
             "name": "vendouple/kimi-k2.6",
