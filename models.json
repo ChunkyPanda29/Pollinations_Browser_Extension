@@ -6,7 +6,7 @@
         },
         {
             "name": "gpt-image-2",
-            "label": "gpt-image-2 \ud83d\udc8e (T2I/I2I)"
+            "label": "gpt-image-2 (T2I/I2I)"
         },
         {
             "name": "gptimage",
@@ -173,10 +173,6 @@
             "label": "Catniti/claude-sonnet-4.6 (LLM)"
         },
         {
-            "name": "Catniti/gemma-4-31b",
-            "label": "Catniti/gemma-4-31b (LLM)"
-        },
-        {
             "name": "Catniti/glm-4.7",
             "label": "Catniti/glm-4.7 (LLM)"
         },
@@ -189,12 +185,16 @@
             "label": "Catniti/gpt-4.0 (LLM)"
         },
         {
-            "name": "Catniti/gpt-oss-120b",
-            "label": "Catniti/gpt-oss-120b (LLM)"
+            "name": "Catniti/gpt-5.5",
+            "label": "Catniti/gpt-5.5 (LLM)"
         },
         {
-            "name": "Catniti/mistral-small-latest",
-            "label": "Catniti/mistral-small-latest (LLM)"
+            "name": "Catniti/gpt-5.6-luna",
+            "label": "Catniti/gpt-5.6-luna (LLM)"
+        },
+        {
+            "name": "Catniti/gpt-oss-120b",
+            "label": "Catniti/gpt-oss-120b (LLM)"
         },
         {
             "name": "Catniti/nemotron-3-ultra-550b-a55b",
@@ -253,6 +253,10 @@
             "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
+            "name": "MarcosFRG/glm-5.2",
+            "label": "MarcosFRG/glm-5.2 (LLM)"
+        },
+        {
             "name": "MarcosFRG/mimo-v2.5",
             "label": "MarcosFRG/mimo-v2.5 (LLM)"
         },
@@ -269,6 +273,10 @@
             "label": "MarcosFRG/step-3.5-flash (LLM)"
         },
         {
+            "name": "Minor-fun/LongCat-2.0",
+            "label": "Minor-fun/LongCat-2.0 (LLM)"
+        },
+        {
             "name": "Minor-fun/deepseek-v3.2",
             "label": "Minor-fun/deepseek-v3.2 (LLM)"
         },
@@ -277,8 +285,8 @@
             "label": "Minor-fun/deepseek-v4-flash (LLM)"
         },
         {
-            "name": "Spit-fires/LFM2.5-230M",
-            "label": "Spit-fires/LFM2.5-230M (LLM)"
+            "name": "Minor-fun/gemma-4-31B-it",
+            "label": "Minor-fun/gemma-4-31B-it (LLM)"
         },
         {
             "name": "Spit-fires/bonsai-image-512x512-4",
@@ -289,16 +297,68 @@
             "label": "Spit-fires/diffusiongemma-26b-a4b-it (LLM)"
         },
         {
+            "name": "Spit-fires/free",
+            "label": "Spit-fires/free (LLM)"
+        },
+        {
             "name": "Spit-fires/gpt-oss-20b-free",
             "label": "Spit-fires/gpt-oss-20b-free (LLM)"
         },
         {
-            "name": "Spit-fires/ministral-3b-2512",
-            "label": "Spit-fires/ministral-3b-2512 (LLM)"
-        },
-        {
             "name": "Spit-fires/step-3.5-flash-free",
             "label": "Spit-fires/step-3.5-flash-free (LLM)"
+        },
+        {
+            "name": "YoannDev90/deepseek-v4-pro",
+            "label": "YoannDev90/deepseek-v4-pro (LLM)"
+        },
+        {
+            "name": "YoannDev90/diffusiongemma-26b-a4b-it",
+            "label": "YoannDev90/diffusiongemma-26b-a4b-it (LLM)"
+        },
+        {
+            "name": "YoannDev90/gemini-3-pro",
+            "label": "YoannDev90/gemini-3-pro (LLM)"
+        },
+        {
+            "name": "YoannDev90/gpt-4o-mini-search-preview",
+            "label": "YoannDev90/gpt-4o-mini-search-preview (LLM)"
+        },
+        {
+            "name": "YoannDev90/gpt-5.4-mini",
+            "label": "YoannDev90/gpt-5.4-mini (LLM)"
+        },
+        {
+            "name": "YoannDev90/gpt-oss-120b",
+            "label": "YoannDev90/gpt-oss-120b (LLM)"
+        },
+        {
+            "name": "YoannDev90/grok-4.1-fast",
+            "label": "YoannDev90/grok-4.1-fast (LLM)"
+        },
+        {
+            "name": "YoannDev90/hy3-preview",
+            "label": "YoannDev90/hy3-preview (LLM)"
+        },
+        {
+            "name": "YoannDev90/llama-3.3-70b-instruct",
+            "label": "YoannDev90/llama-3.3-70b-instruct (LLM)"
+        },
+        {
+            "name": "YoannDev90/llama-4-scout",
+            "label": "YoannDev90/llama-4-scout (LLM)"
+        },
+        {
+            "name": "YoannDev90/minimax-m3",
+            "label": "YoannDev90/minimax-m3 (LLM)"
+        },
+        {
+            "name": "YoannDev90/qwen3.7-plus",
+            "label": "YoannDev90/qwen3.7-plus (LLM)"
+        },
+        {
+            "name": "YoannDev90/step-3.7-flash",
+            "label": "YoannDev90/step-3.7-flash (LLM)"
         },
         {
             "name": "claude",
@@ -577,6 +637,10 @@
             "label": "solarnode-developement/free (LLM)"
         },
         {
+            "name": "solarnode-developement/glm-5.2-cheap",
+            "label": "solarnode-developement/glm-5.2-cheap (LLM)"
+        },
+        {
             "name": "solarnode-developement/hy3",
             "label": "solarnode-developement/hy3 (LLM)"
         },
@@ -605,16 +669,20 @@
             "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
+            "name": "vendouple/gemma-4-31B",
+            "label": "vendouple/gemma-4-31B (LLM)"
+        },
+        {
             "name": "vendouple/gpt-5.6-sol",
             "label": "vendouple/gpt-5.6-sol (LLM)"
         },
         {
-            "name": "vendouple/kimi-k2.6",
-            "label": "vendouple/kimi-k2.6 (LLM)"
+            "name": "vendouple/gpt-5.6-terra",
+            "label": "vendouple/gpt-5.6-terra (LLM)"
         },
         {
-            "name": "vendouple/ministral-14b-latest",
-            "label": "vendouple/ministral-14b-latest (LLM)"
+            "name": "vendouple/kimi-k2.6",
+            "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
             "name": "vendouple/nemotron-3-ultra",
