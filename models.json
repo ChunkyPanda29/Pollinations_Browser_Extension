@@ -289,8 +289,24 @@
             "label": "Minor-fun/deepseek-v4-flash (LLM)"
         },
         {
+            "name": "Minor-fun/gemini-3.1-pro-preview",
+            "label": "Minor-fun/gemini-3.1-pro-preview (LLM)"
+        },
+        {
+            "name": "Minor-fun/gemini-3.5-flash",
+            "label": "Minor-fun/gemini-3.5-flash (LLM)"
+        },
+        {
             "name": "Minor-fun/gemma-4-31B-it",
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
+        },
+        {
+            "name": "Minor-fun/glm-4.7",
+            "label": "Minor-fun/glm-4.7 (LLM)"
+        },
+        {
+            "name": "Minor-fun/gpt-oss-120b",
+            "label": "Minor-fun/gpt-oss-120b (LLM)"
         },
         {
             "name": "Spit-fires/bonsai-image-512x512-4",
@@ -585,12 +601,12 @@
             "label": "smplstuff/falcon-h1-tiny (LLM)"
         },
         {
-            "name": "solarnode-developement/free",
-            "label": "solarnode-developement/free (LLM)"
-        },
-        {
             "name": "solarnode-developement/glm-5.2-cheap",
             "label": "solarnode-developement/glm-5.2-cheap (LLM)"
+        },
+        {
+            "name": "solarnode-developement/grok-4.5",
+            "label": "solarnode-developement/grok-4.5 (LLM)"
         },
         {
             "name": "step-3.5-flash",
@@ -631,10 +647,6 @@
         {
             "name": "vendouple/kimi-k2.6",
             "label": "vendouple/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "vendouple/nemotron-3-ultra",
-            "label": "vendouple/nemotron-3-ultra (LLM)"
         },
         {
             "name": "vendouple/sonnet-5",
