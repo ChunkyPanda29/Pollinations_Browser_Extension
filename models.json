@@ -77,6 +77,10 @@
             "label": "qwen-image \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "sana",
+            "label": "sana (T2I)"
+        },
+        {
             "name": "seedream",
             "label": "seedream \ud83d\udc8e (T2I/I2I)"
         },
@@ -165,8 +169,8 @@
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
         },
         {
-            "name": "Catniti/Laguna-xs-2.1",
-            "label": "Catniti/Laguna-xs-2.1 (LLM)"
+            "name": "Catniti/agnes-1.5-flash",
+            "label": "Catniti/agnes-1.5-flash (LLM)"
         },
         {
             "name": "Catniti/agnes-2.0-flash",
@@ -189,20 +193,12 @@
             "label": "Catniti/glm-4.7 (LLM)"
         },
         {
-            "name": "Catniti/gpt-4.0",
-            "label": "Catniti/gpt-4.0 (LLM)"
-        },
-        {
             "name": "Catniti/gpt-5.6-luna",
             "label": "Catniti/gpt-5.6-luna (LLM)"
         },
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/nemotron-3-ultra-550b-a55b",
-            "label": "Catniti/nemotron-3-ultra-550b-a55b (LLM)"
         },
         {
             "name": "Catniti/openai-o4-mini",
@@ -215,6 +211,10 @@
         {
             "name": "CloudCompile/gemma-4-e2b",
             "label": "CloudCompile/gemma-4-e2b (LLM)"
+        },
+        {
+            "name": "CloudCompile/nemotron-3-super-120b-a12b",
+            "label": "CloudCompile/nemotron-3-super-120b-a12b (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v3.2",
@@ -253,20 +253,12 @@
             "label": "MarcosFRG/gemma-4-31b (LLM)"
         },
         {
-            "name": "MarcosFRG/glm-4.6v-flash",
-            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
-        },
-        {
             "name": "MarcosFRG/glm-5.2",
             "label": "MarcosFRG/glm-5.2 (LLM)"
         },
         {
             "name": "MarcosFRG/mimo-v2.5",
             "label": "MarcosFRG/mimo-v2.5 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/minimax-m2.7",
-            "label": "MarcosFRG/minimax-m2.7 (LLM)"
         },
         {
             "name": "MarcosFRG/minimax-m3",
@@ -323,10 +315,6 @@
         {
             "name": "Spit-fires/step-3.5-flash-free",
             "label": "Spit-fires/step-3.5-flash-free (LLM)"
-        },
-        {
-            "name": "YoannDev90/diffusiongemma-26b-a4b-it",
-            "label": "YoannDev90/diffusiongemma-26b-a4b-it (LLM)"
         },
         {
             "name": "claude",
@@ -493,10 +481,6 @@
             "label": "mistral-small-3.2 (LLM)"
         },
         {
-            "name": "morriszdweck/kimi-k2.6-cheap",
-            "label": "morriszdweck/kimi-k2.6-cheap (LLM)"
-        },
-        {
             "name": "morriszdweck/qwen-3.7-plus-cheap",
             "label": "morriszdweck/qwen-3.7-plus-cheap (LLM)"
         },
@@ -585,8 +569,28 @@
             "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
         },
         {
+            "name": "sharktide/inferenceport-ai-kimi-k2.5",
+            "label": "sharktide/inferenceport-ai-kimi-k2.5 (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-kimi-k2.7-code",
+            "label": "sharktide/inferenceport-ai-kimi-k2.7-code (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-lightning-text-v2",
+            "label": "sharktide/inferenceport-ai-lightning-text-v2 (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-mimo-v2.5",
             "label": "sharktide/inferenceport-ai-mimo-v2.5 (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-minimax-m3",
+            "label": "sharktide/inferenceport-ai-minimax-m3 (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-qwen-3.6-27b",
+            "label": "sharktide/inferenceport-ai-qwen-3.6-27b (LLM)"
         },
         {
             "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
@@ -595,10 +599,6 @@
         {
             "name": "sharktide/inferenceport.ai-gpt-oss-20b",
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
-        },
-        {
-            "name": "smplstuff/falcon-h1-tiny",
-            "label": "smplstuff/falcon-h1-tiny (LLM)"
         },
         {
             "name": "solarnode-developement/glm-5.2-cheap",
@@ -621,8 +621,8 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v3.2",
-            "label": "vendouple/deepseek-v3.2 (LLM)"
+            "name": "tomdacatto/gemma-4-31b-fast",
+            "label": "tomdacatto/gemma-4-31b-fast (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-flash",
@@ -643,10 +643,6 @@
         {
             "name": "vendouple/gpt-5.6-terra",
             "label": "vendouple/gpt-5.6-terra (LLM)"
-        },
-        {
-            "name": "vendouple/kimi-k2.6",
-            "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
             "name": "vendouple/sonnet-5",
