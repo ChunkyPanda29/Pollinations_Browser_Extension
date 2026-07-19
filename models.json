@@ -115,8 +115,8 @@
             "label": "grok-video-pro \ud83d\udc8e (T2V/I2V)"
         },
         {
-            "name": "ltx-2",
-            "label": "ltx-2 (T2V/I2V)"
+            "name": "happyhorse-1.1",
+            "label": "happyhorse-1.1 \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "nova-reel",
@@ -177,24 +177,16 @@
             "label": "Catniti/agnes-2.0-flash (LLM)"
         },
         {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
             "name": "Catniti/claude-sonnet-4.6",
             "label": "Catniti/claude-sonnet-4.6 (LLM)"
         },
         {
-            "name": "Catniti/deepseek-v4-pro",
-            "label": "Catniti/deepseek-v4-pro (LLM)"
-        },
-        {
-            "name": "Catniti/gemma-4-31b",
-            "label": "Catniti/gemma-4-31b (LLM)"
-        },
-        {
             "name": "Catniti/glm-4.7",
             "label": "Catniti/glm-4.7 (LLM)"
-        },
-        {
-            "name": "Catniti/gpt-5.6-luna",
-            "label": "Catniti/gpt-5.6-luna (LLM)"
         },
         {
             "name": "Catniti/gpt-oss-120b",
@@ -209,6 +201,10 @@
             "label": "Circuit-Overtime/lixsearch (LLM)"
         },
         {
+            "name": "CloudCompile/afforda-claude-haiku-4.5",
+            "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
+        },
+        {
             "name": "CloudCompile/gemma-4-e2b",
             "label": "CloudCompile/gemma-4-e2b (LLM)"
         },
@@ -217,16 +213,8 @@
             "label": "CloudCompile/nemotron-3-super-120b-a12b (LLM)"
         },
         {
-            "name": "MarcosFRG/deepseek-v3.2",
-            "label": "MarcosFRG/deepseek-v3.2 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/deepseek-v4-flash",
-            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
-        },
-        {
-            "name": "MarcosFRG/deepseek-v4-pro",
-            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
+            "name": "CloudCompile/nemotron-3-ultra-550b-a55b",
+            "label": "CloudCompile/nemotron-3-ultra-550b-a55b (LLM)"
         },
         {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
@@ -241,20 +229,8 @@
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
-            "name": "MarcosFRG/gemini-3.1-pro-preview",
-            "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
-        },
-        {
-            "name": "MarcosFRG/gemma-3-27b",
-            "label": "MarcosFRG/gemma-3-27b (LLM)"
-        },
-        {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "MarcosFRG/glm-5.2",
-            "label": "MarcosFRG/glm-5.2 (LLM)"
         },
         {
             "name": "MarcosFRG/mimo-v2.5",
@@ -263,14 +239,6 @@
         {
             "name": "MarcosFRG/minimax-m3",
             "label": "MarcosFRG/minimax-m3 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/step-3.5-flash",
-            "label": "MarcosFRG/step-3.5-flash (LLM)"
-        },
-        {
-            "name": "Minor-fun/LongCat-2.0",
-            "label": "Minor-fun/LongCat-2.0 (LLM)"
         },
         {
             "name": "Minor-fun/deepseek-v3.2",
@@ -293,14 +261,6 @@
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
         },
         {
-            "name": "Minor-fun/glm-4.7",
-            "label": "Minor-fun/glm-4.7 (LLM)"
-        },
-        {
-            "name": "Minor-fun/gpt-oss-120b",
-            "label": "Minor-fun/gpt-oss-120b (LLM)"
-        },
-        {
             "name": "Spit-fires/bonsai-image-512x512-4",
             "label": "Spit-fires/bonsai-image-512x512-4 (LLM)"
         },
@@ -315,6 +275,22 @@
         {
             "name": "Spit-fires/step-3.5-flash-free",
             "label": "Spit-fires/step-3.5-flash-free (LLM)"
+        },
+        {
+            "name": "YoannDev90/diffusiongemma-26b-a4b-it:free",
+            "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
+        },
+        {
+            "name": "YoannDev90/gemma-4-31b-it:free",
+            "label": "YoannDev90/gemma-4-31b-it:free (LLM)"
+        },
+        {
+            "name": "YoannDev90/laguna-xs-2.1:free",
+            "label": "YoannDev90/laguna-xs-2.1:free (LLM)"
+        },
+        {
+            "name": "YoannDev90/llama-3.1-8b-instant:free",
+            "label": "YoannDev90/llama-3.1-8b-instant:free (LLM)"
         },
         {
             "name": "claude",
@@ -389,6 +365,10 @@
             "label": "gemma (LLM)"
         },
         {
+            "name": "gemma-4-31b",
+            "label": "gemma-4-31b (LLM)"
+        },
+        {
             "name": "glm",
             "label": "glm (LLM)"
         },
@@ -413,12 +393,20 @@
             "label": "gpt-5.6-terra (LLM)"
         },
         {
+            "name": "gpt-oss",
+            "label": "gpt-oss (LLM)"
+        },
+        {
             "name": "grok",
             "label": "grok (LLM)"
         },
         {
             "name": "grok-4-20-reasoning",
             "label": "grok-4-20-reasoning (LLM)"
+        },
+        {
+            "name": "grok-4.5",
+            "label": "grok-4.5 \ud83d\udc8e (LLM)"
         },
         {
             "name": "grok-large",
@@ -431,6 +419,10 @@
         {
             "name": "kimi-code",
             "label": "kimi-code (LLM)"
+        },
+        {
+            "name": "kimi-k3",
+            "label": "kimi-k3 \ud83d\udc8e (LLM)"
         },
         {
             "name": "llama",
@@ -459,6 +451,14 @@
         {
             "name": "mikl-shortcuts/ministral-3",
             "label": "mikl-shortcuts/ministral-3 (LLM)"
+        },
+        {
+            "name": "mimo-v2.5",
+            "label": "mimo-v2.5 (LLM)"
+        },
+        {
+            "name": "mimo-v2.5-pro",
+            "label": "mimo-v2.5-pro (LLM)"
         },
         {
             "name": "minimax",
@@ -561,6 +561,10 @@
             "label": "qwen-vision-pro (LLM)"
         },
         {
+            "name": "qwen3.7-max",
+            "label": "qwen3.7-max \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-command-r-plus",
             "label": "sharktide/inferenceport-ai-command-r-plus (LLM)"
         },
@@ -605,10 +609,6 @@
             "label": "solarnode-developement/glm-5.2-cheap (LLM)"
         },
         {
-            "name": "solarnode-developement/grok-4.5",
-            "label": "solarnode-developement/grok-4.5 (LLM)"
-        },
-        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash (LLM)"
         },
@@ -617,12 +617,20 @@
             "label": "step-flash (LLM)"
         },
         {
+            "name": "timemachine-studio/mercury2",
+            "label": "timemachine-studio/mercury2 (LLM)"
+        },
+        {
             "name": "tomdacatto/ezra",
             "label": "tomdacatto/ezra (LLM)"
         },
         {
             "name": "tomdacatto/gemma-4-31b-fast",
             "label": "tomdacatto/gemma-4-31b-fast (LLM)"
+        },
+        {
+            "name": "vendouple/deepseek-v3.2",
+            "label": "vendouple/deepseek-v3.2 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-flash",
@@ -641,12 +649,16 @@
             "label": "vendouple/gpt-5.6-sol (LLM)"
         },
         {
-            "name": "vendouple/gpt-5.6-terra",
-            "label": "vendouple/gpt-5.6-terra (LLM)"
+            "name": "vendouple/kimi-k2.6",
+            "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
-            "name": "vendouple/sonnet-5",
-            "label": "vendouple/sonnet-5 (LLM)"
+            "name": "vendouple/kimi-k3",
+            "label": "vendouple/kimi-k3 (LLM)"
+        },
+        {
+            "name": "vendouple/nemotron-3-ultra",
+            "label": "vendouple/nemotron-3-ultra (LLM)"
         },
         {
             "name": "vendouple/unlocked-deepseek",
@@ -670,11 +682,6 @@
         }
     ],
     "audio": [
-        {
-            "name": "acestep",
-            "label": "acestep (Audio)",
-            "voices": []
-        },
         {
             "name": "eleven-multilingual-v2",
             "label": "eleven-multilingual-v2 \ud83d\udc8e (Audio)",
