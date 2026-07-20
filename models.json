@@ -177,24 +177,12 @@
             "label": "Catniti/agnes-2.0-flash (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
-            "name": "Catniti/claude-sonnet-4.6",
-            "label": "Catniti/claude-sonnet-4.6 (LLM)"
-        },
-        {
             "name": "Catniti/glm-4.7",
             "label": "Catniti/glm-4.7 (LLM)"
         },
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/openai-o4-mini",
-            "label": "Catniti/openai-o4-mini (LLM)"
         },
         {
             "name": "Circuit-Overtime/lixsearch",
@@ -205,16 +193,16 @@
             "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
         },
         {
-            "name": "CloudCompile/gemma-4-e2b",
-            "label": "CloudCompile/gemma-4-e2b (LLM)"
+            "name": "CloudCompile/agnes-1.5-flash",
+            "label": "CloudCompile/agnes-1.5-flash (LLM)"
         },
         {
-            "name": "CloudCompile/nemotron-3-super-120b-a12b",
-            "label": "CloudCompile/nemotron-3-super-120b-a12b (LLM)"
+            "name": "CloudCompile/agnes-2.0-flash",
+            "label": "CloudCompile/agnes-2.0-flash (LLM)"
         },
         {
-            "name": "CloudCompile/nemotron-3-ultra-550b-a55b",
-            "label": "CloudCompile/nemotron-3-ultra-550b-a55b (LLM)"
+            "name": "CloudCompile/agnes-image-2.1-flash-2k",
+            "label": "CloudCompile/agnes-image-2.1-flash-2k (LLM)"
         },
         {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
@@ -565,8 +553,16 @@
             "label": "qwen3.7-max \ud83d\udc8e (LLM)"
         },
         {
+            "name": "sharktide/inferenceport-ai-codestral-2508",
+            "label": "sharktide/inferenceport-ai-codestral-2508 (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-command-r-plus",
             "label": "sharktide/inferenceport-ai-command-r-plus (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-gemini-2.5-flash",
+            "label": "sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-gpt-4.1",
@@ -609,6 +605,10 @@
             "label": "solarnode-developement/glm-5.2-cheap (LLM)"
         },
         {
+            "name": "solarnode-developement/hy3",
+            "label": "solarnode-developement/hy3 (LLM)"
+        },
+        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash (LLM)"
         },
@@ -625,10 +625,6 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "tomdacatto/gemma-4-31b-fast",
-            "label": "tomdacatto/gemma-4-31b-fast (LLM)"
-        },
-        {
             "name": "vendouple/deepseek-v3.2",
             "label": "vendouple/deepseek-v3.2 (LLM)"
         },
@@ -637,16 +633,12 @@
             "label": "vendouple/deepseek-v4-flash (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v4-pro",
-            "label": "vendouple/deepseek-v4-pro (LLM)"
-        },
-        {
-            "name": "vendouple/gemma-4-31B",
-            "label": "vendouple/gemma-4-31B (LLM)"
-        },
-        {
             "name": "vendouple/gpt-5.6-sol",
             "label": "vendouple/gpt-5.6-sol (LLM)"
+        },
+        {
+            "name": "vendouple/grok-4.5",
+            "label": "vendouple/grok-4.5 (LLM)"
         },
         {
             "name": "vendouple/kimi-k2.6",
