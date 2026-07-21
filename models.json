@@ -177,12 +177,28 @@
             "label": "Catniti/agnes-2.0-flash (LLM)"
         },
         {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
+            "name": "Catniti/claude-sonnet-4.6",
+            "label": "Catniti/claude-sonnet-4.6 (LLM)"
+        },
+        {
+            "name": "Catniti/gemma-4-31b",
+            "label": "Catniti/gemma-4-31b (LLM)"
+        },
+        {
             "name": "Catniti/glm-4.7",
             "label": "Catniti/glm-4.7 (LLM)"
         },
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
+        },
+        {
+            "name": "Catniti/openai-fast",
+            "label": "Catniti/openai-fast (LLM)"
         },
         {
             "name": "Circuit-Overtime/lixsearch",
@@ -201,8 +217,24 @@
             "label": "CloudCompile/agnes-2.0-flash (LLM)"
         },
         {
+            "name": "CloudCompile/agnes-image-2.1-flash-1k",
+            "label": "CloudCompile/agnes-image-2.1-flash-1k (LLM)"
+        },
+        {
             "name": "CloudCompile/agnes-image-2.1-flash-2k",
             "label": "CloudCompile/agnes-image-2.1-flash-2k (LLM)"
+        },
+        {
+            "name": "CloudCompile/agnes-video-v2.0",
+            "label": "CloudCompile/agnes-video-v2.0 (LLM)"
+        },
+        {
+            "name": "CloudCompile/grok-4.5",
+            "label": "CloudCompile/grok-4.5 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-flash",
+            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
         },
         {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
@@ -217,8 +249,20 @@
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
+            "name": "MarcosFRG/gemini-3.1-pro-preview",
+            "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemma-3-27b",
+            "label": "MarcosFRG/gemma-3-27b (LLM)"
+        },
+        {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/glm-5.2",
+            "label": "MarcosFRG/glm-5.2 (LLM)"
         },
         {
             "name": "MarcosFRG/mimo-v2.5",
@@ -469,6 +513,10 @@
             "label": "mistral-small-3.2 (LLM)"
         },
         {
+            "name": "morriszdweck/kimi-k3-cheap",
+            "label": "morriszdweck/kimi-k3-cheap (LLM)"
+        },
+        {
             "name": "morriszdweck/qwen-3.7-plus-cheap",
             "label": "morriszdweck/qwen-3.7-plus-cheap (LLM)"
         },
@@ -601,6 +649,10 @@
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
         },
         {
+            "name": "smplstuff/falcon-h1-tiny",
+            "label": "smplstuff/falcon-h1-tiny (LLM)"
+        },
+        {
             "name": "solarnode-developement/glm-5.2-cheap",
             "label": "solarnode-developement/glm-5.2-cheap (LLM)"
         },
@@ -621,6 +673,10 @@
             "label": "timemachine-studio/mercury2 (LLM)"
         },
         {
+            "name": "timemachine-studio/minimax-m3",
+            "label": "timemachine-studio/minimax-m3 (LLM)"
+        },
+        {
             "name": "tomdacatto/ezra",
             "label": "tomdacatto/ezra (LLM)"
         },
@@ -631,6 +687,10 @@
         {
             "name": "vendouple/deepseek-v4-flash",
             "label": "vendouple/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "vendouple/deepseek-v4-pro",
+            "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
             "name": "vendouple/gpt-5.6-sol",
