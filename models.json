@@ -185,6 +185,14 @@
             "label": "Catniti/claude-sonnet-4.6 (LLM)"
         },
         {
+            "name": "Catniti/deepseek-v4-flash",
+            "label": "Catniti/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "Catniti/gemini-3.6-flash",
+            "label": "Catniti/gemini-3.6-flash (LLM)"
+        },
+        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
         },
@@ -207,10 +215,6 @@
         {
             "name": "CloudCompile/afforda-claude-haiku-4.5",
             "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
-        },
-        {
-            "name": "CloudCompile/agnes-1.5-flash",
-            "label": "CloudCompile/agnes-1.5-flash (LLM)"
         },
         {
             "name": "CloudCompile/agnes-2.0-flash",
@@ -249,16 +253,16 @@
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
-            "name": "MarcosFRG/gemini-3.1-pro-preview",
-            "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
-        },
-        {
             "name": "MarcosFRG/gemma-3-27b",
             "label": "MarcosFRG/gemma-3-27b (LLM)"
         },
         {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/glm-4.6v-flash",
+            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "MarcosFRG/glm-5.2",
@@ -271,6 +275,14 @@
         {
             "name": "MarcosFRG/minimax-m3",
             "label": "MarcosFRG/minimax-m3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/north-mini-code",
+            "label": "MarcosFRG/north-mini-code (LLM)"
+        },
+        {
+            "name": "MarcosFRG/ternary-bonsai-27b",
+            "label": "MarcosFRG/ternary-bonsai-27b (LLM)"
         },
         {
             "name": "Minor-fun/deepseek-v3.2",
@@ -311,10 +323,6 @@
         {
             "name": "YoannDev90/diffusiongemma-26b-a4b-it:free",
             "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
-        },
-        {
-            "name": "YoannDev90/gemma-4-31b-it:free",
-            "label": "YoannDev90/gemma-4-31b-it:free (LLM)"
         },
         {
             "name": "YoannDev90/laguna-xs-2.1:free",
@@ -513,8 +521,8 @@
             "label": "mistral-small-3.2 (LLM)"
         },
         {
-            "name": "morriszdweck/kimi-k3-cheap",
-            "label": "morriszdweck/kimi-k3-cheap (LLM)"
+            "name": "morriszdweck/mistral-fat",
+            "label": "morriszdweck/mistral-fat (LLM)"
         },
         {
             "name": "morriszdweck/qwen-3.7-plus-cheap",
@@ -557,12 +565,12 @@
             "label": "perplexity (LLM)"
         },
         {
-            "name": "perplexity-deep",
-            "label": "perplexity-deep (LLM)"
-        },
-        {
             "name": "perplexity-fast",
             "label": "perplexity-fast (LLM)"
+        },
+        {
+            "name": "perplexity-high",
+            "label": "perplexity-high (LLM)"
         },
         {
             "name": "perplexity-reasoning",
