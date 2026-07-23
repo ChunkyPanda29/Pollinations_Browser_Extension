@@ -1,6 +1,14 @@
 {
     "image": [
         {
+            "name": "Catniti/agnes-image-2.0-flash",
+            "label": "Catniti/agnes-image-2.0-flash (T2I)"
+        },
+        {
+            "name": "Catniti/qwen-image-3.0-pro",
+            "label": "Catniti/qwen-image-3.0-pro (T2I)"
+        },
+        {
             "name": "flux",
             "label": "flux (T2I)"
         },
@@ -95,6 +103,38 @@
         {
             "name": "seedream5-pro",
             "label": "seedream5-pro \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-lightning-image-turbo",
+            "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I)"
+        },
+        {
+            "name": "tomdacatto/krea-2-medium-turbo",
+            "label": "tomdacatto/krea-2-medium-turbo (T2I)"
+        },
+        {
+            "name": "tomdacatto/mai-image-2.5",
+            "label": "tomdacatto/mai-image-2.5 (T2I)"
+        },
+        {
+            "name": "tomdacatto/nano-banana",
+            "label": "tomdacatto/nano-banana (T2I)"
+        },
+        {
+            "name": "tomdacatto/nano-banana-2",
+            "label": "tomdacatto/nano-banana-2 (T2I)"
+        },
+        {
+            "name": "tomdacatto/nano-banana-2-lite",
+            "label": "tomdacatto/nano-banana-2-lite (T2I)"
+        },
+        {
+            "name": "tomdacatto/nano-banana-pro",
+            "label": "tomdacatto/nano-banana-pro (T2I)"
+        },
+        {
+            "name": "tomdacatto/seedream-5-pro",
+            "label": "tomdacatto/seedream-5-pro (T2I)"
         },
         {
             "name": "wan-image",
@@ -201,6 +241,10 @@
             "label": "Catniti/glm-4.7 (LLM)"
         },
         {
+            "name": "Catniti/glm-4.7-flash",
+            "label": "Catniti/glm-4.7-flash (LLM)"
+        },
+        {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
         },
@@ -305,24 +349,12 @@
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
         },
         {
-            "name": "Spit-fires/bonsai-image-512x512-4",
-            "label": "Spit-fires/bonsai-image-512x512-4 (LLM)"
-        },
-        {
-            "name": "Spit-fires/free",
-            "label": "Spit-fires/free (LLM)"
-        },
-        {
-            "name": "Spit-fires/gpt-oss-20b-free",
-            "label": "Spit-fires/gpt-oss-20b-free (LLM)"
-        },
-        {
-            "name": "Spit-fires/step-3.5-flash-free",
-            "label": "Spit-fires/step-3.5-flash-free (LLM)"
-        },
-        {
             "name": "YoannDev90/diffusiongemma-26b-a4b-it:free",
             "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
+        },
+        {
+            "name": "YoannDev90/laguna-s-2.1:free",
+            "label": "YoannDev90/laguna-s-2.1:free (LLM)"
         },
         {
             "name": "YoannDev90/laguna-xs-2.1:free",
@@ -378,7 +410,7 @@
         },
         {
             "name": "gemini-fast",
-            "label": "gemini-fast \ud83d\udc8e (LLM)"
+            "label": "gemini-fast (LLM)"
         },
         {
             "name": "gemini-flash-lite-3.1",
@@ -465,6 +497,10 @@
             "label": "kimi-k3 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "laguna",
+            "label": "laguna \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "llama",
             "label": "llama (LLM)"
         },
@@ -475,6 +511,10 @@
         {
             "name": "llama-scout",
             "label": "llama-scout (LLM)"
+        },
+        {
+            "name": "longcat",
+            "label": "longcat \ud83d\udc8e (LLM)"
         },
         {
             "name": "mercury",
@@ -521,12 +561,12 @@
             "label": "mistral-small-3.2 (LLM)"
         },
         {
-            "name": "morriszdweck/mistral-fat",
-            "label": "morriszdweck/mistral-fat (LLM)"
+            "name": "morriszdweck/mercury-cheap",
+            "label": "morriszdweck/mercury-cheap (LLM)"
         },
         {
-            "name": "morriszdweck/qwen-3.7-plus-cheap",
-            "label": "morriszdweck/qwen-3.7-plus-cheap (LLM)"
+            "name": "morriszdweck/mistral-fat",
+            "label": "morriszdweck/mistral-fat (LLM)"
         },
         {
             "name": "muse-spark-1.1",
@@ -689,6 +729,14 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
+            "name": "tomdacatto/gemma-4-31b-fast",
+            "label": "tomdacatto/gemma-4-31b-fast (LLM)"
+        },
+        {
+            "name": "vendouple/claude-opus-4-8",
+            "label": "vendouple/claude-opus-4-8 (LLM)"
+        },
+        {
             "name": "vendouple/deepseek-v3.2",
             "label": "vendouple/deepseek-v3.2 (LLM)"
         },
@@ -701,24 +749,20 @@
             "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
-            "name": "vendouple/gpt-5.6-sol",
-            "label": "vendouple/gpt-5.6-sol (LLM)"
-        },
-        {
-            "name": "vendouple/grok-4.5",
-            "label": "vendouple/grok-4.5 (LLM)"
+            "name": "vendouple/gemma-4-31B",
+            "label": "vendouple/gemma-4-31B (LLM)"
         },
         {
             "name": "vendouple/kimi-k2.6",
             "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
-            "name": "vendouple/kimi-k3",
-            "label": "vendouple/kimi-k3 (LLM)"
-        },
-        {
             "name": "vendouple/nemotron-3-ultra",
             "label": "vendouple/nemotron-3-ultra (LLM)"
+        },
+        {
+            "name": "vendouple/qwen3.8-max-preview",
+            "label": "vendouple/qwen3.8-max-preview (LLM)"
         },
         {
             "name": "vendouple/unlocked-deepseek",
@@ -742,6 +786,18 @@
         }
     ],
     "audio": [
+        {
+            "name": "csm-1b",
+            "label": "csm-1b \ud83d\udc8e (Audio)",
+            "voices": [
+                "conversational_a",
+                "conversational_b",
+                "read_speech_a",
+                "read_speech_b",
+                "read_speech_c",
+                "read_speech_d"
+            ]
+        },
         {
             "name": "eleven-multilingual-v2",
             "label": "eleven-multilingual-v2 \ud83d\udc8e (Audio)",
