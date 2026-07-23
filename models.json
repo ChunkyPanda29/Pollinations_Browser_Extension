@@ -5,6 +5,10 @@
             "label": "Catniti/agnes-image-2.0-flash (T2I)"
         },
         {
+            "name": "Catniti/agnes-image-2.1-flash",
+            "label": "Catniti/agnes-image-2.1-flash (T2I)"
+        },
+        {
             "name": "Catniti/qwen-image-3.0-pro",
             "label": "Catniti/qwen-image-3.0-pro (T2I)"
         },
