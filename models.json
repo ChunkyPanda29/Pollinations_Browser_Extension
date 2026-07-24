@@ -113,6 +113,18 @@
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I)"
         },
         {
+            "name": "tomdacatto/grok-imagine",
+            "label": "tomdacatto/grok-imagine (T2I)"
+        },
+        {
+            "name": "tomdacatto/grok-imagine-quality",
+            "label": "tomdacatto/grok-imagine-quality (T2I)"
+        },
+        {
+            "name": "tomdacatto/kling-image-3",
+            "label": "tomdacatto/kling-image-3 (T2I)"
+        },
+        {
             "name": "tomdacatto/krea-2-medium-turbo",
             "label": "tomdacatto/krea-2-medium-turbo (T2I)"
         },
@@ -139,6 +151,46 @@
         {
             "name": "tomdacatto/seedream-5-pro",
             "label": "tomdacatto/seedream-5-pro (T2I)"
+        },
+        {
+            "name": "vendouple/animagine-xl-v3.1",
+            "label": "vendouple/animagine-xl-v3.1 (T2I)"
+        },
+        {
+            "name": "vendouple/flux-2",
+            "label": "vendouple/flux-2 (T2I)"
+        },
+        {
+            "name": "vendouple/gpt-image-2",
+            "label": "vendouple/gpt-image-2 (T2I)"
+        },
+        {
+            "name": "vendouple/grok-imagine",
+            "label": "vendouple/grok-imagine (T2I)"
+        },
+        {
+            "name": "vendouple/imagen-4-ultra",
+            "label": "vendouple/imagen-4-ultra (T2I)"
+        },
+        {
+            "name": "vendouple/midjourney",
+            "label": "vendouple/midjourney (T2I)"
+        },
+        {
+            "name": "vendouple/nano-banana-2",
+            "label": "vendouple/nano-banana-2 (T2I)"
+        },
+        {
+            "name": "vendouple/nano-banana-pro",
+            "label": "vendouple/nano-banana-pro (T2I)"
+        },
+        {
+            "name": "vendouple/seedream-5-lite",
+            "label": "vendouple/seedream-5-lite (T2I)"
+        },
+        {
+            "name": "vendouple/uncensored-image",
+            "label": "vendouple/uncensored-image (T2I)"
         },
         {
             "name": "wan-image",
@@ -233,10 +285,6 @@
             "label": "Catniti/deepseek-v4-flash (LLM)"
         },
         {
-            "name": "Catniti/gemini-3.6-flash",
-            "label": "Catniti/gemini-3.6-flash (LLM)"
-        },
-        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
         },
@@ -257,28 +305,12 @@
             "label": "Catniti/openai-fast (LLM)"
         },
         {
-            "name": "Circuit-Overtime/lixsearch",
-            "label": "Circuit-Overtime/lixsearch (LLM)"
-        },
-        {
             "name": "CloudCompile/afforda-claude-haiku-4.5",
             "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
         },
         {
             "name": "CloudCompile/agnes-2.0-flash",
             "label": "CloudCompile/agnes-2.0-flash (LLM)"
-        },
-        {
-            "name": "CloudCompile/agnes-image-2.1-flash-1k",
-            "label": "CloudCompile/agnes-image-2.1-flash-1k (LLM)"
-        },
-        {
-            "name": "CloudCompile/agnes-image-2.1-flash-2k",
-            "label": "CloudCompile/agnes-image-2.1-flash-2k (LLM)"
-        },
-        {
-            "name": "CloudCompile/agnes-video-v2.0",
-            "label": "CloudCompile/agnes-video-v2.0 (LLM)"
         },
         {
             "name": "CloudCompile/grok-4.5",
@@ -329,16 +361,8 @@
             "label": "MarcosFRG/north-mini-code (LLM)"
         },
         {
-            "name": "MarcosFRG/ternary-bonsai-27b",
-            "label": "MarcosFRG/ternary-bonsai-27b (LLM)"
-        },
-        {
             "name": "Minor-fun/deepseek-v3.2",
             "label": "Minor-fun/deepseek-v3.2 (LLM)"
-        },
-        {
-            "name": "Minor-fun/deepseek-v4-flash",
-            "label": "Minor-fun/deepseek-v4-flash (LLM)"
         },
         {
             "name": "Minor-fun/gemini-3.1-pro-preview",
@@ -417,8 +441,8 @@
             "label": "gemini-fast (LLM)"
         },
         {
-            "name": "gemini-flash-lite-3.1",
-            "label": "gemini-flash-lite-3.1 \ud83d\udc8e (LLM)"
+            "name": "gemini-flash-lite-3.5",
+            "label": "gemini-flash-lite-3.5 \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemini-large",
@@ -569,10 +593,6 @@
             "label": "morriszdweck/mercury-cheap (LLM)"
         },
         {
-            "name": "morriszdweck/mistral-fat",
-            "label": "morriszdweck/mistral-fat (LLM)"
-        },
-        {
             "name": "muse-spark-1.1",
             "label": "muse-spark-1.1 \ud83d\udc8e (LLM)"
         },
@@ -619,10 +639,6 @@
         {
             "name": "perplexity-reasoning",
             "label": "perplexity-reasoning (LLM)"
-        },
-        {
-            "name": "polly",
-            "label": "polly (LLM)"
         },
         {
             "name": "qwen-coder",
@@ -693,16 +709,8 @@
             "label": "sharktide/inferenceport-ai-qwen-3.6-27b (LLM)"
         },
         {
-            "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
-            "label": "sharktide/inferenceport.ai-gpt-5-chat-latest (LLM)"
-        },
-        {
             "name": "sharktide/inferenceport.ai-gpt-oss-20b",
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
-        },
-        {
-            "name": "smplstuff/falcon-h1-tiny",
-            "label": "smplstuff/falcon-h1-tiny (LLM)"
         },
         {
             "name": "solarnode-developement/glm-5.2-cheap",
