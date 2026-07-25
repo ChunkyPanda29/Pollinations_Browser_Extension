@@ -89,6 +89,10 @@
             "label": "qwen-image \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "recraft-v4.1-vector",
+            "label": "recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "sana",
             "label": "sana (T2I)"
         },
@@ -125,14 +129,6 @@
             "label": "tomdacatto/kling-image-3 (T2I)"
         },
         {
-            "name": "tomdacatto/krea-2-medium-turbo",
-            "label": "tomdacatto/krea-2-medium-turbo (T2I)"
-        },
-        {
-            "name": "tomdacatto/mai-image-2.5",
-            "label": "tomdacatto/mai-image-2.5 (T2I)"
-        },
-        {
             "name": "tomdacatto/nano-banana",
             "label": "tomdacatto/nano-banana (T2I)"
         },
@@ -161,10 +157,6 @@
             "label": "vendouple/flux-2 (T2I)"
         },
         {
-            "name": "vendouple/gpt-image-2",
-            "label": "vendouple/gpt-image-2 (T2I)"
-        },
-        {
             "name": "vendouple/grok-imagine",
             "label": "vendouple/grok-imagine (T2I)"
         },
@@ -173,12 +165,8 @@
             "label": "vendouple/imagen-4-ultra (T2I)"
         },
         {
-            "name": "vendouple/midjourney",
-            "label": "vendouple/midjourney (T2I)"
-        },
-        {
-            "name": "vendouple/nano-banana-2",
-            "label": "vendouple/nano-banana-2 (T2I)"
+            "name": "vendouple/luma-photon-1",
+            "label": "vendouple/luma-photon-1 (T2I)"
         },
         {
             "name": "vendouple/nano-banana-pro",
@@ -191,6 +179,10 @@
         {
             "name": "vendouple/uncensored-image",
             "label": "vendouple/uncensored-image (T2I)"
+        },
+        {
+            "name": "vendouple/zimage",
+            "label": "vendouple/zimage (T2I)"
         },
         {
             "name": "wan-image",
@@ -321,6 +313,10 @@
             "label": "MarcosFRG/deepseek-v4-flash (LLM)"
         },
         {
+            "name": "MarcosFRG/deepseek-v4-pro",
+            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
+        },
+        {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
             "label": "MarcosFRG/gemini-2.5-flash-lite (LLM)"
         },
@@ -331,6 +327,10 @@
         {
             "name": "MarcosFRG/gemini-3.1-flash-lite",
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemini-3.1-pro-preview",
+            "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
         },
         {
             "name": "MarcosFRG/gemma-3-27b",
@@ -365,14 +365,6 @@
             "label": "Minor-fun/deepseek-v3.2 (LLM)"
         },
         {
-            "name": "Minor-fun/gemini-3.1-pro-preview",
-            "label": "Minor-fun/gemini-3.1-pro-preview (LLM)"
-        },
-        {
-            "name": "Minor-fun/gemini-3.5-flash",
-            "label": "Minor-fun/gemini-3.5-flash (LLM)"
-        },
-        {
             "name": "Minor-fun/gemma-4-31B-it",
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
         },
@@ -381,8 +373,8 @@
             "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
         },
         {
-            "name": "YoannDev90/laguna-s-2.1:free",
-            "label": "YoannDev90/laguna-s-2.1:free (LLM)"
+            "name": "YoannDev90/laguna-s-2.1:free(n2)",
+            "label": "YoannDev90/laguna-s-2.1:free(n2) (LLM)"
         },
         {
             "name": "YoannDev90/laguna-xs-2.1:free",
@@ -438,7 +430,7 @@
         },
         {
             "name": "gemini-fast",
-            "label": "gemini-fast (LLM)"
+            "label": "gemini-fast \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemini-flash-lite-3.5",
@@ -717,10 +709,6 @@
             "label": "solarnode-developement/glm-5.2-cheap (LLM)"
         },
         {
-            "name": "solarnode-developement/hy3",
-            "label": "solarnode-developement/hy3 (LLM)"
-        },
-        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash (LLM)"
         },
@@ -749,8 +737,8 @@
             "label": "vendouple/claude-opus-4-8 (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v3.2",
-            "label": "vendouple/deepseek-v3.2 (LLM)"
+            "name": "vendouple/claude-opus-5",
+            "label": "vendouple/claude-opus-5 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-flash",
@@ -761,16 +749,28 @@
             "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
+            "name": "vendouple/gemini-3.6-flash",
+            "label": "vendouple/gemini-3.6-flash (LLM)"
+        },
+        {
             "name": "vendouple/gemma-4-31B",
             "label": "vendouple/gemma-4-31B (LLM)"
+        },
+        {
+            "name": "vendouple/grok-4.5",
+            "label": "vendouple/grok-4.5 (LLM)"
         },
         {
             "name": "vendouple/kimi-k2.6",
             "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
-            "name": "vendouple/nemotron-3-ultra",
-            "label": "vendouple/nemotron-3-ultra (LLM)"
+            "name": "vendouple/laguna-s-2.1:free",
+            "label": "vendouple/laguna-s-2.1:free (LLM)"
+        },
+        {
+            "name": "vendouple/nemotron-3-ultra:free",
+            "label": "vendouple/nemotron-3-ultra:free (LLM)"
         },
         {
             "name": "vendouple/qwen3.8-max-preview",
@@ -941,6 +941,11 @@
         {
             "name": "elevenmusic",
             "label": "elevenmusic \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "lyria-3-clip",
+            "label": "lyria-3-clip \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
