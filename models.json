@@ -165,6 +165,10 @@
             "label": "vendouple/imagen-4-ultra (T2I)"
         },
         {
+            "name": "vendouple/leonardo-phoenix",
+            "label": "vendouple/leonardo-phoenix (T2I)"
+        },
+        {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
         },
@@ -179,10 +183,6 @@
         {
             "name": "vendouple/uncensored-image",
             "label": "vendouple/uncensored-image (T2I)"
-        },
-        {
-            "name": "vendouple/zimage",
-            "label": "vendouple/zimage (T2I)"
         },
         {
             "name": "wan-image",
@@ -273,6 +273,10 @@
             "label": "Catniti/claude-sonnet-4.6 (LLM)"
         },
         {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
+        },
+        {
             "name": "Catniti/deepseek-v4-flash",
             "label": "Catniti/deepseek-v4-flash (LLM)"
         },
@@ -291,6 +295,10 @@
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
+        },
+        {
+            "name": "Catniti/kimi-k2.6",
+            "label": "Catniti/kimi-k2.6 (LLM)"
         },
         {
             "name": "Catniti/openai-fast",
@@ -735,10 +743,6 @@
         {
             "name": "vendouple/claude-opus-4-8",
             "label": "vendouple/claude-opus-4-8 (LLM)"
-        },
-        {
-            "name": "vendouple/claude-opus-5",
-            "label": "vendouple/claude-opus-5 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-flash",
