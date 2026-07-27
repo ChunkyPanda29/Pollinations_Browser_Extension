@@ -13,6 +13,10 @@
             "label": "Catniti/qwen-image-3.0-pro (T2I)"
         },
         {
+            "name": "Spit-fires/flux-schnell",
+            "label": "Spit-fires/flux-schnell (T2I)"
+        },
+        {
             "name": "flux",
             "label": "flux (T2I)"
         },
@@ -381,16 +385,20 @@
             "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
         },
         {
-            "name": "YoannDev90/laguna-s-2.1:free(n2)",
-            "label": "YoannDev90/laguna-s-2.1:free(n2) (LLM)"
+            "name": "YoannDev90/gemma-4-31b:free",
+            "label": "YoannDev90/gemma-4-31b:free (LLM)"
+        },
+        {
+            "name": "YoannDev90/laguna-s-2.1:free",
+            "label": "YoannDev90/laguna-s-2.1:free (LLM)"
         },
         {
             "name": "YoannDev90/laguna-xs-2.1:free",
             "label": "YoannDev90/laguna-xs-2.1:free (LLM)"
         },
         {
-            "name": "YoannDev90/llama-3.1-8b-instant:free",
-            "label": "YoannDev90/llama-3.1-8b-instant:free (LLM)"
+            "name": "YoannDev90/llama-3.1-8b-fast:free",
+            "label": "YoannDev90/llama-3.1-8b-fast:free (LLM)"
         },
         {
             "name": "claude",
@@ -753,10 +761,6 @@
             "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
-            "name": "vendouple/gemini-3.6-flash",
-            "label": "vendouple/gemini-3.6-flash (LLM)"
-        },
-        {
             "name": "vendouple/gemma-4-31B",
             "label": "vendouple/gemma-4-31B (LLM)"
         },
@@ -767,10 +771,6 @@
         {
             "name": "vendouple/kimi-k2.6",
             "label": "vendouple/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "vendouple/laguna-s-2.1:free",
-            "label": "vendouple/laguna-s-2.1:free (LLM)"
         },
         {
             "name": "vendouple/nemotron-3-ultra:free",
@@ -812,6 +812,47 @@
                 "read_speech_b",
                 "read_speech_c",
                 "read_speech_d"
+            ]
+        },
+        {
+            "name": "eleven-dialogue",
+            "label": "eleven-dialogue \ud83d\udc8e (Audio)",
+            "voices": [
+                "alloy",
+                "echo",
+                "fable",
+                "onyx",
+                "nova",
+                "shimmer",
+                "ash",
+                "ballad",
+                "coral",
+                "sage",
+                "verse",
+                "rachel",
+                "domi",
+                "bella",
+                "elli",
+                "charlotte",
+                "dorothy",
+                "sarah",
+                "emily",
+                "lily",
+                "matilda",
+                "adam",
+                "antoni",
+                "arnold",
+                "josh",
+                "sam",
+                "daniel",
+                "charlie",
+                "james",
+                "fin",
+                "callum",
+                "liam",
+                "george",
+                "brian",
+                "bill"
             ]
         },
         {
@@ -858,6 +899,52 @@
         {
             "name": "eleven-sfx",
             "label": "eleven-sfx \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "eleven-voice-changer",
+            "label": "eleven-voice-changer \ud83d\udc8e (Audio)",
+            "voices": [
+                "alloy",
+                "echo",
+                "fable",
+                "onyx",
+                "nova",
+                "shimmer",
+                "ash",
+                "ballad",
+                "coral",
+                "sage",
+                "verse",
+                "rachel",
+                "domi",
+                "bella",
+                "elli",
+                "charlotte",
+                "dorothy",
+                "sarah",
+                "emily",
+                "lily",
+                "matilda",
+                "adam",
+                "antoni",
+                "arnold",
+                "josh",
+                "sam",
+                "daniel",
+                "charlie",
+                "james",
+                "fin",
+                "callum",
+                "liam",
+                "george",
+                "brian",
+                "bill"
+            ]
+        },
+        {
+            "name": "eleven-voice-isolator",
+            "label": "eleven-voice-isolator \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
