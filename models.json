@@ -13,6 +13,10 @@
             "label": "Catniti/qwen-image-3.0-pro (T2I)"
         },
         {
+            "name": "CloudCompile/agnes-image-2.0-flash",
+            "label": "CloudCompile/agnes-image-2.0-flash (T2I)"
+        },
+        {
             "name": "Spit-fires/flux-schnell",
             "label": "Spit-fires/flux-schnell (T2I)"
         },
@@ -59,6 +63,10 @@
         {
             "name": "kontext",
             "label": "kontext (T2I/I2I)"
+        },
+        {
+            "name": "meow18838/image-1",
+            "label": "meow18838/image-1 (T2I)"
         },
         {
             "name": "nanobanana",
@@ -121,6 +129,10 @@
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I)"
         },
         {
+            "name": "tomdacatto/gpt-image-2",
+            "label": "tomdacatto/gpt-image-2 (T2I)"
+        },
+        {
             "name": "tomdacatto/grok-imagine",
             "label": "tomdacatto/grok-imagine (T2I)"
         },
@@ -153,8 +165,8 @@
             "label": "tomdacatto/seedream-5-pro (T2I)"
         },
         {
-            "name": "vendouple/animagine-xl-v3.1",
-            "label": "vendouple/animagine-xl-v3.1 (T2I)"
+            "name": "vendouple/animagine",
+            "label": "vendouple/animagine (T2I)"
         },
         {
             "name": "vendouple/flux-2",
@@ -182,7 +194,7 @@
         },
         {
             "name": "vendouple/seedream-5-lite",
-            "label": "vendouple/seedream-5-lite (T2I)"
+            "label": "vendouple/seedream-5-lite (T2I/I2I)"
         },
         {
             "name": "vendouple/uncensored-image",
@@ -319,6 +331,30 @@
         {
             "name": "CloudCompile/grok-4.5",
             "label": "CloudCompile/grok-4.5 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/deepseek-v4-flash-free",
+            "label": "JustScriptzz/deepseek-v4-flash-free (LLM)"
+        },
+        {
+            "name": "JustScriptzz/deepseek-v4-pro",
+            "label": "JustScriptzz/deepseek-v4-pro (LLM)"
+        },
+        {
+            "name": "JustScriptzz/glm-5.2",
+            "label": "JustScriptzz/glm-5.2 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/kimi-k2.7-coder",
+            "label": "JustScriptzz/kimi-k2.7-coder (LLM)"
+        },
+        {
+            "name": "Lorodn4x/minimax-m3",
+            "label": "Lorodn4x/minimax-m3 (LLM)"
+        },
+        {
+            "name": "Lorodn4x/qwen3.7-max",
+            "label": "Lorodn4x/qwen3.7-max (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -605,6 +641,10 @@
             "label": "muse-spark-1.1 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "nemotron",
+            "label": "nemotron \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "nova",
             "label": "nova (LLM)"
         },
@@ -773,8 +813,8 @@
             "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
-            "name": "vendouple/nemotron-3-ultra:free",
-            "label": "vendouple/nemotron-3-ultra:free (LLM)"
+            "name": "vendouple/laguna-s-2.1:free",
+            "label": "vendouple/laguna-s-2.1:free (LLM)"
         },
         {
             "name": "vendouple/qwen3.8-max-preview",
