@@ -837,8 +837,8 @@
             "label": "vendouple/qwen3.8-max-preview (LLM)"
         },
         {
-            "name": "vendouple/unlocked-deepseek",
-            "label": "vendouple/unlocked-deepseek (LLM)"
+            "name": "vendouple/venice-uncensored",
+            "label": "vendouple/venice-uncensored (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
