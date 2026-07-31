@@ -21,6 +21,10 @@
             "label": "Spit-fires/flux-schnell (T2I)"
         },
         {
+            "name": "dreamshaper",
+            "label": "dreamshaper (T2I)"
+        },
+        {
             "name": "flux",
             "label": "flux (T2I)"
         },
@@ -103,10 +107,6 @@
         {
             "name": "recraft-v4.1-vector",
             "label": "recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
-        },
-        {
-            "name": "sana",
-            "label": "sana (T2I)"
         },
         {
             "name": "seedream",
@@ -205,12 +205,12 @@
             "label": "vendouple/uncensored-image (T2I)"
         },
         {
-            "name": "vendouple/wai-illustrious-xl",
-            "label": "vendouple/wai-illustrious-xl (T2I)"
+            "name": "vendouple/uncensored-image-enhanced",
+            "label": "vendouple/uncensored-image-enhanced (T2I)"
         },
         {
-            "name": "vendouple/zimage-uncensored",
-            "label": "vendouple/zimage-uncensored (T2I)"
+            "name": "vendouple/wai-illustrious-xl",
+            "label": "vendouple/wai-illustrious-xl (T2I)"
         },
         {
             "name": "wan-image",
@@ -283,10 +283,6 @@
         {
             "name": "Bakhshi7889/gemma-4-31b-it",
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
-        },
-        {
-            "name": "Catniti/agnes-1.5-flash",
-            "label": "Catniti/agnes-1.5-flash (LLM)"
         },
         {
             "name": "Catniti/agnes-2.0-flash",
@@ -425,6 +421,10 @@
             "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
         },
         {
+            "name": "YoannDev90/laguna-s-2.1:free",
+            "label": "YoannDev90/laguna-s-2.1:free (LLM)"
+        },
+        {
             "name": "claude",
             "label": "claude \ud83d\udc8e (LLM)"
         },
@@ -451,6 +451,10 @@
         {
             "name": "claude-sonnet-5",
             "label": "claude-sonnet-5 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "command-a-plus",
+            "label": "command-a-plus (LLM)"
         },
         {
             "name": "deepseek",
@@ -494,11 +498,11 @@
         },
         {
             "name": "gemma",
-            "label": "gemma (LLM)"
+            "label": "gemma \ud83d\udc8e (LLM)"
         },
         {
             "name": "gemma-4-31b",
-            "label": "gemma-4-31b (LLM)"
+            "label": "gemma-4-31b \ud83d\udc8e (LLM)"
         },
         {
             "name": "glm",
@@ -554,7 +558,7 @@
         },
         {
             "name": "kimi-k3",
-            "label": "kimi-k3 \ud83d\udc8e (LLM)"
+            "label": "kimi-k3 (LLM)"
         },
         {
             "name": "laguna",
@@ -570,7 +574,7 @@
         },
         {
             "name": "llama-scout",
-            "label": "llama-scout (LLM)"
+            "label": "llama-scout \ud83d\udc8e (LLM)"
         },
         {
             "name": "longcat",
@@ -594,11 +598,11 @@
         },
         {
             "name": "mimo-v2.5",
-            "label": "mimo-v2.5 (LLM)"
+            "label": "mimo-v2.5 \ud83d\udc8e (LLM)"
         },
         {
             "name": "mimo-v2.5-pro",
-            "label": "mimo-v2.5-pro (LLM)"
+            "label": "mimo-v2.5-pro \ud83d\udc8e (LLM)"
         },
         {
             "name": "minimax",
@@ -610,7 +614,7 @@
         },
         {
             "name": "mistral",
-            "label": "mistral (LLM)"
+            "label": "mistral \ud83d\udc8e (LLM)"
         },
         {
             "name": "mistral-large",
@@ -618,7 +622,7 @@
         },
         {
             "name": "mistral-small-3.2",
-            "label": "mistral-small-3.2 (LLM)"
+            "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
         },
         {
             "name": "morriszdweck/mercury-cheap",
@@ -686,7 +690,7 @@
         },
         {
             "name": "qwen-large",
-            "label": "qwen-large (LLM)"
+            "label": "qwen-large \ud83d\udc8e (LLM)"
         },
         {
             "name": "qwen-safety",
@@ -694,11 +698,15 @@
         },
         {
             "name": "qwen-vision",
-            "label": "qwen-vision (LLM)"
+            "label": "qwen-vision \ud83d\udc8e (LLM)"
         },
         {
             "name": "qwen-vision-pro",
-            "label": "qwen-vision-pro (LLM)"
+            "label": "qwen-vision-pro \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "qwen3.7-flash",
+            "label": "qwen3.7-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "qwen3.7-max",
@@ -719,10 +727,6 @@
         {
             "name": "sharktide/inferenceport-ai-gpt-4.1",
             "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-kimi-k2.5",
-            "label": "sharktide/inferenceport-ai-kimi-k2.5 (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-kimi-k2.7-code",
@@ -758,11 +762,11 @@
         },
         {
             "name": "step-3.5-flash",
-            "label": "step-3.5-flash (LLM)"
+            "label": "step-3.5-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "step-flash",
-            "label": "step-flash (LLM)"
+            "label": "step-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "timemachine-studio/mercury2",
@@ -789,6 +793,10 @@
             "label": "vendouple/claude-opus-4-8 (LLM)"
         },
         {
+            "name": "vendouple/deepseek-v3.2",
+            "label": "vendouple/deepseek-v3.2 (LLM)"
+        },
+        {
             "name": "vendouple/deepseek-v4-flash",
             "label": "vendouple/deepseek-v4-flash (LLM)"
         },
@@ -813,12 +821,12 @@
             "label": "vendouple/kimi-k3 (LLM)"
         },
         {
-            "name": "vendouple/kimi-k3:s2",
-            "label": "vendouple/kimi-k3:s2 (LLM)"
-        },
-        {
             "name": "vendouple/laguna-s-2.1:free",
             "label": "vendouple/laguna-s-2.1:free (LLM)"
+        },
+        {
+            "name": "vendouple/minimax-m3",
+            "label": "vendouple/minimax-m3 (LLM)"
         },
         {
             "name": "vendouple/nemotron-3-ultra:free",
@@ -847,6 +855,10 @@
         {
             "name": "voodoohop/anyvm-deepseek-chat",
             "label": "voodoohop/anyvm-deepseek-chat (LLM)"
+        },
+        {
+            "name": "voodoohop/weaver",
+            "label": "voodoohop/weaver (LLM)"
         }
     ],
     "audio": [
@@ -1118,8 +1130,8 @@
             "voices": []
         },
         {
-            "name": "universal-3-pro",
-            "label": "universal-3-pro (Audio)",
+            "name": "universal-3.5-pro",
+            "label": "universal-3.5-pro (Audio)",
             "voices": []
         },
         {
