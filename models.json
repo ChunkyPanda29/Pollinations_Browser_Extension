@@ -293,8 +293,8 @@
             "label": "Catniti/auto-router-1 (LLM)"
         },
         {
-            "name": "Catniti/claude-sonnet-4.6",
-            "label": "Catniti/claude-sonnet-4.6 (LLM)"
+            "name": "Catniti/claude-sonnet-5",
+            "label": "Catniti/claude-sonnet-5 (LLM)"
         },
         {
             "name": "Catniti/command-r-plus",
@@ -321,10 +321,6 @@
             "label": "Catniti/gpt-oss-120b (LLM)"
         },
         {
-            "name": "Catniti/kimi-k2.6",
-            "label": "Catniti/kimi-k2.6 (LLM)"
-        },
-        {
             "name": "Catniti/openai-fast",
             "label": "Catniti/openai-fast (LLM)"
         },
@@ -339,10 +335,6 @@
         {
             "name": "CloudCompile/grok-4.5",
             "label": "CloudCompile/grok-4.5 (LLM)"
-        },
-        {
-            "name": "JustScriptzz/big-pickle",
-            "label": "JustScriptzz/big-pickle (LLM)"
         },
         {
             "name": "Lorodn4x/gpt-5.6-terra",
@@ -629,6 +621,10 @@
             "label": "morriszdweck/mercury-cheap (LLM)"
         },
         {
+            "name": "morriszdweck/mistral-fat",
+            "label": "morriszdweck/mistral-fat (LLM)"
+        },
+        {
             "name": "muse-spark-1.1",
             "label": "muse-spark-1.1 \ud83d\udc8e (LLM)"
         },
@@ -753,10 +749,6 @@
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
         },
         {
-            "name": "smplstuff/smpl",
-            "label": "smplstuff/smpl (LLM)"
-        },
-        {
             "name": "solarnode-developement/glm-5.2-cheap",
             "label": "solarnode-developement/glm-5.2-cheap (LLM)"
         },
@@ -797,16 +789,16 @@
             "label": "vendouple/deepseek-v3.2 (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v4-flash",
-            "label": "vendouple/deepseek-v4-flash (LLM)"
+            "name": "vendouple/deepseek-v4",
+            "label": "vendouple/deepseek-v4 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-pro",
             "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
-            "name": "vendouple/gemma-4-31B",
-            "label": "vendouple/gemma-4-31B (LLM)"
+            "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
+            "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
         },
         {
             "name": "vendouple/gpt-5.5",
@@ -819,6 +811,10 @@
         {
             "name": "vendouple/kimi-k3",
             "label": "vendouple/kimi-k3 (LLM)"
+        },
+        {
+            "name": "vendouple/kimi-k3:s2",
+            "label": "vendouple/kimi-k3:s2 (LLM)"
         },
         {
             "name": "vendouple/laguna-s-2.1:free",
@@ -835,10 +831,6 @@
         {
             "name": "vendouple/qwen3.8-max-preview",
             "label": "vendouple/qwen3.8-max-preview (LLM)"
-        },
-        {
-            "name": "vendouple/venice-uncensored",
-            "label": "vendouple/venice-uncensored (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
