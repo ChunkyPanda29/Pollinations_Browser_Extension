@@ -325,6 +325,10 @@
             "label": "Catniti/openai-fast (LLM)"
         },
         {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
+        },
+        {
             "name": "CloudCompile/afforda-claude-haiku-4.5",
             "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
         },
@@ -617,12 +621,12 @@
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
         },
         {
-            "name": "morriszdweck/mercury-cheap",
-            "label": "morriszdweck/mercury-cheap (LLM)"
+            "name": "morriszdweck/osaii-api-fast",
+            "label": "morriszdweck/osaii-api-fast (LLM)"
         },
         {
-            "name": "morriszdweck/mistral-fat",
-            "label": "morriszdweck/mistral-fat (LLM)"
+            "name": "morriszdweck/osaii-api-smart",
+            "label": "morriszdweck/osaii-api-smart (LLM)"
         },
         {
             "name": "muse-spark-1.1",
@@ -819,10 +823,6 @@
         {
             "name": "vendouple/laguna-s-2.1:free",
             "label": "vendouple/laguna-s-2.1:free (LLM)"
-        },
-        {
-            "name": "vendouple/minimax-m3",
-            "label": "vendouple/minimax-m3 (LLM)"
         },
         {
             "name": "vendouple/nemotron-3-ultra:free",
