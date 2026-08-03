@@ -545,6 +545,10 @@
             "label": "grok-large (LLM)"
         },
         {
+            "name": "inkling",
+            "label": "inkling \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "kimi",
             "label": "kimi (LLM)"
         },
