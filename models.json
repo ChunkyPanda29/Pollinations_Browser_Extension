@@ -69,6 +69,10 @@
             "label": "kontext (T2I/I2I)"
         },
         {
+            "name": "krea",
+            "label": "krea \ud83d\udc8e (T2I)"
+        },
+        {
             "name": "meow18838/image-1",
             "label": "meow18838/image-1 (T2I)"
         },
@@ -129,42 +133,6 @@
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I)"
         },
         {
-            "name": "tomdacatto/gpt-image-2",
-            "label": "tomdacatto/gpt-image-2 (T2I)"
-        },
-        {
-            "name": "tomdacatto/grok-imagine",
-            "label": "tomdacatto/grok-imagine (T2I)"
-        },
-        {
-            "name": "tomdacatto/grok-imagine-quality",
-            "label": "tomdacatto/grok-imagine-quality (T2I)"
-        },
-        {
-            "name": "tomdacatto/kling-image-3",
-            "label": "tomdacatto/kling-image-3 (T2I)"
-        },
-        {
-            "name": "tomdacatto/nano-banana",
-            "label": "tomdacatto/nano-banana (T2I)"
-        },
-        {
-            "name": "tomdacatto/nano-banana-2",
-            "label": "tomdacatto/nano-banana-2 (T2I)"
-        },
-        {
-            "name": "tomdacatto/nano-banana-2-lite",
-            "label": "tomdacatto/nano-banana-2-lite (T2I)"
-        },
-        {
-            "name": "tomdacatto/nano-banana-pro",
-            "label": "tomdacatto/nano-banana-pro (T2I)"
-        },
-        {
-            "name": "tomdacatto/seedream-5-pro",
-            "label": "tomdacatto/seedream-5-pro (T2I)"
-        },
-        {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
         },
@@ -191,10 +159,6 @@
         {
             "name": "vendouple/nano-banana-pro",
             "label": "vendouple/nano-banana-pro (T2I)"
-        },
-        {
-            "name": "vendouple/pony-diffusion-XL-v6",
-            "label": "vendouple/pony-diffusion-XL-v6 (T2I)"
         },
         {
             "name": "vendouple/seedream-5-lite",
@@ -227,6 +191,10 @@
     ],
     "video": [
         {
+            "name": "grok-imagine-video-1.5",
+            "label": "grok-imagine-video-1.5 \ud83d\udc8e (T2V/I2V)"
+        },
+        {
             "name": "grok-video-pro",
             "label": "grok-video-pro \ud83d\udc8e (T2V/I2V)"
         },
@@ -239,12 +207,8 @@
             "label": "nova-reel (T2V/I2V)"
         },
         {
-            "name": "p-video-1080p",
-            "label": "p-video-1080p \ud83d\udc8e (T2V/I2V)"
-        },
-        {
-            "name": "p-video-720p",
-            "label": "p-video-720p \ud83d\udc8e (T2V/I2V)"
+            "name": "p-video",
+            "label": "p-video \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "seedance-2.0",
@@ -259,10 +223,6 @@
             "label": "veo \ud83d\udc8e (T2V/I2V)"
         },
         {
-            "name": "veo-1080p",
-            "label": "veo-1080p \ud83d\udc8e (T2V/I2V)"
-        },
-        {
             "name": "wan",
             "label": "wan \ud83d\udc8e (T2V/I2V)"
         },
@@ -273,10 +233,6 @@
         {
             "name": "wan-pro",
             "label": "wan-pro \ud83d\udc8e (T2V/I2V)"
-        },
-        {
-            "name": "wan-pro-1080p",
-            "label": "wan-pro-1080p \ud83d\udc8e (T2V/I2V)"
         }
     ],
     "text": [
@@ -347,10 +303,6 @@
         {
             "name": "Lorodn4x/minimax-m3",
             "label": "Lorodn4x/minimax-m3 (LLM)"
-        },
-        {
-            "name": "Lorodn4x/qwen3.7-max",
-            "label": "Lorodn4x/qwen3.7-max (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -685,6 +637,10 @@
             "label": "perplexity-reasoning (LLM)"
         },
         {
+            "name": "pollinations-router/polli",
+            "label": "pollinations-router/polli (LLM)"
+        },
+        {
             "name": "qwen-coder",
             "label": "qwen-coder (LLM)"
         },
@@ -715,6 +671,10 @@
         {
             "name": "qwen3.7-max",
             "label": "qwen3.7-max \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "qwen3.8-max",
+            "label": "qwen3.8-max \ud83d\udc8e (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-codestral-2508",
