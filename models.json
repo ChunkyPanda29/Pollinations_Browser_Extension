@@ -126,11 +126,19 @@
         },
         {
             "name": "sharktide/inferenceport-ai-lightning-image-turbo",
-            "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I)"
+            "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
+        },
+        {
+            "name": "vendouple/flux-2",
+            "label": "vendouple/flux-2 (T2I)"
+        },
+        {
+            "name": "vendouple/luma-photon-1",
+            "label": "vendouple/luma-photon-1 (T2I)"
         },
         {
             "name": "vendouple/nano-banana-pro",
@@ -139,6 +147,10 @@
         {
             "name": "vendouple/seedream-5-lite",
             "label": "vendouple/seedream-5-lite (T2I/I2I)"
+        },
+        {
+            "name": "vendouple/uncensored-image",
+            "label": "vendouple/uncensored-image (T2I)"
         },
         {
             "name": "vendouple/uncensored-image-enhanced",
@@ -219,14 +231,6 @@
         {
             "name": "Catniti/auto-router-1",
             "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
-            "name": "Catniti/command-r-plus",
-            "label": "Catniti/command-r-plus (LLM)"
-        },
-        {
-            "name": "Catniti/deepseek-v4-flash",
-            "label": "Catniti/deepseek-v4-flash (LLM)"
         },
         {
             "name": "Catniti/gemma-4-31b",
@@ -321,6 +325,10 @@
             "label": "YoannDev90/laguna-s-2.1:free (LLM)"
         },
         {
+            "name": "YoannDev90/ling-3.0-flash:free",
+            "label": "YoannDev90/ling-3.0-flash:free (LLM)"
+        },
+        {
             "name": "chirag-gamer/gpt-oss-120b",
             "label": "chirag-gamer/gpt-oss-120b (LLM)"
         },
@@ -395,10 +403,6 @@
         {
             "name": "gemma-4-31b",
             "label": "gemma-4-31b \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "gggff123/cohere-north-mini-code",
-            "label": "gggff123/cohere-north-mini-code (LLM)"
         },
         {
             "name": "gggff123/glm-5.2",
@@ -669,10 +673,6 @@
             "label": "solarnode-developement/k3 (LLM)"
         },
         {
-            "name": "solarnode-developement/laguna-s-2.1",
-            "label": "solarnode-developement/laguna-s-2.1 (LLM)"
-        },
-        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash \ud83d\udc8e (LLM)"
         },
@@ -697,8 +697,8 @@
             "label": "tomdacatto/ling-3.0-flash (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v4",
-            "label": "vendouple/deepseek-v4 (LLM)"
+            "name": "vendouple/claude-opus-4-8",
+            "label": "vendouple/claude-opus-4-8 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-pro",
@@ -709,8 +709,8 @@
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
         },
         {
-            "name": "vendouple/kimi-k2.6",
-            "label": "vendouple/kimi-k2.6 (LLM)"
+            "name": "vendouple/gpt-5.6-sol",
+            "label": "vendouple/gpt-5.6-sol (LLM)"
         },
         {
             "name": "vendouple/kimi-k3",
