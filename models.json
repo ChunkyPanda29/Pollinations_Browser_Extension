@@ -10,11 +10,7 @@
         },
         {
             "name": "CloudCompile/agnes-image-2.0-flash",
-            "label": "CloudCompile/agnes-image-2.0-flash (T2I)"
-        },
-        {
-            "name": "Spit-fires/flux-schnell",
-            "label": "Spit-fires/flux-schnell (T2I)"
+            "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
         },
         {
             "name": "dreamshaper",
@@ -133,10 +129,6 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/flux-2",
-            "label": "vendouple/flux-2 (T2I)"
-        },
-        {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
         },
@@ -147,10 +139,6 @@
         {
             "name": "vendouple/seedream-5-lite",
             "label": "vendouple/seedream-5-lite (T2I/I2I)"
-        },
-        {
-            "name": "vendouple/uncensored-image",
-            "label": "vendouple/uncensored-image (T2I)"
         },
         {
             "name": "vendouple/uncensored-image-enhanced",
@@ -225,8 +213,8 @@
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
         },
         {
-            "name": "Catniti/agnes-2.5-pro",
-            "label": "Catniti/agnes-2.5-pro (LLM)"
+            "name": "Catniti/agnes-2.5-flash",
+            "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
             "name": "Catniti/auto-router-1",
@@ -255,6 +243,10 @@
         {
             "name": "CloudCompile/agnes-2.0-flash",
             "label": "CloudCompile/agnes-2.0-flash (LLM)"
+        },
+        {
+            "name": "CloudCompile/grok-4.5",
+            "label": "CloudCompile/grok-4.5 (LLM)"
         },
         {
             "name": "Lorodn4x/gpt-5.6-terra",
@@ -407,6 +399,10 @@
         {
             "name": "gggff123/glm-5.2",
             "label": "gggff123/glm-5.2 (LLM)"
+        },
+        {
+            "name": "gggff123/step-3.7-flash",
+            "label": "gggff123/step-3.7-flash (LLM)"
         },
         {
             "name": "glm",
@@ -671,6 +667,10 @@
         {
             "name": "solarnode-developement/k3",
             "label": "solarnode-developement/k3 (LLM)"
+        },
+        {
+            "name": "solarnode-developement/laguna-s-2.1",
+            "label": "solarnode-developement/laguna-s-2.1 (LLM)"
         },
         {
             "name": "step-3.5-flash",
@@ -972,6 +972,11 @@
         {
             "name": "elevenmusic",
             "label": "elevenmusic \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "grok-transcribe",
+            "label": "grok-transcribe \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
