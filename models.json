@@ -125,6 +125,10 @@
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
+            "name": "tomdacatto/sana",
+            "label": "tomdacatto/sana (T2I)"
+        },
+        {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
         },
@@ -217,8 +221,8 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
+            "name": "Catniti/deepseek-v4-flash",
+            "label": "Catniti/deepseek-v4-flash (LLM)"
         },
         {
             "name": "Catniti/gemma-4-31b",
@@ -231,10 +235,6 @@
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "CloudCompile/afforda-claude-haiku-4.5",
@@ -255,6 +255,18 @@
         {
             "name": "Lorodn4x/minimax-m3",
             "label": "Lorodn4x/minimax-m3 (LLM)"
+        },
+        {
+            "name": "LynxUnbanned/gpt-5.6-luna",
+            "label": "LynxUnbanned/gpt-5.6-luna (LLM)"
+        },
+        {
+            "name": "LynxUnbanned/gpt-5.6-sol",
+            "label": "LynxUnbanned/gpt-5.6-sol (LLM)"
+        },
+        {
+            "name": "LynxUnbanned/gpt-5.6-terra",
+            "label": "LynxUnbanned/gpt-5.6-terra (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -395,6 +407,10 @@
         {
             "name": "gemma-4-31b",
             "label": "gemma-4-31b \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "gggff123/Inkling",
+            "label": "gggff123/Inkling (LLM)"
         },
         {
             "name": "gggff123/glm-5.2",
@@ -669,10 +685,6 @@
             "label": "solarnode-developement/k3 (LLM)"
         },
         {
-            "name": "solarnode-developement/laguna-s-2.1",
-            "label": "solarnode-developement/laguna-s-2.1 (LLM)"
-        },
-        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash \ud83d\udc8e (LLM)"
         },
@@ -707,10 +719,6 @@
         {
             "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
-        },
-        {
-            "name": "vendouple/gpt-5.6-sol",
-            "label": "vendouple/gpt-5.6-sol (LLM)"
         },
         {
             "name": "vendouple/kimi-k3",
