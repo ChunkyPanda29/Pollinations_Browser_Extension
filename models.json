@@ -129,6 +129,10 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
+            "name": "vendouple/flux-2-dev",
+            "label": "vendouple/flux-2-dev (T2I)"
+        },
+        {
             "name": "vendouple/gpt-image-2",
             "label": "vendouple/gpt-image-2 (T2I)"
         },
@@ -695,10 +699,6 @@
         {
             "name": "tomdacatto/ling-3.0-flash",
             "label": "tomdacatto/ling-3.0-flash (LLM)"
-        },
-        {
-            "name": "vendouple/claude-opus-4-8",
-            "label": "vendouple/claude-opus-4-8 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v3.2",
