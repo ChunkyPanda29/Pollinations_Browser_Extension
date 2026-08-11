@@ -129,16 +129,16 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/flux-2",
-            "label": "vendouple/flux-2 (T2I)"
-        },
-        {
             "name": "vendouple/gpt-image-2",
             "label": "vendouple/gpt-image-2 (T2I)"
         },
         {
             "name": "vendouple/grok-imagine",
             "label": "vendouple/grok-imagine (T2I)"
+        },
+        {
+            "name": "vendouple/lucid-origin",
+            "label": "vendouple/lucid-origin (T2I)"
         },
         {
             "name": "vendouple/luma-photon-1",
@@ -227,10 +227,6 @@
         {
             "name": "Catniti/agnes-2.5-flash",
             "label": "Catniti/agnes-2.5-flash (LLM)"
-        },
-        {
-            "name": "Catniti/command-r-plus",
-            "label": "Catniti/command-r-plus (LLM)"
         },
         {
             "name": "Catniti/deepseek-v4-flash",
@@ -705,6 +701,10 @@
             "label": "vendouple/claude-opus-4-8 (LLM)"
         },
         {
+            "name": "vendouple/deepseek-v3.2",
+            "label": "vendouple/deepseek-v3.2 (LLM)"
+        },
+        {
             "name": "vendouple/deepseek-v4",
             "label": "vendouple/deepseek-v4 (LLM)"
         },
@@ -717,16 +717,20 @@
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
         },
         {
+            "name": "vendouple/gpt-5.6-sol",
+            "label": "vendouple/gpt-5.6-sol (LLM)"
+        },
+        {
             "name": "vendouple/kimi-k3",
             "label": "vendouple/kimi-k3 (LLM)"
         },
         {
-            "name": "vendouple/kimi-k3:s2",
-            "label": "vendouple/kimi-k3:s2 (LLM)"
-        },
-        {
             "name": "vendouple/laguna-s-2.1:free",
             "label": "vendouple/laguna-s-2.1:free (LLM)"
+        },
+        {
+            "name": "vendouple/nemotron-3-ultra:free",
+            "label": "vendouple/nemotron-3-ultra:free (LLM)"
         },
         {
             "name": "vendouple/qwen3.8-max",
