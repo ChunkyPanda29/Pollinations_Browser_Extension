@@ -121,10 +121,6 @@
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
-            "name": "tomdacatto/sana",
-            "label": "tomdacatto/sana (T2I)"
-        },
-        {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
         },
@@ -233,10 +229,6 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/deepseek-v4-flash",
-            "label": "Catniti/deepseek-v4-flash (LLM)"
-        },
-        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
         },
@@ -255,10 +247,6 @@
         {
             "name": "CloudCompile/agnes-2.0-flash",
             "label": "CloudCompile/agnes-2.0-flash (LLM)"
-        },
-        {
-            "name": "CloudCompile/grok-4.5",
-            "label": "CloudCompile/grok-4.5 (LLM)"
         },
         {
             "name": "Lorodn4x/gpt-5.6-terra",
@@ -333,8 +321,8 @@
             "label": "YoannDev90/ling-3.0-flash:free (LLM)"
         },
         {
-            "name": "chirag-gamer/gpt-oss-120b",
-            "label": "chirag-gamer/gpt-oss-120b (LLM)"
+            "name": "YoannDev90/muse-glimmer-30b:free",
+            "label": "YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "claude",
@@ -461,6 +449,10 @@
             "label": "grok-large (LLM)"
         },
         {
+            "name": "guus6457/llama-3.1-8b",
+            "label": "guus6457/llama-3.1-8b (LLM)"
+        },
+        {
             "name": "inkling",
             "label": "inkling \ud83d\udc8e (LLM)"
         },
@@ -539,6 +531,14 @@
         {
             "name": "mistral-small-3.2",
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "morriszdweck/osaii-api-fast",
+            "label": "morriszdweck/osaii-api-fast (LLM)"
+        },
+        {
+            "name": "morriszdweck/osaii-api-smart",
+            "label": "morriszdweck/osaii-api-smart (LLM)"
         },
         {
             "name": "muse-spark-1.1",
@@ -685,10 +685,6 @@
             "label": "step-flash \ud83d\udc8e (LLM)"
         },
         {
-            "name": "timemachine-studio/mercury2",
-            "label": "timemachine-studio/mercury2 (LLM)"
-        },
-        {
             "name": "tomdacatto/ezra",
             "label": "tomdacatto/ezra (LLM)"
         },
@@ -729,20 +725,12 @@
             "label": "vendouple/laguna-s-2.1:free (LLM)"
         },
         {
-            "name": "vendouple/nemotron-3-ultra:free",
-            "label": "vendouple/nemotron-3-ultra:free (LLM)"
-        },
-        {
             "name": "vendouple/qwen3.8-max",
             "label": "vendouple/qwen3.8-max (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
             "label": "voodoohop/airforce-doubao-pro (LLM)"
-        },
-        {
-            "name": "voodoohop/airforce-grok-4-fast",
-            "label": "voodoohop/airforce-grok-4-fast (LLM)"
         },
         {
             "name": "voodoohop/airforce-qwen3-max",
