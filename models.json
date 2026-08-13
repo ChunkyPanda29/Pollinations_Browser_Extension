@@ -241,6 +241,10 @@
             "label": "Catniti/gpt-oss-120b (LLM)"
         },
         {
+            "name": "Circuit-Overtime/OreoLook",
+            "label": "Circuit-Overtime/OreoLook (LLM)"
+        },
+        {
             "name": "CloudCompile/afforda-claude-haiku-4.5",
             "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
         },
@@ -255,14 +259,6 @@
         {
             "name": "Lorodn4x/minimax-m3",
             "label": "Lorodn4x/minimax-m3 (LLM)"
-        },
-        {
-            "name": "MarcosFRG/deepseek-v4-flash",
-            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
-        },
-        {
-            "name": "MarcosFRG/deepseek-v4-pro",
-            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
         },
         {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
@@ -323,6 +319,26 @@
         {
             "name": "YoannDev90/muse-glimmer-30b:free",
             "label": "YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "chigwell/claude-sonnet-5",
+            "label": "chigwell/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "chigwell/gemini-3.1-flash-lite",
+            "label": "chigwell/gemini-3.1-flash-lite (LLM)"
+        },
+        {
+            "name": "chigwell/gpt-5.4-mini",
+            "label": "chigwell/gpt-5.4-mini (LLM)"
+        },
+        {
+            "name": "chigwell/kimi-k3",
+            "label": "chigwell/kimi-k3 (LLM)"
+        },
+        {
+            "name": "chigwell/minimax-m2.7",
+            "label": "chigwell/minimax-m2.7 (LLM)"
         },
         {
             "name": "claude",
@@ -449,8 +465,8 @@
             "label": "grok-large (LLM)"
         },
         {
-            "name": "guus6457/llama-3.1-8b",
-            "label": "guus6457/llama-3.1-8b (LLM)"
+            "name": "guus6457/gemma-4-12b",
+            "label": "guus6457/gemma-4-12b (LLM)"
         },
         {
             "name": "inkling",
@@ -531,14 +547,6 @@
         {
             "name": "mistral-small-3.2",
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "morriszdweck/osaii-api-fast",
-            "label": "morriszdweck/osaii-api-fast (LLM)"
-        },
-        {
-            "name": "morriszdweck/osaii-api-smart",
-            "label": "morriszdweck/osaii-api-smart (LLM)"
         },
         {
             "name": "muse-spark-1.1",
@@ -689,10 +697,6 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "tomdacatto/gemma-4-31b-fast",
-            "label": "tomdacatto/gemma-4-31b-fast (LLM)"
-        },
-        {
             "name": "tomdacatto/ling-3.0-flash",
             "label": "tomdacatto/ling-3.0-flash (LLM)"
         },
@@ -703,10 +707,6 @@
         {
             "name": "vendouple/deepseek-v4",
             "label": "vendouple/deepseek-v4 (LLM)"
-        },
-        {
-            "name": "vendouple/deepseek-v4-pro",
-            "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
             "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
@@ -723,6 +723,10 @@
         {
             "name": "vendouple/laguna-s-2.1:free",
             "label": "vendouple/laguna-s-2.1:free (LLM)"
+        },
+        {
+            "name": "vendouple/nemotron-3.5-lightning:free",
+            "label": "vendouple/nemotron-3.5-lightning:free (LLM)"
         },
         {
             "name": "vendouple/qwen3.8-max",
