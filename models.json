@@ -97,6 +97,10 @@
             "label": "qwen-image \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "qwen-image-3",
+            "label": "qwen-image-3 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "recraft-v4.1-vector",
             "label": "recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
         },
@@ -125,10 +129,6 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/flux-2-dev",
-            "label": "vendouple/flux-2-dev (T2I)"
-        },
-        {
             "name": "vendouple/gpt-image-2",
             "label": "vendouple/gpt-image-2 (T2I)"
         },
@@ -137,20 +137,12 @@
             "label": "vendouple/grok-imagine (T2I)"
         },
         {
-            "name": "vendouple/lucid-origin",
-            "label": "vendouple/lucid-origin (T2I)"
-        },
-        {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
         },
         {
             "name": "vendouple/nano-banana-pro",
             "label": "vendouple/nano-banana-pro (T2I)"
-        },
-        {
-            "name": "vendouple/seedream-5-lite",
-            "label": "vendouple/seedream-5-lite (T2I/I2I)"
         },
         {
             "name": "vendouple/uncensored-image-enhanced",
@@ -199,6 +191,10 @@
             "label": "seedance-2.0 \ud83d\udc8e (T2V/I2V)"
         },
         {
+            "name": "seedance-2.5",
+            "label": "seedance-2.5 \ud83d\udc8e (T2V/I2V)"
+        },
+        {
             "name": "seedance-pro",
             "label": "seedance-pro \ud83d\udc8e (T2V/I2V)"
         },
@@ -229,6 +225,22 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
+            "name": "Catniti/claude-sonnet-5",
+            "label": "Catniti/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
+        },
+        {
+            "name": "Catniti/deepseek-v4-flash",
+            "label": "Catniti/deepseek-v4-flash (LLM)"
+        },
+        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
         },
@@ -241,6 +253,14 @@
             "label": "Catniti/gpt-oss-120b (LLM)"
         },
         {
+            "name": "Catniti/kimi-k2.6",
+            "label": "Catniti/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
+        },
+        {
             "name": "Circuit-Overtime/OreoLook",
             "label": "Circuit-Overtime/OreoLook (LLM)"
         },
@@ -249,8 +269,8 @@
             "label": "CloudCompile/afforda-claude-haiku-4.5 (LLM)"
         },
         {
-            "name": "CloudCompile/agnes-2.0-flash",
-            "label": "CloudCompile/agnes-2.0-flash (LLM)"
+            "name": "CloudCompile/agnes-2.5-flash",
+            "label": "CloudCompile/agnes-2.5-flash (LLM)"
         },
         {
             "name": "Lorodn4x/gpt-5.6-terra",
@@ -259,6 +279,10 @@
         {
             "name": "Lorodn4x/minimax-m3",
             "label": "Lorodn4x/minimax-m3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-flash",
+            "label": "MarcosFRG/deepseek-v4-flash (LLM)"
         },
         {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
@@ -277,12 +301,12 @@
             "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
         },
         {
-            "name": "MarcosFRG/gemma-3-27b",
-            "label": "MarcosFRG/gemma-3-27b (LLM)"
-        },
-        {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/glm-4.6v-flash",
+            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "MarcosFRG/glm-5.2",
@@ -329,12 +353,24 @@
             "label": "chigwell/gemini-3.1-flash-lite (LLM)"
         },
         {
+            "name": "chigwell/gpt-5.4",
+            "label": "chigwell/gpt-5.4 (LLM)"
+        },
+        {
             "name": "chigwell/gpt-5.4-mini",
             "label": "chigwell/gpt-5.4-mini (LLM)"
         },
         {
-            "name": "chigwell/kimi-k3",
-            "label": "chigwell/kimi-k3 (LLM)"
+            "name": "chigwell/gpt-5.5",
+            "label": "chigwell/gpt-5.5 (LLM)"
+        },
+        {
+            "name": "chigwell/gpt-5.6-terra",
+            "label": "chigwell/gpt-5.6-terra (LLM)"
+        },
+        {
+            "name": "chigwell/grok-4.5",
+            "label": "chigwell/grok-4.5 (LLM)"
         },
         {
             "name": "chigwell/minimax-m2.7",
@@ -465,8 +501,8 @@
             "label": "grok-large (LLM)"
         },
         {
-            "name": "guus6457/gemma-4-12b",
-            "label": "guus6457/gemma-4-12b (LLM)"
+            "name": "guus6457/qwen-3.5-4b",
+            "label": "guus6457/qwen-3.5-4b (LLM)"
         },
         {
             "name": "inkling",
@@ -681,10 +717,6 @@
             "label": "solarnode-developement/hy3 (LLM)"
         },
         {
-            "name": "solarnode-developement/k3",
-            "label": "solarnode-developement/k3 (LLM)"
-        },
-        {
             "name": "step-3.5-flash",
             "label": "step-3.5-flash \ud83d\udc8e (LLM)"
         },
@@ -713,8 +745,16 @@
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
         },
         {
-            "name": "vendouple/gpt-5.6-sol",
-            "label": "vendouple/gpt-5.6-sol (LLM)"
+            "name": "vendouple/gpt-5.6-terra",
+            "label": "vendouple/gpt-5.6-terra (LLM)"
+        },
+        {
+            "name": "vendouple/grok-4.6",
+            "label": "vendouple/grok-4.6 (LLM)"
+        },
+        {
+            "name": "vendouple/kimi-k2.6",
+            "label": "vendouple/kimi-k2.6 (LLM)"
         },
         {
             "name": "vendouple/kimi-k3",
@@ -725,8 +765,8 @@
             "label": "vendouple/laguna-s-2.1:free (LLM)"
         },
         {
-            "name": "vendouple/nemotron-3.5-lightning:free",
-            "label": "vendouple/nemotron-3.5-lightning:free (LLM)"
+            "name": "vendouple/muse-glimmer-30b:free",
+            "label": "vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "vendouple/qwen3.8-max",
