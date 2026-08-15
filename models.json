@@ -37,6 +37,10 @@
             "label": "grok-imagine \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "grok-imagine-image-2.0",
+            "label": "grok-imagine-image-2.0 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "grok-imagine-pro",
             "label": "grok-imagine-pro \ud83d\udc8e (T2I/I2I)"
         },
@@ -129,14 +133,6 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/gpt-image-2",
-            "label": "vendouple/gpt-image-2 (T2I)"
-        },
-        {
-            "name": "vendouple/grok-imagine",
-            "label": "vendouple/grok-imagine (T2I)"
-        },
-        {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
         },
@@ -179,6 +175,10 @@
             "label": "happyhorse-1.1 \ud83d\udc8e (T2V/I2V)"
         },
         {
+            "name": "minimax-h3",
+            "label": "minimax-h3 \ud83d\udc8e (T2V)"
+        },
+        {
             "name": "nova-reel",
             "label": "nova-reel (T2V/I2V)"
         },
@@ -189,6 +189,14 @@
         {
             "name": "seedance-2.0",
             "label": "seedance-2.0 \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "seedance-2.0-fast",
+            "label": "seedance-2.0-fast \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "seedance-2.0-mini",
+            "label": "seedance-2.0-mini \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "seedance-2.5",
@@ -225,18 +233,6 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
-            "name": "Catniti/claude-sonnet-5",
-            "label": "Catniti/claude-sonnet-5 (LLM)"
-        },
-        {
-            "name": "Catniti/command-r-plus",
-            "label": "Catniti/command-r-plus (LLM)"
-        },
-        {
             "name": "Catniti/deepseek-v4-flash",
             "label": "Catniti/deepseek-v4-flash (LLM)"
         },
@@ -251,14 +247,6 @@
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/kimi-k2.6",
-            "label": "Catniti/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "Circuit-Overtime/OreoLook",
@@ -297,16 +285,8 @@
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
-            "name": "MarcosFRG/gemini-3.1-pro-preview",
-            "label": "MarcosFRG/gemini-3.1-pro-preview (LLM)"
-        },
-        {
             "name": "MarcosFRG/gemma-4-31b",
             "label": "MarcosFRG/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "MarcosFRG/glm-4.6v-flash",
-            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "MarcosFRG/glm-5.2",
@@ -337,20 +317,44 @@
             "label": "YoannDev90/laguna-s-2.1:free (LLM)"
         },
         {
-            "name": "YoannDev90/ling-3.0-flash:free",
-            "label": "YoannDev90/ling-3.0-flash:free (LLM)"
-        },
-        {
             "name": "YoannDev90/muse-glimmer-30b:free",
             "label": "YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "chigwell/DeepSeek-V4-Flash-0731",
+            "label": "chigwell/DeepSeek-V4-Flash-0731 (LLM)"
+        },
+        {
+            "name": "chigwell/claude-fable-5",
+            "label": "chigwell/claude-fable-5 (LLM)"
+        },
+        {
+            "name": "chigwell/claude-haiku-4-5",
+            "label": "chigwell/claude-haiku-4-5 (LLM)"
+        },
+        {
+            "name": "chigwell/claude-opus-4-8",
+            "label": "chigwell/claude-opus-4-8 (LLM)"
+        },
+        {
+            "name": "chigwell/claude-opus-5",
+            "label": "chigwell/claude-opus-5 (LLM)"
+        },
+        {
+            "name": "chigwell/claude-sonnet-4-6",
+            "label": "chigwell/claude-sonnet-4-6 (LLM)"
         },
         {
             "name": "chigwell/claude-sonnet-5",
             "label": "chigwell/claude-sonnet-5 (LLM)"
         },
         {
-            "name": "chigwell/gemini-3.1-flash-lite",
-            "label": "chigwell/gemini-3.1-flash-lite (LLM)"
+            "name": "chigwell/gemini-3-flash",
+            "label": "chigwell/gemini-3-flash (LLM)"
+        },
+        {
+            "name": "chigwell/gemini-3.5-flash-low",
+            "label": "chigwell/gemini-3.5-flash-low (LLM)"
         },
         {
             "name": "chigwell/gpt-5.4",
@@ -373,8 +377,28 @@
             "label": "chigwell/grok-4.5 (LLM)"
         },
         {
+            "name": "chigwell/grok-4.6",
+            "label": "chigwell/grok-4.6 (LLM)"
+        },
+        {
+            "name": "chigwell/kimi-k3",
+            "label": "chigwell/kimi-k3 (LLM)"
+        },
+        {
+            "name": "chigwell/llm7-fast",
+            "label": "chigwell/llm7-fast (LLM)"
+        },
+        {
+            "name": "chigwell/llm7-pro",
+            "label": "chigwell/llm7-pro (LLM)"
+        },
+        {
             "name": "chigwell/minimax-m2.7",
             "label": "chigwell/minimax-m2.7 (LLM)"
+        },
+        {
+            "name": "chirag-gamer/gpt-oss-120b",
+            "label": "chirag-gamer/gpt-oss-120b (LLM)"
         },
         {
             "name": "claude",
@@ -493,8 +517,8 @@
             "label": "grok (LLM)"
         },
         {
-            "name": "grok-4.5",
-            "label": "grok-4.5 \ud83d\udc8e (LLM)"
+            "name": "grok-4.6",
+            "label": "grok-4.6 \ud83d\udc8e (LLM)"
         },
         {
             "name": "grok-large",
@@ -585,8 +609,12 @@
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
         },
         {
-            "name": "muse-spark-1.1",
-            "label": "muse-spark-1.1 \ud83d\udc8e (LLM)"
+            "name": "muse-glimmer",
+            "label": "muse-glimmer (LLM)"
+        },
+        {
+            "name": "muse-spark-1.2",
+            "label": "muse-spark-1.2 \ud83d\udc8e (LLM)"
         },
         {
             "name": "nemotron",
@@ -667,6 +695,10 @@
         {
             "name": "qwen3.7-max",
             "label": "qwen3.7-max \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "qwen3.8-2.4t-a95b",
+            "label": "qwen3.8-2.4t-a95b (LLM)"
         },
         {
             "name": "qwen3.8-max",
