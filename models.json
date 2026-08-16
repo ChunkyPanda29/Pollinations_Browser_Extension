@@ -233,6 +233,18 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
+            "name": "Catniti/claude-sonnet-5",
+            "label": "Catniti/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
+        },
+        {
             "name": "Catniti/deepseek-v4-flash",
             "label": "Catniti/deepseek-v4-flash (LLM)"
         },
@@ -249,6 +261,14 @@
             "label": "Catniti/gpt-oss-120b (LLM)"
         },
         {
+            "name": "Catniti/kimi-k2.6",
+            "label": "Catniti/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
+        },
+        {
             "name": "Circuit-Overtime/OreoLook",
             "label": "Circuit-Overtime/OreoLook (LLM)"
         },
@@ -259,14 +279,6 @@
         {
             "name": "CloudCompile/agnes-2.5-flash",
             "label": "CloudCompile/agnes-2.5-flash (LLM)"
-        },
-        {
-            "name": "Lorodn4x/gpt-5.6-terra",
-            "label": "Lorodn4x/gpt-5.6-terra (LLM)"
-        },
-        {
-            "name": "Lorodn4x/minimax-m3",
-            "label": "Lorodn4x/minimax-m3 (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -291,6 +303,10 @@
         {
             "name": "MarcosFRG/glm-5.2",
             "label": "MarcosFRG/glm-5.2 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/metraxai",
+            "label": "MarcosFRG/metraxai (LLM)"
         },
         {
             "name": "MarcosFRG/mimo-v2.5",
@@ -353,6 +369,10 @@
             "label": "chigwell/gemini-3-flash (LLM)"
         },
         {
+            "name": "chigwell/gemini-3.1-flash-lite",
+            "label": "chigwell/gemini-3.1-flash-lite (LLM)"
+        },
+        {
             "name": "chigwell/gemini-3.5-flash-low",
             "label": "chigwell/gemini-3.5-flash-low (LLM)"
         },
@@ -379,6 +399,10 @@
         {
             "name": "chigwell/grok-4.6",
             "label": "chigwell/grok-4.6 (LLM)"
+        },
+        {
+            "name": "chigwell/kimi-k2.7-code",
+            "label": "chigwell/kimi-k2.7-code (LLM)"
         },
         {
             "name": "chigwell/kimi-k3",
@@ -525,10 +549,6 @@
             "label": "grok-large (LLM)"
         },
         {
-            "name": "guus6457/qwen-3.5-4b",
-            "label": "guus6457/qwen-3.5-4b (LLM)"
-        },
-        {
             "name": "inkling",
             "label": "inkling \ud83d\udc8e (LLM)"
         },
@@ -607,6 +627,14 @@
         {
             "name": "mistral-small-3.2",
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "morriszdweck/osaii-api-fast",
+            "label": "morriszdweck/osaii-api-fast (LLM)"
+        },
+        {
+            "name": "morriszdweck/osaii-api-smart",
+            "label": "morriszdweck/osaii-api-smart (LLM)"
         },
         {
             "name": "muse-glimmer",
@@ -727,6 +755,10 @@
         {
             "name": "sharktide/inferenceport-ai-lightning-text-v2",
             "label": "sharktide/inferenceport-ai-lightning-text-v2 (LLM)"
+        },
+        {
+            "name": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge",
+            "label": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-mimo-v2.5",
