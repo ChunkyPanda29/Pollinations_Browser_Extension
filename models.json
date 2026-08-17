@@ -9,8 +9,20 @@
             "label": "Catniti/agnes-image-2.1-flash (T2I)"
         },
         {
-            "name": "CloudCompile/agnes-image-2.0-flash",
-            "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
+            "name": "chigwell/firefly-gpt-image-2",
+            "label": "chigwell/firefly-gpt-image-2 (T2I)"
+        },
+        {
+            "name": "chigwell/firefly-image-5",
+            "label": "chigwell/firefly-image-5 (T2I)"
+        },
+        {
+            "name": "chigwell/flux-klein-2",
+            "label": "chigwell/flux-klein-2 (T2I)"
+        },
+        {
+            "name": "chigwell/gpt-image-2",
+            "label": "chigwell/gpt-image-2 (T2I)"
         },
         {
             "name": "dreamshaper",
@@ -133,6 +145,10 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
+            "name": "vendouple/flux-2-pro",
+            "label": "vendouple/flux-2-pro (T2I)"
+        },
+        {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
         },
@@ -233,18 +249,6 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
-            "name": "Catniti/claude-sonnet-5",
-            "label": "Catniti/claude-sonnet-5 (LLM)"
-        },
-        {
-            "name": "Catniti/command-r-plus",
-            "label": "Catniti/command-r-plus (LLM)"
-        },
-        {
             "name": "Catniti/deepseek-v4-flash",
             "label": "Catniti/deepseek-v4-flash (LLM)"
         },
@@ -261,14 +265,6 @@
             "label": "Catniti/gpt-oss-120b (LLM)"
         },
         {
-            "name": "Catniti/kimi-k2.6",
-            "label": "Catniti/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
-        },
-        {
             "name": "Circuit-Overtime/OreoLook",
             "label": "Circuit-Overtime/OreoLook (LLM)"
         },
@@ -279,6 +275,42 @@
         {
             "name": "CloudCompile/agnes-2.5-flash",
             "label": "CloudCompile/agnes-2.5-flash (LLM)"
+        },
+        {
+            "name": "JustScriptzz/gemini-3.6-flash",
+            "label": "JustScriptzz/gemini-3.6-flash (LLM)"
+        },
+        {
+            "name": "JustScriptzz/gpt-5-5",
+            "label": "JustScriptzz/gpt-5-5 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/helix-agent",
+            "label": "JustScriptzz/helix-agent (LLM)"
+        },
+        {
+            "name": "JustScriptzz/kimi-k2.6",
+            "label": "JustScriptzz/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/kimi-k2.6-thinking",
+            "label": "JustScriptzz/kimi-k2.6-thinking (LLM)"
+        },
+        {
+            "name": "JustScriptzz/qwen3.7-max",
+            "label": "JustScriptzz/qwen3.7-max (LLM)"
+        },
+        {
+            "name": "JustScriptzz/qwen3.8-max",
+            "label": "JustScriptzz/qwen3.8-max (LLM)"
+        },
+        {
+            "name": "JustScriptzz/qwen3.8-max-preview",
+            "label": "JustScriptzz/qwen3.8-max-preview (LLM)"
+        },
+        {
+            "name": "Lorodn4x/intern-s2-preview-397b",
+            "label": "Lorodn4x/intern-s2-preview-397b (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -317,12 +349,20 @@
             "label": "MarcosFRG/minimax-m3 (LLM)"
         },
         {
+            "name": "MarcosFRG/qwen3.8-27b",
+            "label": "MarcosFRG/qwen3.8-27b (LLM)"
+        },
+        {
             "name": "Minor-fun/deepseek-v3.2",
             "label": "Minor-fun/deepseek-v3.2 (LLM)"
         },
         {
             "name": "Minor-fun/gemma-4-31B-it",
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
+        },
+        {
+            "name": "Takax62/minimax-m3-429b-vml",
+            "label": "Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
             "name": "YoannDev90/diffusiongemma-26b-a4b-it:free",
@@ -355,10 +395,6 @@
         {
             "name": "chigwell/claude-opus-5",
             "label": "chigwell/claude-opus-5 (LLM)"
-        },
-        {
-            "name": "chigwell/claude-sonnet-4-6",
-            "label": "chigwell/claude-sonnet-4-6 (LLM)"
         },
         {
             "name": "chigwell/claude-sonnet-5",
@@ -403,10 +439,6 @@
         {
             "name": "chigwell/kimi-k2.7-code",
             "label": "chigwell/kimi-k2.7-code (LLM)"
-        },
-        {
-            "name": "chigwell/kimi-k3",
-            "label": "chigwell/kimi-k3 (LLM)"
         },
         {
             "name": "chigwell/llm7-fast",
@@ -499,10 +531,6 @@
         {
             "name": "gggff123/Inkling",
             "label": "gggff123/Inkling (LLM)"
-        },
-        {
-            "name": "gggff123/glm-5.2",
-            "label": "gggff123/glm-5.2 (LLM)"
         },
         {
             "name": "gggff123/step-3.7-flash",
@@ -627,10 +655,6 @@
         {
             "name": "mistral-small-3.2",
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "morriszdweck/osaii-api-fast",
-            "label": "morriszdweck/osaii-api-fast (LLM)"
         },
         {
             "name": "morriszdweck/osaii-api-smart",
@@ -761,10 +785,6 @@
             "label": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge (LLM)"
         },
         {
-            "name": "sharktide/inferenceport-ai-mimo-v2.5",
-            "label": "sharktide/inferenceport-ai-mimo-v2.5 (LLM)"
-        },
-        {
             "name": "sharktide/inferenceport-ai-minimax-m3",
             "label": "sharktide/inferenceport-ai-minimax-m3 (LLM)"
         },
@@ -775,6 +795,14 @@
         {
             "name": "sharktide/inferenceport.ai-gpt-oss-20b",
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
+        },
+        {
+            "name": "solarnode-developement/A-Hy3",
+            "label": "solarnode-developement/A-Hy3 (LLM)"
+        },
+        {
+            "name": "solarnode-developement/Qwen3.8-max",
+            "label": "solarnode-developement/Qwen3.8-max (LLM)"
         },
         {
             "name": "solarnode-developement/hy3",
@@ -793,8 +821,8 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "tomdacatto/ling-3.0-flash",
-            "label": "tomdacatto/ling-3.0-flash (LLM)"
+            "name": "tomdacatto/gemma-4-31b-fast",
+            "label": "tomdacatto/gemma-4-31b-fast (LLM)"
         },
         {
             "name": "vendouple/deepseek-v3.2",
@@ -807,6 +835,10 @@
         {
             "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
+        },
+        {
+            "name": "vendouple/glm-5.3",
+            "label": "vendouple/glm-5.3 (LLM)"
         },
         {
             "name": "vendouple/gpt-5.6-terra",
