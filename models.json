@@ -21,10 +21,6 @@
             "label": "chigwell/flux-klein-2 (T2I)"
         },
         {
-            "name": "chigwell/gpt-image-2",
-            "label": "chigwell/gpt-image-2 (T2I)"
-        },
-        {
             "name": "dreamshaper",
             "label": "dreamshaper (T2I)"
         },
@@ -149,6 +145,10 @@
             "label": "vendouple/flux-2-pro (T2I)"
         },
         {
+            "name": "vendouple/lucid-origin",
+            "label": "vendouple/lucid-origin (T2I)"
+        },
+        {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
         },
@@ -249,6 +249,10 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
+        },
+        {
             "name": "Catniti/deepseek-v4-flash",
             "label": "Catniti/deepseek-v4-flash (LLM)"
         },
@@ -277,44 +281,16 @@
             "label": "CloudCompile/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "JustScriptzz/gemini-3.6-flash",
-            "label": "JustScriptzz/gemini-3.6-flash (LLM)"
-        },
-        {
-            "name": "JustScriptzz/gpt-5-5",
-            "label": "JustScriptzz/gpt-5-5 (LLM)"
-        },
-        {
-            "name": "JustScriptzz/helix-agent",
-            "label": "JustScriptzz/helix-agent (LLM)"
-        },
-        {
-            "name": "JustScriptzz/kimi-k2.6",
-            "label": "JustScriptzz/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "JustScriptzz/kimi-k2.6-thinking",
-            "label": "JustScriptzz/kimi-k2.6-thinking (LLM)"
-        },
-        {
-            "name": "JustScriptzz/qwen3.7-max",
-            "label": "JustScriptzz/qwen3.7-max (LLM)"
-        },
-        {
-            "name": "JustScriptzz/qwen3.8-max",
-            "label": "JustScriptzz/qwen3.8-max (LLM)"
-        },
-        {
-            "name": "JustScriptzz/qwen3.8-max-preview",
-            "label": "JustScriptzz/qwen3.8-max-preview (LLM)"
-        },
-        {
             "name": "Lorodn4x/intern-s2-preview-397b",
             "label": "Lorodn4x/intern-s2-preview-397b (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
             "label": "MarcosFRG/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "MarcosFRG/deepseek-v4-pro",
+            "label": "MarcosFRG/deepseek-v4-pro (LLM)"
         },
         {
             "name": "MarcosFRG/gemini-2.5-flash-lite",
@@ -327,6 +303,10 @@
         {
             "name": "MarcosFRG/gemini-3.1-flash-lite",
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gemma-4-26b-a4b",
+            "label": "MarcosFRG/gemma-4-26b-a4b (LLM)"
         },
         {
             "name": "MarcosFRG/gemma-4-31b",
@@ -347,6 +327,10 @@
         {
             "name": "MarcosFRG/minimax-m3",
             "label": "MarcosFRG/minimax-m3 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/nemotron-3.5-lightning-30b",
+            "label": "MarcosFRG/nemotron-3.5-lightning-30b (LLM)"
         },
         {
             "name": "MarcosFRG/qwen3.8-27b",
@@ -387,10 +371,6 @@
         {
             "name": "chigwell/claude-haiku-4-5",
             "label": "chigwell/claude-haiku-4-5 (LLM)"
-        },
-        {
-            "name": "chigwell/claude-opus-4-8",
-            "label": "chigwell/claude-opus-4-8 (LLM)"
         },
         {
             "name": "chigwell/claude-opus-5",
@@ -681,6 +661,10 @@
             "label": "nova-fast (LLM)"
         },
         {
+            "name": "novastardev/olmo-3.1-32b",
+            "label": "novastardev/olmo-3.1-32b (LLM)"
+        },
+        {
             "name": "openai",
             "label": "openai (LLM)"
         },
@@ -833,12 +817,28 @@
             "label": "vendouple/deepseek-v4 (LLM)"
         },
         {
+            "name": "vendouple/deepseek-v4-pro",
+            "label": "vendouple/deepseek-v4-pro (LLM)"
+        },
+        {
+            "name": "vendouple/gemini-3.6",
+            "label": "vendouple/gemini-3.6 (LLM)"
+        },
+        {
+            "name": "vendouple/gemini-3.7",
+            "label": "vendouple/gemini-3.7 (LLM)"
+        },
+        {
             "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
         },
         {
             "name": "vendouple/glm-5.3",
             "label": "vendouple/glm-5.3 (LLM)"
+        },
+        {
+            "name": "vendouple/glm-5.3:s2",
+            "label": "vendouple/glm-5.3:s2 (LLM)"
         },
         {
             "name": "vendouple/gpt-5.6-terra",
