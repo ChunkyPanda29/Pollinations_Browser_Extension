@@ -13,6 +13,14 @@
             "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
         },
         {
+            "name": "JustScriptzz/phoenix-1.0",
+            "label": "JustScriptzz/phoenix-1.0 (T2I)"
+        },
+        {
+            "name": "MarcosFRG/lucid-origin",
+            "label": "MarcosFRG/lucid-origin (T2I)"
+        },
+        {
             "name": "chigwell/firefly-gpt-image-2",
             "label": "chigwell/firefly-gpt-image-2 (T2I)"
         },
@@ -137,6 +145,10 @@
             "label": "seedream5-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "sharktide/inferenceport-ai-lightning-image-plus",
+            "label": "sharktide/inferenceport-ai-lightning-image-plus (T2I)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-lightning-image-turbo",
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
@@ -151,10 +163,6 @@
         {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
-        },
-        {
-            "name": "vendouple/flux-2-pro",
-            "label": "vendouple/flux-2-pro (T2I)"
         },
         {
             "name": "vendouple/grok-imagine",
@@ -285,20 +293,52 @@
             "label": "CloudCompile/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "CloudCompile/agnes-video-v2.0",
+            "label": "CloudCompile/agnes-video-v2.0 (LLM)"
+        },
+        {
             "name": "JustScriptzz/agnes-2.5-flash",
             "label": "JustScriptzz/agnes-2.5-flash (LLM)"
+        },
+        {
+            "name": "JustScriptzz/deepseek-v4-flash-0731",
+            "label": "JustScriptzz/deepseek-v4-flash-0731 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/deepseek-v4-pro-0813",
+            "label": "JustScriptzz/deepseek-v4-pro-0813 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/gemini-3.5-flash",
+            "label": "JustScriptzz/gemini-3.5-flash (LLM)"
+        },
+        {
+            "name": "JustScriptzz/glm-5.2",
+            "label": "JustScriptzz/glm-5.2 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/gpt-oss-120b",
+            "label": "JustScriptzz/gpt-oss-120b (LLM)"
         },
         {
             "name": "JustScriptzz/grok-4.6",
             "label": "JustScriptzz/grok-4.6 (LLM)"
         },
         {
-            "name": "JustScriptzz/helix-agent",
-            "label": "JustScriptzz/helix-agent (LLM)"
+            "name": "JustScriptzz/kimi-k2.6",
+            "label": "JustScriptzz/kimi-k2.6 (LLM)"
         },
         {
-            "name": "JustScriptzz/mercury-2",
-            "label": "JustScriptzz/mercury-2 (LLM)"
+            "name": "JustScriptzz/kimi-k3",
+            "label": "JustScriptzz/kimi-k3 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/minimax-m3",
+            "label": "JustScriptzz/minimax-m3 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/moondream-3.1",
+            "label": "JustScriptzz/moondream-3.1 (LLM)"
         },
         {
             "name": "Lorodn4x/deepseek-v4-pro-0813",
@@ -371,6 +411,10 @@
         {
             "name": "Spit-fires/glm-5.2",
             "label": "Spit-fires/glm-5.2 (LLM)"
+        },
+        {
+            "name": "Spit-fires/muse-glimmer",
+            "label": "Spit-fires/muse-glimmer (LLM)"
         },
         {
             "name": "Takax62/minimax-m3-429b-vml",
@@ -541,6 +585,14 @@
             "label": "gemma-4-31b \ud83d\udc8e (LLM)"
         },
         {
+            "name": "gggff123/Gemini-3.7-Flash",
+            "label": "gggff123/Gemini-3.7-Flash (LLM)"
+        },
+        {
+            "name": "gggff123/Glm-5.3",
+            "label": "gggff123/Glm-5.3 (LLM)"
+        },
+        {
             "name": "gggff123/Inkling",
             "label": "gggff123/Inkling (LLM)"
         },
@@ -551,6 +603,10 @@
         {
             "name": "glm",
             "label": "glm (LLM)"
+        },
+        {
+            "name": "glm-5.3",
+            "label": "glm-5.3 \ud83d\udc8e (LLM)"
         },
         {
             "name": "gpt-5.4",
@@ -685,6 +741,10 @@
             "label": "nemotron \ud83d\udc8e (LLM)"
         },
         {
+            "name": "nemotron-3.5-lightning",
+            "label": "nemotron-3.5-lightning (LLM)"
+        },
+        {
             "name": "nova",
             "label": "nova (LLM)"
         },
@@ -765,8 +825,32 @@
             "label": "qwen3.8-2.4t-a95b (LLM)"
         },
         {
+            "name": "qwen3.8-27b",
+            "label": "qwen3.8-27b \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "qwen3.8-max",
             "label": "qwen3.8-max \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "rodrigookk/STEP-3.7-flash",
+            "label": "rodrigookk/STEP-3.7-flash (LLM)"
+        },
+        {
+            "name": "rodrigookk/claude-fable-5",
+            "label": "rodrigookk/claude-fable-5 (LLM)"
+        },
+        {
+            "name": "rodrigookk/claude-sonnet-4.6",
+            "label": "rodrigookk/claude-sonnet-4.6 (LLM)"
+        },
+        {
+            "name": "rodrigookk/nemotron-3-super-120b-a12b",
+            "label": "rodrigookk/nemotron-3-super-120b-a12b (LLM)"
+        },
+        {
+            "name": "rodrigookk/nemotron-3.5-lightning-30b-a3b",
+            "label": "rodrigookk/nemotron-3.5-lightning-30b-a3b (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-codestral-2508",
@@ -857,14 +941,6 @@
             "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
         },
         {
-            "name": "vendouple/glm-5.3",
-            "label": "vendouple/glm-5.3 (LLM)"
-        },
-        {
-            "name": "vendouple/gpt-5.6-sol",
-            "label": "vendouple/gpt-5.6-sol (LLM)"
-        },
-        {
             "name": "vendouple/gpt-5.6-terra",
             "label": "vendouple/gpt-5.6-terra (LLM)"
         },
@@ -887,10 +963,6 @@
         {
             "name": "vendouple/muse-glimmer-30b:free",
             "label": "vendouple/muse-glimmer-30b:free (LLM)"
-        },
-        {
-            "name": "vendouple/qwen-3.8-27b:free",
-            "label": "vendouple/qwen-3.8-27b:free (LLM)"
         },
         {
             "name": "vendouple/qwen3.8-max",
@@ -1143,9 +1215,48 @@
             "voices": []
         },
         {
+            "name": "fish-audio-s2.1-pro",
+            "label": "fish-audio-s2.1-pro \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
             "name": "grok-transcribe",
             "label": "grok-transcribe \ud83d\udc8e (Audio)",
             "voices": []
+        },
+        {
+            "name": "grok-tts",
+            "label": "grok-tts \ud83d\udc8e (Audio)",
+            "voices": [
+                "altair",
+                "ara",
+                "atlas",
+                "aurora",
+                "carina",
+                "castor",
+                "celeste",
+                "cosmo",
+                "eve",
+                "helios",
+                "helix",
+                "iris",
+                "kepler",
+                "leo",
+                "liora",
+                "lumen",
+                "luna",
+                "lux",
+                "naksh",
+                "orion",
+                "perseus",
+                "rex",
+                "rigel",
+                "sal",
+                "sirius",
+                "ursa",
+                "zagan",
+                "zenith"
+            ]
         },
         {
             "name": "kokoro",
