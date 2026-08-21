@@ -13,12 +13,28 @@
             "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
         },
         {
+            "name": "JustScriptzz/flux-2-max",
+            "label": "JustScriptzz/flux-2-max (T2I/I2I)"
+        },
+        {
+            "name": "JustScriptzz/lucid-origin",
+            "label": "JustScriptzz/lucid-origin (T2I)"
+        },
+        {
             "name": "JustScriptzz/phoenix-1.0",
             "label": "JustScriptzz/phoenix-1.0 (T2I)"
         },
         {
+            "name": "JustScriptzz/sdxl-lightning",
+            "label": "JustScriptzz/sdxl-lightning (T2I/I2I)"
+        },
+        {
             "name": "MarcosFRG/lucid-origin",
             "label": "MarcosFRG/lucid-origin (T2I)"
+        },
+        {
+            "name": "Spit-fires/flux-schnell",
+            "label": "Spit-fires/flux-schnell (T2I)"
         },
         {
             "name": "chigwell/firefly-gpt-image-2",
@@ -27,6 +43,10 @@
         {
             "name": "chigwell/firefly-image-5",
             "label": "chigwell/firefly-image-5 (T2I)"
+        },
+        {
+            "name": "chigwell/flux-klein-2",
+            "label": "chigwell/flux-klein-2 (T2I)"
         },
         {
             "name": "chigwell/gpt-image-2",
@@ -129,6 +149,10 @@
             "label": "recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "rodrigookk/z-image-turbo",
+            "label": "rodrigookk/z-image-turbo (T2I/I2I)"
+        },
+        {
             "name": "seedream",
             "label": "seedream \ud83d\udc8e (T2I/I2I)"
         },
@@ -153,6 +177,22 @@
             "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
+            "name": "tomdacatto/FLUX.1-kontext-max",
+            "label": "tomdacatto/FLUX.1-kontext-max (T2I)"
+        },
+        {
+            "name": "tomdacatto/FLUX.1-kontext-max-paid",
+            "label": "tomdacatto/FLUX.1-kontext-max-paid \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "tomdacatto/Qwen-Image-2.0-Pro",
+            "label": "tomdacatto/Qwen-Image-2.0-Pro (T2I)"
+        },
+        {
+            "name": "tomdacatto/Qwen-Image-2.0-Pro-paid",
+            "label": "tomdacatto/Qwen-Image-2.0-Pro-paid \ud83d\udc8e (T2I)"
+        },
+        {
             "name": "tomdacatto/chatgpt-image-2",
             "label": "tomdacatto/chatgpt-image-2 (T2I)"
         },
@@ -163,6 +203,10 @@
         {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
+        },
+        {
+            "name": "vendouple/flux-2-pro",
+            "label": "vendouple/flux-2-pro (T2I)"
         },
         {
             "name": "vendouple/grok-imagine",
@@ -269,8 +313,24 @@
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
         },
         {
+            "name": "Catniti/agnes-2.0-flash",
+            "label": "Catniti/agnes-2.0-flash (LLM)"
+        },
+        {
             "name": "Catniti/agnes-2.5-flash",
             "label": "Catniti/agnes-2.5-flash (LLM)"
+        },
+        {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
+            "name": "Catniti/claude-sonnet-5",
+            "label": "Catniti/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
         },
         {
             "name": "Catniti/gemma-4-31b",
@@ -283,6 +343,18 @@
         {
             "name": "Catniti/gpt-oss-120b",
             "label": "Catniti/gpt-oss-120b (LLM)"
+        },
+        {
+            "name": "Catniti/kimi-k2.6",
+            "label": "Catniti/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "Catniti/openai-fast",
+            "label": "Catniti/openai-fast (LLM)"
+        },
+        {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "Circuit-Overtime/OreoLook",
@@ -301,8 +373,8 @@
             "label": "JustScriptzz/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "JustScriptzz/deepseek-v4-flash-0731",
-            "label": "JustScriptzz/deepseek-v4-flash-0731 (LLM)"
+            "name": "JustScriptzz/deepseek-v4-flash",
+            "label": "JustScriptzz/deepseek-v4-flash (LLM)"
         },
         {
             "name": "JustScriptzz/deepseek-v4-pro-0813",
@@ -311,6 +383,10 @@
         {
             "name": "JustScriptzz/gemini-3.5-flash",
             "label": "JustScriptzz/gemini-3.5-flash (LLM)"
+        },
+        {
+            "name": "JustScriptzz/gemini-3.6-flash",
+            "label": "JustScriptzz/gemini-3.6-flash (LLM)"
         },
         {
             "name": "JustScriptzz/glm-5.2",
@@ -323,6 +399,10 @@
         {
             "name": "JustScriptzz/grok-4.6",
             "label": "JustScriptzz/grok-4.6 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/helix-agent",
+            "label": "JustScriptzz/helix-agent (LLM)"
         },
         {
             "name": "JustScriptzz/kimi-k2.6",
@@ -341,12 +421,28 @@
             "label": "JustScriptzz/moondream-3.1 (LLM)"
         },
         {
+            "name": "JustScriptzz/muse-spark-1.2",
+            "label": "JustScriptzz/muse-spark-1.2 (LLM)"
+        },
+        {
+            "name": "JustScriptzz/qwen-3.8-max",
+            "label": "JustScriptzz/qwen-3.8-max (LLM)"
+        },
+        {
             "name": "Lorodn4x/deepseek-v4-pro-0813",
             "label": "Lorodn4x/deepseek-v4-pro-0813 (LLM)"
         },
         {
+            "name": "Lorodn4x/gpt-5.6-sol",
+            "label": "Lorodn4x/gpt-5.6-sol (LLM)"
+        },
+        {
             "name": "Lorodn4x/intern-s2-preview-397b",
             "label": "Lorodn4x/intern-s2-preview-397b (LLM)"
+        },
+        {
+            "name": "Lorodn4x/minimax-m3",
+            "label": "Lorodn4x/minimax-m3 (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -369,6 +465,10 @@
             "label": "MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
+            "name": "MarcosFRG/gemini-3.1-pro-preview",
+            "label": "MarcosFRG/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "MarcosFRG/gemma-4-26b-a4b",
             "label": "MarcosFRG/gemma-4-26b-a4b (LLM)"
         },
@@ -377,8 +477,16 @@
             "label": "MarcosFRG/gemma-4-31b (LLM)"
         },
         {
+            "name": "MarcosFRG/glm-4.6v-flash",
+            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
+        },
+        {
             "name": "MarcosFRG/glm-5.2",
             "label": "MarcosFRG/glm-5.2 (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gpt-5.6-luna",
+            "label": "MarcosFRG/gpt-5.6-luna (LLM)"
         },
         {
             "name": "MarcosFRG/metraxai",
@@ -409,10 +517,6 @@
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
         },
         {
-            "name": "Spit-fires/glm-5.2",
-            "label": "Spit-fires/glm-5.2 (LLM)"
-        },
-        {
             "name": "Spit-fires/muse-glimmer",
             "label": "Spit-fires/muse-glimmer (LLM)"
         },
@@ -433,10 +537,6 @@
             "label": "YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "chigwell/DeepSeek-V4-Flash-0731",
-            "label": "chigwell/DeepSeek-V4-Flash-0731 (LLM)"
-        },
-        {
             "name": "chigwell/claude-fable-5",
             "label": "chigwell/claude-fable-5 (LLM)"
         },
@@ -445,8 +545,16 @@
             "label": "chigwell/claude-haiku-4-5 (LLM)"
         },
         {
+            "name": "chigwell/claude-opus-4-8",
+            "label": "chigwell/claude-opus-4-8 (LLM)"
+        },
+        {
             "name": "chigwell/claude-opus-5",
             "label": "chigwell/claude-opus-5 (LLM)"
+        },
+        {
+            "name": "chigwell/claude-sonnet-4-6",
+            "label": "chigwell/claude-sonnet-4-6 (LLM)"
         },
         {
             "name": "chigwell/claude-sonnet-5",
@@ -491,10 +599,6 @@
         {
             "name": "chigwell/grok-4.6",
             "label": "chigwell/grok-4.6 (LLM)"
-        },
-        {
-            "name": "chigwell/kimi-k2.7-code",
-            "label": "chigwell/kimi-k2.7-code (LLM)"
         },
         {
             "name": "chigwell/llm7-fast",
@@ -833,16 +937,16 @@
             "label": "qwen3.8-max \ud83d\udc8e (LLM)"
         },
         {
-            "name": "rodrigookk/STEP-3.7-flash",
-            "label": "rodrigookk/STEP-3.7-flash (LLM)"
-        },
-        {
             "name": "rodrigookk/claude-fable-5",
             "label": "rodrigookk/claude-fable-5 (LLM)"
         },
         {
             "name": "rodrigookk/claude-sonnet-4.6",
             "label": "rodrigookk/claude-sonnet-4.6 (LLM)"
+        },
+        {
+            "name": "rodrigookk/deepseek-v4-flash-0731",
+            "label": "rodrigookk/deepseek-v4-flash-0731 (LLM)"
         },
         {
             "name": "rodrigookk/nemotron-3-super-120b-a12b",
@@ -853,44 +957,12 @@
             "label": "rodrigookk/nemotron-3.5-lightning-30b-a3b (LLM)"
         },
         {
-            "name": "sharktide/inferenceport-ai-codestral-2508",
-            "label": "sharktide/inferenceport-ai-codestral-2508 (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-command-r-plus",
-            "label": "sharktide/inferenceport-ai-command-r-plus (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-gemini-2.5-flash",
-            "label": "sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-gpt-4.1",
-            "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-kimi-k2.7-code",
-            "label": "sharktide/inferenceport-ai-kimi-k2.7-code (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-lightning-text-v2",
-            "label": "sharktide/inferenceport-ai-lightning-text-v2 (LLM)"
+            "name": "rodrigookk/step-3.7-flash",
+            "label": "rodrigookk/step-3.7-flash (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge",
             "label": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-minimax-m3",
-            "label": "sharktide/inferenceport-ai-minimax-m3 (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-qwen-3.6-27b",
-            "label": "sharktide/inferenceport-ai-qwen-3.6-27b (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport.ai-gpt-oss-20b",
-            "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
         },
         {
             "name": "solarnode-developement/A-Hy3",
@@ -917,12 +989,12 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v3.2",
-            "label": "vendouple/deepseek-v3.2 (LLM)"
+            "name": "tomdacatto/gemma-4-31b-fast",
+            "label": "tomdacatto/gemma-4-31b-fast (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v4",
-            "label": "vendouple/deepseek-v4 (LLM)"
+            "name": "vendouple/deepseek-v3.2",
+            "label": "vendouple/deepseek-v3.2 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-pro",
@@ -933,12 +1005,8 @@
             "label": "vendouple/gemini-3.6 (LLM)"
         },
         {
-            "name": "vendouple/gemini-3.7",
-            "label": "vendouple/gemini-3.7 (LLM)"
-        },
-        {
-            "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
-            "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
+            "name": "vendouple/glm-5.3",
+            "label": "vendouple/glm-5.3 (LLM)"
         },
         {
             "name": "vendouple/gpt-5.6-terra",
@@ -1217,6 +1285,11 @@
         {
             "name": "fish-audio-s2.1-pro",
             "label": "fish-audio-s2.1-pro \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "gpt-transcribe",
+            "label": "gpt-transcribe (Audio)",
             "voices": []
         },
         {
