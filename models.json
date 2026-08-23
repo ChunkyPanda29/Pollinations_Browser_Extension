@@ -13,16 +13,8 @@
             "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
         },
         {
-            "name": "JustScriptzz/flux-2-max",
-            "label": "JustScriptzz/flux-2-max (T2I/I2I)"
-        },
-        {
             "name": "JustScriptzz/phoenix-1.0",
             "label": "JustScriptzz/phoenix-1.0 (T2I)"
-        },
-        {
-            "name": "JustScriptzz/sdxl-lightning",
-            "label": "JustScriptzz/sdxl-lightning (T2I/I2I)"
         },
         {
             "name": "MarcosFRG/lucid-origin",
@@ -141,10 +133,6 @@
             "label": "recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
         },
         {
-            "name": "rodrigookk/z-image-turbo",
-            "label": "rodrigookk/z-image-turbo (T2I)"
-        },
-        {
             "name": "seedream",
             "label": "seedream \ud83d\udc8e (T2I/I2I)"
         },
@@ -161,16 +149,16 @@
             "label": "seedream5-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "sharktide/inferenceport-ai-gpt-image-router",
+            "label": "sharktide/inferenceport-ai-gpt-image-router \ud83d\udc8e (T2I)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-image-ultra",
             "label": "sharktide/inferenceport-ai-image-ultra \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "sharktide/inferenceport-ai-lightning-image-plus",
             "label": "sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-lightning-image-turbo",
-            "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
             "name": "tomdacatto/FLUX.1-kontext-max",
@@ -199,10 +187,6 @@
         {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
-        },
-        {
-            "name": "vendouple/flux-2-pro",
-            "label": "vendouple/flux-2-pro (T2I)"
         },
         {
             "name": "vendouple/grok-imagine",
@@ -361,10 +345,6 @@
             "label": "CloudCompile/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "CloudCompile/agnes-video-v2.0",
-            "label": "CloudCompile/agnes-video-v2.0 (LLM)"
-        },
-        {
             "name": "JustScriptzz/agnes-2.5-flash",
             "label": "JustScriptzz/agnes-2.5-flash (LLM)"
         },
@@ -413,10 +393,6 @@
             "label": "JustScriptzz/muse-spark-1.2 (LLM)"
         },
         {
-            "name": "JustScriptzz/qwen-3.8-max",
-            "label": "JustScriptzz/qwen-3.8-max (LLM)"
-        },
-        {
             "name": "Lorodn4x/claude-fable-5",
             "label": "Lorodn4x/claude-fable-5 \ud83d\udc8e (LLM)"
         },
@@ -435,10 +411,6 @@
         {
             "name": "Lorodn4x/minimax-m3",
             "label": "Lorodn4x/minimax-m3 (LLM)"
-        },
-        {
-            "name": "Lorodn4x/qwen3.8-max",
-            "label": "Lorodn4x/qwen3.8-max (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -499,6 +471,10 @@
         {
             "name": "MarcosFRG/nemotron-3.5-lightning-30b",
             "label": "MarcosFRG/nemotron-3.5-lightning-30b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/qwen3.8-2.4t-a95b",
+            "label": "MarcosFRG/qwen3.8-2.4t-a95b (LLM)"
         },
         {
             "name": "MarcosFRG/qwen3.8-27b",
@@ -761,6 +737,22 @@
             "label": "inkling \ud83d\udc8e (LLM)"
         },
         {
+            "name": "iotserver24/cheap-opus-4-8-thinking",
+            "label": "iotserver24/cheap-opus-4-8-thinking \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "iotserver24/cheap-opus-5-thinking",
+            "label": "iotserver24/cheap-opus-5-thinking \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "iotserver24/gpt-5-6-sol",
+            "label": "iotserver24/gpt-5-6-sol (LLM)"
+        },
+        {
+            "name": "iotserver24/stealth-code",
+            "label": "iotserver24/stealth-code (LLM)"
+        },
+        {
             "name": "kimi",
             "label": "kimi (LLM)"
         },
@@ -881,6 +873,50 @@
             "label": "openai-large (LLM)"
         },
         {
+            "name": "pegalink/deepseek-v4-flash-0731",
+            "label": "pegalink/deepseek-v4-flash-0731 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/gemini-3.1-pro-preview",
+            "label": "pegalink/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/gemini-3.5-flash-lite",
+            "label": "pegalink/gemini-3.5-flash-lite (LLM)"
+        },
+        {
+            "name": "pegalink/laguna-xs-2.1",
+            "label": "pegalink/laguna-xs-2.1 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/ling-3.0-flash-fast",
+            "label": "pegalink/ling-3.0-flash-fast \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/ling-3.0-flash-fast-code",
+            "label": "pegalink/ling-3.0-flash-fast-code \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/muse-spark-1.2",
+            "label": "pegalink/muse-spark-1.2 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/ox-alpha",
+            "label": "pegalink/ox-alpha (LLM)"
+        },
+        {
+            "name": "pegalink/ox-alpha-agent",
+            "label": "pegalink/ox-alpha-agent (LLM)"
+        },
+        {
+            "name": "pegalink/seed-2.1-turbo",
+            "label": "pegalink/seed-2.1-turbo \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "pegalink/solar-pro4",
+            "label": "pegalink/solar-pro4 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "perplexity",
             "label": "perplexity (LLM)"
         },
@@ -939,6 +975,26 @@
         {
             "name": "qwen3.8-max",
             "label": "qwen3.8-max \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "rodrigookk/claude-fable-5",
+            "label": "rodrigookk/claude-fable-5 (LLM)"
+        },
+        {
+            "name": "rodrigookk/claude-large",
+            "label": "rodrigookk/claude-large (LLM)"
+        },
+        {
+            "name": "rodrigookk/grok-large",
+            "label": "rodrigookk/grok-large (LLM)"
+        },
+        {
+            "name": "rodrigookk/laguna",
+            "label": "rodrigookk/laguna (LLM)"
+        },
+        {
+            "name": "rodrigookk/step-flash",
+            "label": "rodrigookk/step-flash (LLM)"
         },
         {
             "name": "sharktide/inferenceport-ai-codestral-2508",
@@ -1029,10 +1085,6 @@
             "label": "vendouple/gpt-5.6-luna (LLM)"
         },
         {
-            "name": "vendouple/gpt-5.6-terra",
-            "label": "vendouple/gpt-5.6-terra \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "vendouple/grok-4.6",
             "label": "vendouple/grok-4.6 (LLM)"
         },
@@ -1053,8 +1105,12 @@
             "label": "vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "vendouple/qwen3.8-max",
-            "label": "vendouple/qwen3.8-max (LLM)"
+            "name": "vendouple/ox-alpha",
+            "label": "vendouple/ox-alpha (LLM)"
+        },
+        {
+            "name": "vendouple/qwen-3.8-max",
+            "label": "vendouple/qwen-3.8-max (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
