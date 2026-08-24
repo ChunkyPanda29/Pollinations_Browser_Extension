@@ -13,8 +13,16 @@
             "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
         },
         {
+            "name": "JustScriptzz/lucid-origin",
+            "label": "JustScriptzz/lucid-origin (T2I/I2I)"
+        },
+        {
             "name": "JustScriptzz/phoenix-1.0",
             "label": "JustScriptzz/phoenix-1.0 (T2I)"
+        },
+        {
+            "name": "JustScriptzz/sdxl-lightning",
+            "label": "JustScriptzz/sdxl-lightning (T2I/I2I)"
         },
         {
             "name": "MarcosFRG/lucid-origin",
@@ -23,6 +31,10 @@
         {
             "name": "Spit-fires/flux-schnell",
             "label": "Spit-fires/flux-schnell (T2I)"
+        },
+        {
+            "name": "chigwell/LLM7-image",
+            "label": "chigwell/LLM7-image (T2I)"
         },
         {
             "name": "chigwell/firefly-gpt-image-2",
@@ -35,6 +47,10 @@
         {
             "name": "chigwell/gpt-image-2",
             "label": "chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "chigwell/llm7-image",
+            "label": "chigwell/llm7-image (T2I)"
         },
         {
             "name": "dreamshaper",
@@ -185,8 +201,20 @@
             "label": "tomdacatto/flux-2-max (T2I)"
         },
         {
+            "name": "vendouple/anima",
+            "label": "vendouple/anima (T2I)"
+        },
+        {
             "name": "vendouple/animagine",
             "label": "vendouple/animagine (T2I)"
+        },
+        {
+            "name": "vendouple/flux-2-pro",
+            "label": "vendouple/flux-2-pro (T2I)"
+        },
+        {
+            "name": "vendouple/gpt-image-2",
+            "label": "vendouple/gpt-image-2 (T2I)"
         },
         {
             "name": "vendouple/grok-imagine",
@@ -205,12 +233,12 @@
             "label": "vendouple/nano-banana-pro (T2I)"
         },
         {
-            "name": "vendouple/uncensored-image-enhanced",
-            "label": "vendouple/uncensored-image-enhanced (T2I)"
+            "name": "vendouple/uncensored-image",
+            "label": "vendouple/uncensored-image (T2I)"
         },
         {
-            "name": "vendouple/wai-illustrious-xl",
-            "label": "vendouple/wai-illustrious-xl (T2I)"
+            "name": "vendouple/uncensored-image-v2",
+            "label": "vendouple/uncensored-image-v2 (T2I)"
         },
         {
             "name": "wan-image",
@@ -301,40 +329,12 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
             "name": "Catniti/claude-sonnet-5",
             "label": "Catniti/claude-sonnet-5 (LLM)"
         },
         {
-            "name": "Catniti/command-r-plus",
-            "label": "Catniti/command-r-plus (LLM)"
-        },
-        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "Catniti/glm-4.7",
-            "label": "Catniti/glm-4.7 (LLM)"
-        },
-        {
-            "name": "Catniti/gpt-oss-120b",
-            "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/kimi-k2.6",
-            "label": "Catniti/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "Catniti/openai-fast",
-            "label": "Catniti/openai-fast (LLM)"
-        },
-        {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "Circuit-Overtime/OreoLook",
@@ -375,10 +375,6 @@
         {
             "name": "JustScriptzz/helix-agent",
             "label": "JustScriptzz/helix-agent (LLM)"
-        },
-        {
-            "name": "JustScriptzz/kimi-k3",
-            "label": "JustScriptzz/kimi-k3 (LLM)"
         },
         {
             "name": "JustScriptzz/minimax-m3",
@@ -593,10 +589,6 @@
             "label": "chigwell/minimax-m2.7 (LLM)"
         },
         {
-            "name": "chirag-gamer/gpt-oss-120b",
-            "label": "chirag-gamer/gpt-oss-120b (LLM)"
-        },
-        {
             "name": "claude",
             "label": "claude \ud83d\udc8e (LLM)"
         },
@@ -737,8 +729,16 @@
             "label": "inkling \ud83d\udc8e (LLM)"
         },
         {
+            "name": "iotserver24/cheap-opus-4-8",
+            "label": "iotserver24/cheap-opus-4-8 (LLM)"
+        },
+        {
             "name": "iotserver24/cheap-opus-4-8-thinking",
             "label": "iotserver24/cheap-opus-4-8-thinking \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "iotserver24/cheap-opus-5",
+            "label": "iotserver24/cheap-opus-5 (LLM)"
         },
         {
             "name": "iotserver24/cheap-opus-5-thinking",
@@ -873,20 +873,12 @@
             "label": "openai-large (LLM)"
         },
         {
-            "name": "pegalink/deepseek-v4-flash-0731",
-            "label": "pegalink/deepseek-v4-flash-0731 \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "pegalink/gemini-3.1-pro-preview",
             "label": "pegalink/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
         },
         {
             "name": "pegalink/gemini-3.5-flash-lite",
             "label": "pegalink/gemini-3.5-flash-lite (LLM)"
-        },
-        {
-            "name": "pegalink/laguna-xs-2.1",
-            "label": "pegalink/laguna-xs-2.1 \ud83d\udc8e (LLM)"
         },
         {
             "name": "pegalink/ling-3.0-flash-fast",
@@ -897,20 +889,12 @@
             "label": "pegalink/ling-3.0-flash-fast-code \ud83d\udc8e (LLM)"
         },
         {
-            "name": "pegalink/muse-spark-1.2",
-            "label": "pegalink/muse-spark-1.2 \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "pegalink/ox-alpha",
             "label": "pegalink/ox-alpha (LLM)"
         },
         {
             "name": "pegalink/ox-alpha-agent",
             "label": "pegalink/ox-alpha-agent (LLM)"
-        },
-        {
-            "name": "pegalink/seed-2.1-turbo",
-            "label": "pegalink/seed-2.1-turbo \ud83d\udc8e (LLM)"
         },
         {
             "name": "pegalink/solar-pro4",
@@ -977,26 +961,6 @@
             "label": "qwen3.8-max \ud83d\udc8e (LLM)"
         },
         {
-            "name": "rodrigookk/claude-fable-5",
-            "label": "rodrigookk/claude-fable-5 (LLM)"
-        },
-        {
-            "name": "rodrigookk/claude-large",
-            "label": "rodrigookk/claude-large (LLM)"
-        },
-        {
-            "name": "rodrigookk/grok-large",
-            "label": "rodrigookk/grok-large (LLM)"
-        },
-        {
-            "name": "rodrigookk/laguna",
-            "label": "rodrigookk/laguna (LLM)"
-        },
-        {
-            "name": "rodrigookk/step-flash",
-            "label": "rodrigookk/step-flash (LLM)"
-        },
-        {
             "name": "sharktide/inferenceport-ai-codestral-2508",
             "label": "sharktide/inferenceport-ai-codestral-2508 (LLM)"
         },
@@ -1041,10 +1005,6 @@
             "label": "solarnode-developement/A-Hy3 (LLM)"
         },
         {
-            "name": "solarnode-developement/Qwen3.8-max",
-            "label": "solarnode-developement/Qwen3.8-max (LLM)"
-        },
-        {
             "name": "solarnode-developement/hy3",
             "label": "solarnode-developement/hy3 (LLM)"
         },
@@ -1077,12 +1037,24 @@
             "label": "vendouple/gemini-3.6 (LLM)"
         },
         {
+            "name": "vendouple/gemini-3.7",
+            "label": "vendouple/gemini-3.7 (LLM)"
+        },
+        {
+            "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
+            "label": "vendouple/gemma-4-31b-sdft-heretic-rp (LLM)"
+        },
+        {
             "name": "vendouple/glm-5.3",
             "label": "vendouple/glm-5.3 (LLM)"
         },
         {
             "name": "vendouple/gpt-5.6-luna",
             "label": "vendouple/gpt-5.6-luna (LLM)"
+        },
+        {
+            "name": "vendouple/gpt-5.6-terra",
+            "label": "vendouple/gpt-5.6-terra (LLM)"
         },
         {
             "name": "vendouple/grok-4.6",
