@@ -29,6 +29,10 @@
             "label": "MarcosFRG/lucid-origin (T2I)"
         },
         {
+            "name": "MarcosFRG/sdxl-lightning",
+            "label": "MarcosFRG/sdxl-lightning (T2I)"
+        },
+        {
             "name": "Spit-fires/flux-schnell",
             "label": "Spit-fires/flux-schnell (T2I)"
         },
@@ -177,6 +181,10 @@
             "label": "sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
         },
         {
+            "name": "sharktide/inferenceport-ai-lightning-image-turbo",
+            "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
+        },
+        {
             "name": "tomdacatto/FLUX.1-kontext-max",
             "label": "tomdacatto/FLUX.1-kontext-max (T2I)"
         },
@@ -209,8 +217,8 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/flux-2-pro",
-            "label": "vendouple/flux-2-pro (T2I)"
+            "name": "vendouple/flux-2-klein",
+            "label": "vendouple/flux-2-klein (T2I)"
         },
         {
             "name": "vendouple/gpt-image-2",
@@ -329,10 +337,6 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/claude-sonnet-5",
-            "label": "Catniti/claude-sonnet-5 (LLM)"
-        },
-        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
         },
@@ -387,26 +391,6 @@
         {
             "name": "JustScriptzz/muse-spark-1.2",
             "label": "JustScriptzz/muse-spark-1.2 (LLM)"
-        },
-        {
-            "name": "Lorodn4x/claude-fable-5",
-            "label": "Lorodn4x/claude-fable-5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "Lorodn4x/deepseek-v4-pro-0813",
-            "label": "Lorodn4x/deepseek-v4-pro-0813 (LLM)"
-        },
-        {
-            "name": "Lorodn4x/gpt-5.6-sol",
-            "label": "Lorodn4x/gpt-5.6-sol \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "Lorodn4x/intern-s2-preview-397b",
-            "label": "Lorodn4x/intern-s2-preview-397b (LLM)"
-        },
-        {
-            "name": "Lorodn4x/minimax-m3",
-            "label": "Lorodn4x/minimax-m3 (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -673,6 +657,10 @@
             "label": "gggff123/Inkling (LLM)"
         },
         {
+            "name": "gggff123/glm-5.2",
+            "label": "gggff123/glm-5.2 (LLM)"
+        },
+        {
             "name": "gggff123/gpt-5-nano",
             "label": "gggff123/gpt-5-nano (LLM)"
         },
@@ -745,8 +733,16 @@
             "label": "iotserver24/cheap-opus-5-thinking \ud83d\udc8e (LLM)"
         },
         {
+            "name": "iotserver24/deepseek-fast",
+            "label": "iotserver24/deepseek-fast (LLM)"
+        },
+        {
             "name": "iotserver24/gpt-5-6-sol",
             "label": "iotserver24/gpt-5-6-sol (LLM)"
+        },
+        {
+            "name": "iotserver24/route-r3ap3r",
+            "label": "iotserver24/route-r3ap3r (LLM)"
         },
         {
             "name": "iotserver24/stealth-code",
@@ -881,24 +877,12 @@
             "label": "pegalink/gemini-3.5-flash-lite (LLM)"
         },
         {
-            "name": "pegalink/ling-3.0-flash-fast",
-            "label": "pegalink/ling-3.0-flash-fast \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "pegalink/ling-3.0-flash-fast-code",
-            "label": "pegalink/ling-3.0-flash-fast-code \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "pegalink/ox-alpha",
             "label": "pegalink/ox-alpha (LLM)"
         },
         {
             "name": "pegalink/ox-alpha-agent",
             "label": "pegalink/ox-alpha-agent (LLM)"
-        },
-        {
-            "name": "pegalink/solar-pro4",
-            "label": "pegalink/solar-pro4 \ud83d\udc8e (LLM)"
         },
         {
             "name": "perplexity",
@@ -969,10 +953,6 @@
             "label": "sharktide/inferenceport-ai-command-r-plus (LLM)"
         },
         {
-            "name": "sharktide/inferenceport-ai-gemini-2.5-flash",
-            "label": "sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
-        },
-        {
             "name": "sharktide/inferenceport-ai-gpt-4.1",
             "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
         },
@@ -1035,10 +1015,6 @@
         {
             "name": "vendouple/gemini-3.6",
             "label": "vendouple/gemini-3.6 (LLM)"
-        },
-        {
-            "name": "vendouple/gemini-3.7",
-            "label": "vendouple/gemini-3.7 (LLM)"
         },
         {
             "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
