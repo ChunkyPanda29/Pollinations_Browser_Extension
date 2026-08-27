@@ -17,8 +17,20 @@
             "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
         },
         {
+            "name": "JustScriptzz/gpt-image-2",
+            "label": "JustScriptzz/gpt-image-2 (T2I/I2I)"
+        },
+        {
+            "name": "JustScriptzz/lucid-origin",
+            "label": "JustScriptzz/lucid-origin (T2I/I2I)"
+        },
+        {
             "name": "JustScriptzz/phoenix-1.0",
             "label": "JustScriptzz/phoenix-1.0 (T2I)"
+        },
+        {
+            "name": "JustScriptzz/qwen-image-3.0-pro",
+            "label": "JustScriptzz/qwen-image-3.0-pro (T2I/I2I)"
         },
         {
             "name": "JustScriptzz/sdxl-lightning",
@@ -43,10 +55,6 @@
         {
             "name": "MarcosFRG/sdxl-lightning",
             "label": "MarcosFRG/sdxl-lightning (T2I/I2I)"
-        },
-        {
-            "name": "Spit-fires/flux-schnell",
-            "label": "Spit-fires/flux-schnell (T2I)"
         },
         {
             "name": "chigwell/LLM7-image",
@@ -181,6 +189,10 @@
             "label": "sharktide/inferenceport-ai-gpt-image-router \ud83d\udc8e (T2I)"
         },
         {
+            "name": "sharktide/inferenceport-ai-image-ultra",
+            "label": "sharktide/inferenceport-ai-image-ultra \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-lightning-image-plus",
             "label": "sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
         },
@@ -197,20 +209,12 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/flux-2-klein",
-            "label": "vendouple/flux-2-klein (T2I)"
-        },
-        {
             "name": "vendouple/gpt-image-2",
             "label": "vendouple/gpt-image-2 (T2I)"
         },
         {
             "name": "vendouple/grok-imagine",
             "label": "vendouple/grok-imagine (T2I)"
-        },
-        {
-            "name": "vendouple/lucid-origin",
-            "label": "vendouple/lucid-origin (T2I)"
         },
         {
             "name": "vendouple/luma-photon-1",
@@ -317,8 +321,36 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
+            "name": "Catniti/claude-sonnet-5",
+            "label": "Catniti/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
+        },
+        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "Catniti/gpt-oss-120b",
+            "label": "Catniti/gpt-oss-120b (LLM)"
+        },
+        {
+            "name": "Catniti/kimi-k2.6",
+            "label": "Catniti/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "Catniti/openai-fast",
+            "label": "Catniti/openai-fast (LLM)"
+        },
+        {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "Circuit-Overtime/OreoLook",
@@ -327,10 +359,6 @@
         {
             "name": "CloudCompile/agnes-2.5-flash",
             "label": "CloudCompile/agnes-2.5-flash (LLM)"
-        },
-        {
-            "name": "CloudCompile/agnes-video-v2.0",
-            "label": "CloudCompile/agnes-video-v2.0 (LLM)"
         },
         {
             "name": "CloudCompile/moondream3.1",
@@ -377,6 +405,10 @@
             "label": "JustScriptzz/kimi-k2.7-code (LLM)"
         },
         {
+            "name": "JustScriptzz/kimi-k3",
+            "label": "JustScriptzz/kimi-k3 (LLM)"
+        },
+        {
             "name": "JustScriptzz/minimax-m3",
             "label": "JustScriptzz/minimax-m3 (LLM)"
         },
@@ -385,8 +417,12 @@
             "label": "JustScriptzz/moondream-3.1 (LLM)"
         },
         {
-            "name": "JustScriptzz/qwen-3.8",
-            "label": "JustScriptzz/qwen-3.8 (LLM)"
+            "name": "JustScriptzz/notion-agent",
+            "label": "JustScriptzz/notion-agent (LLM)"
+        },
+        {
+            "name": "JustScriptzz/qwen-3.8-max",
+            "label": "JustScriptzz/qwen-3.8-max (LLM)"
         },
         {
             "name": "Lorodn4x/claude-fable-5",
@@ -449,6 +485,10 @@
             "label": "MarcosFRG/glm-5.2 (LLM)"
         },
         {
+            "name": "MarcosFRG/glm-5.3-flash",
+            "label": "MarcosFRG/glm-5.3-flash (LLM)"
+        },
+        {
             "name": "MarcosFRG/gpt-5.6-luna",
             "label": "MarcosFRG/gpt-5.6-luna (LLM)"
         },
@@ -465,16 +505,20 @@
             "label": "MarcosFRG/minimax-m3 (LLM)"
         },
         {
+            "name": "MarcosFRG/moondream-3.1",
+            "label": "MarcosFRG/moondream-3.1 (LLM)"
+        },
+        {
             "name": "MarcosFRG/nemotron-3.5-lightning-30b",
             "label": "MarcosFRG/nemotron-3.5-lightning-30b (LLM)"
         },
         {
-            "name": "MarcosFRG/qwen3.8-2.4t-a95b",
-            "label": "MarcosFRG/qwen3.8-2.4t-a95b (LLM)"
-        },
-        {
             "name": "MarcosFRG/qwen3.8-27b",
             "label": "MarcosFRG/qwen3.8-27b (LLM)"
+        },
+        {
+            "name": "MarcosFRG/qwen3.8-flash-next",
+            "label": "MarcosFRG/qwen3.8-flash-next (LLM)"
         },
         {
             "name": "Minor-fun/deepseek-v3.2",
@@ -749,6 +793,10 @@
             "label": "iotserver24/cheap-opus-5-thinking \ud83d\udc8e (LLM)"
         },
         {
+            "name": "iotserver24/deepseek-fast",
+            "label": "iotserver24/deepseek-fast (LLM)"
+        },
+        {
             "name": "iotserver24/gpt-5-6-sol",
             "label": "iotserver24/gpt-5-6-sol (LLM)"
         },
@@ -837,6 +885,18 @@
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "morriszdweck/osaii-api-fast",
+            "label": "morriszdweck/osaii-api-fast (LLM)"
+        },
+        {
+            "name": "morriszdweck/osaii-api-smart",
+            "label": "morriszdweck/osaii-api-smart (LLM)"
+        },
+        {
+            "name": "morriszdweck/osaii-swarm",
+            "label": "morriszdweck/osaii-swarm (LLM)"
+        },
+        {
             "name": "muse-glimmer",
             "label": "muse-glimmer (LLM)"
         },
@@ -887,10 +947,6 @@
         {
             "name": "pegalink/gemini-3.5-flash-lite",
             "label": "pegalink/gemini-3.5-flash-lite (LLM)"
-        },
-        {
-            "name": "pegalink/ox-alpha",
-            "label": "pegalink/ox-alpha (LLM)"
         },
         {
             "name": "pegalink/ox-alpha-agent",
@@ -969,6 +1025,10 @@
             "label": "sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
         },
         {
+            "name": "sharktide/inferenceport-ai-gpt-4.1",
+            "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-kimi-k2.7-code",
             "label": "sharktide/inferenceport-ai-kimi-k2.7-code (LLM)"
         },
@@ -1009,12 +1069,28 @@
             "label": "step-flash \ud83d\udc8e (LLM)"
         },
         {
-            "name": "tomdacatto/ezra",
-            "label": "tomdacatto/ezra (LLM)"
+            "name": "tomdacatto/claude-haiku-4.5",
+            "label": "tomdacatto/claude-haiku-4.5 (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v3.2",
-            "label": "vendouple/deepseek-v3.2 (LLM)"
+            "name": "tomdacatto/claude-opus-4-6",
+            "label": "tomdacatto/claude-opus-4-6 (LLM)"
+        },
+        {
+            "name": "tomdacatto/claude-opus-4-7",
+            "label": "tomdacatto/claude-opus-4-7 (LLM)"
+        },
+        {
+            "name": "tomdacatto/claude-opus-5",
+            "label": "tomdacatto/claude-opus-5 (LLM)"
+        },
+        {
+            "name": "tomdacatto/claude-sonnet-5",
+            "label": "tomdacatto/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "tomdacatto/ezra",
+            "label": "tomdacatto/ezra (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-flash-0731",
@@ -1057,10 +1133,6 @@
             "label": "vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "vendouple/ox-alpha",
-            "label": "vendouple/ox-alpha (LLM)"
-        },
-        {
             "name": "vendouple/qwen-3.8-max",
             "label": "vendouple/qwen-3.8-max (LLM)"
         },
@@ -1071,10 +1143,6 @@
         {
             "name": "voodoohop/airforce-qwen3-max",
             "label": "voodoohop/airforce-qwen3-max (LLM)"
-        },
-        {
-            "name": "voodoohop/anyvm-deepseek-chat",
-            "label": "voodoohop/anyvm-deepseek-chat (LLM)"
         },
         {
             "name": "zero2launch/gemini-3.6-flash",
@@ -1465,11 +1533,6 @@
         {
             "name": "universal-3.5-pro",
             "label": "universal-3.5-pro (Audio)",
-            "voices": []
-        },
-        {
-            "name": "vendouple/whisper-large-v3:free",
-            "label": "vendouple/whisper-large-v3:free (Audio)",
             "voices": []
         },
         {
