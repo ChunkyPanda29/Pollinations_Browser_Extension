@@ -9,10 +9,6 @@
             "label": "Catniti/agnes-image-2.1-flash (T2I)"
         },
         {
-            "name": "CloudCompile/agnes-image-2.0-flash",
-            "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
-        },
-        {
             "name": "JustScriptzz/flux-2-klein-9b",
             "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
         },
@@ -59,10 +55,6 @@
         {
             "name": "chigwell/LLM7-image",
             "label": "chigwell/LLM7-image \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "chigwell/firefly-image-5",
-            "label": "chigwell/firefly-image-5 \ud83d\udc8e (T2I)"
         },
         {
             "name": "chigwell/flux-klein-2",
@@ -169,6 +161,14 @@
             "label": "recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "rekty/rekty-dev-3",
+            "label": "rekty/rekty-dev-3 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "rekty/rekty-dev-v2",
+            "label": "rekty/rekty-dev-v2 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "seedream",
             "label": "seedream \ud83d\udc8e (T2I/I2I)"
         },
@@ -242,6 +242,10 @@
         }
     ],
     "video": [
+        {
+            "name": "google/gemini-omni-1.1-flash",
+            "label": "google/gemini-omni-1.1-flash \ud83d\udc8e (T2V/I2V)"
+        },
         {
             "name": "grok-imagine-video-1.5",
             "label": "grok-imagine-video-1.5 \ud83d\udc8e (T2V/I2V)"
@@ -369,6 +373,10 @@
             "label": "JustScriptzz/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "JustScriptzz/claude-opus-5",
+            "label": "JustScriptzz/claude-opus-5 (LLM)"
+        },
+        {
             "name": "JustScriptzz/deepseek-v4-flash-0731",
             "label": "JustScriptzz/deepseek-v4-flash-0731 (LLM)"
         },
@@ -381,8 +389,12 @@
             "label": "JustScriptzz/gemini-3.6-flash (LLM)"
         },
         {
-            "name": "JustScriptzz/glm-5.2",
-            "label": "JustScriptzz/glm-5.2 (LLM)"
+            "name": "JustScriptzz/glm-5.3-flash",
+            "label": "JustScriptzz/glm-5.3-flash (LLM)"
+        },
+        {
+            "name": "JustScriptzz/gpt-5-6-sol",
+            "label": "JustScriptzz/gpt-5-6-sol (LLM)"
         },
         {
             "name": "JustScriptzz/gpt-5.6-luna",
@@ -415,10 +427,6 @@
         {
             "name": "JustScriptzz/moondream-3.1",
             "label": "JustScriptzz/moondream-3.1 (LLM)"
-        },
-        {
-            "name": "JustScriptzz/notion-agent",
-            "label": "JustScriptzz/notion-agent (LLM)"
         },
         {
             "name": "JustScriptzz/qwen-3.8-max",
@@ -517,8 +525,8 @@
             "label": "MarcosFRG/qwen3.8-27b (LLM)"
         },
         {
-            "name": "MarcosFRG/qwen3.8-flash-next",
-            "label": "MarcosFRG/qwen3.8-flash-next (LLM)"
+            "name": "MarcosFRG/qwen3.8-flash",
+            "label": "MarcosFRG/qwen3.8-flash (LLM)"
         },
         {
             "name": "Minor-fun/deepseek-v3.2",
@@ -893,10 +901,6 @@
             "label": "morriszdweck/osaii-api-smart (LLM)"
         },
         {
-            "name": "morriszdweck/osaii-swarm",
-            "label": "morriszdweck/osaii-swarm (LLM)"
-        },
-        {
             "name": "muse-glimmer",
             "label": "muse-glimmer (LLM)"
         },
@@ -1097,10 +1101,6 @@
             "label": "vendouple/deepseek-v4-flash-0731 (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v4-pro",
-            "label": "vendouple/deepseek-v4-pro (LLM)"
-        },
-        {
             "name": "vendouple/gemini-3.6",
             "label": "vendouple/gemini-3.6 (LLM)"
         },
@@ -1115,6 +1115,10 @@
         {
             "name": "vendouple/gpt-5.6-luna",
             "label": "vendouple/gpt-5.6-luna (LLM)"
+        },
+        {
+            "name": "vendouple/gpt-5.6-terra",
+            "label": "vendouple/gpt-5.6-terra (LLM)"
         },
         {
             "name": "vendouple/grok-4.6",
@@ -1143,6 +1147,10 @@
         {
             "name": "voodoohop/airforce-qwen3-max",
             "label": "voodoohop/airforce-qwen3-max (LLM)"
+        },
+        {
+            "name": "z-ai/glm-5.3-flash",
+            "label": "z-ai/glm-5.3-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "zero2launch/gemini-3.6-flash",
