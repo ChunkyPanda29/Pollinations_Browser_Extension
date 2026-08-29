@@ -1,14 +1,6 @@
 {
     "image": [
         {
-            "name": "Catniti/agnes-image-2.0-flash",
-            "label": "Catniti/agnes-image-2.0-flash (T2I)"
-        },
-        {
-            "name": "Catniti/agnes-image-2.1-flash",
-            "label": "Catniti/agnes-image-2.1-flash (T2I)"
-        },
-        {
             "name": "JustScriptzz/flux-2-klein-9b",
             "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
         },
@@ -53,16 +45,8 @@
             "label": "MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
         {
-            "name": "chigwell/LLM7-image",
-            "label": "chigwell/LLM7-image \ud83d\udc8e (T2I)"
-        },
-        {
             "name": "chigwell/flux-klein-2",
             "label": "chigwell/flux-klein-2 \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "chigwell/gpt-image-2",
-            "label": "chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
         },
         {
             "name": "dreamshaper",
@@ -163,6 +147,10 @@
         {
             "name": "rekty/rekty-dev-3",
             "label": "rekty/rekty-dev-3 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "rekty/rekty-dev-4",
+            "label": "rekty/rekty-dev-4 \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "rekty/rekty-dev-v2",
@@ -325,36 +313,8 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
-            "name": "Catniti/claude-sonnet-5",
-            "label": "Catniti/claude-sonnet-5 (LLM)"
-        },
-        {
-            "name": "Catniti/command-r-plus",
-            "label": "Catniti/command-r-plus (LLM)"
-        },
-        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "Catniti/gpt-oss-120b",
-            "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/kimi-k2.6",
-            "label": "Catniti/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "Catniti/openai-fast",
-            "label": "Catniti/openai-fast (LLM)"
-        },
-        {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "Circuit-Overtime/OreoLook",
@@ -387,10 +347,6 @@
         {
             "name": "JustScriptzz/gemini-3.6-flash",
             "label": "JustScriptzz/gemini-3.6-flash (LLM)"
-        },
-        {
-            "name": "JustScriptzz/glm-5.3-flash",
-            "label": "JustScriptzz/glm-5.3-flash (LLM)"
         },
         {
             "name": "JustScriptzz/gpt-5-6-sol",
@@ -433,16 +389,8 @@
             "label": "JustScriptzz/qwen-3.8-max (LLM)"
         },
         {
-            "name": "Lorodn4x/claude-fable-5",
-            "label": "Lorodn4x/claude-fable-5 \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "Lorodn4x/deepseek-v4-pro-0813",
             "label": "Lorodn4x/deepseek-v4-pro-0813 (LLM)"
-        },
-        {
-            "name": "Lorodn4x/gpt-5.6-sol",
-            "label": "Lorodn4x/gpt-5.6-sol \ud83d\udc8e (LLM)"
         },
         {
             "name": "Lorodn4x/intern-s2-preview-397b",
@@ -523,10 +471,6 @@
         {
             "name": "MarcosFRG/qwen3.8-27b",
             "label": "MarcosFRG/qwen3.8-27b (LLM)"
-        },
-        {
-            "name": "MarcosFRG/qwen3.8-flash",
-            "label": "MarcosFRG/qwen3.8-flash (LLM)"
         },
         {
             "name": "Minor-fun/deepseek-v3.2",
@@ -742,7 +686,7 @@
         },
         {
             "name": "glm-5.3",
-            "label": "glm-5.3 \ud83d\udc8e (LLM)"
+            "label": "glm-5.3 (LLM)"
         },
         {
             "name": "gpt-5.4",
@@ -923,6 +867,10 @@
         {
             "name": "nova-fast",
             "label": "nova-fast (LLM)"
+        },
+        {
+            "name": "novastardev/olmo-3.1-32b",
+            "label": "novastardev/olmo-3.1-32b (LLM)"
         },
         {
             "name": "openai",
@@ -1139,6 +1087,10 @@
         {
             "name": "vendouple/qwen-3.8-max",
             "label": "vendouple/qwen-3.8-max (LLM)"
+        },
+        {
+            "name": "vendouple/qwen3.8-27b",
+            "label": "vendouple/qwen3.8-27b (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
