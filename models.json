@@ -1,12 +1,16 @@
 {
     "image": [
         {
-            "name": "JustScriptzz/flux-2-klein-9b",
-            "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
+            "name": "Catniti/agnes-image-2.0-flash",
+            "label": "Catniti/agnes-image-2.0-flash (T2I)"
         },
         {
-            "name": "JustScriptzz/gpt-image-2",
-            "label": "JustScriptzz/gpt-image-2 (T2I/I2I)"
+            "name": "Catniti/agnes-image-2.1-flash",
+            "label": "Catniti/agnes-image-2.1-flash (T2I)"
+        },
+        {
+            "name": "JustScriptzz/flux-2-klein-9b",
+            "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
         },
         {
             "name": "JustScriptzz/lucid-origin",
@@ -45,8 +49,12 @@
             "label": "MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
         {
-            "name": "chigwell/flux-klein-2",
-            "label": "chigwell/flux-klein-2 \ud83d\udc8e (T2I)"
+            "name": "chigwell/firefly-gpt-image-2",
+            "label": "chigwell/firefly-gpt-image-2 \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "chigwell/gpt-image-2",
+            "label": "chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
         },
         {
             "name": "dreamshaper",
@@ -301,6 +309,14 @@
     ],
     "text": [
         {
+            "name": "AkshayCoder48/gpt-5.4-mini-no-login",
+            "label": "AkshayCoder48/gpt-5.4-mini-no-login (LLM)"
+        },
+        {
+            "name": "AkshayCoder48/gpt-o4-mini-no-login",
+            "label": "AkshayCoder48/gpt-o4-mini-no-login (LLM)"
+        },
+        {
             "name": "Bakhshi7889/gemma-4-31b-it",
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
         },
@@ -313,8 +329,36 @@
             "label": "Catniti/agnes-2.5-flash (LLM)"
         },
         {
+            "name": "Catniti/auto-router-1",
+            "label": "Catniti/auto-router-1 (LLM)"
+        },
+        {
+            "name": "Catniti/claude-sonnet-5",
+            "label": "Catniti/claude-sonnet-5 (LLM)"
+        },
+        {
+            "name": "Catniti/command-r-plus",
+            "label": "Catniti/command-r-plus (LLM)"
+        },
+        {
             "name": "Catniti/gemma-4-31b",
             "label": "Catniti/gemma-4-31b (LLM)"
+        },
+        {
+            "name": "Catniti/gpt-oss-120b",
+            "label": "Catniti/gpt-oss-120b (LLM)"
+        },
+        {
+            "name": "Catniti/kimi-k2.6",
+            "label": "Catniti/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "Catniti/openai-fast",
+            "label": "Catniti/openai-fast (LLM)"
+        },
+        {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
         },
         {
             "name": "Circuit-Overtime/OreoLook",
@@ -333,28 +377,8 @@
             "label": "JustScriptzz/agnes-2.5-flash (LLM)"
         },
         {
-            "name": "JustScriptzz/claude-opus-5",
-            "label": "JustScriptzz/claude-opus-5 (LLM)"
-        },
-        {
             "name": "JustScriptzz/deepseek-v4-flash-0731",
             "label": "JustScriptzz/deepseek-v4-flash-0731 (LLM)"
-        },
-        {
-            "name": "JustScriptzz/deepseek-v4-pro-0813",
-            "label": "JustScriptzz/deepseek-v4-pro-0813 (LLM)"
-        },
-        {
-            "name": "JustScriptzz/gemini-3.6-flash",
-            "label": "JustScriptzz/gemini-3.6-flash (LLM)"
-        },
-        {
-            "name": "JustScriptzz/gpt-5-6-sol",
-            "label": "JustScriptzz/gpt-5-6-sol (LLM)"
-        },
-        {
-            "name": "JustScriptzz/gpt-5.6-luna",
-            "label": "JustScriptzz/gpt-5.6-luna (LLM)"
         },
         {
             "name": "JustScriptzz/gpt-oss-120b",
@@ -447,6 +471,10 @@
         {
             "name": "MarcosFRG/gpt-5.6-luna",
             "label": "MarcosFRG/gpt-5.6-luna (LLM)"
+        },
+        {
+            "name": "MarcosFRG/kimi-k2.7-code",
+            "label": "MarcosFRG/kimi-k2.7-code (LLM)"
         },
         {
             "name": "MarcosFRG/metraxai",
@@ -543,6 +571,10 @@
         {
             "name": "chigwell/glm-5.3",
             "label": "chigwell/glm-5.3 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "chigwell/glm-5.3-flash",
+            "label": "chigwell/glm-5.3-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "chigwell/gpt-5.4",
@@ -749,8 +781,12 @@
             "label": "iotserver24/deepseek-fast (LLM)"
         },
         {
-            "name": "iotserver24/gpt-5-6-sol",
-            "label": "iotserver24/gpt-5-6-sol (LLM)"
+            "name": "iotserver24/kimi-k2.7-code-nitro",
+            "label": "iotserver24/kimi-k2.7-code-nitro (LLM)"
+        },
+        {
+            "name": "iotserver24/kimi-k3",
+            "label": "iotserver24/kimi-k3 \ud83d\udc8e (LLM)"
         },
         {
             "name": "iotserver24/route-r3ap3r",
@@ -837,10 +873,6 @@
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
         },
         {
-            "name": "morriszdweck/osaii-api-fast",
-            "label": "morriszdweck/osaii-api-fast (LLM)"
-        },
-        {
             "name": "morriszdweck/osaii-api-smart",
             "label": "morriszdweck/osaii-api-smart (LLM)"
         },
@@ -915,6 +947,10 @@
         {
             "name": "perplexity-reasoning",
             "label": "perplexity-reasoning (LLM)"
+        },
+        {
+            "name": "pollinations-router/floret",
+            "label": "pollinations-router/floret (LLM)"
         },
         {
             "name": "pollinations-router/polli",
@@ -1071,10 +1107,6 @@
         {
             "name": "vendouple/grok-4.6",
             "label": "vendouple/grok-4.6 (LLM)"
-        },
-        {
-            "name": "vendouple/kimi-k3",
-            "label": "vendouple/kimi-k3 (LLM)"
         },
         {
             "name": "vendouple/laguna-s-2.1:free",
