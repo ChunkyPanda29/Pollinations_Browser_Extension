@@ -1333,6 +1333,10 @@
             "label": "voodoohop/anyvm-deepseek-chat (LLM)"
         },
         {
+            "name": "voodoohop/humans-api",
+            "label": "voodoohop/humans-api (LLM)"
+        },
+        {
             "name": "z-ai/glm-5.3-flash",
             "label": "z-ai/glm-5.3-flash (LLM)"
         },
