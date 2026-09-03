@@ -5,10 +5,6 @@
             "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
         },
         {
-            "name": "JustScriptzz/gemini-3-flash-image",
-            "label": "JustScriptzz/gemini-3-flash-image (T2I/I2I)"
-        },
-        {
             "name": "JustScriptzz/lucid-origin",
             "label": "JustScriptzz/lucid-origin (T2I/I2I)"
         },
@@ -37,8 +33,8 @@
             "label": "MarcosFRG/lucid-origin (T2I/I2I)"
         },
         {
-            "name": "MarcosFRG/sdxl-lightning",
-            "label": "MarcosFRG/sdxl-lightning (T2I/I2I)"
+            "name": "chigwell/gpt-image-2",
+            "label": "chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
         },
         {
             "name": "dreamshaper",
@@ -193,12 +189,20 @@
             "label": "vendouple/animagine (T2I)"
         },
         {
-            "name": "vendouple/grok-imagine",
-            "label": "vendouple/grok-imagine (T2I)"
+            "name": "vendouple/gpt-image-2",
+            "label": "vendouple/gpt-image-2 (T2I)"
+        },
+        {
+            "name": "vendouple/lucid-origin",
+            "label": "vendouple/lucid-origin (T2I)"
         },
         {
             "name": "vendouple/luma-photon-1",
             "label": "vendouple/luma-photon-1 (T2I)"
+        },
+        {
+            "name": "vendouple/nano-banana-pro",
+            "label": "vendouple/nano-banana-pro (T2I)"
         },
         {
             "name": "vendouple/qwen-image-3.0-pro",
@@ -389,8 +393,8 @@
             "label": "AkshayCoder48/gemini-3.1-flash-lite (LLM)"
         },
         {
-            "name": "AkshayCoder48/gemini-3.5-flash",
-            "label": "AkshayCoder48/gemini-3.5-flash (LLM)"
+            "name": "AkshayCoder48/gemini-3.6-flash",
+            "label": "AkshayCoder48/gemini-3.6-flash (LLM)"
         },
         {
             "name": "AkshayCoder48/gemini-search",
@@ -447,10 +451,6 @@
         {
             "name": "AkshayCoder48/llama3-8b",
             "label": "AkshayCoder48/llama3-8b (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/meituan-longcat-2.0-free",
-            "label": "AkshayCoder48/meituan-longcat-2.0-free (LLM)"
         },
         {
             "name": "AkshayCoder48/meta",
@@ -561,6 +561,10 @@
             "label": "JustScriptzz/deepseek-v4-pro (LLM)"
         },
         {
+            "name": "JustScriptzz/fable-5",
+            "label": "JustScriptzz/fable-5 (LLM)"
+        },
+        {
             "name": "JustScriptzz/glm-5-2",
             "label": "JustScriptzz/glm-5-2 (LLM)"
         },
@@ -589,10 +593,6 @@
             "label": "JustScriptzz/kimi-k3 (LLM)"
         },
         {
-            "name": "JustScriptzz/minimax-m3",
-            "label": "JustScriptzz/minimax-m3 (LLM)"
-        },
-        {
             "name": "JustScriptzz/moondream-3.1",
             "label": "JustScriptzz/moondream-3.1 (LLM)"
         },
@@ -603,6 +603,10 @@
         {
             "name": "Lorodn4x/deepseek-v4-pro-0813",
             "label": "Lorodn4x/deepseek-v4-pro-0813 (LLM)"
+        },
+        {
+            "name": "Lorodn4x/minimax-m3",
+            "label": "Lorodn4x/minimax-m3 (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash",
@@ -645,6 +649,10 @@
             "label": "MarcosFRG/glm-5.2 (LLM)"
         },
         {
+            "name": "MarcosFRG/glm-5.3",
+            "label": "MarcosFRG/glm-5.3 (LLM)"
+        },
+        {
             "name": "MarcosFRG/glm-5.3-flash",
             "label": "MarcosFRG/glm-5.3-flash (LLM)"
         },
@@ -661,10 +669,6 @@
             "label": "MarcosFRG/mimo-v2.5 (LLM)"
         },
         {
-            "name": "MarcosFRG/minimax-m3",
-            "label": "MarcosFRG/minimax-m3 (LLM)"
-        },
-        {
             "name": "MarcosFRG/moondream-3.1",
             "label": "MarcosFRG/moondream-3.1 (LLM)"
         },
@@ -677,12 +681,24 @@
             "label": "MarcosFRG/qwen3.8-27b (LLM)"
         },
         {
+            "name": "MarcosFRG/qwen3.8-flash",
+            "label": "MarcosFRG/qwen3.8-flash (LLM)"
+        },
+        {
             "name": "Minor-fun/deepseek-v3.2",
             "label": "Minor-fun/deepseek-v3.2 (LLM)"
         },
         {
             "name": "Minor-fun/gemma-4-31B-it",
             "label": "Minor-fun/gemma-4-31B-it (LLM)"
+        },
+        {
+            "name": "NamanSoni78/Claude-Fable-5.1",
+            "label": "NamanSoni78/Claude-Fable-5.1 (LLM)"
+        },
+        {
+            "name": "NamanSoni78/Claude-Sonnet-5",
+            "label": "NamanSoni78/Claude-Sonnet-5 (LLM)"
         },
         {
             "name": "NamanSoni78/deepseek-v4-flash-0731",
@@ -703,10 +719,6 @@
         {
             "name": "Spit-fires/muse-glimmer",
             "label": "Spit-fires/muse-glimmer (LLM)"
-        },
-        {
-            "name": "Takax62/minimax-m3-429b-vml",
-            "label": "Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
             "name": "YoannDev90/diffusiongemma-26b-a4b-it:free",
@@ -735,98 +747,6 @@
         {
             "name": "anthropic/claude-fable-5.1",
             "label": "anthropic/claude-fable-5.1 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/claude-fable-5",
-            "label": "chigwell/claude-fable-5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/claude-haiku-4-5",
-            "label": "chigwell/claude-haiku-4-5 (LLM)"
-        },
-        {
-            "name": "chigwell/claude-opus-4-8",
-            "label": "chigwell/claude-opus-4-8 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/claude-opus-5",
-            "label": "chigwell/claude-opus-5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/claude-sonnet-4-6",
-            "label": "chigwell/claude-sonnet-4-6 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/claude-sonnet-5",
-            "label": "chigwell/claude-sonnet-5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gemini-3-flash",
-            "label": "chigwell/gemini-3-flash \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gemini-3.1-flash-lite",
-            "label": "chigwell/gemini-3.1-flash-lite \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gemini-3.5-flash-low",
-            "label": "chigwell/gemini-3.5-flash-low \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gemini-3.7-flash",
-            "label": "chigwell/gemini-3.7-flash \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/glm-5.3",
-            "label": "chigwell/glm-5.3 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/glm-5.3-flash",
-            "label": "chigwell/glm-5.3-flash \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gpt-5.4",
-            "label": "chigwell/gpt-5.4 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gpt-5.4-mini",
-            "label": "chigwell/gpt-5.4-mini \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gpt-5.5",
-            "label": "chigwell/gpt-5.5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gpt-5.6-sol",
-            "label": "chigwell/gpt-5.6-sol \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/gpt-5.6-terra",
-            "label": "chigwell/gpt-5.6-terra \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/grok-4.5",
-            "label": "chigwell/grok-4.5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/grok-4.6",
-            "label": "chigwell/grok-4.6 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/kimi-k3",
-            "label": "chigwell/kimi-k3 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/llm7-fast",
-            "label": "chigwell/llm7-fast (LLM)"
-        },
-        {
-            "name": "chigwell/llm7-pro",
-            "label": "chigwell/llm7-pro \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/minimax-m2.7",
-            "label": "chigwell/minimax-m2.7 \ud83d\udc8e (LLM)"
         },
         {
             "name": "claude",
@@ -917,6 +837,10 @@
             "label": "gggff123/Inkling (LLM)"
         },
         {
+            "name": "gggff123/glm-5.3-flash-search",
+            "label": "gggff123/glm-5.3-flash-search (LLM)"
+        },
+        {
             "name": "gggff123/gpt-5-nano",
             "label": "gggff123/gpt-5-nano (LLM)"
         },
@@ -931,6 +855,10 @@
         {
             "name": "glm-5.3",
             "label": "glm-5.3 (LLM)"
+        },
+        {
+            "name": "google/gemini-3.8-flash",
+            "label": "google/gemini-3.8-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "gpt-5.4",
@@ -979,6 +907,14 @@
         {
             "name": "iotserver24/deepseek-fast",
             "label": "iotserver24/deepseek-fast (LLM)"
+        },
+        {
+            "name": "iotserver24/deepseek-v4f-free",
+            "label": "iotserver24/deepseek-v4f-free (LLM)"
+        },
+        {
+            "name": "iotserver24/gpt-5-6-sol",
+            "label": "iotserver24/gpt-5-6-sol (LLM)"
         },
         {
             "name": "iotserver24/kimi-k2.7-code-nitro",
@@ -1073,8 +1009,8 @@
             "label": "mistral-small-3.2 \ud83d\udc8e (LLM)"
         },
         {
-            "name": "morriszdweck/glm-fast",
-            "label": "morriszdweck/glm-fast (LLM)"
+            "name": "morriszdweck/osaii-api-fast",
+            "label": "morriszdweck/osaii-api-fast (LLM)"
         },
         {
             "name": "morriszdweck/osaii-api-smart",
@@ -1139,6 +1075,10 @@
         {
             "name": "pegalink/gemini-3.5-flash-lite",
             "label": "pegalink/gemini-3.5-flash-lite (LLM)"
+        },
+        {
+            "name": "pegalink/gemini-3.8-flash",
+            "label": "pegalink/gemini-3.8-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "pegalink/gemini-pro-coder",
@@ -1221,6 +1161,10 @@
             "label": "sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
         },
         {
+            "name": "sharktide/inferenceport-ai-gpt-4.1",
+            "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-kimi-k2.7-code",
             "label": "sharktide/inferenceport-ai-kimi-k2.7-code (LLM)"
         },
@@ -1277,12 +1221,8 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "vendouple/claude-opus-5",
-            "label": "vendouple/claude-opus-5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "vendouple/deepseek-v4-flash-0731",
-            "label": "vendouple/deepseek-v4-flash-0731 (LLM)"
+            "name": "vendouple/deepseek-v4-pro",
+            "label": "vendouple/deepseek-v4-pro (LLM)"
         },
         {
             "name": "vendouple/gemini-3.6",
@@ -1309,6 +1249,14 @@
             "label": "vendouple/grok-4.6 (LLM)"
         },
         {
+            "name": "vendouple/kimi-k2.6",
+            "label": "vendouple/kimi-k2.6 (LLM)"
+        },
+        {
+            "name": "vendouple/kimi-k3",
+            "label": "vendouple/kimi-k3 (LLM)"
+        },
+        {
             "name": "vendouple/laguna-s-2.1:free",
             "label": "vendouple/laguna-s-2.1:free (LLM)"
         },
@@ -1333,8 +1281,8 @@
             "label": "voodoohop/anyvm-deepseek-chat (LLM)"
         },
         {
-            "name": "voodoohop/humans-api",
-            "label": "voodoohop/humans-api (LLM)"
+            "name": "voodoohop/email-overview",
+            "label": "voodoohop/email-overview \ud83d\udc8e (LLM)"
         },
         {
             "name": "z-ai/glm-5.3-flash",
@@ -1350,6 +1298,21 @@
         }
     ],
     "audio": [
+        {
+            "name": "NamanSoni78/nova-3",
+            "label": "NamanSoni78/nova-3 (Audio)",
+            "voices": []
+        },
+        {
+            "name": "NamanSoni78/whisper-large-v3",
+            "label": "NamanSoni78/whisper-large-v3 (Audio)",
+            "voices": []
+        },
+        {
+            "name": "NamanSoni78/whisper-large-v3-turbo",
+            "label": "NamanSoni78/whisper-large-v3-turbo (Audio)",
+            "voices": []
+        },
         {
             "name": "csm-1b",
             "label": "csm-1b \ud83d\udc8e (Audio)",
