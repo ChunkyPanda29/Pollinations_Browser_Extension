@@ -1,32 +1,12 @@
 {
     "image": [
         {
-            "name": "Catniti/agnes-image-2.0-flash",
-            "label": "Catniti/agnes-image-2.0-flash (T2I)"
-        },
-        {
-            "name": "Catniti/agnes-image-2.1-flash",
-            "label": "Catniti/agnes-image-2.1-flash (T2I)"
-        },
-        {
-            "name": "JustScriptzz/flux-2-klein-9b",
-            "label": "JustScriptzz/flux-2-klein-9b (T2I/I2I)"
-        },
-        {
             "name": "JustScriptzz/lucid-origin",
             "label": "JustScriptzz/lucid-origin (T2I/I2I)"
         },
         {
             "name": "JustScriptzz/phoenix-1.0",
             "label": "JustScriptzz/phoenix-1.0 (T2I)"
-        },
-        {
-            "name": "JustScriptzz/qwen-image-3.0-pro",
-            "label": "JustScriptzz/qwen-image-3.0-pro (T2I/I2I)"
-        },
-        {
-            "name": "JustScriptzz/sdxl-lightning",
-            "label": "JustScriptzz/sdxl-lightning (T2I/I2I)"
         },
         {
             "name": "MarcosFRG/flux-1-schnell",
@@ -41,16 +21,20 @@
             "label": "MarcosFRG/lucid-origin (T2I/I2I)"
         },
         {
+            "name": "MarcosFRG/lucid-origin:paid",
+            "label": "MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "MarcosFRG/sdxl-lightning",
+            "label": "MarcosFRG/sdxl-lightning (T2I/I2I)"
+        },
+        {
             "name": "NamanSoni78/Z-Image-Turbo",
             "label": "NamanSoni78/Z-Image-Turbo \ud83d\udc8e (T2I)"
         },
         {
             "name": "NamanSoni78/ideogram-v4-quality",
             "label": "NamanSoni78/ideogram-v4-quality \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "chigwell/firefly-image-5",
-            "label": "chigwell/firefly-image-5 \ud83d\udc8e (T2I)"
         },
         {
             "name": "chigwell/flux-klein-2",
@@ -123,6 +107,10 @@
         {
             "name": "krea",
             "label": "krea \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "microsoft/mai-image-2.5-flash",
+            "label": "microsoft/mai-image-2.5-flash (T2I/I2I)"
         },
         {
             "name": "nanobanana",
@@ -217,10 +205,6 @@
             "label": "vendouple/luma-photon-1 (T2I)"
         },
         {
-            "name": "vendouple/qwen-image-3.0-pro",
-            "label": "vendouple/qwen-image-3.0-pro \ud83d\udc8e (T2I)"
-        },
-        {
             "name": "vendouple/uncensored-image-v2",
             "label": "vendouple/uncensored-image-v2 (T2I)"
         },
@@ -238,6 +222,10 @@
         }
     ],
     "video": [
+        {
+            "name": "NamanSoni78/Seedance-2.5",
+            "label": "NamanSoni78/Seedance-2.5 \ud83d\udc8e (T2V)"
+        },
         {
             "name": "google/gemini-omni-1.1-flash",
             "label": "google/gemini-omni-1.1-flash \ud83d\udc8e (T2V/I2V)"
@@ -353,20 +341,8 @@
             "label": "AkshayCoder48/claude-fable-5 (LLM)"
         },
         {
-            "name": "AkshayCoder48/claude-opus-4-8",
-            "label": "AkshayCoder48/claude-opus-4-8 (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/claude-opus-5",
-            "label": "AkshayCoder48/claude-opus-5 (LLM)"
-        },
-        {
             "name": "AkshayCoder48/claude-search",
             "label": "AkshayCoder48/claude-search (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/claude-sonnet-5",
-            "label": "AkshayCoder48/claude-sonnet-5 (LLM)"
         },
         {
             "name": "AkshayCoder48/code-pair",
@@ -449,18 +425,6 @@
             "label": "AkshayCoder48/gpt-5 (LLM)"
         },
         {
-            "name": "AkshayCoder48/gpt-5-4",
-            "label": "AkshayCoder48/gpt-5-4 (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/gpt-5-5",
-            "label": "AkshayCoder48/gpt-5-5 (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/gpt-5-6-luna",
-            "label": "AkshayCoder48/gpt-5-6-luna (LLM)"
-        },
-        {
             "name": "AkshayCoder48/gpt-5.4-mini-no-login",
             "label": "AkshayCoder48/gpt-5.4-mini-no-login (LLM)"
         },
@@ -485,10 +449,6 @@
             "label": "AkshayCoder48/grok-4-3 (LLM)"
         },
         {
-            "name": "AkshayCoder48/grok-4-6",
-            "label": "AkshayCoder48/grok-4-6 (LLM)"
-        },
-        {
             "name": "AkshayCoder48/grok-4-fast",
             "label": "AkshayCoder48/grok-4-fast (LLM)"
         },
@@ -501,20 +461,8 @@
             "label": "AkshayCoder48/jollygen (LLM)"
         },
         {
-            "name": "AkshayCoder48/kilo-auto-free",
-            "label": "AkshayCoder48/kilo-auto-free (LLM)"
-        },
-        {
             "name": "AkshayCoder48/kilo-auto-small",
             "label": "AkshayCoder48/kilo-auto-small (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/kimi-k3",
-            "label": "AkshayCoder48/kimi-k3 (LLM)"
-        },
-        {
-            "name": "AkshayCoder48/laguna-s-2.1-free",
-            "label": "AkshayCoder48/laguna-s-2.1-free (LLM)"
         },
         {
             "name": "AkshayCoder48/llama3-8b",
@@ -561,10 +509,6 @@
             "label": "AkshayCoder48/qwen3-coder-480b (LLM)"
         },
         {
-            "name": "AkshayCoder48/qwen3.8-max",
-            "label": "AkshayCoder48/qwen3.8-max (LLM)"
-        },
-        {
             "name": "AkshayCoder48/researcher",
             "label": "AkshayCoder48/researcher \ud83d\udc8e (LLM)"
         },
@@ -593,34 +537,6 @@
             "label": "Catniti/agnes-2.0-flash (LLM)"
         },
         {
-            "name": "Catniti/agnes-2.5-flash",
-            "label": "Catniti/agnes-2.5-flash (LLM)"
-        },
-        {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
-            "name": "Catniti/claude-sonnet-5",
-            "label": "Catniti/claude-sonnet-5 (LLM)"
-        },
-        {
-            "name": "Catniti/gemma-4-31b",
-            "label": "Catniti/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "Catniti/gpt-oss-120b",
-            "label": "Catniti/gpt-oss-120b (LLM)"
-        },
-        {
-            "name": "Catniti/kimi-k2.6",
-            "label": "Catniti/kimi-k2.6 (LLM)"
-        },
-        {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
-        },
-        {
             "name": "Circuit-Overtime/OreoLook",
             "label": "Circuit-Overtime/OreoLook (LLM)"
         },
@@ -645,16 +561,8 @@
             "label": "JustScriptzz/claude-sonnet-5 (LLM)"
         },
         {
-            "name": "JustScriptzz/deepseek-v4-flash-0731",
-            "label": "JustScriptzz/deepseek-v4-flash-0731 (LLM)"
-        },
-        {
             "name": "JustScriptzz/deepseek-v4-pro",
             "label": "JustScriptzz/deepseek-v4-pro (LLM)"
-        },
-        {
-            "name": "JustScriptzz/fable-5",
-            "label": "JustScriptzz/fable-5 (LLM)"
         },
         {
             "name": "JustScriptzz/gemini-3.8-flash",
@@ -697,20 +605,12 @@
             "label": "JustScriptzz/opus-5 (LLM)"
         },
         {
-            "name": "JustScriptzz/qwen-3.8-max",
-            "label": "JustScriptzz/qwen-3.8-max (LLM)"
-        },
-        {
             "name": "Lorodn4x/claude-sonnet-5",
             "label": "Lorodn4x/claude-sonnet-5 \ud83d\udc8e (LLM)"
         },
         {
             "name": "Lorodn4x/deepseek-v4-pro-0813",
             "label": "Lorodn4x/deepseek-v4-pro-0813 (LLM)"
-        },
-        {
-            "name": "Lorodn4x/minimax-m3",
-            "label": "Lorodn4x/minimax-m3 (LLM)"
         },
         {
             "name": "MarcosFRG/deepseek-v4-flash-0731",
@@ -745,10 +645,6 @@
             "label": "MarcosFRG/gemma-4-31b (LLM)"
         },
         {
-            "name": "MarcosFRG/glm-4.6v-flash",
-            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
-        },
-        {
             "name": "MarcosFRG/glm-5.2",
             "label": "MarcosFRG/glm-5.2 (LLM)"
         },
@@ -759,10 +655,6 @@
         {
             "name": "MarcosFRG/glm-5.3-flash",
             "label": "MarcosFRG/glm-5.3-flash (LLM)"
-        },
-        {
-            "name": "MarcosFRG/kimi-k2.7-code",
-            "label": "MarcosFRG/kimi-k2.7-code (LLM)"
         },
         {
             "name": "MarcosFRG/metraxai",
@@ -778,15 +670,23 @@
         },
         {
             "name": "MarcosFRG/nemotron-3.5-lightning",
-            "label": "MarcosFRG/nemotron-3.5-lightning (LLM)"
+            "label": "MarcosFRG/nemotron-3.5-lightning \ud83d\udc8e (LLM)"
         },
         {
             "name": "MarcosFRG/qwen3.8-27b",
             "label": "MarcosFRG/qwen3.8-27b (LLM)"
         },
         {
+            "name": "MarcosFRG/qwen3.8-27b:paid",
+            "label": "MarcosFRG/qwen3.8-27b:paid \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "MarcosFRG/qwen3.8-flash",
             "label": "MarcosFRG/qwen3.8-flash (LLM)"
+        },
+        {
+            "name": "MarcosFRG/qwen3.8-flash:paid",
+            "label": "MarcosFRG/qwen3.8-flash:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "Minor-fun/deepseek-v3.2",
@@ -805,12 +705,8 @@
             "label": "NamanSoni78/Claude-Sonnet-5 (LLM)"
         },
         {
-            "name": "NamanSoni78/Devin-Astra",
-            "label": "NamanSoni78/Devin-Astra (LLM)"
-        },
-        {
-            "name": "NamanSoni78/any",
-            "label": "NamanSoni78/any (LLM)"
+            "name": "NamanSoni78/deepseek-v4-flash-0731",
+            "label": "NamanSoni78/deepseek-v4-flash-0731 (LLM)"
         },
         {
             "name": "NamanSoni78/deepseek-v4-pro-0813",
@@ -849,10 +745,6 @@
             "label": "YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
         },
         {
-            "name": "YoannDev90/gemini-3-flash",
-            "label": "YoannDev90/gemini-3-flash (LLM)"
-        },
-        {
             "name": "YoannDev90/laguna-s-2.1:free",
             "label": "YoannDev90/laguna-s-2.1:free (LLM)"
         },
@@ -863,10 +755,6 @@
         {
             "name": "YoannDev90/poolside-laguna-s-2.1:free",
             "label": "YoannDev90/poolside-laguna-s-2.1:free (LLM)"
-        },
-        {
-            "name": "YoannDev90/qwen3.7-flash",
-            "label": "YoannDev90/qwen3.7-flash (LLM)"
         },
         {
             "name": "anthropic/claude-fable-5.1",
@@ -1061,10 +949,6 @@
             "label": "gggff123/Inkling (LLM)"
         },
         {
-            "name": "gggff123/claude-haiku-4.5",
-            "label": "gggff123/claude-haiku-4.5 (LLM)"
-        },
-        {
             "name": "gggff123/glm-5.3-flash-search",
             "label": "gggff123/glm-5.3-flash-search (LLM)"
         },
@@ -1133,10 +1017,6 @@
             "label": "inkling \ud83d\udc8e (LLM)"
         },
         {
-            "name": "iotserver24/cheap-opus-5",
-            "label": "iotserver24/cheap-opus-5 (LLM)"
-        },
-        {
             "name": "iotserver24/cheap-opus-5-thinking",
             "label": "iotserver24/cheap-opus-5-thinking \ud83d\udc8e (LLM)"
         },
@@ -1155,10 +1035,6 @@
         {
             "name": "iotserver24/gpt-5-6-sol",
             "label": "iotserver24/gpt-5-6-sol (LLM)"
-        },
-        {
-            "name": "iotserver24/kimi-k2.7-code-nitro",
-            "label": "iotserver24/kimi-k2.7-code-nitro (LLM)"
         },
         {
             "name": "iotserver24/kimi-k3",
@@ -1341,10 +1217,6 @@
             "label": "perplexity-reasoning (LLM)"
         },
         {
-            "name": "pollinations-router/floret",
-            "label": "pollinations-router/floret (LLM)"
-        },
-        {
             "name": "pollinations-router/polli",
             "label": "pollinations-router/polli (LLM)"
         },
@@ -1371,6 +1243,10 @@
         {
             "name": "qwen-vision-pro",
             "label": "qwen-vision-pro \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "qwen/qwen3.8-flash",
+            "label": "qwen/qwen3.8-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "qwen/qwen3.8-max-0902",
@@ -1409,14 +1285,6 @@
             "label": "sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
         },
         {
-            "name": "sharktide/inferenceport-ai-gpt-4.1",
-            "label": "sharktide/inferenceport-ai-gpt-4.1 (LLM)"
-        },
-        {
-            "name": "sharktide/inferenceport-ai-kimi-k2.7-code",
-            "label": "sharktide/inferenceport-ai-kimi-k2.7-code (LLM)"
-        },
-        {
             "name": "sharktide/inferenceport-ai-lightning-text-v2",
             "label": "sharktide/inferenceport-ai-lightning-text-v2 (LLM)"
         },
@@ -1431,10 +1299,6 @@
         {
             "name": "sharktide/inferenceport.ai-gpt-oss-20b",
             "label": "sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
-        },
-        {
-            "name": "solarnode-developement/M3",
-            "label": "solarnode-developement/M3 (LLM)"
         },
         {
             "name": "step-3.5-flash",
@@ -1473,14 +1337,6 @@
             "label": "tomdacatto/ezra (LLM)"
         },
         {
-            "name": "tomdacatto/fable-5.1",
-            "label": "tomdacatto/fable-5.1 (LLM)"
-        },
-        {
-            "name": "tomdacatto/gpt-6-astra",
-            "label": "tomdacatto/gpt-6-astra (LLM)"
-        },
-        {
             "name": "tomdacatto/muse-spark-1.3-contributor",
             "label": "tomdacatto/muse-spark-1.3-contributor (LLM)"
         },
@@ -1491,22 +1347,6 @@
         {
             "name": "tomdacatto/qwen-3.8-27B-fast",
             "label": "tomdacatto/qwen-3.8-27B-fast (LLM)"
-        },
-        {
-            "name": "vendouple/deepseek-v4-flash",
-            "label": "vendouple/deepseek-v4-flash (LLM)"
-        },
-        {
-            "name": "vendouple/deepseek-v4-pro",
-            "label": "vendouple/deepseek-v4-pro (LLM)"
-        },
-        {
-            "name": "vendouple/fable-5.1",
-            "label": "vendouple/fable-5.1 (LLM)"
-        },
-        {
-            "name": "vendouple/gemini-3.6",
-            "label": "vendouple/gemini-3.6 (LLM)"
         },
         {
             "name": "vendouple/gemma-4-31b-sdft-heretic-rp",
@@ -1521,16 +1361,8 @@
             "label": "vendouple/gpt-5.6-luna (LLM)"
         },
         {
-            "name": "vendouple/gpt-5.6-sol",
-            "label": "vendouple/gpt-5.6-sol (LLM)"
-        },
-        {
-            "name": "vendouple/gpt-5.6-sol:free",
-            "label": "vendouple/gpt-5.6-sol:free (LLM)"
-        },
-        {
-            "name": "vendouple/gpt-5.6-terra",
-            "label": "vendouple/gpt-5.6-terra (LLM)"
+            "name": "vendouple/gpt-6-astra",
+            "label": "vendouple/gpt-6-astra (LLM)"
         },
         {
             "name": "vendouple/grok-4.6",
@@ -1547,10 +1379,6 @@
         {
             "name": "vendouple/muse-glimmer-30b:free",
             "label": "vendouple/muse-glimmer-30b:free (LLM)"
-        },
-        {
-            "name": "vendouple/qwen-3.8-max",
-            "label": "vendouple/qwen-3.8-max (LLM)"
         },
         {
             "name": "voodoohop/airforce-doubao-pro",
@@ -1582,6 +1410,26 @@
         }
     ],
     "audio": [
+        {
+            "name": "NamanSoni78/aura-2-amalthea-en",
+            "label": "NamanSoni78/aura-2-amalthea-en (Audio)",
+            "voices": []
+        },
+        {
+            "name": "NamanSoni78/aura-2-atlas-en",
+            "label": "NamanSoni78/aura-2-atlas-en (Audio)",
+            "voices": []
+        },
+        {
+            "name": "NamanSoni78/aura-2-orpheus-en",
+            "label": "NamanSoni78/aura-2-orpheus-en (Audio)",
+            "voices": []
+        },
+        {
+            "name": "NamanSoni78/aura-2-thalia-en",
+            "label": "NamanSoni78/aura-2-thalia-en (Audio)",
+            "voices": []
+        },
         {
             "name": "NamanSoni78/nova-3",
             "label": "NamanSoni78/nova-3 (Audio)",
