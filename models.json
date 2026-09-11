@@ -5,6 +5,18 @@
             "label": "Catniti/agnes-image-2.1-flash (T2I)"
         },
         {
+            "name": "CloudCompile/flux-2-klein-4b",
+            "label": "CloudCompile/flux-2-klein-4b (T2I/I2I)"
+        },
+        {
+            "name": "CloudCompile/flux-2-klein-9b",
+            "label": "CloudCompile/flux-2-klein-9b (T2I/I2I)"
+        },
+        {
+            "name": "CloudCompile/sdxl-lightning",
+            "label": "CloudCompile/sdxl-lightning (T2I/I2I)"
+        },
+        {
             "name": "MarcosFRG/flux-1-schnell",
             "label": "MarcosFRG/flux-1-schnell (T2I)"
         },
@@ -42,7 +54,7 @@
         },
         {
             "name": "NamanSoni78/Z-Image-Turbo",
-            "label": "NamanSoni78/Z-Image-Turbo \ud83d\udc8e (T2I)"
+            "label": "NamanSoni78/Z-Image-Turbo (T2I)"
         },
         {
             "name": "alibaba/wan-2.7-image",
@@ -409,10 +421,6 @@
             "label": "AkshayCoder48/gemini-3.6-flash (LLM)"
         },
         {
-            "name": "AkshayCoder48/gemini-search",
-            "label": "AkshayCoder48/gemini-search (LLM)"
-        },
-        {
             "name": "AkshayCoder48/glm-5-2",
             "label": "AkshayCoder48/glm-5-2 (LLM)"
         },
@@ -501,16 +509,76 @@
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
         },
         {
-            "name": "Catniti/agnes-2.5-flash",
-            "label": "Catniti/agnes-2.5-flash (LLM)"
-        },
-        {
             "name": "Catniti/auto-router-1",
             "label": "Catniti/auto-router-1 (LLM)"
         },
         {
-            "name": "Catniti/qwen3.7-flash",
-            "label": "Catniti/qwen3.7-flash (LLM)"
+            "name": "Catniti/claude-sonnet-4",
+            "label": "Catniti/claude-sonnet-4 (LLM)"
+        },
+        {
+            "name": "Catniti/deepseek-r1-free",
+            "label": "Catniti/deepseek-r1-free (LLM)"
+        },
+        {
+            "name": "Catniti/gemini-3.6-flash",
+            "label": "Catniti/gemini-3.6-flash (LLM)"
+        },
+        {
+            "name": "Catniti/gpt-5.2",
+            "label": "Catniti/gpt-5.2 (LLM)"
+        },
+        {
+            "name": "Catniti/gpt-5.4-mini",
+            "label": "Catniti/gpt-5.4-mini (LLM)"
+        },
+        {
+            "name": "Catniti/grok-4-fast",
+            "label": "Catniti/grok-4-fast (LLM)"
+        },
+        {
+            "name": "Catniti/kilo-auto",
+            "label": "Catniti/kilo-auto (LLM)"
+        },
+        {
+            "name": "Catniti/laguna-s-2.1",
+            "label": "Catniti/laguna-s-2.1 (LLM)"
+        },
+        {
+            "name": "Catniti/minimax-m2.7",
+            "label": "Catniti/minimax-m2.7 (LLM)"
+        },
+        {
+            "name": "Catniti/nemotron-3-super",
+            "label": "Catniti/nemotron-3-super (LLM)"
+        },
+        {
+            "name": "Catniti/nemotron-3-ultra",
+            "label": "Catniti/nemotron-3-ultra (LLM)"
+        },
+        {
+            "name": "Catniti/nemotron-3.5-lightning",
+            "label": "Catniti/nemotron-3.5-lightning (LLM)"
+        },
+        {
+            "name": "Catniti/north-mini-code",
+            "label": "Catniti/north-mini-code (LLM)"
+        },
+        {
+            "name": "Catniti/step-3.7-flash",
+            "label": "Catniti/step-3.7-flash (LLM)"
+        },
+        {
+            "name": "CloudCompile/auto",
+            "label": "CloudCompile/auto (LLM)"
+        },
+        {
+            "name": "CloudCompile/gemma-4-26b",
+            "label": "CloudCompile/gemma-4-26b (LLM)"
+        },
+        {
+            "name": "CloudCompile/glm-5.3",
+            "label": "CloudCompile/glm-5.3 (LLM)"
         },
         {
             "name": "CloudCompile/moondream3.1",
@@ -551,6 +619,10 @@
         {
             "name": "Lorodn4x/claude-sonnet-5",
             "label": "Lorodn4x/claude-sonnet-5 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "Lorodn4x/deepseek-v4-flash",
+            "label": "Lorodn4x/deepseek-v4-flash (LLM)"
         },
         {
             "name": "Lorodn4x/deepseek-v4-pro-0813",
@@ -613,12 +685,28 @@
             "label": "MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
+            "name": "MarcosFRG/glm-5.2:paid",
+            "label": "MarcosFRG/glm-5.2:paid \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "MarcosFRG/glm-5.3",
             "label": "MarcosFRG/glm-5.3 (LLM)"
         },
         {
             "name": "MarcosFRG/glm-5.3-flash",
             "label": "MarcosFRG/glm-5.3-flash (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gpt-5.6-luna:paid",
+            "label": "MarcosFRG/gpt-5.6-luna:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "MarcosFRG/gpt-6-astra:paid",
+            "label": "MarcosFRG/gpt-6-astra:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "MarcosFRG/metraxai",
+            "label": "MarcosFRG/metraxai (LLM)"
         },
         {
             "name": "MarcosFRG/mimo-v2.5",
@@ -673,8 +761,8 @@
             "label": "NamanSoni78/Claude-Sonnet-5 (LLM)"
         },
         {
-            "name": "NamanSoni78/deepseek-v4-flash-0731",
-            "label": "NamanSoni78/deepseek-v4-flash-0731 (LLM)"
+            "name": "NamanSoni78/DeepSeek-V4.1-Flash",
+            "label": "NamanSoni78/DeepSeek-V4.1-Flash (LLM)"
         },
         {
             "name": "NamanSoni78/deepseek-v4-pro-0813",
@@ -711,6 +799,10 @@
         {
             "name": "YoannDev90/muse-glimmer-30b:free",
             "label": "YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
             "name": "amazon/nova-2-lite-v1",
@@ -755,10 +847,6 @@
         {
             "name": "chigwell/claude-fable-5",
             "label": "chigwell/claude-fable-5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "chigwell/claude-fable-5-1",
-            "label": "chigwell/claude-fable-5-1 \ud83d\udc8e (LLM)"
         },
         {
             "name": "chigwell/claude-haiku-4-5",
@@ -1189,6 +1277,10 @@
             "label": "sharktide/inferenceport-ai-lightning-text-v2 (LLM)"
         },
         {
+            "name": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge",
+            "label": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge (LLM)"
+        },
+        {
             "name": "sharktide/inferenceport-ai-minimax-m3",
             "label": "sharktide/inferenceport-ai-minimax-m3 (LLM)"
         },
@@ -1261,10 +1353,6 @@
             "label": "tomdacatto/qwen-3.8-27B-fast (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v3.2",
-            "label": "vendouple/deepseek-v3.2 (LLM)"
-        },
-        {
             "name": "vendouple/deepseek-v4-flash",
             "label": "vendouple/deepseek-v4-flash (LLM)"
         },
@@ -1283,10 +1371,6 @@
         {
             "name": "vendouple/glm-5.3",
             "label": "vendouple/glm-5.3 (LLM)"
-        },
-        {
-            "name": "vendouple/gpt-5.6-sol",
-            "label": "vendouple/gpt-5.6-sol (LLM)"
         },
         {
             "name": "vendouple/gpt-6-astra",
