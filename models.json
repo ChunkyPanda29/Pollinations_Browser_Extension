@@ -1,8 +1,12 @@
 {
     "image": [
         {
-            "name": "Catniti/agnes-image-2.1-flash",
-            "label": "Catniti/agnes-image-2.1-flash (T2I)"
+            "name": "Catniti/agnes-image-2.5-flash",
+            "label": "Catniti/agnes-image-2.5-flash (T2I)"
+        },
+        {
+            "name": "CloudCompile/agnes-image-2.0-flash",
+            "label": "CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
         },
         {
             "name": "CloudCompile/flux-2-klein-4b",
@@ -27,10 +31,6 @@
         {
             "name": "MarcosFRG/flux-2-klein-4b",
             "label": "MarcosFRG/flux-2-klein-4b (T2I/I2I)"
-        },
-        {
-            "name": "MarcosFRG/lucid-origin",
-            "label": "MarcosFRG/lucid-origin (T2I/I2I)"
         },
         {
             "name": "MarcosFRG/lucid-origin:paid",
@@ -107,6 +107,10 @@
         {
             "name": "chigwell/gpt-image-2",
             "label": "chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "chigwell/gpt-image-2.5",
+            "label": "chigwell/gpt-image-2.5 \ud83d\udc8e (T2I)"
         },
         {
             "name": "google/gemini-2.5-flash-image",
@@ -225,6 +229,10 @@
             "label": "sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
         },
         {
+            "name": "sharktide/inferenceport-ai-lightning-image-turbo",
+            "label": "sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
+        },
+        {
             "name": "tongyi-mai/z-image-turbo",
             "label": "tongyi-mai/z-image-turbo (T2I)"
         },
@@ -239,10 +247,6 @@
         {
             "name": "vendouple/lucid-origin",
             "label": "vendouple/lucid-origin (T2I)"
-        },
-        {
-            "name": "vendouple/luma-photon-1",
-            "label": "vendouple/luma-photon-1 (T2I)"
         },
         {
             "name": "vendouple/qwen-image-3.0-pro",
@@ -509,10 +513,6 @@
             "label": "Bakhshi7889/gemma-4-31b-it (LLM)"
         },
         {
-            "name": "Catniti/auto-router-1",
-            "label": "Catniti/auto-router-1 (LLM)"
-        },
-        {
             "name": "Catniti/claude-sonnet-4",
             "label": "Catniti/claude-sonnet-4 (LLM)"
         },
@@ -565,8 +565,20 @@
             "label": "Catniti/north-mini-code (LLM)"
         },
         {
+            "name": "Catniti/qwen3.7-flash",
+            "label": "Catniti/qwen3.7-flash (LLM)"
+        },
+        {
             "name": "Catniti/step-3.7-flash",
             "label": "Catniti/step-3.7-flash (LLM)"
+        },
+        {
+            "name": "CloudCompile/agnes-2.5-flash",
+            "label": "CloudCompile/agnes-2.5-flash (LLM)"
+        },
+        {
+            "name": "CloudCompile/agnes-3.0-flash",
+            "label": "CloudCompile/agnes-3.0-flash (LLM)"
         },
         {
             "name": "CloudCompile/auto",
@@ -681,10 +693,6 @@
             "label": "MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "MarcosFRG/glm-4.6v-flash",
-            "label": "MarcosFRG/glm-4.6v-flash (LLM)"
-        },
-        {
             "name": "MarcosFRG/glm-5.2:paid",
             "label": "MarcosFRG/glm-5.2:paid \ud83d\udc8e (LLM)"
         },
@@ -771,14 +779,6 @@
         {
             "name": "NamanSoni78/devin-ai",
             "label": "NamanSoni78/devin-ai (LLM)"
-        },
-        {
-            "name": "NamanSoni78/gemini-3.8-flash",
-            "label": "NamanSoni78/gemini-3.8-flash (LLM)"
-        },
-        {
-            "name": "NamanSoni78/gpt-5.4-nano",
-            "label": "NamanSoni78/gpt-5.4-nano (LLM)"
         },
         {
             "name": "NamanSoni78/gpt-6-astra",
@@ -1017,12 +1017,12 @@
             "label": "iotserver24/deepseek-fast (LLM)"
         },
         {
-            "name": "iotserver24/deepseek-v4f",
-            "label": "iotserver24/deepseek-v4f (LLM)"
-        },
-        {
             "name": "iotserver24/glm-5.3",
             "label": "iotserver24/glm-5.3 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "iotserver24/gpt-5-6-sol",
+            "label": "iotserver24/gpt-5-6-sol (LLM)"
         },
         {
             "name": "iotserver24/kimi-k3",
@@ -1277,10 +1277,6 @@
             "label": "sharktide/inferenceport-ai-lightning-text-v2 (LLM)"
         },
         {
-            "name": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge",
-            "label": "sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge (LLM)"
-        },
-        {
             "name": "sharktide/inferenceport-ai-minimax-m3",
             "label": "sharktide/inferenceport-ai-minimax-m3 (LLM)"
         },
@@ -1353,8 +1349,8 @@
             "label": "tomdacatto/qwen-3.8-27B-fast (LLM)"
         },
         {
-            "name": "vendouple/deepseek-v4-flash",
-            "label": "vendouple/deepseek-v4-flash (LLM)"
+            "name": "vendouple/deepseek-v3.2",
+            "label": "vendouple/deepseek-v3.2 (LLM)"
         },
         {
             "name": "vendouple/deepseek-v4-pro",
@@ -1371,6 +1367,10 @@
         {
             "name": "vendouple/glm-5.3",
             "label": "vendouple/glm-5.3 (LLM)"
+        },
+        {
+            "name": "vendouple/gpt-5.6-luna",
+            "label": "vendouple/gpt-5.6-luna (LLM)"
         },
         {
             "name": "vendouple/gpt-6-astra",
@@ -1439,10 +1439,6 @@
         {
             "name": "z-ai/glm-5.3-flash",
             "label": "z-ai/glm-5.3-flash (LLM)"
-        },
-        {
-            "name": "zero2launch/gemini-3.7-flash",
-            "label": "zero2launch/gemini-3.7-flash (LLM)"
         }
     ],
     "audio": [
