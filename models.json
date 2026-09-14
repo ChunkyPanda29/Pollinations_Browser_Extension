@@ -49,10 +49,6 @@
             "label": "bytedance/seedream-5.0-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
-            "name": "community/CloudCompile/agnes-image-2.0-flash",
-            "label": "community/CloudCompile/agnes-image-2.0-flash (T2I/I2I)"
-        },
-        {
             "name": "community/CloudCompile/flux-2-klein-4b",
             "label": "community/CloudCompile/flux-2-klein-4b (T2I/I2I)"
         },
@@ -639,10 +635,6 @@
         {
             "name": "community/YoannDev90/muse-glimmer-30b:free",
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
-            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
