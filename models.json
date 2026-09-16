@@ -153,10 +153,6 @@
             "label": "community/vendouple/animagine (T2I)"
         },
         {
-            "name": "community/vendouple/flux-2-pro",
-            "label": "community/vendouple/flux-2-pro (T2I)"
-        },
-        {
             "name": "community/vendouple/grok-imagine",
             "label": "community/vendouple/grok-imagine (T2I)"
         },
@@ -477,10 +473,6 @@
             "label": "community/JustScriptzz/moondream-3.1 (LLM)"
         },
         {
-            "name": "community/Lorodn4x/claude-sonnet-5",
-            "label": "community/Lorodn4x/claude-sonnet-5 \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "community/Lorodn4x/com.claude-gpt-6.astra",
             "label": "community/Lorodn4x/com.claude-gpt-6.astra \ud83d\udc8e (LLM)"
         },
@@ -593,6 +585,10 @@
             "label": "community/Minor-fun/gemma-4-31B-it (LLM)"
         },
         {
+            "name": "community/NamanSoni78/Claude-Fable-5.1",
+            "label": "community/NamanSoni78/Claude-Fable-5.1 (LLM)"
+        },
+        {
             "name": "community/NamanSoni78/Claude-Sonnet-5",
             "label": "community/NamanSoni78/Claude-Sonnet-5 (LLM)"
         },
@@ -605,6 +601,10 @@
             "label": "community/NamanSoni78/GPT-5.5-xHigh (LLM)"
         },
         {
+            "name": "community/NamanSoni78/Glm-5.3-Thinking-Max",
+            "label": "community/NamanSoni78/Glm-5.3-Thinking-Max (LLM)"
+        },
+        {
             "name": "community/NamanSoni78/devin-ai",
             "label": "community/NamanSoni78/devin-ai (LLM)"
         },
@@ -613,12 +613,20 @@
             "label": "community/NamanSoni78/fugu-ultra-v2 (LLM)"
         },
         {
+            "name": "community/NamanSoni78/gemini-3.8-flash",
+            "label": "community/NamanSoni78/gemini-3.8-flash (LLM)"
+        },
+        {
             "name": "community/NamanSoni78/gpt-5.4-nano",
             "label": "community/NamanSoni78/gpt-5.4-nano (LLM)"
         },
         {
             "name": "community/NamanSoni78/gpt-6-astra-pro",
             "label": "community/NamanSoni78/gpt-6-astra-pro (LLM)"
+        },
+        {
+            "name": "community/NamanSoni78/nemotron-3-ultra-550b-a55b",
+            "label": "community/NamanSoni78/nemotron-3-ultra-550b-a55b (LLM)"
         },
         {
             "name": "community/NamanSoni78/opus-5-max",
@@ -631,6 +639,10 @@
         {
             "name": "community/YoannDev90/muse-glimmer-30b:free",
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -675,10 +687,6 @@
         {
             "name": "community/chigwell/gemini-3.1-flash-lite",
             "label": "community/chigwell/gemini-3.1-flash-lite \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/chigwell/gemini-3.5-flash-low",
-            "label": "community/chigwell/gemini-3.5-flash-low \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/chigwell/gemini-3.7-flash",
@@ -745,6 +753,14 @@
             "label": "community/immature-yt/alara-nova-1 (LLM)"
         },
         {
+            "name": "community/iotserver24/deepseek-fast",
+            "label": "community/iotserver24/deepseek-fast (LLM)"
+        },
+        {
+            "name": "community/iotserver24/deepseek-v4f",
+            "label": "community/iotserver24/deepseek-v4f (LLM)"
+        },
+        {
             "name": "community/iotserver24/kimi-k3",
             "label": "community/iotserver24/kimi-k3 \ud83d\udc8e (LLM)"
         },
@@ -799,10 +815,6 @@
         {
             "name": "community/pegalink/jimmy",
             "label": "community/pegalink/jimmy (LLM)"
-        },
-        {
-            "name": "community/pegalink/sensenova-6.8-flash-lite",
-            "label": "community/pegalink/sensenova-6.8-flash-lite (LLM)"
         },
         {
             "name": "community/pollinations-router/floret",
@@ -891,14 +903,6 @@
         {
             "name": "community/tomdacatto/llama-3.1-8B",
             "label": "community/tomdacatto/llama-3.1-8B (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/muse-spark-1.3-contributor",
-            "label": "community/tomdacatto/muse-spark-1.3-contributor (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/muse-spark-1.3-contributor-paid",
-            "label": "community/tomdacatto/muse-spark-1.3-contributor-paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/vendouple/deepseek-v3.2",
