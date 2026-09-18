@@ -545,14 +545,6 @@
             "label": "community/Lorodn4x/deepseek-v4-flash (LLM)"
         },
         {
-            "name": "community/Lorodn4x/deepseek-v4-pro-0813",
-            "label": "community/Lorodn4x/deepseek-v4-pro-0813 (LLM)"
-        },
-        {
-            "name": "community/Lorodn4x/minimax-m3",
-            "label": "community/Lorodn4x/minimax-m3 (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/deepseek-v4-flash-0731",
             "label": "community/MarcosFRG/deepseek-v4-flash-0731 (LLM)"
         },
