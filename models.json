@@ -85,6 +85,10 @@
             "label": "community/MarcosFRG/flux-2-klein-4b (T2I/I2I)"
         },
         {
+            "name": "community/MarcosFRG/lucid-origin",
+            "label": "community/MarcosFRG/lucid-origin (T2I/I2I)"
+        },
+        {
             "name": "community/MarcosFRG/lucid-origin:paid",
             "label": "community/MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
         },
@@ -167,6 +171,10 @@
         {
             "name": "community/vendouple/anima",
             "label": "community/vendouple/anima (T2I)"
+        },
+        {
+            "name": "community/vendouple/animagine",
+            "label": "community/vendouple/animagine (T2I)"
         },
         {
             "name": "community/vendouple/grok-imagine",
@@ -501,6 +509,10 @@
             "label": "community/JustScriptzz/deepseek-v4-flash-0731 (LLM)"
         },
         {
+            "name": "community/JustScriptzz/glm-5.3-flash",
+            "label": "community/JustScriptzz/glm-5.3-flash (LLM)"
+        },
+        {
             "name": "community/JustScriptzz/gpt-oss-120b",
             "label": "community/JustScriptzz/gpt-oss-120b (LLM)"
         },
@@ -531,6 +543,10 @@
         {
             "name": "community/Lorodn4x/deepseek-v4-flash",
             "label": "community/Lorodn4x/deepseek-v4-flash (LLM)"
+        },
+        {
+            "name": "community/Lorodn4x/deepseek-v4-pro-0813",
+            "label": "community/Lorodn4x/deepseek-v4-pro-0813 (LLM)"
         },
         {
             "name": "community/Lorodn4x/minimax-m3",
@@ -693,6 +709,10 @@
             "label": "community/YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
         },
         {
+            "name": "community/YoannDev90/kilocode-laguna-s-2.1:free",
+            "label": "community/YoannDev90/kilocode-laguna-s-2.1:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/muse-glimmer-30b:free",
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
@@ -765,6 +785,10 @@
             "label": "community/chigwell/glm-5.3 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/chigwell/gpt-5.5",
+            "label": "community/chigwell/gpt-5.5 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/chigwell/gpt-5.6-sol",
             "label": "community/chigwell/gpt-5.6-sol \ud83d\udc8e (LLM)"
         },
@@ -813,16 +837,8 @@
             "label": "community/immature-yt/alara-nova-1 (LLM)"
         },
         {
-            "name": "community/iotserver24/deepseek-fast",
-            "label": "community/iotserver24/deepseek-fast (LLM)"
-        },
-        {
             "name": "community/iotserver24/deepseek-v4f",
             "label": "community/iotserver24/deepseek-v4f (LLM)"
-        },
-        {
-            "name": "community/iotserver24/kimi-k3",
-            "label": "community/iotserver24/kimi-k3 \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/iotserver24/route-r3ap3r",
@@ -987,10 +1003,6 @@
         {
             "name": "community/vendouple/deepseek-v3.2",
             "label": "community/vendouple/deepseek-v3.2 (LLM)"
-        },
-        {
-            "name": "community/vendouple/deepseek-v4-flash",
-            "label": "community/vendouple/deepseek-v4-flash (LLM)"
         },
         {
             "name": "community/vendouple/deepseek-v4-pro",
