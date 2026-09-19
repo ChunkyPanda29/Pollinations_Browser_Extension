@@ -29,6 +29,10 @@
             "label": "black-forest-labs/flux.2-klein-4b (T2I/I2I)"
         },
         {
+            "name": "black-forest-labs/flux.2-max",
+            "label": "black-forest-labs/flux.2-max \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "black-forest-labs/flux.2-pro",
             "label": "black-forest-labs/flux.2-pro \ud83d\udc8e (T2I/I2I)"
         },
@@ -59,10 +63,6 @@
         {
             "name": "community/CloudCompile/flux-2-klein-4b",
             "label": "community/CloudCompile/flux-2-klein-4b (T2I/I2I)"
-        },
-        {
-            "name": "community/CloudCompile/flux-2-klein-9b",
-            "label": "community/CloudCompile/flux-2-klein-9b (T2I/I2I)"
         },
         {
             "name": "community/CloudCompile/sdxl-lightning",
@@ -545,6 +545,14 @@
             "label": "community/Lorodn4x/deepseek-v4-flash (LLM)"
         },
         {
+            "name": "community/Lorodn4x/deepseek-v4-pro-0813",
+            "label": "community/Lorodn4x/deepseek-v4-pro-0813 (LLM)"
+        },
+        {
+            "name": "community/Lorodn4x/minimax-m3",
+            "label": "community/Lorodn4x/minimax-m3 (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/deepseek-v4-flash-0731",
             "label": "community/MarcosFRG/deepseek-v4-flash-0731 (LLM)"
         },
@@ -697,16 +705,16 @@
             "label": "community/Spit-fires/muse-glimmer (LLM)"
         },
         {
-            "name": "community/YoannDev90/diffusiongemma-26b-a4b-it:free",
-            "label": "community/YoannDev90/diffusiongemma-26b-a4b-it:free (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/kilocode-laguna-s-2.1:free",
-            "label": "community/YoannDev90/kilocode-laguna-s-2.1:free (LLM)"
+            "name": "community/YoannDev90/gemini-3-flash",
+            "label": "community/YoannDev90/gemini-3-flash (LLM)"
         },
         {
             "name": "community/YoannDev90/muse-glimmer-30b:free",
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -731,6 +739,10 @@
         {
             "name": "community/aikhusus2025-ctrl/sirius-elevator",
             "label": "community/aikhusus2025-ctrl/sirius-elevator (LLM)"
+        },
+        {
+            "name": "community/aikhusus2025-ctrl/sirius-scorekeeper",
+            "label": "community/aikhusus2025-ctrl/sirius-scorekeeper (LLM)"
         },
         {
             "name": "community/chigwell/claude-fable-5",
@@ -825,8 +837,16 @@
             "label": "community/gggff123/gpt-5-nano (LLM)"
         },
         {
+            "name": "community/gggff123/ling-3.0-flash-sante:free",
+            "label": "community/gggff123/ling-3.0-flash-sante:free (LLM)"
+        },
+        {
             "name": "community/immature-yt/alara-nova-1",
             "label": "community/immature-yt/alara-nova-1 (LLM)"
+        },
+        {
+            "name": "community/iotserver24/deepseek-fast",
+            "label": "community/iotserver24/deepseek-fast (LLM)"
         },
         {
             "name": "community/iotserver24/deepseek-v4f",
@@ -839,6 +859,10 @@
         {
             "name": "community/iotserver24/stealth-code",
             "label": "community/iotserver24/stealth-code (LLM)"
+        },
+        {
+            "name": "community/iotserver24/supercharge",
+            "label": "community/iotserver24/supercharge (LLM)"
         },
         {
             "name": "community/mikl-shortcuts/ministral-3",
@@ -897,18 +921,6 @@
             "label": "community/pollinations-router/polli (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
-            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
-        },
-        {
-            "name": "community/scriptsnsenses-sys/gpt-5.6-luna",
-            "label": "community/scriptsnsenses-sys/gpt-5.6-luna (LLM)"
-        },
-        {
-            "name": "community/scriptsnsenses-sys/muse-spark-1.2-contributor-free",
-            "label": "community/scriptsnsenses-sys/muse-spark-1.2-contributor-free (LLM)"
-        },
-        {
             "name": "community/sharktide/3D-agent",
             "label": "community/sharktide/3D-agent (LLM)"
         },
@@ -961,26 +973,6 @@
             "label": "community/smplstuff/title-generator (LLM)"
         },
         {
-            "name": "community/tomdacatto/claude-haiku-4.5",
-            "label": "community/tomdacatto/claude-haiku-4.5 (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/claude-opus-4-6",
-            "label": "community/tomdacatto/claude-opus-4-6 (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/claude-opus-4-7",
-            "label": "community/tomdacatto/claude-opus-4-7 (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/claude-opus-5",
-            "label": "community/tomdacatto/claude-opus-5 (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/claude-sonnet-5",
-            "label": "community/tomdacatto/claude-sonnet-5 (LLM)"
-        },
-        {
             "name": "community/tomdacatto/ezra",
             "label": "community/tomdacatto/ezra (LLM)"
         },
@@ -1013,10 +1005,6 @@
             "label": "community/vendouple/glm-5.3 (LLM)"
         },
         {
-            "name": "community/vendouple/glm-5.3-flash",
-            "label": "community/vendouple/glm-5.3-flash (LLM)"
-        },
-        {
             "name": "community/vendouple/grok-4.6",
             "label": "community/vendouple/grok-4.6 (LLM)"
         },
@@ -1035,6 +1023,10 @@
         {
             "name": "community/voodoohop/airforce-doubao-pro",
             "label": "community/voodoohop/airforce-doubao-pro (LLM)"
+        },
+        {
+            "name": "community/voodoohop/airforce-grok-4-fast",
+            "label": "community/voodoohop/airforce-grok-4-fast (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-qwen3-max",
@@ -1185,6 +1177,10 @@
             "label": "nvidia/nemotron-3.5-lightning (LLM)"
         },
         {
+            "name": "openai/gpt-4o-mini",
+            "label": "openai/gpt-4o-mini \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "openai/gpt-5-nano",
             "label": "openai/gpt-5-nano (LLM)"
         },
@@ -1317,12 +1313,24 @@
             "label": "stepfun/step-3.7-flash \ud83d\udc8e (LLM)"
         },
         {
+            "name": "tencent/hy3",
+            "label": "tencent/hy3 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "tencent/hy4-preview",
+            "label": "tencent/hy4-preview \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "thinkingmachines/inkling",
             "label": "thinkingmachines/inkling \ud83d\udc8e (LLM)"
         },
         {
             "name": "thinkingmachines/inkling-small",
             "label": "thinkingmachines/inkling-small \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "typesafe/jev",
+            "label": "typesafe/jev (LLM)"
         },
         {
             "name": "x-ai/grok-4.20",
