@@ -153,6 +153,10 @@
             "label": "community/sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
+            "name": "community/tomdacatto/grok-imagine",
+            "label": "community/tomdacatto/grok-imagine (T2I)"
+        },
+        {
             "name": "community/tomdacatto/nano-banana-pro",
             "label": "community/tomdacatto/nano-banana-pro (T2I)"
         },
