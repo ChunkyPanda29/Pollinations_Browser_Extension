@@ -413,6 +413,10 @@
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
         },
         {
+            "name": "community/CloudCompile/agnes-3.0-flash",
+            "label": "community/CloudCompile/agnes-3.0-flash (LLM)"
+        },
+        {
             "name": "community/CloudCompile/pollinations-code-agent-but-weird",
             "label": "community/CloudCompile/pollinations-code-agent-but-weird (LLM)"
         },
@@ -453,16 +457,8 @@
             "label": "community/MarcosFRG/gemini-3-flash-preview:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemini-3.1-flash-lite",
-            "label": "community/MarcosFRG/gemini-3.1-flash-lite (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/gemini-3.1-pro-preview",
             "label": "community/MarcosFRG/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/gemma-4-26b-a4b",
-            "label": "community/MarcosFRG/gemma-4-26b-a4b (LLM)"
         },
         {
             "name": "community/MarcosFRG/gemma-4-26b-a4b:paid",
@@ -475,10 +471,6 @@
         {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/glm-5.2:paid",
-            "label": "community/MarcosFRG/glm-5.2:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -509,10 +501,6 @@
             "label": "community/MarcosFRG/qwen3.8-27b:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/Minor-fun/gemma-4-31B-it",
-            "label": "community/Minor-fun/gemma-4-31B-it (LLM)"
-        },
-        {
             "name": "community/Saauf/gpt-6-luna",
             "label": "community/Saauf/gpt-6-luna (LLM)"
         },
@@ -523,6 +511,10 @@
         {
             "name": "community/YoannDev90/agentic-gt",
             "label": "community/YoannDev90/agentic-gt (LLM)"
+        },
+        {
+            "name": "community/YoannDev90/muse-glimmer-30b:free",
+            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -617,16 +609,16 @@
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/pollinations-router/floret",
-            "label": "community/pollinations-router/floret (LLM)"
+            "name": "community/pollinations-ai/floret",
+            "label": "community/pollinations-ai/floret (LLM)"
         },
         {
-            "name": "community/pollinations-router/midijourney",
-            "label": "community/pollinations-router/midijourney (LLM)"
+            "name": "community/pollinations-ai/midijourney",
+            "label": "community/pollinations-ai/midijourney (LLM)"
         },
         {
-            "name": "community/pollinations-router/polli",
-            "label": "community/pollinations-router/polli (LLM)"
+            "name": "community/pollinations-ai/polli",
+            "label": "community/pollinations-ai/polli (LLM)"
         },
         {
             "name": "community/scriptsnsenses-sys/gemini-3.1-pro-free",
@@ -693,12 +685,32 @@
             "label": "community/tomdacatto/tiered-health-router (LLM)"
         },
         {
-            "name": "community/vendouple/Claude-opus-5.5:s",
-            "label": "community/vendouple/Claude-opus-5.5:s \ud83d\udc8e (LLM)"
+            "name": "community/vendouple/claude-opus-5.5:stable",
+            "label": "community/vendouple/claude-opus-5.5:stable \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/vendouple/deepseek-v3.2",
+            "label": "community/vendouple/deepseek-v3.2 (LLM)"
         },
         {
             "name": "community/vendouple/gemini-3.8-flash",
             "label": "community/vendouple/gemini-3.8-flash (LLM)"
+        },
+        {
+            "name": "community/vendouple/gpt-6-luna:stable",
+            "label": "community/vendouple/gpt-6-luna:stable \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/vendouple/gpt-6-sol:stable",
+            "label": "community/vendouple/gpt-6-sol:stable \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/vendouple/muse-glimmer-30b:free",
+            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "community/vendouple/qwen-3.8-max",
+            "label": "community/vendouple/qwen-3.8-max (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-doubao-pro",
