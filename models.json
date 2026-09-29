@@ -113,6 +113,10 @@
             "label": "community/sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
+            "name": "community/tomdacatto/grok-imagine",
+            "label": "community/tomdacatto/grok-imagine (T2I)"
+        },
+        {
             "name": "community/vendouple/anima",
             "label": "community/vendouple/anima \ud83d\udc8e (T2I)"
         },
@@ -361,8 +365,20 @@
             "label": "cohere/command-a-plus (LLM)"
         },
         {
+            "name": "community/AkshayCoder48/claude-opus-4-8",
+            "label": "community/AkshayCoder48/claude-opus-4-8 (LLM)"
+        },
+        {
+            "name": "community/AkshayCoder48/claude-sonnet-5",
+            "label": "community/AkshayCoder48/claude-sonnet-5 (LLM)"
+        },
+        {
             "name": "community/AkshayCoder48/code-pair",
             "label": "community/AkshayCoder48/code-pair (LLM)"
+        },
+        {
+            "name": "community/AkshayCoder48/deepseek-v4-pro",
+            "label": "community/AkshayCoder48/deepseek-v4-pro (LLM)"
         },
         {
             "name": "community/AkshayCoder48/free-clips",
@@ -413,10 +429,6 @@
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
         },
         {
-            "name": "community/CloudCompile/agnes-3.0-flash",
-            "label": "community/CloudCompile/agnes-3.0-flash (LLM)"
-        },
-        {
             "name": "community/CloudCompile/pollinations-code-agent-but-weird",
             "label": "community/CloudCompile/pollinations-code-agent-but-weird (LLM)"
         },
@@ -445,6 +457,10 @@
             "label": "community/JustScriptzz/gpt-oss-120b (LLM)"
         },
         {
+            "name": "community/Lorodn4x/deepseek-v4-pro-0813",
+            "label": "community/Lorodn4x/deepseek-v4-pro-0813 (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/deepseek-v4-flash-0731",
             "label": "community/MarcosFRG/deepseek-v4-flash-0731 (LLM)"
         },
@@ -453,12 +469,8 @@
             "label": "community/MarcosFRG/deepseek-v4-flash-0731:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemini-3-flash-preview:paid",
-            "label": "community/MarcosFRG/gemini-3-flash-preview:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/gemini-3.1-pro-preview",
-            "label": "community/MarcosFRG/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
+            "name": "community/MarcosFRG/gemini-3.1-flash-lite",
+            "label": "community/MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
             "name": "community/MarcosFRG/gemma-4-26b-a4b:paid",
@@ -473,16 +485,16 @@
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/MarcosFRG/glm-4.6v-flash",
+            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/glm-5.3-flash",
             "label": "community/MarcosFRG/glm-5.3-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3:paid",
             "label": "community/MarcosFRG/glm-5.3:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/gpt-5.6-luna:paid",
-            "label": "community/MarcosFRG/gpt-5.6-luna:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/metraxai",
@@ -511,10 +523,6 @@
         {
             "name": "community/YoannDev90/agentic-gt",
             "label": "community/YoannDev90/agentic-gt (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/muse-glimmer-30b:free",
-            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -577,10 +585,6 @@
             "label": "community/iotserver24/kimi-k2.7-code-nitro (LLM)"
         },
         {
-            "name": "community/iotserver24/stealth-code",
-            "label": "community/iotserver24/stealth-code (LLM)"
-        },
-        {
             "name": "community/iotserver24/supercharge",
             "label": "community/iotserver24/supercharge (LLM)"
         },
@@ -591,10 +595,6 @@
         {
             "name": "community/pegalink/gemini-3.1-pro-preview",
             "label": "community/pegalink/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/pegalink/gemini-3.5-flash-lite",
-            "label": "community/pegalink/gemini-3.5-flash-lite (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.8-flash",
@@ -689,24 +689,24 @@
             "label": "community/vendouple/claude-opus-5.5:stable \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/vendouple/claude-sonnet-5.5:stable",
+            "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/vendouple/deepseek-v3.2",
             "label": "community/vendouple/deepseek-v3.2 (LLM)"
+        },
+        {
+            "name": "community/vendouple/deepseek-v4-pro",
+            "label": "community/vendouple/deepseek-v4-pro (LLM)"
         },
         {
             "name": "community/vendouple/gemini-3.8-flash",
             "label": "community/vendouple/gemini-3.8-flash (LLM)"
         },
         {
-            "name": "community/vendouple/gpt-6-luna:stable",
-            "label": "community/vendouple/gpt-6-luna:stable \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "community/vendouple/gpt-6-sol:stable",
             "label": "community/vendouple/gpt-6-sol:stable \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/vendouple/muse-glimmer-30b:free",
-            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/vendouple/qwen-3.8-max",
@@ -1307,6 +1307,11 @@
         {
             "name": "elevenlabs/scribe-v2",
             "label": "elevenlabs/scribe-v2 \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "elevenlabs/stem-separation",
+            "label": "elevenlabs/stem-separation \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
