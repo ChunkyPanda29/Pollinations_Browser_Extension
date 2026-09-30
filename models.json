@@ -497,10 +497,6 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
-            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -599,6 +595,10 @@
         {
             "name": "community/pegalink/hy4-preview-coding",
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/pegalink/quantum-pickle",
+            "label": "community/pegalink/quantum-pickle (LLM)"
         },
         {
             "name": "community/pollinations-ai/floret",
