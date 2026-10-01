@@ -81,6 +81,10 @@
             "label": "community/rekty/rekty-dev-v2 \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "community/scriptsnsenses-sys/sdxl-lightning-free",
+            "label": "community/scriptsnsenses-sys/sdxl-lightning-free (T2I/I2I)"
+        },
+        {
             "name": "community/sharktide/gpt-image-2.5-flare-input-cheap",
             "label": "community/sharktide/gpt-image-2.5-flare-input-cheap \ud83d\udc8e (T2I/I2I)"
         },
@@ -115,10 +119,6 @@
         {
             "name": "community/vendouple/anima",
             "label": "community/vendouple/anima \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "community/vendouple/nano-banana-pro",
-            "label": "community/vendouple/nano-banana-pro (T2I)"
         },
         {
             "name": "community/vendouple/uncensored-image-v2",
@@ -163,10 +163,6 @@
         {
             "name": "lykon/dreamshaper-8-lcm",
             "label": "lykon/dreamshaper-8-lcm (T2I)"
-        },
-        {
-            "name": "microsoft/mai-image-2.5-flash",
-            "label": "microsoft/mai-image-2.5-flash (T2I/I2I)"
         },
         {
             "name": "microsoft/mai-image-2.6",
@@ -429,16 +425,12 @@
             "label": "community/JustScriptzz/gpt-oss-120b (LLM)"
         },
         {
-            "name": "community/Lorodn4x/auto-rotator-alpha",
-            "label": "community/Lorodn4x/auto-rotator-alpha (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/deepseek-v4-flash-0731",
-            "label": "community/MarcosFRG/deepseek-v4-flash-0731 (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/deepseek-v4-flash-0731:paid",
             "label": "community/MarcosFRG/deepseek-v4-flash-0731:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/gemini-3-flash-preview:paid",
+            "label": "community/MarcosFRG/gemini-3-flash-preview:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/gemini-3.1-flash-lite",
@@ -449,16 +441,8 @@
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemma-4-31b",
-            "label": "community/MarcosFRG/gemma-4-31b (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/glm-4.6v-flash",
-            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -493,24 +477,12 @@
             "label": "community/YoannDev90/agentic-gt (LLM)"
         },
         {
-            "name": "community/YoannDev90/muse-glimmer-30b:free",
-            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
         {
-            "name": "community/ZapGaming/gpt-oss-120b-ultrafast",
-            "label": "community/ZapGaming/gpt-oss-120b-ultrafast \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "community/ZapGaming/llama3.1-8b-ultrafast",
             "label": "community/ZapGaming/llama3.1-8b-ultrafast (LLM)"
-        },
-        {
-            "name": "community/ZapGaming/llama3.1-8b-xturbo",
-            "label": "community/ZapGaming/llama3.1-8b-xturbo (LLM)"
         },
         {
             "name": "community/ZapGaming/mercury-2.5-ultrafast",
@@ -569,10 +541,6 @@
             "label": "community/iotserver24/supercharge (LLM)"
         },
         {
-            "name": "community/morriszdweck/osaii-api-fast",
-            "label": "community/morriszdweck/osaii-api-fast (LLM)"
-        },
-        {
             "name": "community/morriszdweck/osaii-swarm",
             "label": "community/morriszdweck/osaii-swarm (LLM)"
         },
@@ -597,8 +565,8 @@
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/pegalink/quantum-pickle",
-            "label": "community/pegalink/quantum-pickle (LLM)"
+            "name": "community/pegalink/jimmy",
+            "label": "community/pegalink/jimmy (LLM)"
         },
         {
             "name": "community/pollinations-ai/floret",
@@ -611,6 +579,10 @@
         {
             "name": "community/pollinations-ai/polli",
             "label": "community/pollinations-ai/polli (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
+            "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
         {
             "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
@@ -689,10 +661,6 @@
             "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/vendouple/glm-5.3",
-            "label": "community/vendouple/glm-5.3 (LLM)"
-        },
-        {
             "name": "community/vendouple/gpt-6-sol:stable",
             "label": "community/vendouple/gpt-6-sol:stable \ud83d\udc8e (LLM)"
         },
@@ -703,10 +671,6 @@
         {
             "name": "community/vendouple/muse-glimmer-30b:free",
             "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
-        },
-        {
-            "name": "community/vendouple/qwen-3.8-max",
-            "label": "community/vendouple/qwen-3.8-max (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-doubao-pro",
@@ -795,6 +759,10 @@
         {
             "name": "inclusionai/ling-3.0-flash-vl",
             "label": "inclusionai/ling-3.0-flash-vl \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "jaredpalmer/kev-4b",
+            "label": "jaredpalmer/kev-4b (LLM)"
         },
         {
             "name": "meituan/longcat-2.0",
@@ -913,6 +881,10 @@
             "label": "openai/gpt-6-sol (LLM)"
         },
         {
+            "name": "openai/gpt-6.1-sol",
+            "label": "openai/gpt-6.1-sol (LLM)"
+        },
+        {
             "name": "openai/gpt-audio-1.5",
             "label": "openai/gpt-audio-1.5 (LLM)"
         },
@@ -991,6 +963,10 @@
         {
             "name": "qwen/qwen3guard-gen-8b",
             "label": "qwen/qwen3guard-gen-8b (LLM)"
+        },
+        {
+            "name": "respan/span-01-lite",
+            "label": "respan/span-01-lite (LLM)"
         },
         {
             "name": "stepfun/step-3.5-flash",
