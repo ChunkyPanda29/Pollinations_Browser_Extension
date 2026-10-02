@@ -287,6 +287,10 @@
             "label": "google/veo-3.1-fast \ud83d\udc8e (T2V/I2V)"
         },
         {
+            "name": "heygen/heygen-video-1",
+            "label": "heygen/heygen-video-1 \ud83d\udc8e (T2V/I2V)"
+        },
+        {
             "name": "minimax/minimax-h3",
             "label": "minimax/minimax-h3 \ud83d\udc8e (T2V)"
         },
@@ -425,6 +429,14 @@
             "label": "community/JustScriptzz/gpt-oss-120b (LLM)"
         },
         {
+            "name": "community/Lorodn4x/Kimi-K2.7-Code",
+            "label": "community/Lorodn4x/Kimi-K2.7-Code (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/deepseek-v4-flash-0731",
+            "label": "community/MarcosFRG/deepseek-v4-flash-0731 (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/deepseek-v4-flash-0731:paid",
             "label": "community/MarcosFRG/deepseek-v4-flash-0731:paid \ud83d\udc8e (LLM)"
         },
@@ -481,12 +493,12 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "community/YoannDev90/qwen3.7-flash",
-            "label": "community/YoannDev90/qwen3.7-flash (LLM)"
+            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
-            "name": "community/ZapGaming/llama3.1-8b-ultrafast",
-            "label": "community/ZapGaming/llama3.1-8b-ultrafast (LLM)"
+            "name": "community/YoannDev90/qwen3.7-flash",
+            "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
         {
             "name": "community/ZapGaming/mercury-2.5-ultrafast",
@@ -513,12 +525,12 @@
             "label": "community/aikhusus2025-ctrl/sirius-scorekeeper (LLM)"
         },
         {
-            "name": "community/chigwell/llm7-pro",
-            "label": "community/chigwell/llm7-pro \ud83d\udc8e (LLM)"
+            "name": "community/chigwell/gpt-6.1-sol",
+            "label": "community/chigwell/gpt-6.1-sol \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/chirag-gamer/gpt-oss-120b",
-            "label": "community/chirag-gamer/gpt-oss-120b (LLM)"
+            "name": "community/chigwell/llm7-pro",
+            "label": "community/chigwell/llm7-pro \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/fadyabohamza-netizen/frugal",
@@ -545,16 +557,20 @@
             "label": "community/iotserver24/supercharge (LLM)"
         },
         {
+            "name": "community/morriszdweck/osaii-api-fast",
+            "label": "community/morriszdweck/osaii-api-fast (LLM)"
+        },
+        {
+            "name": "community/morriszdweck/osaii-api-smart",
+            "label": "community/morriszdweck/osaii-api-smart (LLM)"
+        },
+        {
             "name": "community/morriszdweck/osaii-swarm",
             "label": "community/morriszdweck/osaii-swarm (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.1-pro-preview",
             "label": "community/pegalink/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/pegalink/gemini-3.5-flash-lite",
-            "label": "community/pegalink/gemini-3.5-flash-lite (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.8-flash",
@@ -567,10 +583,6 @@
         {
             "name": "community/pegalink/hy4-preview-coding",
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/pegalink/jimmy",
-            "label": "community/pegalink/jimmy (LLM)"
         },
         {
             "name": "community/pollinations-ai/floret",
@@ -617,8 +629,8 @@
             "label": "community/sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge (LLM)"
         },
         {
-            "name": "community/sharktide/inferenceport-ai-minimax-m3",
-            "label": "community/sharktide/inferenceport-ai-minimax-m3 \ud83d\udc8e (LLM)"
+            "name": "community/sharktide/inferenceport-ai-lightning-text-v2.1",
+            "label": "community/sharktide/inferenceport-ai-lightning-text-v2.1 \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/sharktide/inferenceport-ai-qwen-3.8-27b",
@@ -665,16 +677,16 @@
             "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/vendouple/gpt-6-luna",
+            "label": "community/vendouple/gpt-6-luna (LLM)"
+        },
+        {
             "name": "community/vendouple/gpt-6-sol:stable",
             "label": "community/vendouple/gpt-6-sol:stable \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/vendouple/gpt-6.1-sol:stable",
             "label": "community/vendouple/gpt-6.1-sol:stable \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/vendouple/muse-glimmer-30b:free",
-            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-doubao-pro",
