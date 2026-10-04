@@ -53,16 +53,8 @@
             "label": "bytedance/seedream-5.0-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
-            "name": "community/MarcosFRG/flux-1-schnell",
-            "label": "community/MarcosFRG/flux-1-schnell (T2I)"
-        },
-        {
             "name": "community/MarcosFRG/flux-1-schnell:paid",
             "label": "community/MarcosFRG/flux-1-schnell:paid \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "community/MarcosFRG/flux-2-klein-4b",
-            "label": "community/MarcosFRG/flux-2-klein-4b (T2I/I2I)"
         },
         {
             "name": "community/chigwell/gpt-image-2",
