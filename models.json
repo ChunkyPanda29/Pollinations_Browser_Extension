@@ -497,6 +497,10 @@
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
+            "name": "community/YoannDev90/muse-glimmer-30b:free",
+            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
