@@ -509,10 +509,6 @@
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
-            "name": "community/YoannDev90/muse-glimmer-30b:free",
-            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -695,10 +691,6 @@
         {
             "name": "community/vendouple/gpt-6.1-sol:stable",
             "label": "community/vendouple/gpt-6.1-sol:stable \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/vendouple/muse-glimmer-30b:free",
-            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/vendouple/qwen-3.8-max",
