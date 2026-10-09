@@ -61,6 +61,10 @@
             "label": "bytedance/seedream-5.0-pro \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "community/Catniti/gpt-image-1-mini",
+            "label": "community/Catniti/gpt-image-1-mini (T2I/I2I)"
+        },
+        {
             "name": "community/MarcosFRG/flux-schnell:paid",
             "label": "community/MarcosFRG/flux-schnell:paid \ud83d\udc8e (T2I)"
         },
@@ -85,10 +89,6 @@
             "label": "community/rekty/rekty-dev-v2 \ud83d\udc8e (T2I/I2I)"
         },
         {
-            "name": "community/scriptsnsenses-sys/flux-2-dev-free",
-            "label": "community/scriptsnsenses-sys/flux-2-dev-free (T2I/I2I)"
-        },
-        {
             "name": "community/scriptsnsenses-sys/sdxl-lightning-free",
             "label": "community/scriptsnsenses-sys/sdxl-lightning-free (T2I/I2I)"
         },
@@ -99,6 +99,14 @@
         {
             "name": "community/sharktide/gpt-image-2.5-sunburst-input-cheap",
             "label": "community/sharktide/gpt-image-2.5-sunburst-input-cheap \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "community/sharktide/inferenceport-ai-gpt-image-2.5-flare",
+            "label": "community/sharktide/inferenceport-ai-gpt-image-2.5-flare \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "community/sharktide/inferenceport-ai-gpt-image-2.5-sunburst",
+            "label": "community/sharktide/inferenceport-ai-gpt-image-2.5-sunburst \ud83d\udc8e (T2I/I2I)"
         },
         {
             "name": "community/sharktide/inferenceport-ai-gpt-image-router",
@@ -425,6 +433,10 @@
             "label": "community/Catniti/catniti-ai-agent (LLM)"
         },
         {
+            "name": "community/Catniti/deepseek-v4.1-flash",
+            "label": "community/Catniti/deepseek-v4.1-flash (LLM)"
+        },
+        {
             "name": "community/Catniti/nemotron-3.5-lightning",
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
         },
@@ -435,6 +447,10 @@
         {
             "name": "community/CloudCompile/gpt-6-luna",
             "label": "community/CloudCompile/gpt-6-luna (LLM)"
+        },
+        {
+            "name": "community/CloudCompile/llama-3.1-8b-abliterated-q4km",
+            "label": "community/CloudCompile/llama-3.1-8b-abliterated-q4km (LLM)"
         },
         {
             "name": "community/CloudCompile/pollinations-code-agent-but-weird",
@@ -477,12 +493,16 @@
             "label": "community/JustScriptzz/qwen-3.8-max (LLM)"
         },
         {
-            "name": "community/MarcosFRG/deepseek-v4-flash-0731",
-            "label": "community/MarcosFRG/deepseek-v4-flash-0731 (LLM)"
+            "name": "community/MarcosFRG/deepseek-v3.2",
+            "label": "community/MarcosFRG/deepseek-v3.2 (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
             "label": "community/MarcosFRG/glm-5.3-flash (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/glm-5.3:paid",
+            "label": "community/MarcosFRG/glm-5.3:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/gpt-5.6-luna:paid",
@@ -505,12 +525,20 @@
             "label": "community/MarcosFRG/qwen3.8-flash:paid \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/Saauf/glm-5.3",
+            "label": "community/Saauf/glm-5.3 (LLM)"
+        },
+        {
             "name": "community/Takax62/minimax-m3-429b-vml",
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
+        },
+        {
+            "name": "community/ZapGaming/gpt-oss-120b-ultrafast",
+            "label": "community/ZapGaming/gpt-oss-120b-ultrafast \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/ZapGaming/mix-router",
@@ -545,6 +573,10 @@
             "label": "community/chigwell/llm7-pro \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/chirag-gamer/gpt-oss-120b",
+            "label": "community/chirag-gamer/gpt-oss-120b (LLM)"
+        },
+        {
             "name": "community/fadyabohamza-netizen/frugal",
             "label": "community/fadyabohamza-netizen/frugal (LLM)"
         },
@@ -565,10 +597,6 @@
             "label": "community/immature-yt/alara-nova-1 (LLM)"
         },
         {
-            "name": "community/iotserver24/deepseek-fast",
-            "label": "community/iotserver24/deepseek-fast (LLM)"
-        },
-        {
             "name": "community/iotserver24/supercharge",
             "label": "community/iotserver24/supercharge (LLM)"
         },
@@ -579,6 +607,10 @@
         {
             "name": "community/pegalink/gemini-3.1-pro-preview",
             "label": "community/pegalink/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/pegalink/gemini-3.5-flash-lite",
+            "label": "community/pegalink/gemini-3.5-flash-lite (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.8-flash",
@@ -613,6 +645,10 @@
             "label": "community/sharktide/3D-agent (LLM)"
         },
         {
+            "name": "community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone",
+            "label": "community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/sharktide/inferenceport-ai-kimi-k2.7-code-deep-logician",
             "label": "community/sharktide/inferenceport-ai-kimi-k2.7-code-deep-logician \ud83d\udc8e (LLM)"
         },
@@ -645,10 +681,6 @@
             "label": "community/tomdacatto/Qwen3.8-Flash-Next \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/tomdacatto/ezra",
-            "label": "community/tomdacatto/ezra (LLM)"
-        },
-        {
             "name": "community/tomdacatto/gotcha-scout",
             "label": "community/tomdacatto/gotcha-scout (LLM)"
         },
@@ -659,6 +691,10 @@
         {
             "name": "community/tomdacatto/tiered-health-router",
             "label": "community/tomdacatto/tiered-health-router (LLM)"
+        },
+        {
+            "name": "community/vendouple/deepseek-v3.2",
+            "label": "community/vendouple/deepseek-v3.2 (LLM)"
         },
         {
             "name": "community/vendouple/deepseek-v4-pro",
@@ -1608,13 +1644,26 @@
             "voices": []
         },
         {
-            "name": "qwen/qwen3-tts-flash",
-            "label": "qwen/qwen3-tts-flash \ud83d\udc8e (Audio)",
-            "voices": []
+            "name": "qwen/qwen-audio-3.0-tts-flash",
+            "label": "qwen/qwen-audio-3.0-tts-flash \ud83d\udc8e (Audio)",
+            "voices": [
+                "loongeva_v3.6",
+                "loongjohn",
+                "loongmary",
+                "longanfengyue",
+                "longanyuanfei",
+                "longanlingxi",
+                "longanxiaoxin",
+                "longanhuan_v3.6",
+                "longjielidou_v3.6",
+                "longpaopao_v3.6",
+                "longhuohuo_v3.6",
+                "longchuanshu_v3.6"
+            ]
         },
         {
-            "name": "qwen/qwen3-tts-instruct-flash",
-            "label": "qwen/qwen3-tts-instruct-flash \ud83d\udc8e (Audio)",
+            "name": "qwen/qwen3-tts-flash",
+            "label": "qwen/qwen3-tts-flash \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
