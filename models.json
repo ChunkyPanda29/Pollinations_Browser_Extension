@@ -573,6 +573,10 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
+            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -811,6 +815,10 @@
         {
             "name": "community/vendouple/kimi-k3",
             "label": "community/vendouple/kimi-k3 (LLM)"
+        },
+        {
+            "name": "community/vendouple/muse-glimmer-30b:free",
+            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-doubao-pro",
