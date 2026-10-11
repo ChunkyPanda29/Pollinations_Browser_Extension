@@ -73,6 +73,10 @@
             "label": "community/MarcosFRG/phoenix-1.0:paid \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "community/MarcosFRG/sdxl-lightning",
+            "label": "community/MarcosFRG/sdxl-lightning (T2I/I2I)"
+        },
+        {
             "name": "community/chigwell/gpt-image-2",
             "label": "community/chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
         },
@@ -127,6 +131,10 @@
         {
             "name": "community/vendouple/qwen-image-3.0-pro",
             "label": "community/vendouple/qwen-image-3.0-pro \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "community/vendouple/uncensored-image-v2",
+            "label": "community/vendouple/uncensored-image-v2 (T2I)"
         },
         {
             "name": "google/gemini-2.5-flash-image",
@@ -437,10 +445,6 @@
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
         },
         {
-            "name": "community/CloudCompile/agnes-3.0-flash",
-            "label": "community/CloudCompile/agnes-3.0-flash (LLM)"
-        },
-        {
             "name": "community/CloudCompile/gpt-6-luna",
             "label": "community/CloudCompile/gpt-6-luna (LLM)"
         },
@@ -465,16 +469,16 @@
             "label": "community/Creatneworld/sirius-elevator-descent \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/Derlifed/retail-fastfood-interview-coach",
+            "label": "community/Derlifed/retail-fastfood-interview-coach (LLM)"
+        },
+        {
             "name": "community/Guest453/idea-judge",
             "label": "community/Guest453/idea-judge (LLM)"
         },
         {
             "name": "community/Guest453/show-your-work",
             "label": "community/Guest453/show-your-work (LLM)"
-        },
-        {
-            "name": "community/JustScriptzz/gpt-oss-120b",
-            "label": "community/JustScriptzz/gpt-oss-120b (LLM)"
         },
         {
             "name": "community/JustScriptzz/kimi-k2-7-code",
@@ -493,16 +497,20 @@
             "label": "community/MarcosFRG/deepseek-v4-flash-0731:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/deepseek-v4.1-flash",
-            "label": "community/MarcosFRG/deepseek-v4.1-flash (LLM)"
+            "name": "community/MarcosFRG/gemini-3-flash-preview:paid",
+            "label": "community/MarcosFRG/gemini-3-flash-preview:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/gemini-3.1-flash-lite",
+            "label": "community/MarcosFRG/gemini-3.1-flash-lite (LLM)"
         },
         {
             "name": "community/MarcosFRG/gemma-4-26b-a4b:paid",
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemma-4-31b:paid",
-            "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
+            "name": "community/MarcosFRG/gemma-4-31b",
+            "label": "community/MarcosFRG/gemma-4-31b (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -533,12 +541,32 @@
             "label": "community/MarcosFRG/qwen3.8-flash:paid \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/Saauf/gemini-3.1-flash-lite",
+            "label": "community/Saauf/gemini-3.1-flash-lite (LLM)"
+        },
+        {
             "name": "community/Saauf/glm-5.3",
             "label": "community/Saauf/glm-5.3 (LLM)"
         },
         {
+            "name": "community/Saauf/glm-5.3-flash",
+            "label": "community/Saauf/glm-5.3-flash (LLM)"
+        },
+        {
+            "name": "community/Saauf/llama3.1-8B:ultrafast",
+            "label": "community/Saauf/llama3.1-8B:ultrafast (LLM)"
+        },
+        {
             "name": "community/Takax62/minimax-m3-429b-vml",
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
+        },
+        {
+            "name": "community/YoannDev90/gemini-3.8-flash",
+            "label": "community/YoannDev90/gemini-3.8-flash (LLM)"
+        },
+        {
+            "name": "community/YoannDev90/ling-3.1-flash-vl",
+            "label": "community/YoannDev90/ling-3.1-flash-vl (LLM)"
         },
         {
             "name": "community/YoannDev90/muse-glimmer-30b:free",
@@ -547,6 +575,10 @@
         {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
+        },
+        {
+            "name": "community/ZapGaming/llama3.1-8b-xturbo",
+            "label": "community/ZapGaming/llama3.1-8b-xturbo (LLM)"
         },
         {
             "name": "community/ZapGaming/mix-router",
@@ -625,6 +657,10 @@
             "label": "community/mikl-shortcuts/ministral-3 (LLM)"
         },
         {
+            "name": "community/morriszdweck/glm-5.3-flash-free",
+            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
+        },
+        {
             "name": "community/pegalink/gemini-3.1-pro-preview",
             "label": "community/pegalink/gemini-3.1-pro-preview \ud83d\udc8e (LLM)"
         },
@@ -643,10 +679,6 @@
         {
             "name": "community/pegalink/hy4-preview-coding",
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/pegalink/jimmy",
-            "label": "community/pegalink/jimmy (LLM)"
         },
         {
             "name": "community/pollinations-ai/floret",
@@ -671,10 +703,6 @@
         {
             "name": "community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone",
             "label": "community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone",
-            "label": "community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/sharktide/inferenceport-ai-kimi-k2.7-code-deep-logician",
@@ -721,6 +749,10 @@
             "label": "community/tomdacatto/llama-3.1-8B (LLM)"
         },
         {
+            "name": "community/tomdacatto/qwen-3.8-27B-fast",
+            "label": "community/tomdacatto/qwen-3.8-27B-fast (LLM)"
+        },
+        {
             "name": "community/tomdacatto/tiered-health-router",
             "label": "community/tomdacatto/tiered-health-router (LLM)"
         },
@@ -747,6 +779,10 @@
         {
             "name": "community/vendouple/gemma-4-31b-isometry-rp",
             "label": "community/vendouple/gemma-4-31b-isometry-rp (LLM)"
+        },
+        {
+            "name": "community/vendouple/glm-5.3",
+            "label": "community/vendouple/glm-5.3 (LLM)"
         },
         {
             "name": "community/vendouple/glm-5.3-flash",
@@ -777,24 +813,12 @@
             "label": "community/vendouple/kimi-k3 (LLM)"
         },
         {
-            "name": "community/vendouple/laguna-s-2.1:free",
-            "label": "community/vendouple/laguna-s-2.1:free (LLM)"
-        },
-        {
-            "name": "community/vendouple/qwen-3.8-max",
-            "label": "community/vendouple/qwen-3.8-max (LLM)"
-        },
-        {
             "name": "community/voodoohop/airforce-doubao-pro",
             "label": "community/voodoohop/airforce-doubao-pro (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-grok-4-fast",
             "label": "community/voodoohop/airforce-grok-4-fast (LLM)"
-        },
-        {
-            "name": "community/voodoohop/airforce-qwen3-max",
-            "label": "community/voodoohop/airforce-qwen3-max (LLM)"
         },
         {
             "name": "community/voodoohop/catgpt-comic",
@@ -1007,6 +1031,10 @@
         {
             "name": "openai/gpt-6-luna",
             "label": "openai/gpt-6-luna (LLM)"
+        },
+        {
+            "name": "openai/gpt-6-luna-decisions",
+            "label": "openai/gpt-6-luna-decisions \ud83d\udc8e (LLM)"
         },
         {
             "name": "openai/gpt-6-sol",
@@ -1659,6 +1687,217 @@
                 "zm_yunxi",
                 "zm_yunxia",
                 "zm_yunyang"
+            ]
+        },
+        {
+            "name": "microsoft/mai-transcribe-2",
+            "label": "microsoft/mai-transcribe-2 (Audio)",
+            "voices": []
+        },
+        {
+            "name": "microsoft/mai-voice-2.1",
+            "label": "microsoft/mai-voice-2.1 (Audio)",
+            "voices": [
+                "cs-CZ-Grant",
+                "cs-CZ-Harper",
+                "da-DK-Grant",
+                "da-DK-Harper",
+                "de-DE-Grant",
+                "de-DE-Harper",
+                "de-DE-Klaus",
+                "de-DE-Mia",
+                "en-AU-Isla",
+                "en-GB-Emily",
+                "en-GB-Harry",
+                "en-IN-Dhruv",
+                "en-IN-Priya",
+                "en-US-Ethan",
+                "en-US-Grant",
+                "en-US-Harper",
+                "en-US-Iris",
+                "en-US-Jasper",
+                "en-US-Olivia",
+                "en-US-Sage",
+                "es-ES-Marta",
+                "es-MX-Alejo",
+                "es-MX-Grant",
+                "es-MX-Harper",
+                "es-MX-Valeria",
+                "fi-FI-Grant",
+                "fi-FI-Harper",
+                "fr-FR-Grant",
+                "fr-FR-Harper",
+                "fr-FR-Marc",
+                "fr-FR-Soleil",
+                "hi-IN-Arjun",
+                "hi-IN-Dhruv",
+                "hi-IN-Grant",
+                "hi-IN-Harper",
+                "hi-IN-Kavya",
+                "hi-IN-Priya",
+                "hu-HU-Bence",
+                "hu-HU-Grant",
+                "hu-HU-Harper",
+                "hu-HU-Levente",
+                "hu-HU-Lilla",
+                "hu-HU-Reka",
+                "id-ID-Grant",
+                "id-ID-Harper",
+                "it-IT-Grant",
+                "it-IT-Harper",
+                "it-IT-Luca",
+                "it-IT-Rosa",
+                "ko-KR-Grant",
+                "ko-KR-Haena",
+                "ko-KR-Harper",
+                "ko-KR-Junho",
+                "nb-NO-Grant",
+                "nb-NO-Harper",
+                "nl-NL-Grant",
+                "nl-NL-Harper",
+                "nl-NL-Sander",
+                "pl-PL-Grant",
+                "pl-PL-Harper",
+                "pt-BR-Caio",
+                "pt-BR-Grant",
+                "pt-BR-Harper",
+                "pt-BR-Luana",
+                "pt-BR-Pedro",
+                "pt-BR-Rafael",
+                "pt-PT-Grant",
+                "pt-PT-Harper",
+                "pt-PT-Rui",
+                "ro-RO-Andrei",
+                "ro-RO-Elena",
+                "ro-RO-Grant",
+                "ro-RO-Harper",
+                "ro-RO-Ioana",
+                "ro-RO-Radu",
+                "ru-RU-Grant",
+                "ru-RU-Harper",
+                "ru-RU-Lev",
+                "ru-RU-Masha",
+                "sv-SE-Grant",
+                "sv-SE-Harper",
+                "th-TH-Grant",
+                "th-TH-Harper",
+                "th-TH-Krit",
+                "th-TH-Nattapong",
+                "tr-TR-Aydin",
+                "tr-TR-Elif",
+                "tr-TR-Grant",
+                "tr-TR-Harper",
+                "vi-VN-Grant",
+                "vi-VN-Harper",
+                "zh-CN-Bo",
+                "zh-CN-Grant",
+                "zh-CN-Harper",
+                "zh-CN-Lan",
+                "zh-CN-Mei",
+                "zh-CN-Wei"
+            ]
+        },
+        {
+            "name": "microsoft/mai-voice-2.1-flash",
+            "label": "microsoft/mai-voice-2.1-flash (Audio)",
+            "voices": [
+                "cs-CZ-Grant",
+                "cs-CZ-Harper",
+                "da-DK-Grant",
+                "da-DK-Harper",
+                "de-DE-Grant",
+                "de-DE-Harper",
+                "de-DE-Klaus",
+                "de-DE-Mia",
+                "en-AU-Isla",
+                "en-GB-Emily",
+                "en-GB-Harry",
+                "en-IN-Dhruv",
+                "en-IN-Priya",
+                "en-US-Ethan",
+                "en-US-Grant",
+                "en-US-Harper",
+                "en-US-Iris",
+                "en-US-Jasper",
+                "en-US-Olivia",
+                "en-US-Sage",
+                "es-ES-Marta",
+                "es-MX-Alejo",
+                "es-MX-Grant",
+                "es-MX-Harper",
+                "es-MX-Valeria",
+                "fi-FI-Grant",
+                "fi-FI-Harper",
+                "fr-FR-Grant",
+                "fr-FR-Harper",
+                "fr-FR-Marc",
+                "fr-FR-Soleil",
+                "hi-IN-Arjun",
+                "hi-IN-Dhruv",
+                "hi-IN-Grant",
+                "hi-IN-Harper",
+                "hi-IN-Kavya",
+                "hi-IN-Priya",
+                "hu-HU-Bence",
+                "hu-HU-Grant",
+                "hu-HU-Harper",
+                "hu-HU-Levente",
+                "hu-HU-Lilla",
+                "hu-HU-Reka",
+                "id-ID-Grant",
+                "id-ID-Harper",
+                "it-IT-Grant",
+                "it-IT-Harper",
+                "it-IT-Luca",
+                "it-IT-Rosa",
+                "ko-KR-Grant",
+                "ko-KR-Haena",
+                "ko-KR-Harper",
+                "ko-KR-Junho",
+                "nb-NO-Grant",
+                "nb-NO-Harper",
+                "nl-NL-Grant",
+                "nl-NL-Harper",
+                "nl-NL-Sander",
+                "pl-PL-Grant",
+                "pl-PL-Harper",
+                "pt-BR-Caio",
+                "pt-BR-Grant",
+                "pt-BR-Harper",
+                "pt-BR-Luana",
+                "pt-BR-Pedro",
+                "pt-BR-Rafael",
+                "pt-PT-Grant",
+                "pt-PT-Harper",
+                "pt-PT-Rui",
+                "ro-RO-Andrei",
+                "ro-RO-Elena",
+                "ro-RO-Grant",
+                "ro-RO-Harper",
+                "ro-RO-Ioana",
+                "ro-RO-Radu",
+                "ru-RU-Grant",
+                "ru-RU-Harper",
+                "ru-RU-Lev",
+                "ru-RU-Masha",
+                "sv-SE-Grant",
+                "sv-SE-Harper",
+                "th-TH-Grant",
+                "th-TH-Harper",
+                "th-TH-Krit",
+                "th-TH-Nattapong",
+                "tr-TR-Aydin",
+                "tr-TR-Elif",
+                "tr-TR-Grant",
+                "tr-TR-Harper",
+                "vi-VN-Grant",
+                "vi-VN-Harper",
+                "zh-CN-Bo",
+                "zh-CN-Grant",
+                "zh-CN-Harper",
+                "zh-CN-Lan",
+                "zh-CN-Mei",
+                "zh-CN-Wei"
             ]
         },
         {
