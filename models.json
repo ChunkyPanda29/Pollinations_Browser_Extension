@@ -65,6 +65,10 @@
             "label": "community/MarcosFRG/flux-schnell:paid \ud83d\udc8e (T2I)"
         },
         {
+            "name": "community/MarcosFRG/lucid-origin",
+            "label": "community/MarcosFRG/lucid-origin (T2I/I2I)"
+        },
+        {
             "name": "community/MarcosFRG/lucid-origin:paid",
             "label": "community/MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
         },
@@ -91,6 +95,14 @@
         {
             "name": "community/rekty/rekty-dev-v2",
             "label": "community/rekty/rekty-dev-v2 \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/flux-2-dev-free",
+            "label": "community/scriptsnsenses-sys/flux-2-dev-free (T2I/I2I)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/sdxl-lightning-free",
+            "label": "community/scriptsnsenses-sys/sdxl-lightning-free (T2I/I2I)"
         },
         {
             "name": "community/sharktide/gpt-image-2.5-flare-input-cheap",
@@ -131,10 +143,6 @@
         {
             "name": "community/vendouple/qwen-image-3.0-pro",
             "label": "community/vendouple/qwen-image-3.0-pro \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "community/vendouple/uncensored-image-v2",
-            "label": "community/vendouple/uncensored-image-v2 (T2I)"
         },
         {
             "name": "google/gemini-2.5-flash-image",
@@ -377,6 +385,10 @@
             "label": "anthropic/claude-opus-5.5 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "anthropic/claude-opus-5.5:fast",
+            "label": "anthropic/claude-opus-5.5:fast \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "anthropic/claude-sonnet-4.6",
             "label": "anthropic/claude-sonnet-4.6 \ud83d\udc8e (LLM)"
         },
@@ -390,7 +402,7 @@
         },
         {
             "name": "cohere/command-a-plus",
-            "label": "cohere/command-a-plus (LLM)"
+            "label": "cohere/command-a-plus \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/AkshayCoder48/code-pair",
@@ -427,6 +439,10 @@
         {
             "name": "community/AkshayCoder48/researcher",
             "label": "community/AkshayCoder48/researcher \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/Catniti/agnes-3.0-flash",
+            "label": "community/Catniti/agnes-3.0-flash (LLM)"
         },
         {
             "name": "community/Catniti/catniti-ai-agent",
@@ -505,6 +521,10 @@
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/MarcosFRG/gemma-4-31b",
+            "label": "community/MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/glm-5.3-flash",
             "label": "community/MarcosFRG/glm-5.3-flash (LLM)"
         },
@@ -515,10 +535,6 @@
         {
             "name": "community/MarcosFRG/gpt-5.6-luna:paid",
             "label": "community/MarcosFRG/gpt-5.6-luna:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/gpt-6-astra:paid",
-            "label": "community/MarcosFRG/gpt-6-astra:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/metraxai",
@@ -539,6 +555,10 @@
         {
             "name": "community/Saauf/llama3.1-8B:ultrafast",
             "label": "community/Saauf/llama3.1-8B:ultrafast (LLM)"
+        },
+        {
+            "name": "community/Spit-fires/muse-glimmer",
+            "label": "community/Spit-fires/muse-glimmer (LLM)"
         },
         {
             "name": "community/Takax62/minimax-m3-429b-vml",
@@ -601,10 +621,6 @@
             "label": "community/gggff123/Inkling (LLM)"
         },
         {
-            "name": "community/gggff123/qwen3.8-27b:free",
-            "label": "community/gggff123/qwen3.8-27b:free (LLM)"
-        },
-        {
             "name": "community/gggff123/step-3.7-flash",
             "label": "community/gggff123/step-3.7-flash (LLM)"
         },
@@ -627,6 +643,14 @@
         {
             "name": "community/kreggscode/jev-test-triage",
             "label": "community/kreggscode/jev-test-triage (LLM)"
+        },
+        {
+            "name": "community/mikl-shortcuts/ministral-3",
+            "label": "community/mikl-shortcuts/ministral-3 (LLM)"
+        },
+        {
+            "name": "community/morriszdweck/glm-5.3-flash-free",
+            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.1-pro-preview",
@@ -663,6 +687,10 @@
         {
             "name": "community/samueltargino0567-ux/Gt3",
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
+            "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
@@ -757,6 +785,10 @@
             "label": "community/vendouple/deepseek-v4-pro (LLM)"
         },
         {
+            "name": "community/vendouple/deepseek-v4.1-flash",
+            "label": "community/vendouple/deepseek-v4.1-flash (LLM)"
+        },
+        {
             "name": "community/vendouple/gemini-3.8-flash",
             "label": "community/vendouple/gemini-3.8-flash (LLM)"
         },
@@ -779,6 +811,10 @@
         {
             "name": "community/vendouple/kimi-k3",
             "label": "community/vendouple/kimi-k3 (LLM)"
+        },
+        {
+            "name": "community/vendouple/muse-glimmer-30b:free",
+            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/voodoohop/airforce-doubao-pro",
@@ -814,7 +850,7 @@
         },
         {
             "name": "deepseek/deepseek-v4.1-flash",
-            "label": "deepseek/deepseek-v4.1-flash (LLM)"
+            "label": "deepseek/deepseek-v4.1-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "google/gemini-2.5-flash-lite",
