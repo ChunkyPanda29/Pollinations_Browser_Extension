@@ -65,10 +65,6 @@
             "label": "community/MarcosFRG/flux-schnell:paid \ud83d\udc8e (T2I)"
         },
         {
-            "name": "community/MarcosFRG/lucid-origin",
-            "label": "community/MarcosFRG/lucid-origin (T2I/I2I)"
-        },
-        {
             "name": "community/MarcosFRG/sdxl-lightning",
             "label": "community/MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
@@ -123,10 +119,6 @@
         {
             "name": "community/sharktide/inferenceport-ai-lightning-image-turbo",
             "label": "community/sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
-        },
-        {
-            "name": "community/vendouple/animagine",
-            "label": "community/vendouple/animagine (T2I)"
         },
         {
             "name": "community/vendouple/lucid-origin",
@@ -477,14 +469,6 @@
             "label": "community/Guest453/show-your-work (LLM)"
         },
         {
-            "name": "community/JustScriptzz/glm-5-2",
-            "label": "community/JustScriptzz/glm-5-2 (LLM)"
-        },
-        {
-            "name": "community/JustScriptzz/kimi-k2-7-code",
-            "label": "community/JustScriptzz/kimi-k2-7-code (LLM)"
-        },
-        {
             "name": "community/Lorodn4x/top-tools-ai",
             "label": "community/Lorodn4x/top-tools-ai (LLM)"
         },
@@ -497,8 +481,8 @@
             "label": "community/MarcosFRG/deepseek-v4-flash-0731:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/deepseek-v4.1-flash:paid",
-            "label": "community/MarcosFRG/deepseek-v4.1-flash:paid \ud83d\udc8e (LLM)"
+            "name": "community/MarcosFRG/deepseek-v4.1-flash",
+            "label": "community/MarcosFRG/deepseek-v4.1-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/gemini-3-flash-preview:paid",
@@ -527,6 +511,10 @@
         {
             "name": "community/MarcosFRG/gpt-5.6-luna:paid",
             "label": "community/MarcosFRG/gpt-5.6-luna:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/gpt-6-astra:paid",
+            "label": "community/MarcosFRG/gpt-6-astra:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/metraxai",
@@ -573,16 +561,12 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
-            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
         {
-            "name": "community/ZapGaming/llama3.1-8b-xturbo",
-            "label": "community/ZapGaming/llama3.1-8b-xturbo (LLM)"
+            "name": "community/ZapGaming/gpt-oss-120b-ultrafast",
+            "label": "community/ZapGaming/gpt-oss-120b-ultrafast \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/ZapGaming/mix-router",
@@ -641,6 +625,10 @@
             "label": "community/gggff123/Inkling (LLM)"
         },
         {
+            "name": "community/gggff123/gpt-5-nano",
+            "label": "community/gggff123/gpt-5-nano (LLM)"
+        },
+        {
             "name": "community/gggff123/step-3.7-flash",
             "label": "community/gggff123/step-3.7-flash (LLM)"
         },
@@ -651,6 +639,10 @@
         {
             "name": "community/iotserver24/kimi-k2.7-code-nitro",
             "label": "community/iotserver24/kimi-k2.7-code-nitro (LLM)"
+        },
+        {
+            "name": "community/iotserver24/stealth-code",
+            "label": "community/iotserver24/stealth-code (LLM)"
         },
         {
             "name": "community/iotserver24/supercharge",
@@ -741,16 +733,40 @@
             "label": "community/sharktide/inferenceport-ai-qwen-3.8-27b (LLM)"
         },
         {
-            "name": "community/sharktide/inferenceport.ai-gpt-oss-20b",
-            "label": "community/sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
-        },
-        {
             "name": "community/smplstuff/title-generator",
             "label": "community/smplstuff/title-generator (LLM)"
         },
         {
-            "name": "community/tomdacatto/Humanish-Roleplay-Llama-3.1-8B",
-            "label": "community/tomdacatto/Humanish-Roleplay-Llama-3.1-8B \ud83d\udc8e (LLM)"
+            "name": "community/sonofstrange/deepseek-v4.1-flash",
+            "label": "community/sonofstrange/deepseek-v4.1-flash \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/gemini-3.8-flash",
+            "label": "community/sonofstrange/gemini-3.8-flash \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/gemini-4-argon",
+            "label": "community/sonofstrange/gemini-4-argon \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/glm-5.3",
+            "label": "community/sonofstrange/glm-5.3 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/gpt-6-astra",
+            "label": "community/sonofstrange/gpt-6-astra \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/gpt-6-sol",
+            "label": "community/sonofstrange/gpt-6-sol \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/gpt-6.1-sol",
+            "label": "community/sonofstrange/gpt-6.1-sol \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/grok-4.7",
+            "label": "community/sonofstrange/grok-4.7 \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/tomdacatto/Qwen3.8-Flash-Next",
@@ -781,8 +797,8 @@
             "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/vendouple/deepseek-v3.2",
-            "label": "community/vendouple/deepseek-v3.2 (LLM)"
+            "name": "community/vendouple/deepseek-v4-pro",
+            "label": "community/vendouple/deepseek-v4-pro (LLM)"
         },
         {
             "name": "community/vendouple/gemini-3.8-flash",
@@ -846,7 +862,7 @@
         },
         {
             "name": "deepseek/deepseek-v4.1-flash",
-            "label": "deepseek/deepseek-v4.1-flash \ud83d\udc8e (LLM)"
+            "label": "deepseek/deepseek-v4.1-flash (LLM)"
         },
         {
             "name": "google/gemini-2.5-flash-lite",
