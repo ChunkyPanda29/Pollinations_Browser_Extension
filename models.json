@@ -113,6 +113,10 @@
             "label": "community/sharktide/inferenceport-ai-lightning-image-turbo (T2I/I2I)"
         },
         {
+            "name": "community/tomdacatto/gpt-image-2.5-flare",
+            "label": "community/tomdacatto/gpt-image-2.5-flare (T2I/I2I)"
+        },
+        {
             "name": "community/vendouple/lucid-origin",
             "label": "community/vendouple/lucid-origin (T2I)"
         },
@@ -561,6 +565,10 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
+            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -763,10 +771,6 @@
         {
             "name": "community/sonofstrange/grok-4.7",
             "label": "community/sonofstrange/grok-4.7 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/sonofstrange/qwen3.8-flash",
-            "label": "community/sonofstrange/qwen3.8-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/tomdacatto/gemini-3-8-flash",
