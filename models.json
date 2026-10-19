@@ -13,6 +13,10 @@
             "label": "black-forest-labs/flux-3-image \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "black-forest-labs/flux-3-image-klein",
+            "label": "black-forest-labs/flux-3-image-klein \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "black-forest-labs/flux.1-kontext-pro",
             "label": "black-forest-labs/flux.1-kontext-pro (T2I/I2I)"
         },
@@ -65,6 +69,14 @@
             "label": "community/MarcosFRG/flux-schnell:paid \ud83d\udc8e (T2I)"
         },
         {
+            "name": "community/MarcosFRG/lucid-origin:paid",
+            "label": "community/MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "community/MarcosFRG/phoenix-1.0:paid",
+            "label": "community/MarcosFRG/phoenix-1.0:paid \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "community/MarcosFRG/sdxl-lightning",
             "label": "community/MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
@@ -115,6 +127,14 @@
         {
             "name": "community/tomdacatto/gpt-image-2.5-flare",
             "label": "community/tomdacatto/gpt-image-2.5-flare (T2I/I2I)"
+        },
+        {
+            "name": "community/tomdacatto/gpt-image-2.5-sunburst",
+            "label": "community/tomdacatto/gpt-image-2.5-sunburst (T2I/I2I)"
+        },
+        {
+            "name": "community/vendouple/anima",
+            "label": "community/vendouple/anima \ud83d\udc8e (T2I)"
         },
         {
             "name": "community/vendouple/lucid-origin",
@@ -303,6 +323,10 @@
             "label": "kandinskylab/kandinsky-6.0-lite \ud83d\udc8e (T2V/I2V)"
         },
         {
+            "name": "kwaivgi/kling-v3.0-std",
+            "label": "kwaivgi/kling-v3.0-std \ud83d\udc8e (T2V/I2V)"
+        },
+        {
             "name": "minimax/minimax-h3",
             "label": "minimax/minimax-h3 \ud83d\udc8e (T2V)"
         },
@@ -425,6 +449,10 @@
             "label": "community/Catniti/catniti-ai-agent (LLM)"
         },
         {
+            "name": "community/Catniti/glm-5.3-flash",
+            "label": "community/Catniti/glm-5.3-flash (LLM)"
+        },
+        {
             "name": "community/Catniti/muse-glimmer-30b",
             "label": "community/Catniti/muse-glimmer-30b (LLM)"
         },
@@ -489,20 +517,8 @@
             "label": "community/MarcosFRG/gemini-3-flash-preview:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemini-3.1-flash-lite",
-            "label": "community/MarcosFRG/gemini-3.1-flash-lite (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/gemma-4-26b-a4b:paid",
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/gemma-4-31b",
-            "label": "community/MarcosFRG/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/glm-4.6v-flash",
-            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -541,10 +557,6 @@
             "label": "community/MarcosFRG/qwen3.8-flash:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/Saauf/glm-5.3",
-            "label": "community/Saauf/glm-5.3 (LLM)"
-        },
-        {
             "name": "community/Saauf/glm-5.3-flash",
             "label": "community/Saauf/glm-5.3-flash (LLM)"
         },
@@ -565,16 +577,8 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
-            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
-        },
-        {
-            "name": "community/ZapGaming/mix-router",
-            "label": "community/ZapGaming/mix-router (LLM)"
         },
         {
             "name": "community/afanasevmylife/gazette",
@@ -641,20 +645,12 @@
             "label": "community/immature-yt/alara-nova-1 (LLM)"
         },
         {
-            "name": "community/iotserver24/kimi-k2.7-code-nitro",
-            "label": "community/iotserver24/kimi-k2.7-code-nitro (LLM)"
-        },
-        {
             "name": "community/iotserver24/supercharge",
             "label": "community/iotserver24/supercharge (LLM)"
         },
         {
             "name": "community/kreggscode/jev-test-triage",
             "label": "community/kreggscode/jev-test-triage (LLM)"
-        },
-        {
-            "name": "community/morriszdweck/glm-5.3-flash-free",
-            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.1-pro-preview",
@@ -693,8 +689,16 @@
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
+            "name": "community/scriptsnsenses-sys/deepseek-v4-flash-0731",
+            "label": "community/scriptsnsenses-sys/deepseek-v4-flash-0731 (LLM)"
+        },
+        {
             "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
             "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
+            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
@@ -707,6 +711,10 @@
         {
             "name": "community/sharktide/inferenceport-ai-gemini-2.5-flash",
             "label": "community/sharktide/inferenceport-ai-gemini-2.5-flash (LLM)"
+        },
+        {
+            "name": "community/sharktide/inferenceport-ai-kimi-k2.7-code",
+            "label": "community/sharktide/inferenceport-ai-kimi-k2.7-code \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/sharktide/inferenceport-ai-kimi-k2.7-code-deep-logician",
@@ -739,6 +747,10 @@
         {
             "name": "community/smplstuff/title-generator",
             "label": "community/smplstuff/title-generator (LLM)"
+        },
+        {
+            "name": "community/sonofstrange/claude-sonnet-5-5",
+            "label": "community/sonofstrange/claude-sonnet-5-5 (LLM)"
         },
         {
             "name": "community/sonofstrange/deepseek-v4.1-flash",
@@ -777,16 +789,16 @@
             "label": "community/tomdacatto/gemini-3-8-flash \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/tomdacatto/gemma-4-31B-it-uncensored",
-            "label": "community/tomdacatto/gemma-4-31B-it-uncensored \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "community/tomdacatto/gotcha-scout",
             "label": "community/tomdacatto/gotcha-scout (LLM)"
         },
         {
             "name": "community/tomdacatto/llama-3.1-8B",
             "label": "community/tomdacatto/llama-3.1-8B (LLM)"
+        },
+        {
+            "name": "community/tomdacatto/qwen-3.8-27B-fast",
+            "label": "community/tomdacatto/qwen-3.8-27B-fast (LLM)"
         },
         {
             "name": "community/tomdacatto/tiered-health-router",
@@ -821,8 +833,12 @@
             "label": "community/vendouple/glm-5.3 (LLM)"
         },
         {
-            "name": "community/vendouple/glm-5.3-flash",
-            "label": "community/vendouple/glm-5.3-flash (LLM)"
+            "name": "community/vendouple/gpt-6-luna",
+            "label": "community/vendouple/gpt-6-luna (LLM)"
+        },
+        {
+            "name": "community/vendouple/gpt-6-luna:stable",
+            "label": "community/vendouple/gpt-6-luna:stable \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/vendouple/gpt-6-sol:stable",
@@ -833,12 +849,16 @@
             "label": "community/vendouple/gpt-6.1-sol:stable \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/vendouple/qwen-3.8-max",
-            "label": "community/vendouple/qwen-3.8-max (LLM)"
+            "name": "community/vendouple/kimi-k3",
+            "label": "community/vendouple/kimi-k3 (LLM)"
         },
         {
-            "name": "community/voodoohop/airforce-doubao-pro",
-            "label": "community/voodoohop/airforce-doubao-pro (LLM)"
+            "name": "community/vendouple/muse-glimmer-30b:free",
+            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "community/vendouple/qwen-3.8-max",
+            "label": "community/vendouple/qwen-3.8-max (LLM)"
         },
         {
             "name": "community/voodoohop/catgpt-comic",
@@ -867,6 +887,10 @@
         {
             "name": "deepseek/deepseek-v4.1-flash",
             "label": "deepseek/deepseek-v4.1-flash (LLM)"
+        },
+        {
+            "name": "deepseek/deepseek-v4.1-flash-1017",
+            "label": "deepseek/deepseek-v4.1-flash-1017 \ud83d\udc8e (LLM)"
         },
         {
             "name": "google/gemini-2.5-flash-lite",
