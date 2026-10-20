@@ -93,10 +93,6 @@
             "label": "community/chigwell/gpt-image-2 \ud83d\udc8e (T2I)"
         },
         {
-            "name": "community/chigwell/gpt-image-2.5",
-            "label": "community/chigwell/gpt-image-2.5 \ud83d\udc8e (T2I)"
-        },
-        {
             "name": "community/rekty/rekty-dev-3",
             "label": "community/rekty/rekty-dev-3 \ud83d\udc8e (T2I/I2I)"
         },
@@ -589,10 +585,6 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
-            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
-            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -735,6 +727,10 @@
         {
             "name": "community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone",
             "label": "community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone",
+            "label": "community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/sharktide/inferenceport-ai-gemini-2.5-flash",
