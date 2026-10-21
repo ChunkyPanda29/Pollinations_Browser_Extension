@@ -885,10 +885,6 @@
             "label": "community/sonofstrange/gpt-6-sol \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/sonofstrange/gpt-6.1-sol",
-            "label": "community/sonofstrange/gpt-6.1-sol \ud83d\udc8e (LLM)"
-        },
-        {
             "name": "community/sonofstrange/grok-4.7",
             "label": "community/sonofstrange/grok-4.7 \ud83d\udc8e (LLM)"
         },
