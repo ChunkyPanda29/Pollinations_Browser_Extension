@@ -589,8 +589,8 @@
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
-            "name": "community/YoannDev90/muse-glimmer-30b:free",
-            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
+            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
+            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -691,6 +691,10 @@
         {
             "name": "community/kreggscode/jev-test-triage",
             "label": "community/kreggscode/jev-test-triage (LLM)"
+        },
+        {
+            "name": "community/morriszdweck/glm-5.3-flash-free",
+            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/pegalink/gemini-3.1-pro-preview",
