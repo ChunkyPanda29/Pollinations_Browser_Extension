@@ -505,10 +505,6 @@
             "label": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free (LLM)"
         },
         {
-            "name": "community/CloudCompile/poolside-laguna-s-2.1:free",
-            "label": "community/CloudCompile/poolside-laguna-s-2.1:free (LLM)"
-        },
-        {
             "name": "community/CloudCompile/recursive-flint-v1.0:free",
             "label": "community/CloudCompile/recursive-flint-v1.0:free (LLM)"
         },
@@ -559,10 +555,6 @@
         {
             "name": "community/MarcosFRG/gemma-4-31b",
             "label": "community/MarcosFRG/gemma-4-31b (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/glm-4.6v-flash",
-            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3",
