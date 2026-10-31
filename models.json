@@ -645,6 +645,10 @@
             "label": "community/Saauf/muse-glimmer-30b (LLM)"
         },
         {
+            "name": "community/YoannDev90/muse-glimmer-30b:free",
+            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -763,10 +767,6 @@
         {
             "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
             "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
-        },
-        {
-            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
-            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
