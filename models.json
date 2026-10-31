@@ -541,8 +541,8 @@
             "label": "community/Guest453/show-your-work (LLM)"
         },
         {
-            "name": "community/MarcosFRG/deepseek-v4.1-flash-1017",
-            "label": "community/MarcosFRG/deepseek-v4.1-flash-1017 (LLM)"
+            "name": "community/MarcosFRG/deepseek-v4.1-flash-1017:paid",
+            "label": "community/MarcosFRG/deepseek-v4.1-flash-1017:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/gemini-3-flash-preview:paid",
@@ -553,8 +553,16 @@
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/MarcosFRG/gemma-4-31b",
+            "label": "community/MarcosFRG/gemma-4-31b (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/glm-4.6v-flash",
+            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -635,14 +643,6 @@
         {
             "name": "community/Saauf/muse-glimmer-30b",
             "label": "community/Saauf/muse-glimmer-30b (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/muse-glimmer-30b:free",
-            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/poolside-laguna-s-2.1:free",
-            "label": "community/YoannDev90/poolside-laguna-s-2.1:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -737,10 +737,6 @@
             "label": "community/kreggscode/jev-test-triage (LLM)"
         },
         {
-            "name": "community/mikl-shortcuts/ministral-3",
-            "label": "community/mikl-shortcuts/ministral-3 (LLM)"
-        },
-        {
             "name": "community/morriszdweck/glm-5.3-flash-free",
             "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
         },
@@ -765,8 +761,8 @@
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
-            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
+            "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
+            "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
         },
         {
             "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
@@ -815,10 +811,6 @@
         {
             "name": "community/sharktide/inferenceport-ai-qwen-3.8-27b",
             "label": "community/sharktide/inferenceport-ai-qwen-3.8-27b \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/sharktide/inferenceport.ai-gpt-oss-20b",
-            "label": "community/sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
         },
         {
             "name": "community/smplstuff/title-generator",
@@ -923,6 +915,10 @@
         {
             "name": "community/vendouple/gpt-6.1-sol:stable",
             "label": "community/vendouple/gpt-6.1-sol:stable \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/vendouple/muse-glimmer-30b:free",
+            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/voodoohop/catgpt-comic",
