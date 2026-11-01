@@ -1458,6 +1458,16 @@
             "voices": []
         },
         {
+            "name": "community/Saauf/whisper-large-v3",
+            "label": "community/Saauf/whisper-large-v3 (Audio)",
+            "voices": []
+        },
+        {
+            "name": "community/Saauf/whisper-large-v3-turbo",
+            "label": "community/Saauf/whisper-large-v3-turbo (Audio)",
+            "voices": []
+        },
+        {
             "name": "elevenlabs/eleven-flash-v2.5",
             "label": "elevenlabs/eleven-flash-v2.5 \ud83d\udc8e (Audio)",
             "voices": [
