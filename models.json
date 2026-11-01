@@ -73,10 +73,6 @@
             "label": "community/MarcosFRG/lucid-origin (T2I/I2I)"
         },
         {
-            "name": "community/MarcosFRG/lucid-origin:paid",
-            "label": "community/MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
-        },
-        {
             "name": "community/MarcosFRG/phoenix-1.0",
             "label": "community/MarcosFRG/phoenix-1.0 (T2I/I2I)"
         },
@@ -89,8 +85,20 @@
             "label": "community/MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
         {
+            "name": "community/Saauf/flux-2-klein-4b",
+            "label": "community/Saauf/flux-2-klein-4b \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "community/Saauf/flux-2-klein-9b",
+            "label": "community/Saauf/flux-2-klein-9b \ud83d\udc8e (T2I)"
+        },
+        {
             "name": "community/Saauf/grok-imagine-image",
             "label": "community/Saauf/grok-imagine-image \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "community/Saauf/recraft-v4.1-flash",
+            "label": "community/Saauf/recraft-v4.1-flash (T2I)"
         },
         {
             "name": "community/Saauf/seedream-5.0-lite",
@@ -501,10 +509,6 @@
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
         },
         {
-            "name": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free",
-            "label": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free (LLM)"
-        },
-        {
             "name": "community/CloudCompile/reflection-beam-free",
             "label": "community/CloudCompile/reflection-beam-free (LLM)"
         },
@@ -541,6 +545,10 @@
             "label": "community/Guest453/show-your-work (LLM)"
         },
         {
+            "name": "community/Lorodn4x/ps5-beta",
+            "label": "community/Lorodn4x/ps5-beta (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/deepseek-v4.1-flash-1017:paid",
             "label": "community/MarcosFRG/deepseek-v4.1-flash-1017:paid \ud83d\udc8e (LLM)"
         },
@@ -553,24 +561,16 @@
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemma-4-31b",
-            "label": "community/MarcosFRG/gemma-4-31b (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/glm-4.6v-flash",
-            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
             "label": "community/MarcosFRG/glm-5.3-flash (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gpt-5.6-luna:paid",
-            "label": "community/MarcosFRG/gpt-5.6-luna:paid \ud83d\udc8e (LLM)"
+            "name": "community/MarcosFRG/glm-5.3:paid",
+            "label": "community/MarcosFRG/glm-5.3:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/metraxai",
@@ -579,10 +579,6 @@
         {
             "name": "community/MarcosFRG/minimax-m3:paid",
             "label": "community/MarcosFRG/minimax-m3:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/nemotron-3.5-lightning:paid",
-            "label": "community/MarcosFRG/nemotron-3.5-lightning:paid \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/MarcosFRG/qwen3.8-27b:paid",
@@ -637,12 +633,36 @@
             "label": "community/Marcus-Mok-GH/pt-tidepool (LLM)"
         },
         {
+            "name": "community/Saauf/laguna-xs-2.1",
+            "label": "community/Saauf/laguna-xs-2.1 (LLM)"
+        },
+        {
             "name": "community/Saauf/llama3.1-8B:ultrafast",
             "label": "community/Saauf/llama3.1-8B:ultrafast (LLM)"
         },
         {
             "name": "community/Saauf/muse-glimmer-30b",
             "label": "community/Saauf/muse-glimmer-30b (LLM)"
+        },
+        {
+            "name": "community/Saauf/nemotron-3-nano-omni",
+            "label": "community/Saauf/nemotron-3-nano-omni (LLM)"
+        },
+        {
+            "name": "community/Saauf/nemotron-3-ultra",
+            "label": "community/Saauf/nemotron-3-ultra (LLM)"
+        },
+        {
+            "name": "community/Saauf/nemotron-3.5-bolt",
+            "label": "community/Saauf/nemotron-3.5-bolt (LLM)"
+        },
+        {
+            "name": "community/Saauf/nemotron-3.5-lightning",
+            "label": "community/Saauf/nemotron-3.5-lightning (LLM)"
+        },
+        {
+            "name": "community/Saauf/step-5-preview",
+            "label": "community/Saauf/step-5-preview (LLM)"
         },
         {
             "name": "community/YoannDev90/muse-glimmer-30b:free",
@@ -717,6 +737,10 @@
             "label": "community/fadyabohamza-netizen/frugal (LLM)"
         },
         {
+            "name": "community/gggff123/Glm-5.3",
+            "label": "community/gggff123/Glm-5.3 (LLM)"
+        },
+        {
             "name": "community/gggff123/Inkling",
             "label": "community/gggff123/Inkling (LLM)"
         },
@@ -727,10 +751,6 @@
         {
             "name": "community/gggff123/step-3.7-flash",
             "label": "community/gggff123/step-3.7-flash (LLM)"
-        },
-        {
-            "name": "community/immature-yt/alara-nova-1",
-            "label": "community/immature-yt/alara-nova-1 (LLM)"
         },
         {
             "name": "community/iotserver24/supercharge",
@@ -765,8 +785,12 @@
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
-            "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
+            "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
+            "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
+            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
@@ -853,6 +877,14 @@
             "label": "community/tomdacatto/gotcha-scout (LLM)"
         },
         {
+            "name": "community/tomdacatto/llama-3.1-8B",
+            "label": "community/tomdacatto/llama-3.1-8B (LLM)"
+        },
+        {
+            "name": "community/tomdacatto/qwen-3.8-27B-fast",
+            "label": "community/tomdacatto/qwen-3.8-27B-fast (LLM)"
+        },
+        {
             "name": "community/tomdacatto/tiered-health-router",
             "label": "community/tomdacatto/tiered-health-router (LLM)"
         },
@@ -919,6 +951,10 @@
         {
             "name": "community/vendouple/muse-glimmer-30b:free",
             "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
+        },
+        {
+            "name": "community/vendouple/qwen-3.8-max",
+            "label": "community/vendouple/qwen-3.8-max (LLM)"
         },
         {
             "name": "community/voodoohop/catgpt-comic",
