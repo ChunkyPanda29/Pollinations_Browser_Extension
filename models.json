@@ -669,10 +669,6 @@
             "label": "community/Saauf/llama3.1-8B:ultrafast (LLM)"
         },
         {
-            "name": "community/Saauf/mistral-large-4",
-            "label": "community/Saauf/mistral-large-4 (LLM)"
-        },
-        {
             "name": "community/Saauf/muse-glimmer-30b",
             "label": "community/Saauf/muse-glimmer-30b (LLM)"
         },
