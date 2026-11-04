@@ -77,10 +77,6 @@
             "label": "community/MarcosFRG/phoenix-1.0 (T2I/I2I)"
         },
         {
-            "name": "community/MarcosFRG/phoenix-1.0:paid",
-            "label": "community/MarcosFRG/phoenix-1.0:paid \ud83d\udc8e (T2I/I2I)"
-        },
-        {
             "name": "community/MarcosFRG/sdxl-lightning",
             "label": "community/MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
@@ -179,6 +175,10 @@
         {
             "name": "community/tomdacatto/gpt-image-2.5-flare",
             "label": "community/tomdacatto/gpt-image-2.5-flare (T2I/I2I)"
+        },
+        {
+            "name": "community/tomdacatto/gpt-image-2.5-sunburst",
+            "label": "community/tomdacatto/gpt-image-2.5-sunburst (T2I/I2I)"
         },
         {
             "name": "community/vendouple/anima",
@@ -505,12 +505,16 @@
             "label": "community/Catniti/catniti-ai-agent (LLM)"
         },
         {
-            "name": "community/Catniti/glm-5.3-flash",
-            "label": "community/Catniti/glm-5.3-flash (LLM)"
+            "name": "community/Catniti/command-a-plus",
+            "label": "community/Catniti/command-a-plus (LLM)"
         },
         {
-            "name": "community/Catniti/minimax-m3.1-flash",
-            "label": "community/Catniti/minimax-m3.1-flash (LLM)"
+            "name": "community/Catniti/gemini-3.8-flash",
+            "label": "community/Catniti/gemini-3.8-flash (LLM)"
+        },
+        {
+            "name": "community/Catniti/glm-5.3-flash",
+            "label": "community/Catniti/glm-5.3-flash (LLM)"
         },
         {
             "name": "community/Catniti/muse-glimmer-30b",
@@ -519,6 +523,10 @@
         {
             "name": "community/Catniti/nemotron-3.5-lightning",
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
+        },
+        {
+            "name": "community/Catniti/north-mini-code",
+            "label": "community/Catniti/north-mini-code (LLM)"
         },
         {
             "name": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free",
@@ -581,10 +589,6 @@
             "label": "community/MarcosFRG/gemini-3-flash-preview:paid \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/MarcosFRG/gemini-3.1-flash-lite",
-            "label": "community/MarcosFRG/gemini-3.1-flash-lite (LLM)"
-        },
-        {
             "name": "community/MarcosFRG/gemma-4-26b-a4b:paid",
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
         },
@@ -595,6 +599,10 @@
         {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/glm-4.6v-flash",
+            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -657,6 +665,10 @@
             "label": "community/Marcus-Mok-GH/pt-tidepool (LLM)"
         },
         {
+            "name": "community/Saauf/glm-5.3-flash",
+            "label": "community/Saauf/glm-5.3-flash (LLM)"
+        },
+        {
             "name": "community/Saauf/grok-4.20-fast",
             "label": "community/Saauf/grok-4.20-fast (LLM)"
         },
@@ -667,6 +679,10 @@
         {
             "name": "community/Saauf/llama3.1-8B:ultrafast",
             "label": "community/Saauf/llama3.1-8B:ultrafast (LLM)"
+        },
+        {
+            "name": "community/Saauf/mistral-large-4",
+            "label": "community/Saauf/mistral-large-4 (LLM)"
         },
         {
             "name": "community/Saauf/muse-glimmer-30b",
@@ -721,10 +737,6 @@
             "label": "community/ZapGaming/gpt-oss-120b-ultrafast \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/ZapGaming/zandy-tempest",
-            "label": "community/ZapGaming/zandy-tempest (LLM)"
-        },
-        {
             "name": "community/afanasevmylife/gazette",
             "label": "community/afanasevmylife/gazette (LLM)"
         },
@@ -757,10 +769,6 @@
             "label": "community/chigwell/gemini-4-argon \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/chirag-gamer/gpt-oss-120b",
-            "label": "community/chirag-gamer/gpt-oss-120b (LLM)"
-        },
-        {
             "name": "community/danhquach/bug-report-writer",
             "label": "community/danhquach/bug-report-writer (LLM)"
         },
@@ -773,6 +781,10 @@
             "label": "community/fadyabohamza-netizen/frugal (LLM)"
         },
         {
+            "name": "community/gggff123/Glm-5.3",
+            "label": "community/gggff123/Glm-5.3 (LLM)"
+        },
+        {
             "name": "community/gggff123/Inkling",
             "label": "community/gggff123/Inkling (LLM)"
         },
@@ -783,6 +795,10 @@
         {
             "name": "community/gggff123/step-3.7-flash",
             "label": "community/gggff123/step-3.7-flash (LLM)"
+        },
+        {
+            "name": "community/immature-yt/alara-nova-1",
+            "label": "community/immature-yt/alara-nova-1 (LLM)"
         },
         {
             "name": "community/iotserver24/supercharge",
@@ -825,12 +841,12 @@
             "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
-            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
+            "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
+            "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
-            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
+            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
+            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
@@ -941,16 +957,12 @@
             "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/vendouple/deepseek-v3.2",
-            "label": "community/vendouple/deepseek-v3.2 (LLM)"
+            "name": "community/vendouple/deepseek-v4.1-flash",
+            "label": "community/vendouple/deepseek-v4.1-flash (LLM)"
         },
         {
-            "name": "community/vendouple/deepseek-v4-flash",
-            "label": "community/vendouple/deepseek-v4-flash (LLM)"
-        },
-        {
-            "name": "community/vendouple/gemini-3.8-flash",
-            "label": "community/vendouple/gemini-3.8-flash (LLM)"
+            "name": "community/vendouple/glm-5.3-flash",
+            "label": "community/vendouple/glm-5.3-flash (LLM)"
         },
         {
             "name": "community/vendouple/gpt-6-luna:stable",
@@ -1165,6 +1177,10 @@
             "label": "minimax/minimax-m3 (LLM)"
         },
         {
+            "name": "minimax/minimax-m3.1-flash",
+            "label": "minimax/minimax-m3.1-flash (LLM)"
+        },
+        {
             "name": "mistralai/mistral-large-3",
             "label": "mistralai/mistral-large-3 (LLM)"
         },
@@ -1191,6 +1207,14 @@
         {
             "name": "moonshotai/kimi-k3",
             "label": "moonshotai/kimi-k3 (LLM)"
+        },
+        {
+            "name": "moonshotai/kimi-k3.1-pro",
+            "label": "moonshotai/kimi-k3.1-pro \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "moonshotai/kimi-k3.1-pro-highspeed",
+            "label": "moonshotai/kimi-k3.1-pro-highspeed \ud83d\udc8e (LLM)"
         },
         {
             "name": "nex-agi/nex-n2.5-mini",
@@ -1397,8 +1421,8 @@
             "label": "thinkingmachines/inkling-small \ud83d\udc8e (LLM)"
         },
         {
-            "name": "typesafe/jev-1.13",
-            "label": "typesafe/jev-1.13 \ud83d\udc8e (LLM)"
+            "name": "typesafe/jev-1.14",
+            "label": "typesafe/jev-1.14 \ud83d\udc8e (LLM)"
         },
         {
             "name": "vllm-sr/d3",
