@@ -817,6 +817,10 @@
             "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
         {
+            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
+            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
+        },
+        {
             "name": "community/sharktide/3D-agent",
             "label": "community/sharktide/3D-agent (LLM)"
         },
@@ -919,6 +923,10 @@
         {
             "name": "community/vendouple/claude-sonnet-5.5:stable",
             "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/vendouple/deepseek-v4-flash",
+            "label": "community/vendouple/deepseek-v4-flash (LLM)"
         },
         {
             "name": "community/vendouple/deepseek-v4.1-flash",
