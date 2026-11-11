@@ -73,6 +73,10 @@
             "label": "community/MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
         },
         {
+            "name": "community/MarcosFRG/phoenix-1.0:paid",
+            "label": "community/MarcosFRG/phoenix-1.0:paid \ud83d\udc8e (T2I/I2I)"
+        },
+        {
             "name": "community/MarcosFRG/sdxl-lightning",
             "label": "community/MarcosFRG/sdxl-lightning (T2I/I2I)"
         },
@@ -145,10 +149,6 @@
             "label": "community/scriptsnsenses-sys/sdxl-lightning-free (T2I/I2I)"
         },
         {
-            "name": "community/sharktide/gpt-image-2.5-flare-input-cheap",
-            "label": "community/sharktide/gpt-image-2.5-flare-input-cheap \ud83d\udc8e (T2I/I2I)"
-        },
-        {
             "name": "community/sharktide/gpt-image-2.5-sunburst-input-cheap",
             "label": "community/sharktide/gpt-image-2.5-sunburst-input-cheap \ud83d\udc8e (T2I/I2I)"
         },
@@ -171,6 +171,10 @@
         {
             "name": "community/sharktide/inferenceport-ai-lightning-image-plus",
             "label": "community/sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
+        },
+        {
+            "name": "community/tomdacatto/nano-banana-pro",
+            "label": "community/tomdacatto/nano-banana-pro (T2I)"
         },
         {
             "name": "community/vendouple/anima",
@@ -235,10 +239,6 @@
         {
             "name": "krea/krea-2-medium",
             "label": "krea/krea-2-medium \ud83d\udc8e (T2I)"
-        },
-        {
-            "name": "lykon/dreamshaper-8-lcm",
-            "label": "lykon/dreamshaper-8-lcm (T2I)"
         },
         {
             "name": "microsoft/mai-image-2.6",
@@ -541,10 +541,6 @@
             "label": "community/Catniti/nemotron-3.5-lightning (LLM)"
         },
         {
-            "name": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free",
-            "label": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free (LLM)"
-        },
-        {
             "name": "community/Creatneworld/catgpt-comic",
             "label": "community/Creatneworld/catgpt-comic \ud83d\udc8e (LLM)"
         },
@@ -577,14 +573,6 @@
             "label": "community/Guest453/show-your-work (LLM)"
         },
         {
-            "name": "community/JustScriptzz/gemini-4-argon",
-            "label": "community/JustScriptzz/gemini-4-argon (LLM)"
-        },
-        {
-            "name": "community/JustScriptzz/gpt-5.6-terra",
-            "label": "community/JustScriptzz/gpt-5.6-terra (LLM)"
-        },
-        {
             "name": "community/Lorodn4x/ps5-beta",
             "label": "community/Lorodn4x/ps5-beta (LLM)"
         },
@@ -599,6 +587,10 @@
         {
             "name": "community/MarcosFRG/gemma-4-26b-a4b:paid",
             "label": "community/MarcosFRG/gemma-4-26b-a4b:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/glm-4.6v-flash",
+            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -685,10 +677,6 @@
             "label": "community/Saauf/minimax-m3.1-flash (LLM)"
         },
         {
-            "name": "community/Saauf/mistral-large-4",
-            "label": "community/Saauf/mistral-large-4 (LLM)"
-        },
-        {
             "name": "community/Saauf/muse-glimmer-30b",
             "label": "community/Saauf/muse-glimmer-30b (LLM)"
         },
@@ -715,14 +703,6 @@
         {
             "name": "community/Takax62/minimax-m3-429b-vml",
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/muse-glimmer-30b:free",
-            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
-        },
-        {
-            "name": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free",
-            "label": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free (LLM)"
         },
         {
             "name": "community/YoannDev90/qwen3.7-flash",
@@ -773,6 +753,10 @@
             "label": "community/chigwell/gemini-4-argon \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/chigwell/gemini-4-carbon",
+            "label": "community/chigwell/gemini-4-carbon \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/chigwell/gpt-6.1-sol",
             "label": "community/chigwell/gpt-6.1-sol \ud83d\udc8e (LLM)"
         },
@@ -821,8 +805,24 @@
             "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
         },
         {
+            "name": "community/patbing/tower-researcher",
+            "label": "community/patbing/tower-researcher (LLM)"
+        },
+        {
+            "name": "community/patbing/tower-reviewer",
+            "label": "community/patbing/tower-reviewer (LLM)"
+        },
+        {
+            "name": "community/patbing/tower-writer",
+            "label": "community/patbing/tower-writer (LLM)"
+        },
+        {
             "name": "community/pegalink/hy4-preview-coding",
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/pegalink/sensenova-6.8-flash-lite",
+            "label": "community/pegalink/sensenova-6.8-flash-lite (LLM)"
         },
         {
             "name": "community/pollinations-ai/floret",
@@ -837,12 +837,56 @@
             "label": "community/pollinations-ai/polli (LLM)"
         },
         {
+            "name": "community/rekty/towers-atlas-freight",
+            "label": "community/rekty/towers-atlas-freight \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-foundry-legal",
+            "label": "community/rekty/towers-foundry-legal \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-helios-grid",
+            "label": "community/rekty/towers-helios-grid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-kite-fulfilment",
+            "label": "community/rekty/towers-kite-fulfilment \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-lumen-health",
+            "label": "community/rekty/towers-lumen-health \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-neon-games-studio",
+            "label": "community/rekty/towers-neon-games-studio \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-orbit-education",
+            "label": "community/rekty/towers-orbit-education \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-prism-media",
+            "label": "community/rekty/towers-prism-media \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-quill-co",
+            "label": "community/rekty/towers-quill-co \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-sky-brew-labs",
+            "label": "community/rekty/towers-sky-brew-labs \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/rekty/towers-verdant-analytics",
+            "label": "community/rekty/towers-verdant-analytics \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/samueltargino0567-ux/Gt3",
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
-            "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
+            "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
+            "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
         {
             "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
@@ -895,10 +939,6 @@
         {
             "name": "community/tomdacatto/Humanish-Roleplay-Llama-3.1-8B",
             "label": "community/tomdacatto/Humanish-Roleplay-Llama-3.1-8B \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/Qwen3.8-27B-Uncensored",
-            "label": "community/tomdacatto/Qwen3.8-27B-Uncensored \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/tomdacatto/Qwen3.8-Flash-Next",
@@ -965,6 +1005,14 @@
             "label": "community/vendouple/deepseek-v4.1-flash-1017 (LLM)"
         },
         {
+            "name": "community/vendouple/gemini-3.8-flash",
+            "label": "community/vendouple/gemini-3.8-flash (LLM)"
+        },
+        {
+            "name": "community/vendouple/glm-5.3",
+            "label": "community/vendouple/glm-5.3 (LLM)"
+        },
+        {
             "name": "community/vendouple/gpt-6-luna:stable",
             "label": "community/vendouple/gpt-6-luna:stable \ud83d\udc8e (LLM)"
         },
@@ -975,10 +1023,6 @@
         {
             "name": "community/vendouple/gpt-6.1-sol:stable",
             "label": "community/vendouple/gpt-6.1-sol:stable \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/vendouple/muse-glimmer-30b:free",
-            "label": "community/vendouple/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/voodoohop/catgpt-comic",
@@ -1498,11 +1542,6 @@
             "voices": []
         },
         {
-            "name": "community/Saauf/whisper-large-v3",
-            "label": "community/Saauf/whisper-large-v3 (Audio)",
-            "voices": []
-        },
-        {
             "name": "community/Saauf/whisper-large-v3-turbo",
             "label": "community/Saauf/whisper-large-v3-turbo (Audio)",
             "voices": []
@@ -1633,6 +1672,11 @@
         {
             "name": "elevenlabs/eleven-text-to-sound-v2",
             "label": "elevenlabs/eleven-text-to-sound-v2 \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "elevenlabs/eleven-text-to-sound-v3",
+            "label": "elevenlabs/eleven-text-to-sound-v3 \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
@@ -1812,6 +1856,11 @@
         {
             "name": "elevenlabs/scribe-v2",
             "label": "elevenlabs/scribe-v2 \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "elevenlabs/scribe-v3",
+            "label": "elevenlabs/scribe-v3 \ud83d\udc8e (Audio)",
             "voices": []
         },
         {
