@@ -713,6 +713,10 @@
             "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
+            "name": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free",
+            "label": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
@@ -883,6 +887,10 @@
         {
             "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
             "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
+            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
