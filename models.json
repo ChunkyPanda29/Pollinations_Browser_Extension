@@ -105,10 +105,6 @@
             "label": "community/chigwell/gemini-3.0-pro-image \ud83d\udc8e (T2I)"
         },
         {
-            "name": "community/chigwell/gemini-3.1-flash-image",
-            "label": "community/chigwell/gemini-3.1-flash-image \ud83d\udc8e (T2I)"
-        },
-        {
             "name": "community/chigwell/gemini-nano-banana-2.1",
             "label": "community/chigwell/gemini-nano-banana-2.1 \ud83d\udc8e (T2I)"
         },
@@ -173,28 +169,12 @@
             "label": "community/sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
         },
         {
-            "name": "community/tomdacatto/nano-banana-pro",
-            "label": "community/tomdacatto/nano-banana-pro (T2I)"
-        },
-        {
             "name": "community/vendouple/anima",
             "label": "community/vendouple/anima \ud83d\udc8e (T2I)"
         },
         {
-            "name": "community/vendouple/animagine",
-            "label": "community/vendouple/animagine (T2I)"
-        },
-        {
             "name": "community/vendouple/lucid-origin",
             "label": "community/vendouple/lucid-origin (T2I)"
-        },
-        {
-            "name": "community/vendouple/luma-photon-1",
-            "label": "community/vendouple/luma-photon-1 (T2I)"
-        },
-        {
-            "name": "community/vendouple/nano-banana-pro",
-            "label": "community/vendouple/nano-banana-pro (T2I)"
         },
         {
             "name": "community/vendouple/qwen-image-3.0-pro",
@@ -521,6 +501,10 @@
             "label": "community/AkshayCoder48/researcher \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/Bakhshi7889/step-5-preview",
+            "label": "community/Bakhshi7889/step-5-preview (LLM)"
+        },
+        {
             "name": "community/Catniti/agnes-3.0-flash",
             "label": "community/Catniti/agnes-3.0-flash (LLM)"
         },
@@ -533,16 +517,8 @@
             "label": "community/Catniti/command-a-plus (LLM)"
         },
         {
-            "name": "community/Catniti/ernie-5.5-flash-preview",
-            "label": "community/Catniti/ernie-5.5-flash-preview (LLM)"
-        },
-        {
             "name": "community/Catniti/glm-5.3-flash",
             "label": "community/Catniti/glm-5.3-flash (LLM)"
-        },
-        {
-            "name": "community/Catniti/lfm-3-1.7b",
-            "label": "community/Catniti/lfm-3-1.7b (LLM)"
         },
         {
             "name": "community/Catniti/nemotron-3.5-lightning",
@@ -595,6 +571,10 @@
         {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/MarcosFRG/glm-4.6v-flash",
+            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -773,6 +753,10 @@
             "label": "community/chigwell/kimi-k3.1-pro \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/chirag-gamer/gpt-oss-120b",
+            "label": "community/chirag-gamer/gpt-oss-120b (LLM)"
+        },
+        {
             "name": "community/danhquach/bug-report-writer",
             "label": "community/danhquach/bug-report-writer (LLM)"
         },
@@ -885,6 +869,10 @@
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
+            "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
+            "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
+        },
+        {
             "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
             "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
@@ -931,6 +919,10 @@
         {
             "name": "community/sharktide/inferenceport-ai-qwen-3.8-27b",
             "label": "community/sharktide/inferenceport-ai-qwen-3.8-27b \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/sharktide/inferenceport.ai-gpt-oss-20b",
+            "label": "community/sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
         },
         {
             "name": "community/smplstuff/title-generator",
@@ -995,6 +987,10 @@
         {
             "name": "community/vendouple/deepseek-v4.1-flash",
             "label": "community/vendouple/deepseek-v4.1-flash (LLM)"
+        },
+        {
+            "name": "community/vendouple/deepseek-v4.1-flash-1017",
+            "label": "community/vendouple/deepseek-v4.1-flash-1017 (LLM)"
         },
         {
             "name": "community/vendouple/gpt-6-luna:stable",
