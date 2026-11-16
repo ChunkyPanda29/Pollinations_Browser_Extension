@@ -489,6 +489,10 @@
             "label": "community/AkshayCoder48/code-pair \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/AkshayCoder48/deepseek-v4-pro",
+            "label": "community/AkshayCoder48/deepseek-v4-pro (LLM)"
+        },
+        {
             "name": "community/AkshayCoder48/free-clips",
             "label": "community/AkshayCoder48/free-clips \ud83d\udc8e (LLM)"
         },
@@ -547,10 +551,6 @@
         {
             "name": "community/Catniti/qwen3.8-27b",
             "label": "community/Catniti/qwen3.8-27b (LLM)"
-        },
-        {
-            "name": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free",
-            "label": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free (LLM)"
         },
         {
             "name": "community/Creatneworld/catgpt-comic",
