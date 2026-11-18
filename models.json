@@ -30,7 +30,7 @@
         },
         {
             "name": "black-forest-labs/flux.2-flex",
-            "label": "black-forest-labs/flux.2-flex \ud83d\udc8e (T2I/I2I)"
+            "label": "black-forest-labs/flux.2-flex (T2I/I2I)"
         },
         {
             "name": "black-forest-labs/flux.2-klein-4b",
@@ -75,6 +75,10 @@
         {
             "name": "community/MarcosFRG/lucid-origin:paid",
             "label": "community/MarcosFRG/lucid-origin:paid \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "community/MarcosFRG/phoenix-1.0",
+            "label": "community/MarcosFRG/phoenix-1.0 (T2I/I2I)"
         },
         {
             "name": "community/MarcosFRG/phoenix-1.0:paid",
@@ -235,6 +239,14 @@
         {
             "name": "microsoft/mai-image-2.6-flash",
             "label": "microsoft/mai-image-2.6-flash (T2I/I2I)"
+        },
+        {
+            "name": "microsoft/mai-image-2.7",
+            "label": "microsoft/mai-image-2.7 (T2I/I2I)"
+        },
+        {
+            "name": "microsoft/mai-image-2.7-flash",
+            "label": "microsoft/mai-image-2.7-flash (T2I/I2I)"
         },
         {
             "name": "openai/gpt-image-1-mini",
@@ -509,6 +521,18 @@
             "label": "community/Bakhshi7889/step-5-preview (LLM)"
         },
         {
+            "name": "community/Brybod123/bryllm-granite-4.2",
+            "label": "community/Brybod123/bryllm-granite-4.2 (LLM)"
+        },
+        {
+            "name": "community/Brybod123/bryllm-qwen35-08b",
+            "label": "community/Brybod123/bryllm-qwen35-08b (LLM)"
+        },
+        {
+            "name": "community/Brybod123/brylm-qwen3-coder",
+            "label": "community/Brybod123/brylm-qwen3-coder (LLM)"
+        },
+        {
             "name": "community/Catniti/agnes-3.0-flash",
             "label": "community/Catniti/agnes-3.0-flash (LLM)"
         },
@@ -549,6 +573,10 @@
             "label": "community/Catniti/qwen3.8-27b (LLM)"
         },
         {
+            "name": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free",
+            "label": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free (LLM)"
+        },
+        {
             "name": "community/Creatneworld/catgpt-comic",
             "label": "community/Creatneworld/catgpt-comic \ud83d\udc8e (LLM)"
         },
@@ -567,6 +595,10 @@
         {
             "name": "community/Davizigjojo/blazerrouter",
             "label": "community/Davizigjojo/blazerrouter (LLM)"
+        },
+        {
+            "name": "community/Davizigjojo/deepseek-v4.1-1017-uncensored",
+            "label": "community/Davizigjojo/deepseek-v4.1-1017-uncensored (LLM)"
         },
         {
             "name": "community/Derlifed/retail-fastfood-interview-coach",
@@ -705,16 +737,16 @@
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
         },
         {
+            "name": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free",
+            "label": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free (LLM)"
+        },
+        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
         {
             "name": "community/YoannDev90/vercel-nemotron-3.5-lightning:free",
             "label": "community/YoannDev90/vercel-nemotron-3.5-lightning:free (LLM)"
-        },
-        {
-            "name": "community/ZapGaming/gpt-oss-120b-ultrafast",
-            "label": "community/ZapGaming/gpt-oss-120b-ultrafast \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/afanasevmylife/gazette",
@@ -825,10 +857,6 @@
             "label": "community/mhmdrizki803-boop/towers-signal-reports (LLM)"
         },
         {
-            "name": "community/morriszdweck/glm-5.3-flash-free",
-            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
-        },
-        {
             "name": "community/patbing/tower-researcher",
             "label": "community/patbing/tower-researcher (LLM)"
         },
@@ -905,10 +933,6 @@
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
-            "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
-        },
-        {
             "name": "community/scriptsnsenses-sys/diffusiongema-26B-free",
             "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
@@ -917,16 +941,28 @@
             "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
         },
         {
+            "name": "community/scriptsnsenses-sys/gpt-6-luna:free",
+            "label": "community/scriptsnsenses-sys/gpt-6-luna:free (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
+            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
+        },
+        {
             "name": "community/sharktide/3D-agent",
             "label": "community/sharktide/3D-agent (LLM)"
+        },
+        {
+            "name": "community/sharktide/azure-gpt-5.4-nano",
+            "label": "community/sharktide/azure-gpt-5.4-nano (LLM)"
         },
         {
             "name": "community/sharktide/azure-mistral-large-4:azure:data-zone",
             "label": "community/sharktide/azure-mistral-large-4:azure:data-zone \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone",
-            "label": "community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone \ud83d\udc8e (LLM)"
+            "name": "community/sharktide/azure-nemotron-3-ultra:data-zone",
+            "label": "community/sharktide/azure-nemotron-3-ultra:data-zone (LLM)"
         },
         {
             "name": "community/sharktide/inferenceport-ai-gemini-2.5-flash",
@@ -965,16 +1001,12 @@
             "label": "community/sharktide/inferenceport-ai-qwen-3.8-27b \ud83d\udc8e (LLM)"
         },
         {
-            "name": "community/sharktide/inferenceport.ai-gpt-oss-20b",
-            "label": "community/sharktide/inferenceport.ai-gpt-oss-20b (LLM)"
-        },
-        {
             "name": "community/smplstuff/title-generator",
             "label": "community/smplstuff/title-generator (LLM)"
         },
         {
-            "name": "community/tomdacatto/gemma-4-31B-it-uncensored",
-            "label": "community/tomdacatto/gemma-4-31B-it-uncensored \ud83d\udc8e (LLM)"
+            "name": "community/tomdacatto/Qwen3.8-Flash-Next",
+            "label": "community/tomdacatto/Qwen3.8-Flash-Next \ud83d\udc8e (LLM)"
         },
         {
             "name": "community/tomdacatto/gotcha-scout",
@@ -983,10 +1015,6 @@
         {
             "name": "community/tomdacatto/llama-3-70B-uncensored",
             "label": "community/tomdacatto/llama-3-70B-uncensored \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/tomdacatto/llama-3.1-8B",
-            "label": "community/tomdacatto/llama-3.1-8B (LLM)"
         },
         {
             "name": "community/tomdacatto/tiered-health-router",
@@ -1130,7 +1158,7 @@
         },
         {
             "name": "deepseek/deepseek-v4.1-flash-1017",
-            "label": "deepseek/deepseek-v4.1-flash-1017 \ud83d\udc8e (LLM)"
+            "label": "deepseek/deepseek-v4.1-flash-1017 (LLM)"
         },
         {
             "name": "google/gemini-2.5-flash-lite",
@@ -1213,6 +1241,10 @@
             "label": "liquid/d1 \ud83d\udc8e (LLM)"
         },
         {
+            "name": "liquid/d1.2",
+            "label": "liquid/d1.2 \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "meituan/longcat-2.0",
             "label": "meituan/longcat-2.0 \ud83d\udc8e (LLM)"
         },
@@ -1251,6 +1283,10 @@
         {
             "name": "microsoft/microsoft-decision-1",
             "label": "microsoft/microsoft-decision-1 (LLM)"
+        },
+        {
+            "name": "microsoft/microsoft-decision-1.1",
+            "label": "microsoft/microsoft-decision-1.1 (LLM)"
         },
         {
             "name": "minimax/minimax-m2.7",
@@ -1385,6 +1421,14 @@
             "label": "openai/gpt-6.1-terra (LLM)"
         },
         {
+            "name": "openai/gpt-6.2-astra",
+            "label": "openai/gpt-6.2-astra \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "openai/gpt-6.2-sol",
+            "label": "openai/gpt-6.2-sol \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "openai/gpt-audio-1.5",
             "label": "openai/gpt-audio-1.5 (LLM)"
         },
@@ -1469,6 +1513,10 @@
             "label": "qwen/qwen3guard-gen-8b (LLM)"
         },
         {
+            "name": "qwen/qwen4-max",
+            "label": "qwen/qwen4-max \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "respan/span-01-lite",
             "label": "respan/span-01-lite (LLM)"
         },
@@ -1491,6 +1539,10 @@
         {
             "name": "tencent/hy3",
             "label": "tencent/hy3 \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "tencent/hy4-flash",
+            "label": "tencent/hy4-flash \ud83d\udc8e (LLM)"
         },
         {
             "name": "tencent/hy4-preview",
@@ -1575,6 +1627,11 @@
         {
             "name": "community/Catniti/fish-audio-s2.1-pro",
             "label": "community/Catniti/fish-audio-s2.1-pro \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "community/Saauf/whisper-large-v3",
+            "label": "community/Saauf/whisper-large-v3 (Audio)",
             "voices": []
         },
         {
@@ -2393,6 +2450,13 @@
                 "ursa",
                 "zagan",
                 "zenith"
+            ]
+        },
+        {
+            "name": "zyphra/zonos3-mini",
+            "label": "zyphra/zonos3-mini \ud83d\udc8e (Audio)",
+            "voices": [
+                "alloy"
             ]
         }
     ]
