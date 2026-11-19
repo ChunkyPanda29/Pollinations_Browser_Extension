@@ -589,10 +589,6 @@
             "label": "community/Catniti/qwen3.8-27b (LLM)"
         },
         {
-            "name": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free",
-            "label": "community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free (LLM)"
-        },
-        {
             "name": "community/Creatneworld/catgpt-comic",
             "label": "community/Creatneworld/catgpt-comic \ud83d\udc8e (LLM)"
         },
@@ -751,6 +747,10 @@
         {
             "name": "community/Takax62/minimax-m3-429b-vml",
             "label": "community/Takax62/minimax-m3-429b-vml (LLM)"
+        },
+        {
+            "name": "community/YoannDev90/muse-glimmer-30b:free",
+            "label": "community/YoannDev90/muse-glimmer-30b:free (LLM)"
         },
         {
             "name": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free",
