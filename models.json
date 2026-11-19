@@ -121,6 +121,10 @@
             "label": "community/chigwell/gpt-image-2.6 \ud83d\udc8e (T2I)"
         },
         {
+            "name": "community/chigwell/qwen-image-3",
+            "label": "community/chigwell/qwen-image-3 \ud83d\udc8e (T2I)"
+        },
+        {
             "name": "community/rekty/rekty-dev-3",
             "label": "community/rekty/rekty-dev-3 \ud83d\udc8e (T2I/I2I)"
         },
@@ -177,16 +181,20 @@
             "label": "community/sharktide/inferenceport-ai-lightning-image-plus (T2I/I2I)"
         },
         {
+            "name": "community/tomdacatto/grok-imagine-2",
+            "label": "community/tomdacatto/grok-imagine-2 \ud83d\udc8e (T2I)"
+        },
+        {
+            "name": "community/tomdacatto/grok-imagine-2-quest",
+            "label": "community/tomdacatto/grok-imagine-2-quest (T2I)"
+        },
+        {
             "name": "community/vendouple/anima",
             "label": "community/vendouple/anima \ud83d\udc8e (T2I)"
         },
         {
             "name": "community/vendouple/lucid-origin",
             "label": "community/vendouple/lucid-origin (T2I)"
-        },
-        {
-            "name": "community/vendouple/qwen-image-3.0-pro",
-            "label": "community/vendouple/qwen-image-3.0-pro \ud83d\udc8e (T2I)"
         },
         {
             "name": "community/vendouple/uncensored-image-v2",
@@ -311,6 +319,14 @@
         {
             "name": "recraft/recraft-v4.1-vector",
             "label": "recraft/recraft-v4.1-vector \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "stability-ai/stable-diffusion-3.5-large",
+            "label": "stability-ai/stable-diffusion-3.5-large \ud83d\udc8e (T2I/I2I)"
+        },
+        {
+            "name": "stability-ai/stable-image-core",
+            "label": "stability-ai/stable-image-core \ud83d\udc8e (T2I)"
         },
         {
             "name": "tongyi-mai/z-image-turbo",
@@ -521,10 +537,6 @@
             "label": "community/Bakhshi7889/step-5-preview (LLM)"
         },
         {
-            "name": "community/Brybod123/bryllm-granite-4.2",
-            "label": "community/Brybod123/bryllm-granite-4.2 (LLM)"
-        },
-        {
             "name": "community/Brybod123/bryllm-qwen35-08b",
             "label": "community/Brybod123/bryllm-qwen35-08b (LLM)"
         },
@@ -557,8 +569,12 @@
             "label": "community/Catniti/glm-5.3-flash (LLM)"
         },
         {
-            "name": "community/Catniti/gpt-oss-120b",
-            "label": "community/Catniti/gpt-oss-120b (LLM)"
+            "name": "community/Catniti/hy4-flash",
+            "label": "community/Catniti/hy4-flash \ud83d\udc8e (LLM)"
+        },
+        {
+            "name": "community/Catniti/muse-glimmer-30b",
+            "label": "community/Catniti/muse-glimmer-30b (LLM)"
         },
         {
             "name": "community/Catniti/nemotron-3.5-lightning",
@@ -595,10 +611,6 @@
         {
             "name": "community/Davizigjojo/blazerrouter",
             "label": "community/Davizigjojo/blazerrouter (LLM)"
-        },
-        {
-            "name": "community/Davizigjojo/deepseek-v4.1-1017-uncensored",
-            "label": "community/Davizigjojo/deepseek-v4.1-1017-uncensored (LLM)"
         },
         {
             "name": "community/Derlifed/retail-fastfood-interview-coach",
@@ -703,6 +715,10 @@
         {
             "name": "community/Saauf/llama3.1-8B:ultrafast",
             "label": "community/Saauf/llama3.1-8B:ultrafast (LLM)"
+        },
+        {
+            "name": "community/Saauf/minimax-m3.1-flash",
+            "label": "community/Saauf/minimax-m3.1-flash (LLM)"
         },
         {
             "name": "community/Saauf/mistral-large-4",
@@ -813,6 +829,10 @@
             "label": "community/gggff123/Inkling (LLM)"
         },
         {
+            "name": "community/gggff123/gpt-5-nano",
+            "label": "community/gggff123/gpt-5-nano (LLM)"
+        },
+        {
             "name": "community/gggff123/step-3.7-flash",
             "label": "community/gggff123/step-3.7-flash (LLM)"
         },
@@ -855,6 +875,14 @@
         {
             "name": "community/mhmdrizki803-boop/towers-signal-reports",
             "label": "community/mhmdrizki803-boop/towers-signal-reports (LLM)"
+        },
+        {
+            "name": "community/mikl-shortcuts/ministral-3",
+            "label": "community/mikl-shortcuts/ministral-3 (LLM)"
+        },
+        {
+            "name": "community/morriszdweck/glm-5.3-flash-free",
+            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
         },
         {
             "name": "community/patbing/tower-researcher",
@@ -937,16 +965,8 @@
             "label": "community/scriptsnsenses-sys/diffusiongema-26B-free (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
-            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
-        },
-        {
             "name": "community/scriptsnsenses-sys/gpt-6-luna:free",
             "label": "community/scriptsnsenses-sys/gpt-6-luna:free (LLM)"
-        },
-        {
-            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
-            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
@@ -1009,6 +1029,10 @@
             "label": "community/tomdacatto/Qwen3.8-Flash-Next \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/tomdacatto/gemma-4-31B-it-uncensored",
+            "label": "community/tomdacatto/gemma-4-31B-it-uncensored \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/tomdacatto/gotcha-scout",
             "label": "community/tomdacatto/gotcha-scout (LLM)"
         },
@@ -1059,14 +1083,6 @@
         {
             "name": "community/vendouple/claude-sonnet-5.5:stable",
             "label": "community/vendouple/claude-sonnet-5.5:stable \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/vendouple/deepseek-v4.1-flash",
-            "label": "community/vendouple/deepseek-v4.1-flash (LLM)"
-        },
-        {
-            "name": "community/vendouple/gemini-3.8-flash",
-            "label": "community/vendouple/gemini-3.8-flash (LLM)"
         },
         {
             "name": "community/vendouple/gpt-6-luna:stable",
@@ -1627,6 +1643,11 @@
         {
             "name": "community/Catniti/fish-audio-s2.1-pro",
             "label": "community/Catniti/fish-audio-s2.1-pro \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "community/Catniti/whisper-large-v3-turbo",
+            "label": "community/Catniti/whisper-large-v3-turbo (Audio)",
             "voices": []
         },
         {
