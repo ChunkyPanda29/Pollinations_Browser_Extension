@@ -941,6 +941,10 @@
             "label": "community/mikl-shortcuts/ministral-3 (LLM)"
         },
         {
+            "name": "community/morriszdweck/glm-5.3-flash-free",
+            "label": "community/morriszdweck/glm-5.3-flash-free (LLM)"
+        },
+        {
             "name": "community/patbing/tower-researcher",
             "label": "community/patbing/tower-researcher (LLM)"
         },
