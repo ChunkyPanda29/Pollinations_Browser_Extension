@@ -673,6 +673,10 @@
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/MarcosFRG/glm-4.6v-flash",
+            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
+        },
+        {
             "name": "community/MarcosFRG/glm-5.3-flash",
             "label": "community/MarcosFRG/glm-5.3-flash (LLM)"
         },
@@ -987,10 +991,6 @@
         {
             "name": "community/scriptsnsenses-sys/gpt-6-luna:free",
             "label": "community/scriptsnsenses-sys/gpt-6-luna:free (LLM)"
-        },
-        {
-            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
-            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
