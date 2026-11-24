@@ -371,10 +371,6 @@
         {
             "name": "x-ai/grok-imagine-image-2.0",
             "label": "x-ai/grok-imagine-image-2.0 \ud83d\udc8e (T2I/I2I)"
-        },
-        {
-            "name": "x-ai/grok-imagine-image-quality",
-            "label": "x-ai/grok-imagine-image-quality \ud83d\udc8e (T2I/I2I)"
         }
     ],
     "video": [
@@ -461,6 +457,10 @@
         {
             "name": "kwaivgi/kling-v3.0-std",
             "label": "kwaivgi/kling-v3.0-std \ud83d\udc8e (T2V/I2V)"
+        },
+        {
+            "name": "kwaivgi/kling-v4.0-flash",
+            "label": "kwaivgi/kling-v4.0-flash \ud83d\udc8e (T2V/I2V)"
         },
         {
             "name": "lightricks/ltx-2.5-pro",
@@ -625,6 +625,10 @@
             "label": "community/Catniti/north-mini-code (LLM)"
         },
         {
+            "name": "community/Catniti/qwen3.8-27b",
+            "label": "community/Catniti/qwen3.8-27b (LLM)"
+        },
+        {
             "name": "community/Creatneworld/catgpt-comic",
             "label": "community/Creatneworld/catgpt-comic \ud83d\udc8e (LLM)"
         },
@@ -671,10 +675,6 @@
         {
             "name": "community/MarcosFRG/gemma-4-31b:paid",
             "label": "community/MarcosFRG/gemma-4-31b:paid \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "community/MarcosFRG/glm-4.6v-flash",
-            "label": "community/MarcosFRG/glm-4.6v-flash (LLM)"
         },
         {
             "name": "community/MarcosFRG/glm-5.3-flash",
@@ -833,6 +833,10 @@
             "label": "community/chigwell/gpt-6.1-sol \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/chigwell/gpt-6.1-terra",
+            "label": "community/chigwell/gpt-6.1-terra \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/chigwell/kimi-k3.1-pro",
             "label": "community/chigwell/kimi-k3.1-pro \ud83d\udc8e (LLM)"
         },
@@ -921,12 +925,20 @@
             "label": "community/pegalink/hy4-preview-coding \ud83d\udc8e (LLM)"
         },
         {
+            "name": "community/pollinations-ai/catgpt",
+            "label": "community/pollinations-ai/catgpt \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "community/pollinations-ai/floret",
             "label": "community/pollinations-ai/floret (LLM)"
         },
         {
             "name": "community/pollinations-ai/midijourney",
             "label": "community/pollinations-ai/midijourney (LLM)"
+        },
+        {
+            "name": "community/pollinations-ai/opposite-prompt",
+            "label": "community/pollinations-ai/opposite-prompt (LLM)"
         },
         {
             "name": "community/pollinations-ai/polli",
@@ -981,16 +993,20 @@
             "label": "community/samueltargino0567-ux/Gt3 (LLM)"
         },
         {
-            "name": "community/scriptsnsenses-sys/deepseek-v4-flash-0731",
-            "label": "community/scriptsnsenses-sys/deepseek-v4-flash-0731 (LLM)"
-        },
-        {
             "name": "community/scriptsnsenses-sys/deepseek-v4.1-flash",
             "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
         },
         {
+            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
+            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
+        },
+        {
             "name": "community/scriptsnsenses-sys/gpt-6-luna:free",
             "label": "community/scriptsnsenses-sys/gpt-6-luna:free (LLM)"
+        },
+        {
+            "name": "community/scriptsnsenses-sys/minimax-m3.1-flash-free",
+            "label": "community/scriptsnsenses-sys/minimax-m3.1-flash-free (LLM)"
         },
         {
             "name": "community/sharktide/3D-agent",
@@ -1115,10 +1131,6 @@
         {
             "name": "community/vendouple/gemini-3.8-flash",
             "label": "community/vendouple/gemini-3.8-flash (LLM)"
-        },
-        {
-            "name": "community/vendouple/gpt-6-luna",
-            "label": "community/vendouple/gpt-6-luna (LLM)"
         },
         {
             "name": "community/vendouple/gpt-6-luna:stable",
@@ -1265,12 +1277,12 @@
             "label": "google/gemma-4-31b-it \ud83d\udc8e (LLM)"
         },
         {
-            "name": "inception/mercury-2",
-            "label": "inception/mercury-2 \ud83d\udc8e (LLM)"
+            "name": "heygen/heygen-decision-1",
+            "label": "heygen/heygen-decision-1 \ud83d\udc8e (LLM)"
         },
         {
-            "name": "inception/mercury-2.5-preview",
-            "label": "inception/mercury-2.5-preview \ud83d\udc8e (LLM)"
+            "name": "inception/mercury-2",
+            "label": "inception/mercury-2 \ud83d\udc8e (LLM)"
         },
         {
             "name": "inception/mercury-3",
@@ -1617,6 +1629,10 @@
             "label": "thinkingmachines/inkling \ud83d\udc8e (LLM)"
         },
         {
+            "name": "thinkingmachines/inkling-2-mini",
+            "label": "thinkingmachines/inkling-2-mini \ud83d\udc8e (LLM)"
+        },
+        {
             "name": "thinkingmachines/inkling-small",
             "label": "thinkingmachines/inkling-small \ud83d\udc8e (LLM)"
         },
@@ -1647,10 +1663,6 @@
         {
             "name": "xiaomi/mimo-v2.5",
             "label": "xiaomi/mimo-v2.5 \ud83d\udc8e (LLM)"
-        },
-        {
-            "name": "xiaomi/mimo-v2.5-pro",
-            "label": "xiaomi/mimo-v2.5-pro \ud83d\udc8e (LLM)"
         },
         {
             "name": "xiaomi/mimo-v2.6-flash",
@@ -1691,6 +1703,11 @@
         {
             "name": "community/Catniti/fish-audio-s2.1-pro",
             "label": "community/Catniti/fish-audio-s2.1-pro \ud83d\udc8e (Audio)",
+            "voices": []
+        },
+        {
+            "name": "community/Catniti/whisper-large-v3",
+            "label": "community/Catniti/whisper-large-v3 (Audio)",
             "voices": []
         },
         {
