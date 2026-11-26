@@ -773,10 +773,6 @@
             "label": "community/Saauf/step-5-preview (LLM)"
         },
         {
-            "name": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free",
-            "label": "community/YoannDev90/nvidia-mistral-large-4-1t-a52b:free (LLM)"
-        },
-        {
             "name": "community/YoannDev90/qwen3.7-flash",
             "label": "community/YoannDev90/qwen3.7-flash (LLM)"
         },
