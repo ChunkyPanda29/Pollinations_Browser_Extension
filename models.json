@@ -965,6 +965,10 @@
             "label": "community/scriptsnsenses-sys/deepseek-v4.1-flash (LLM)"
         },
         {
+            "name": "community/scriptsnsenses-sys/glm-5.3-flash-free",
+            "label": "community/scriptsnsenses-sys/glm-5.3-flash-free (LLM)"
+        },
+        {
             "name": "community/scriptsnsenses-sys/gpt-6-luna:free",
             "label": "community/scriptsnsenses-sys/gpt-6-luna:free (LLM)"
         },
